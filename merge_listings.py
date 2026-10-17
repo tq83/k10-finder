@@ -17,6 +17,8 @@ Rules:
   * --remove / --sold also move listings into `removed`; --sold adds a comp too.
   * `updated` is set to now. Comps in the batch are appended, deduped by URL (or year+trim+date).
   * imageUrl is always kept equal to imageUrls[0].
+  * If a listing's photos are already saved locally (photos/...), a batch never replaces them.
+  * After merging, run fetch_photos.py (publish.sh does it) to save Facebook/Craigslist photos locally.
 """
 import json, sys, argparse, pathlib, re
 from datetime import datetime, timedelta, timezone
@@ -68,7 +70,10 @@ def main():
         k = norm(nl["url"])
         if k in by_url:
             cur = by_url[k]
-            changed = [f for f, v in nl.items() if f not in ("id", "firstSeen", "url") and v not in (None, "", []) and cur.get(f) != v]
+            keep = {"id", "firstSeen", "url"}
+            if any(u and not re.match(r"^[a-z]+:", u) for u in cur.get("imageUrls") or []):
+                keep |= {"imageUrls", "imageUrl"}   # photos already saved locally (fetch_photos.py); don't swap back to expiring links
+            changed = [f for f, v in nl.items() if f not in keep and v not in (None, "", []) and cur.get(f) != v]
             for f in changed: cur[f] = nl[f]
             if changed: updated.append((cur["id"], changed))
         else:

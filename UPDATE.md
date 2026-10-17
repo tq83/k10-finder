@@ -24,7 +24,7 @@ python3 merge_listings.py new.json \
     --remove <url-of-listing-that-is-gone> ... \
     --sold   <url>=<final price> ...           # optional: moves it into comps as sold today
 
-# 3. Publish (validates JSON, runs sync_inline.py, commits, pushes, waits until the live site serves the new files):
+# 3. Publish (validates JSON, saves expiring photos locally via fetch_photos.py, runs sync_inline.py, commits, pushes, waits until the live site serves the new files):
 ./publish.sh "Alert run $(TZ=America/Phoenix date '+%b %-d %-I%p')"
 rm -f new.json
 ```
@@ -36,6 +36,15 @@ rm -f new.json
 - **3**: pushed, but nothing deployed. Call `trigger_deploy(serviceId="srv-db9fuhqjnfac73c5i370")`, then `./publish.sh --wait`.
 
 If a run is interrupted after the push, rerunning `./publish.sh` is safe. It sees no new commit, notices the live site differs, and goes back through the deploy step.
+
+## Photos from expiring sources (automatic)
+Image links from Facebook Marketplace (fbcdn) are signed and stop working within about a day, and Craigslist images disappear when the ad comes down. `publish.sh` therefore runs **`fetch_photos.py`** before every publish:
+- Every fbcdn / Craigslist photo URL is downloaded, resized to at most 1200 px wide, saved as JPEG quality 78 at `photos/<listing-id>/<hash>.jpg`, and `imageUrls` is changed to that relative path. Rerunning is safe. Craigslist photos are fetched at 1200x900 when available.
+- A photo that has already expired (403) is dropped. If a Facebook or Craigslist listing is left with no photos, the script re-reads the listing page. For Facebook that is the public link-preview `og:image`, usually **only 1 photo**. For Craigslist it is the full gallery. If that also fails, the card shows the placeholder.
+- Folders for listings no longer in `listings` are deleted, which keeps the repo small (about 150 KB per photo).
+- `merge_listings.py` never replaces locally saved photos with fresh remote links.
+- **For the alert run:** collect the Facebook photo URLs and publish in the **same run**, because the links can expire before the next run. Other hosts (BaT, ClassicCars.com, dealer CDNs) stay hotlinked.
+- To run it by hand: `python3 fetch_photos.py [--dry-run]`.
 
 ## How merge_listings.py treats the data
 | Situation | Result |

@@ -32,6 +32,9 @@ if [ "${1:-}" = "--wait" ]; then wait_live 40 && exit 0; echo "Not live after ~1
 
 MSG="${1:-Update listings $(TZ=America/Phoenix date '+%Y-%m-%d %H:%M MST')}"
 python3 -m json.tool listings.json >/dev/null || { echo "listings.json is not valid JSON" >&2; exit 1; }
+# Save photos from expiring hosts (Facebook, Craigslist) into photos/ and repoint imageUrls. Never blocks a publish.
+python3 fetch_photos.py || echo "WARNING: fetch_photos.py failed; publishing with existing photo links" >&2
+python3 -m json.tool listings.json >/dev/null || { echo "listings.json is not valid JSON after fetch_photos" >&2; exit 1; }
 python3 sync_inline.py
 
 git add -A

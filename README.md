@@ -50,7 +50,7 @@ Chart.js, Leaflet and Google Fonts load from CDNs. Offline, the chart and map pa
 
 ## Photos
 - Photos are hotlinked from the listing sites (BaT, ClassicCars.com, totalwebmanager.com for Classic Car Deals, and Craigslist) with `referrerpolicy="no-referrer"`. A photo that fails to load is replaced by a styled placeholder.
-- Craigslist photos expire when the ad is deleted, and that is expected.
+- Facebook Marketplace and Craigslist photos expire, so `fetch_photos.py` (run by `publish.sh`) saves them into `photos/<listing-id>/` and points `imageUrls` at the local copies. See UPDATE.md.
 
 ## Features
 - **Header stats:** active listings, median asking price (buy-now only), cheapest ask, and the auction ending soonest, with a live countdown.
