@@ -37,7 +37,7 @@ Chart.js, Leaflet and Google Fonts load from CDNs. Offline, the chart and map pa
 | `lat`, `lng` | map pin and distance from Phoenix. Use the state's center if only the state is known |
 | `source` | e.g. `Bring a Trailer` (shown as "BaT"), `Cars & Bids`, `Hemmings`, `eBay`, `Craigslist`, `Facebook Marketplace`, `ClassicCars.com`, `Classic Car Deals` |
 | `url` | target of the "View listing" button |
-| `imageUrls` | array of photo URLs (up to ~10). Powers the card carousel and the lightbox |
+| `imageUrls` | array of photo URLs (up to 15). Powers the card carousel and the lightbox |
 | `imageUrl` | first photo, kept for compatibility. Used only if `imageUrls` is empty |
 | `condition` | array of chips. Words like *rust* or *title* show red, *original* / *one owner* / *rust-free* show green, and *LS* / *swap* / *lift* show gold |
 | `redFlags` | text shown in the red callout, or `""` |

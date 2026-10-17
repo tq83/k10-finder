@@ -112,7 +112,7 @@ def main():
 
     for l in db["listings"]:
         imgs = [u for u in (l.get("imageUrls") or []) if u] or ([l["imageUrl"]] if l.get("imageUrl") else [])
-        l["imageUrls"] = imgs[:10]; l["imageUrl"] = imgs[0] if imgs else None
+        l["imageUrls"] = imgs[:15]; l["imageUrl"] = imgs[0] if imgs else None
     db["updated"] = stamp
     db["removed"] = db["removed"][-200:]
 

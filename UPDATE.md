@@ -63,7 +63,7 @@ The `removed` array keeps the last 200 entries as history. The page ignores it, 
 - Prices: `priceType: "bid"` for auctions (the page labels these "Current bid · not final") and `"ask"` for buy-now.
 - Set `mileage: null` when the odometer can't be trusted (TMU, exempt, placeholder) and explain why in `mileageNote`.
 - Give `lat`/`lng` for the city, or the state's center if only the state is known. `state` is a 2-letter code (the AZ-only filter uses it).
-- Up to 10 `imageUrls` taken from the listing page. If none can be fetched, leave the array empty and the page shows a placeholder.
+- Up to 15 `imageUrls` taken from the listing page. If none can be fetched, leave the array empty and the page shows a placeholder.
 - `valueRating`: `great` / `fair` / `pricey` vs the comps.
 
 ## Manual / emergency

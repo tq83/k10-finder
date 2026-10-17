@@ -23,8 +23,8 @@ from PIL import Image, ImageOps
 
 HERE = pathlib.Path(__file__).resolve().parent
 DB, PHOTOS = HERE / "listings.json", HERE / "photos"
-MAXW, QUALITY, MAXN = 1200, 78, 10
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+MAXW, QUALITY, MAXN = 1200, 78, 15
+UA = "k10-finder-photo-saver/1.0 (+https://k10-finder.onrender.com)"   # honest, plain client; no impersonation
 VOLATILE = re.compile(r"(^|\.)(fbcdn\.net|fbsbx\.com|craigslist\.org)$", re.I)
 DRY = "--dry-run" in sys.argv
 
