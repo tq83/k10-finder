@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T21:30:00-07:00",
+  "updated": "2026-10-17T08:08:26-07:00",
   "listings": [
     {
       "id": "k10-01",
@@ -510,6 +510,94 @@
       "notes": "5.3 Vortec restomod. Bid is current, not final.",
       "valueRating": "fair",
       "firstSeen": "2026-10-16T21:30:00-07:00"
+    },
+    {
+      "year": 1981,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Stepside Short Bed 4x4",
+      "engine": "350 V8 (per dealer)",
+      "transmission": "Manual",
+      "price": 22900,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "28,917 shown, sold mileage-exempt",
+      "location": "Denver, CO",
+      "state": "CO",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "source": "Worldwide Vintage Autos",
+      "url": "https://www.worldwidevintageautos.com/vehicles/22273/1981-chevrolet-k10",
+      "imageUrl": "https://cdn.dealeraccelerate.com/worldwide/1/10999/687653/1920x1440/w/1981-chevrolet-k10",
+      "imageUrls": [
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687653/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687650/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687663/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687668/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687677/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687681/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687662/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687667/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687666/1920x1440/w/1981-chevrolet-k10",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10999/687665/1920x1440/w/1981-chevrolet-k10"
+      ],
+      "condition": [
+        "short bed stepside",
+        "manual",
+        "repaint",
+        "wood bed",
+        "dealer"
+      ],
+      "redFlags": "Black paint is not original (dealer notes some chips). The front clip has the later 1985-87 style grille. The VIN listed on Hypercars (1GCEK14D2BF339135) carries engine code D, which normally means the 250 I6, while the dealer says 350 V8 and the photos show a V8, so it is likely a swap; verify. The dealer does not inspect frames or floors, and the underside shows surface rust. Plus a $499 processing fee.",
+      "notes": "$22,900 + $499 processing fee. Consignment dealer. Clear Colorado title. Black with red interior. Also on eBay.",
+      "valueRating": "great",
+      "firstSeen": "2026-10-17T08:08:26-07:00",
+      "id": "k10-13"
+    },
+    {
+      "year": 1975,
+      "make": "GMC",
+      "model": "K15",
+      "trim": "Sierra 4x4 (lifted)",
+      "engine": "Remanufactured 350 V8",
+      "transmission": "Automatic",
+      "price": 27900,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "42,180 shown (5-digit odometer), sold mileage-exempt",
+      "location": "Denver, CO",
+      "state": "CO",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "source": "Worldwide Vintage Autos",
+      "url": "https://www.worldwidevintageautos.com/vehicles/22108/1975-chevrolet-k15",
+      "imageUrl": "https://cdn.dealeraccelerate.com/worldwide/1/10921/682536/1920x1440/w/1975-chevrolet-k15",
+      "imageUrls": [
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682536/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682533/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682547/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682554/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682558/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682559/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682544/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682552/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682550/1920x1440/w/1975-chevrolet-k15",
+        "https://cdn.dealeraccelerate.com/worldwide/1/10921/682551/1920x1440/w/1975-chevrolet-k15"
+      ],
+      "condition": [
+        "4in lift",
+        "33in BFG tires",
+        "two-tone repaint",
+        "reman 350",
+        "dealer"
+      ],
+      "redFlags": "The dealer says short bed, but the photos look like a long (8 ft) bed; verify. The dealer page titles it Chevrolet, but it carries GMC badges. The lift and aftermarket rear bumper make it non-original. The underside shows surface rust, and the dealer does not inspect frames or floors. Plus a $499 processing fee.",
+      "notes": "$27,900 + $499 processing fee. Consignment dealer. Clear Colorado title. Green and white with a green interior.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-10-17T08:08:26-07:00",
+      "id": "k10-14"
     }
   ],
   "comps": [
@@ -553,5 +641,6 @@
       "source": "Bring a Trailer",
       "url": "https://bringatrailer.com/listing/1975-chevrolet-k10-pickup-10/"
     }
-  ]
+  ],
+  "removed": []
 }
