@@ -10,10 +10,11 @@
   and saved as photos/<listing-id>/<hash>.jpg. The hash comes from the source URL minus its query
   string, so reruns are idempotent. imageUrls is rewritten to the relative path.
 * Craigslist: tries the 1200x900 version of each image first, then falls back to the original size.
-* A photo that can't be downloaded (e.g. an expired fbcdn link -> 403) is dropped. If a Facebook or
-  Craigslist listing ends up with no photos, the script re-reads the listing page for fresh links
-  (Facebook: the public link-preview og:image, normally 1 photo; Craigslist: the full gallery).
-  If that also fails, the listing keeps an empty array and the page shows its placeholder.
+* A photo that can't be downloaded (e.g. an expired fbcdn link -> 403) is dropped. If a Craigslist
+  listing ends up with no photos, the script re-reads its page for the gallery. Facebook pages are
+  never re-read: if a Facebook listing has no working photo link, it keeps an empty array and the
+  page shows its placeholder. Capture Facebook photo links during the alert run's normal browser
+  visit and publish in the same run, before they expire.
 * photos/<id>/ folders for listings no longer in `listings` are deleted to keep the repo small.
 """
 import json, re, sys, io, html, hashlib, shutil, pathlib, urllib.request, urllib.error
@@ -24,7 +25,6 @@ HERE = pathlib.Path(__file__).resolve().parent
 DB, PHOTOS = HERE / "listings.json", HERE / "photos"
 MAXW, QUALITY, MAXN = 1200, 78, 10
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
-FB_PREVIEW_UA = "facebookexternalhit/1.1"   # Facebook serves public link-preview metadata (og:image) to this agent
 VOLATILE = re.compile(r"(^|\.)(fbcdn\.net|fbsbx\.com|craigslist\.org)$", re.I)
 DRY = "--dry-run" in sys.argv
 
@@ -57,13 +57,11 @@ def save(url, dest):
     return False
 
 def fresh_urls(l):
-    """Re-read the listing page for current photo links."""
+    """Re-read a Craigslist listing page (normal browser request) for current photo links.
+    Facebook pages are NOT re-read: their photo links must be captured during the alert run's
+    normal browser visit and published in the same run."""
     u = l.get("url", "")
     try:
-        if "facebook.com" in host(u):
-            s = get(u, FB_PREVIEW_UA).decode("utf-8", "replace")
-            return [html.unescape(x) for x in re.findall(r'property="og:image" content="([^"]+)"', s) or
-                    re.findall(r'og:image" content="([^"]+)"', s)][:MAXN]
         if "craigslist.org" in host(u):
             s = get(u).decode("utf-8", "replace")
             m = re.search(r"var imgList = (\[.*?\]);", s)
@@ -91,12 +89,12 @@ def main():
         # keep local files only if they still exist on disk
         urls = [u for u in urls if not local(u) or (HERE / u).exists()]
         needs = any(volatile(u) for u in urls)
-        vol_src = any(k in host(l.get("url", "")) for k in ("facebook.com", "craigslist.org"))
+        vol_src = "craigslist.org" in host(l.get("url", ""))   # only Craigslist pages are re-read
         if not needs and not (vol_src and not urls): continue
         print(f"{l['id']} ({l.get('source')}): {sum(volatile(u) for u in urls)} volatile photo(s)")
         new = localize(l, urls)
         if not new and vol_src:
-            print("  no usable photos; re-reading listing page")
+            print("  no usable photos; re-reading Craigslist page")
             new = localize(l, fresh_urls(l))
         new = new[:MAXN]
         print(f"  -> {len(new)} photo(s) {'(placeholder)' if not new else ''}")

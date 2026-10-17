@@ -40,10 +40,10 @@ If a run is interrupted after the push, rerunning `./publish.sh` is safe. It see
 ## Photos from expiring sources (automatic)
 Image links from Facebook Marketplace (fbcdn) are signed and stop working within about a day, and Craigslist images disappear when the ad comes down. `publish.sh` therefore runs **`fetch_photos.py`** before every publish:
 - Every fbcdn / Craigslist photo URL is downloaded, resized to at most 1200 px wide, saved as JPEG quality 78 at `photos/<listing-id>/<hash>.jpg`, and `imageUrls` is changed to that relative path. Rerunning is safe. Craigslist photos are fetched at 1200x900 when available.
-- A photo that has already expired (403) is dropped. If a Facebook or Craigslist listing is left with no photos, the script re-reads the listing page. For Facebook that is the public link-preview `og:image`, usually **only 1 photo**. For Craigslist it is the full gallery. If that also fails, the card shows the placeholder.
+- A photo that has already expired (403) is dropped. If a **Craigslist** listing is left with no photos, the script re-reads the ad page for the gallery. **Facebook pages are never re-read.** If a Facebook listing has no working photo link, the card shows the placeholder.
 - Folders for listings no longer in `listings` are deleted, which keeps the repo small (about 150 KB per photo).
 - `merge_listings.py` never replaces locally saved photos with fresh remote links.
-- **For the alert run:** collect the Facebook photo URLs and publish in the **same run**, because the links can expire before the next run. Other hosts (BaT, ClassicCars.com, dealer CDNs) stay hotlinked.
+- **For the alert run:** capture each Facebook listing's photo URLs during the run's normal (signed-in) browser visit, put them in that listing's `imageUrls` in `new.json`, and publish in the **same run**. The signed fbcdn links can expire before the next run, and after that they can't be recovered. Don't fetch Facebook pages with a spoofed client or user agent. Other hosts (BaT, ClassicCars.com, dealer CDNs) stay hotlinked.
 - To run it by hand: `python3 fetch_photos.py [--dry-run]`.
 
 ## How merge_listings.py treats the data
