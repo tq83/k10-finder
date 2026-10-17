@@ -2,7 +2,10 @@
 
 - **Live site:** https://k10-finder.onrender.com (Render free static site `k10-finder`, service id `srv-db9fuhqjnfac73c5i370`, workspace "My Workspace" `tea-db5i8dbbc2fs73906igg`)
 - **Repo:** https://github.com/tq83/k10-finder (public, branch `main`). The local clone is `/workspace/k10-dashboard`.
-- **Deploys:** Render auto-deploys every push to `main`. There is no build step; the repo root is served as-is. A deploy is usually live within about a minute.
+- **Deploys:** there is no build step; the repo root is served as-is, and a deploy takes about 10 seconds. **Pushing alone does not deploy yet**, because Render's GitHub app isn't connected to this repo (it is cloned as a public URL), so Render never hears about the push. Until that is fixed, a run must trigger the deploy itself:
+  - **Agent run (works now):** after `publish.sh` exits **3**, call Render MCP `trigger_deploy` with `{"serviceId":"srv-db9fuhqjnfac73c5i370"}` (it deploys the newest commit on `main`), then run `./publish.sh --wait`.
+  - **Fully scripted (optional):** put `RENDER_DEPLOY_HOOK_URL=...` (from Render dashboard → k10-finder → Settings → Deploy Hook) in `~/.k10-finder.env`. `publish.sh` then deploys by itself.
+  - **Real auto-deploy (optional):** give Render's GitHub app access to `tq83/k10-finder` (GitHub → Settings → Applications → Render → Configure → add repo). After that, a push deploys on its own and `publish.sh` exits 0.
 
 ## What each alert run does (non-interactive)
 
@@ -26,7 +29,13 @@ python3 merge_listings.py new.json \
 rm -f new.json
 ```
 
-`publish.sh` exit codes: **0** = live (or nothing changed), **1** = bad JSON, **2** = pushed but not live after about 10 minutes. On 2, check the deploy with Render MCP `list_deploys(serviceId="srv-db9fuhqjnfac73c5i370", limit=1)`. If no deploy started, run `trigger_deploy(serviceId="srv-db9fuhqjnfac73c5i370")`.
+`publish.sh` exit codes:
+- **0**: live, or nothing changed. Live means the site's `listings.json` and `index.html` byte-match the local files.
+- **1**: bad JSON.
+- **2**: deployed but not live after about 10 minutes. Check Render MCP `list_deploys(serviceId="srv-db9fuhqjnfac73c5i370", limit=1)` and `list_logs`.
+- **3**: pushed, but nothing deployed. Call `trigger_deploy(serviceId="srv-db9fuhqjnfac73c5i370")`, then `./publish.sh --wait`.
+
+If a run is interrupted after the push, rerunning `./publish.sh` is safe. It sees no new commit, notices the live site differs, and goes back through the deploy step.
 
 ## How merge_listings.py treats the data
 | Situation | Result |
@@ -51,4 +60,4 @@ The `removed` array keeps the last 200 entries as history. The page ignores it, 
 ## Manual / emergency
 - Edit `listings.json` by hand, then run `./publish.sh`. It always runs `sync_inline.py`.
 - Roll back with `git revert HEAD && git push`, which Render redeploys.
-- Pushing uses the box's `gh` login (account `tq83`). If a push fails with an auth error, `gh auth status` will show it; Tarry would need to log in again.
+- Pushing uses the box's `gh` login (account `tq83`) through a credential helper set in this repo only (`credential.https://github.com.helper = !gh auth git-credential`). If a push fails with an auth error, `gh auth status` will show it; Tarry would need to log in again.
