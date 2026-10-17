@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 128 60%27%3E%3Cpath d=%27M10 18H44L48 4H84L80 18H118L108 42H74L70 56H34L38 42H0Z%27 fill=%27%23d6a83a%27/%3E%3C/svg%3E">
+<title>K10 Finder · Square body 4x4s</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<style>
+:root{
+  --bg:#111113; --bg2:#16161a; --panel:#1c1c21; --panel2:#232329; --line:#2e2e36;
+  --text:#efe9df; --muted:#9b958b; --dim:#6f6a62;
+  --orange:#e2702b; --orange2:#f08a3e; --gold:#d6a83a; --gold2:#f0c75e;
+  --great:#5fbf6a; --fair:#d6a83a; --pricey:#e0574a; --comp:#cfd6e4;
+  --radius:14px; --shadow:0 10px 30px rgba(0,0,0,.35);
+  --head:'Oswald','Bebas Neue','Arial Narrow',Impact,sans-serif;
+  --body:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:
+  radial-gradient(1200px 500px at 15% -10%,rgba(226,112,43,.12),transparent 60%),
+  radial-gradient(900px 400px at 100% 0%,rgba(214,168,58,.08),transparent 60%),
+  repeating-linear-gradient(135deg,rgba(255,255,255,.012) 0 2px,transparent 2px 6px),
+  var(--bg);
+  color:var(--text);font-family:var(--body);font-size:14px;line-height:1.45;min-height:100vh}
+a{color:var(--gold2)}
+button{font-family:inherit}
+.hidden{display:none!important}
+.ft-ind{display:none;transition:.2s}
+@media (max-width:820px){.ft-ind{display:inline-block}}
+
+/* ---------- header ---------- */
+header.top{padding:22px 28px 18px;border-bottom:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(28,28,33,.9),rgba(17,17,19,.6));backdrop-filter:blur(6px)}
+.brand{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.bowtie{width:64px;height:30px;flex:none;filter:drop-shadow(0 2px 6px rgba(214,168,58,.35))}
+.brand h1{font-family:var(--head);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:30px;margin:0;line-height:1}
+.brand h1 span{color:var(--orange)}
+.brand .sub{color:var(--muted);font-size:13.5px;margin-top:4px;letter-spacing:.02em}
+.brand .updated{margin-left:auto;text-align:right;color:var(--muted);font-size:12.5px}
+.brand .updated b{color:var(--text);font-weight:600;display:block;font-size:13.5px}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:18px}
+.stat{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:12px;padding:12px 16px;position:relative;overflow:hidden}
+.stat:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(var(--orange),var(--gold))}
+.stat .k{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.stat .v{font-family:var(--head);font-size:28px;font-weight:600;letter-spacing:.02em;margin-top:2px;font-variant-numeric:tabular-nums}
+.stat .s{color:var(--dim);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ---------- layout ---------- */
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr) 400px;gap:22px;padding:22px 28px 40px;align-items:start}
+.layout>*{min-width:0}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.panel h2,.section-title{font-family:var(--head);text-transform:uppercase;letter-spacing:.1em;font-size:14px;font-weight:600;color:var(--gold2);margin:0 0 10px}
+aside.filters{position:sticky;top:16px;padding:18px;max-height:calc(100vh - 32px);overflow:auto}
+.fgroup{padding:12px 0;border-top:1px solid var(--line)}
+.fgroup:first-of-type{border-top:0;padding-top:0}
+.fgroup label.t{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+input[type=search],input[type=number],select{width:100%;background:var(--bg2);border:1px solid var(--line);color:var(--text);border-radius:9px;padding:9px 10px;font:inherit;outline:none}
+input:focus,select:focus{border-color:var(--orange)}
+.row2{display:flex;gap:8px}
+.check{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;color:#d8d2c7;font-size:13px}
+.check input{accent-color:var(--orange);width:15px;height:15px}
+.check .n{margin-left:auto;color:var(--dim);font-size:12px}
+.seg{display:flex;background:var(--bg2);border:1px solid var(--line);border-radius:9px;padding:3px}
+.seg button{flex:1;background:none;border:0;color:var(--muted);padding:7px 10px;white-space:nowrap;border-radius:7px;cursor:pointer;font-size:12.5px;font-weight:600}
+.seg button.on{background:linear-gradient(180deg,var(--orange2),var(--orange));color:#1a0f07}
+.switch{display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:5px 0;font-size:13px;color:#d8d2c7}
+.switch input{display:none}
+.switch i{width:38px;height:21px;border-radius:20px;background:#3a3a42;position:relative;transition:.2s;flex:none}
+.switch i:after{content:"";position:absolute;top:3px;left:3px;width:15px;height:15px;border-radius:50%;background:#bbb;transition:.2s}
+.switch input:checked+i{background:var(--orange)}
+.switch input:checked+i:after{left:20px;background:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border-radius:10px;padding:9px 14px;font-weight:700;font-size:13px;cursor:pointer;text-decoration:none;border:1px solid transparent;transition:.15s}
+.btn-primary{background:linear-gradient(180deg,var(--orange2),var(--orange));color:#1a0f07}
+.btn-primary:hover{filter:brightness(1.1)}
+.btn-ghost{background:transparent;border-color:var(--line);color:var(--text)}
+.btn-ghost:hover{border-color:var(--orange)}
+.btn-sm{padding:6px 10px;font-size:12px}
+
+/* ---------- middle ---------- */
+.toolbar{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.toolbar .count{font-family:var(--head);font-size:20px;letter-spacing:.04em}
+.toolbar .count small{font-family:var(--body);color:var(--muted);font-size:13px;margin-left:6px}
+.toolbar .sort{margin-left:auto;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12.5px}
+.toolbar .sort select{width:auto;min-width:190px}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.empty{grid-column:1/-1;padding:50px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--radius)}
+
+.card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:transform .18s,border-color .18s}
+.card:hover{transform:translateY(-3px);border-color:#4a3a2c}
+.card.flash{animation:flash 1.4s}
+@keyframes flash{0%,100%{border-color:var(--line)}30%{border-color:var(--orange);box-shadow:0 0 0 3px rgba(226,112,43,.35)}}
+.car{position:relative;aspect-ratio:16/10;background:#0b0b0c;overflow:hidden;cursor:zoom-in;touch-action:pan-y;user-select:none}
+.car .track{display:flex;height:100%;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.car .slide{flex:0 0 100%;height:100%}
+.car img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.car .arrow{position:absolute;top:50%;transform:translateY(-50%);width:32px;height:32px;border-radius:50%;border:0;background:rgba(10,10,12,.6);color:#fff;font-size:18px;line-height:1;cursor:pointer;opacity:0;transition:.2s;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.car:hover .arrow,.car:focus-within .arrow{opacity:1}
+@media (hover:none){.car .arrow{opacity:.85}}
+.car .arrow.prev{left:8px}.car .arrow.next{right:8px}
+.car .dots{position:absolute;bottom:9px;left:0;right:0;display:flex;justify-content:center;gap:5px}
+.car .dots b{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.45);transition:.2s}
+.car .dots b.on{background:#fff;width:16px;border-radius:4px}
+.car .pc{position:absolute;bottom:8px;right:8px;background:rgba(10,10,12,.7);color:#fff;font-size:11px;font-weight:600;padding:3px 7px;border-radius:6px;display:flex;gap:4px;align-items:center}
+.badge{position:absolute;top:10px;font-size:11px;font-weight:700;letter-spacing:.04em;padding:4px 8px;border-radius:7px;backdrop-filter:blur(4px)}
+.badge.src{left:10px;background:rgba(12,12,14,.78);color:#fff;border:1px solid rgba(255,255,255,.12)}
+.badge.val{right:10px;color:#111}
+.val-great{background:var(--great)}.val-fair{background:var(--fair)}.val-pricey{background:var(--pricey);color:#fff!important}
+.badge.new{left:10px;top:38px;background:var(--orange);color:#1a0f07}
+.ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#6b6258;
+  background:radial-gradient(circle at 50% 35%,#2a241e,#121212 70%)}
+.ph svg{width:46%;opacity:.55}
+.ph span{font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+.cbody{padding:14px 15px 15px;display:flex;flex-direction:column;gap:9px;flex:1}
+.ttl{font-family:var(--head);font-size:19px;font-weight:600;letter-spacing:.02em;line-height:1.15}
+.trim{color:var(--muted);font-size:12.5px;margin-top:2px}
+.pricebar{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
+.price{font-family:var(--head);font-size:26px;font-weight:600;color:var(--gold2);line-height:1;font-variant-numeric:tabular-nums}
+.plabel{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.plabel em{font-style:normal;color:var(--orange2)}
+.cd{font-size:12px;font-weight:700;padding:5px 8px;border-radius:8px;background:rgba(226,112,43,.14);color:var(--orange2);border:1px solid rgba(226,112,43,.35);white-space:nowrap;font-variant-numeric:tabular-nums}
+.cd.urgent{background:rgba(224,87,74,.18);color:#ff8a7c;border-color:rgba(224,87,74,.5)}
+.cd.ended{background:#2a2a2e;color:var(--muted);border-color:var(--line)}
+.meta{display:grid;grid-template-columns:1fr 1fr;gap:5px 10px;font-size:12.5px;color:#cfc8bc}
+.meta div{display:flex;gap:6px;align-items:flex-start;min-width:0}
+.meta svg{width:13px;height:13px;flex:none;margin-top:2px;opacity:.6}
+.meta .full{grid-column:1/-1}
+.meta small{color:var(--dim)}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{font-size:11px;font-weight:600;padding:3px 8px;border-radius:20px;border:1px solid var(--line);background:var(--bg2);color:#d8d2c7}
+.chip.c-rust,.chip.c-title{border-color:rgba(224,87,74,.5);color:#ff9a8d;background:rgba(224,87,74,.1)}
+.chip.c-orig{border-color:rgba(95,191,106,.45);color:#8fdc98;background:rgba(95,191,106,.08)}
+.chip.c-ls,.chip.c-lift{border-color:rgba(214,168,58,.45);color:var(--gold2);background:rgba(214,168,58,.08)}
+.flags{font-size:12px;color:#f0b7ae;background:rgba(224,87,74,.08);border:1px solid rgba(224,87,74,.25);border-radius:9px;padding:7px 9px;display:flex;gap:7px}
+.flags b{color:#ff8a7c}
+.notes{font-size:12px;color:var(--muted)}
+.cfoot{margin-top:auto;display:flex;gap:8px;padding-top:4px}
+.cfoot .btn-primary{flex:1}
+
+/* ---------- right ---------- */
+.right{position:sticky;top:16px;display:flex;flex-direction:column;gap:18px}
+.right .panel{padding:16px}
+.panel .hd{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+.panel .hd h2{margin:0}
+.chartbox{position:relative;height:290px}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:11.5px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+.legend i.tri{border-radius:0;width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:9px solid var(--muted);background:none!important}
+.foot-note{font-size:11.5px;color:var(--dim);margin-top:6px}
+#map{height:330px;border-radius:10px;overflow:hidden;background:#1a1d22}
+.fallback{height:100%;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:12.5px;padding:20px;border:1px dashed var(--line);border-radius:10px}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#1f1f24;color:var(--text);border:1px solid var(--line)}
+.leaflet-popup-content{margin:10px 12px;font-family:var(--body);font-size:12.5px}
+.leaflet-popup-content b{font-family:var(--head);font-size:15px;font-weight:600;letter-spacing:.02em}
+.leaflet-container a.leaflet-popup-close-button{color:#aaa}
+.leaflet-control-attribution{background:rgba(17,17,19,.7)!important;color:#777!important}
+.leaflet-control-attribution a{color:#999!important}
+.home-pin{background:var(--orange);border:2px solid #fff;border-radius:50%;box-shadow:0 0 0 4px rgba(226,112,43,.35)}
+
+/* ---------- comps ---------- */
+.comps{margin-top:26px;padding:18px}
+.comps .hd{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:10px}
+.comps .hd .sum{color:var(--muted);font-size:12.5px}
+.comps .hd .sum b{color:var(--text)}
+.tablewrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid #26262c;white-space:nowrap}
+tr:hover td{background:rgba(255,255,255,.02)}
+td.num{font-variant-numeric:tabular-nums}
+td.sp{font-family:var(--head);font-size:16px;color:var(--gold2)}
+footer{padding:0 28px 30px;color:var(--dim);font-size:12px}
+
+/* ---------- lightbox ---------- */
+.lb{position:fixed;inset:0;z-index:9999;background:#09090a;display:flex;flex-direction:column;opacity:0;pointer-events:none;transition:opacity .2s}
+.lb.open{opacity:1;pointer-events:auto}
+.lb-top{display:flex;align-items:center;gap:14px;padding:14px 20px;border-bottom:1px solid #222}
+.lb-top .lt{font-family:var(--head);font-size:20px;font-weight:600;letter-spacing:.03em}
+.lb-top .lp{color:var(--gold2);font-family:var(--head);font-size:20px}
+.lb-top .lp small{font-family:var(--body);color:var(--muted);font-size:12px;margin-left:4px}
+.lb-top .sp{margin-left:auto;display:flex;gap:10px;align-items:center}
+.lb-top .ctr{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.lb-close{background:none;border:1px solid #333;color:#fff;width:38px;height:38px;border-radius:50%;font-size:20px;cursor:pointer}
+.lb-stage{flex:1;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:pan-y;user-select:none;min-height:0}
+.lb-stage img{max-width:calc(100% - 140px);max-height:100%;object-fit:contain;border-radius:6px;box-shadow:0 20px 60px rgba(0,0,0,.6);transition:opacity .2s}
+.lb-stage .ph{max-width:800px;aspect-ratio:16/10;height:auto;border-radius:8px}
+.lb-nav{position:absolute;top:50%;transform:translateY(-50%);width:52px;height:52px;border-radius:50%;border:1px solid #333;background:rgba(25,25,28,.8);color:#fff;font-size:26px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.lb-nav:hover{border-color:var(--orange)}
+.lb-nav.prev{left:20px}.lb-nav.next{right:20px}
+.lb-thumbs{display:flex;gap:8px;padding:12px 20px 16px;overflow-x:auto;justify-content:center;border-top:1px solid #222}
+.lb-thumbs button{flex:none;width:84px;height:56px;border-radius:7px;overflow:hidden;border:2px solid transparent;padding:0;background:#111;cursor:pointer;opacity:.55;transition:.15s}
+.lb-thumbs button.on{border-color:var(--orange);opacity:1}
+.lb-thumbs img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ---------- responsive ---------- */
+@media (max-width:1560px){.layout{grid-template-columns:240px minmax(0,1fr) 360px}}
+@media (max-width:1380px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1180px){
+  .layout{grid-template-columns:230px minmax(0,1fr)}
+  .right{position:static;grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}
+}
+@media (max-width:820px){
+  header.top{padding:18px 16px}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .brand .updated{margin-left:0;text-align:left;width:100%}
+  .layout{grid-template-columns:minmax(0,1fr);padding:16px}
+  .toolbar .sort select{min-width:0}
+  aside.filters{position:static;max-height:none}
+  #fToggle{cursor:pointer;display:flex;justify-content:space-between;margin:0}
+  aside.filters:not(.open) .fgroup{display:none}
+  aside.filters.open #fToggle{margin-bottom:10px}
+  aside.filters.open .ft-ind{transform:rotate(180deg)}
+  .right{grid-template-columns:1fr}
+  .grid{grid-template-columns:1fr}
+  .lb-stage img{max-width:100%}
+  .lb-nav{width:40px;height:40px;font-size:20px}
+  .lb-nav.prev{left:8px}.lb-nav.next{right:8px}
+  .lb-top{flex-wrap:wrap}
+  .lb-thumbs{justify-content:flex-start}
+  footer{padding:0 16px 24px}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="truck" viewBox="0 0 120 60"><path fill="currentColor" d="M6 40V30h44l10-14h28l8 14h14l4 6v8h-8a10 10 0 0 0-20 0H44a10 10 0 0 0-20 0H6zM64 20l-7 10h27l-5-10z"/><circle cx="34" cy="46" r="7" fill="currentColor"/><circle cx="96" cy="46" r="7" fill="currentColor"/></symbol>
+    <symbol id="i-road" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M4 20 9 4M20 20 15 4M12 6v2M12 11v2M12 16v2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="9" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="i-eng" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M4 10h3l2-3h6v3h3l2 2v5h-2v2H8l-2-3H4z"/></symbol>
+    <symbol id="i-cam" viewBox="0 0 24 24"><path fill="currentColor" d="M9 4 7.5 6H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-3.5L15 4zm3 4.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9z"/></symbol>
+    <symbol id="i-dist" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M3 12h18M7 8l-4 4 4 4M17 8l4 4-4 4"/></symbol>
+  </defs>
+</svg>
+
+<header class="top">
+  <div class="brand">
+    <svg class="bowtie" viewBox="0 0 128 60" aria-hidden="true">
+      <defs><linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6d77a"/><stop offset=".5" stop-color="#d6a83a"/><stop offset="1" stop-color="#9c7420"/></linearGradient></defs>
+      <path d="M10 18H44L48 4H84L80 18H118L108 42H74L70 56H34L38 42H0Z" fill="url(#gold)" stroke="#1a1408" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M16 23H48L52 9H78L74 23H110L104 37H70L66 51H40L44 37H8Z" fill="none" stroke="#fff3c4" stroke-opacity=".45" stroke-width="1.5" stroke-linejoin="round"/>
+    </svg>
+    <div>
+      <h1>K10 <span>Finder</span></h1>
+      <div class="sub">Square body 4x4s, $20k–$50k, Phoenix AZ</div>
+    </div>
+    <div class="updated">Last updated<b id="updated">—</b><span id="dataSrc"></span></div>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="k">Active listings</div><div class="v" id="stActive">—</div><div class="s" id="stActiveS"></div></div>
+    <div class="stat"><div class="k">Median ask</div><div class="v" id="stMedian">—</div><div class="s" id="stMedianS"></div></div>
+    <div class="stat"><div class="k">Cheapest ask</div><div class="v" id="stCheap">—</div><div class="s" id="stCheapS"></div></div>
+    <div class="stat"><div class="k">Ending soonest</div><div class="v" id="stEnd">—</div><div class="s" id="stEndS"></div></div>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="filters panel" id="filters">
+    <h2 id="fToggle">Filters <span class="ft-ind">▾</span></h2>
+    <div class="fgroup">
+      <input type="search" id="fq" placeholder="Search year, trim, engine, city…">
+    </div>
+    <div class="fgroup">
+      <label class="t">Sale type</label>
+      <div class="seg" id="fType">
+        <button data-v="all" class="on">All</button><button data-v="bid">Auction</button><button data-v="ask">Buy now</button>
+      </div>
+    </div>
+    <div class="fgroup">
+      <label class="switch">Arizona only <input type="checkbox" id="fAZ"><i></i></label>
+      <label class="switch">Ending in 48 hrs <input type="checkbox" id="fSoon"><i></i></label>
+      <label class="switch">Hide title issues <input type="checkbox" id="fTitle"><i></i></label>
+    </div>
+    <div class="fgroup">
+      <label class="t">Price ($)</label>
+      <div class="row2"><input type="number" id="fMin" placeholder="Min" step="1000"><input type="number" id="fMax" placeholder="Max" step="1000"></div>
+    </div>
+    <div class="fgroup">
+      <label class="t">Year</label>
+      <div class="row2"><input type="number" id="fYMin" placeholder="From"><input type="number" id="fYMax" placeholder="To"></div>
+    </div>
+    <div class="fgroup">
+      <label class="t">Max mileage</label>
+      <input type="number" id="fMiles" placeholder="Any" step="10000">
+    </div>
+    <div class="fgroup">
+      <label class="t">Value vs comps</label>
+      <div id="fValue"></div>
+    </div>
+    <div class="fgroup">
+      <label class="t">Source</label>
+      <div id="fSource"></div>
+    </div>
+    <div class="fgroup"><button class="btn btn-ghost" style="width:100%" id="fReset">Reset filters</button></div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <div class="count" id="count">—</div>
+      <div class="sort">Sort
+        <select id="sort">
+          <option value="value">Best value first</option>
+          <option value="ending">Ending soonest</option>
+          <option value="priceAsc">Price: low → high</option>
+          <option value="priceDesc">Price: high → low</option>
+          <option value="yearDesc">Year: newest</option>
+          <option value="yearAsc">Year: oldest</option>
+          <option value="miles">Mileage: lowest</option>
+          <option value="distance">Closest to Phoenix</option>
+          <option value="new">Newly found</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+
+    <section class="comps panel">
+      <div class="hd"><h2 class="section-title" style="margin:0">Sold comps</h2><div class="sum" id="compSum"></div></div>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Year</th><th>Truck</th><th>Sold price</th><th>Sold</th><th>Mileage</th><th>Source</th><th></th></tr></thead>
+        <tbody id="compBody"></tbody>
+      </table></div>
+    </section>
+  </main>
+
+  <div class="right">
+    <section class="panel">
+      <div class="hd"><h2>Price vs mileage</h2></div>
+      <div class="chartbox"><canvas id="chart"></canvas></div>
+      <div class="legend">
+        <span><i style="background:var(--great)"></i>Great deal</span>
+        <span><i style="background:var(--fair)"></i>Fair</span>
+        <span><i style="background:var(--pricey)"></i>Pricey</span>
+        <span><i style="background:var(--comp);border-radius:2px"></i>Sold comp</span>
+        <span><i class="tri"></i>Auction (current bid)</span>
+      </div>
+      <div class="foot-note" id="chartNote"></div>
+    </section>
+    <section class="panel">
+      <div class="hd"><h2>Southwest map</h2>
+        <div class="seg" id="mapView" style="width:auto"><button data-v="sw" class="on">Southwest</button><button data-v="all">All</button></div>
+      </div>
+      <div id="map"></div>
+      <div class="foot-note">Orange ring = Phoenix. Distances are straight-line.</div>
+    </section>
+  </div>
+</div>
+<footer id="foot">Values are estimates against recent sold comps. Auction prices are current bids, not final prices. Always verify VIN, title and frame in person.</footer>
+
+<div class="lb" id="lb" aria-hidden="true" role="dialog" aria-label="Photo viewer">
+  <div class="lb-top">
+    <div><div class="lt" id="lbTitle"></div></div>
+    <div class="lp" id="lbPrice"></div>
+    <div class="sp"><span class="ctr" id="lbCtr"></span><a class="btn btn-primary" id="lbLink" target="_blank" rel="noopener">View listing ↗</a><button class="lb-close" id="lbClose" aria-label="Close">×</button></div>
+  </div>
+  <div class="lb-stage" id="lbStage">
+    <button class="lb-nav prev" id="lbPrev" aria-label="Previous photo">‹</button>
+    <div id="lbImgWrap" style="display:contents"></div>
+    <button class="lb-nav next" id="lbNext" aria-label="Next photo">›</button>
+  </div>
+  <div class="lb-thumbs" id="lbThumbs"></div>
+</div>
+
+<!--K10-DATA-START-->
+<script id="k10-data" type="application/json">{"updated":"2026-10-16T21:30:00-07:00","listings":[{"id":"k10-01","year":1976,"make":"Chevrolet","model":"K10","trim":"Scottsdale 4x4","engine":"350 V8","transmission":"4-speed manual","price":12000,"priceType":"bid","auctionEnd":"2026-10-21T12:52:00-07:00","mileage":37000,"mileageNote":"37k shown","location":"Granby, CO","state":"CO","lat":40.0861,"lng":-105.9395,"source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1976-chevrolet-k10-pickup-19/","imageUrl":"https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125649-scaled-80151.jpg","imageUrls":["https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125649-scaled-80151.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125653-scaled-80245.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125706-scaled-80106.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260730_130142-scaled-80215.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160711-scaled-80238.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260805_161135-scaled-80275.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160720-scaled-80174.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125714-scaled-80273.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160727-scaled-80186.jpg","https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125725-scaled-80214.jpg"],"condition":["original","one owner","original two-tone paint","records","no A/C"],"redFlags":"No A/C, which matters for Phoenix summers. Bid will climb well past $12k.","notes":"One-owner truck with original two-tone paint and records. Bid is current, not final.","valueRating":"great","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-02","year":1977,"make":"Chevrolet","model":"K10","trim":"Silverado 4x4","engine":"350 V8","transmission":"4-speed manual","price":24995,"priceType":"ask","auctionEnd":null,"mileage":null,"mileageNote":"Listed as 123,456 (placeholder)","location":"Arizona (city not listed)","state":"AZ","lat":34.17,"lng":-111.93,"source":"Classic Car Deals","url":"https://www.classiccardeals.com/Listing/411180/classic-car-dealer.aspx","imageUrl":"https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/10202524595410324.jpg","imageUrls":["https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/10202524595410324.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/11202524595410355.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/120252459549950.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/2202524595410158.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/3202524595410189.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/4202524595410204.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/5202524595410220.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/6202524595410251.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/7202524595410267.jpg","https://www.totalwebmanager.com/TWM/Images/1264/411180/Full/8202524595410293.jpg"],"condition":["fresh restoration","24x12 wheels","no A/C","broker"],"redFlags":"Mileage (123456) and VIN (AMS44649, the stock #) are placeholders. Get the real VIN. Gauges need attention.","notes":"Broker listing (Cadillac, MI dealer) for a truck located in Arizona. Fresh resto on 24x12 wheels.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-03","year":1975,"make":"Chevrolet","model":"K10","trim":"Cheyenne 4x4 Long Bed","engine":"Crate 350 V8","transmission":"3-speed automatic","price":19500,"priceType":"bid","auctionEnd":"2026-10-20T11:49:00-07:00","mileage":null,"mileageNote":"216 on replacement odometer (TMU)","location":"Hayden, ID","state":"ID","lat":47.766,"lng":-116.7866,"source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1975-chevrolet-k10-pickup-11-2/","imageUrl":"https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4635-scaled-43870-KJ6Lgw.jpg","imageUrls":["https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4635-scaled-43870-KJ6Lgw.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4544-scaled-43751-wsbwhH.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4543-scaled-43752-rfUmq2.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4451-scaled-42433-x87pP7.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4452-scaled-43648-iXhASI.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4636-scaled-43902-2AwkAG.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4446-scaled-42431-KSI5dE.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4447-scaled-42431-P8JHQU.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4448-scaled-42431-oCbruB.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4542-scaled-43751-4Pm6CV.jpg"],"condition":["crate 350","refurbished 2024","rust","records"],"redFlags":"Rust at the driver-side inner fender reinforcement and front cab mounts. Relisted after the $35,250 winner didn't pay.","notes":"About $55k of work done in 2024. Bid is current, not final.","valueRating":"great","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-04","year":1984,"make":"Chevrolet","model":"K10","trim":"4x4","engine":"305 V8","transmission":"4-speed manual","price":25000,"priceType":"ask","auctionEnd":null,"mileage":129700,"mileageNote":"","location":"Hemphill, TX","state":"TX","lat":31.3404,"lng":-93.8469,"source":"ClassicCars.com","url":"https://classiccars.com/listings/view/2034960","imageUrl":"https://photos.classiccars.com/cc-temp/listing/203/4960/57002731-1984-chevrolet-1-2-ton-shortbox-std.jpg","imageUrls":["https://photos.classiccars.com/cc-temp/listing/203/4960/57002731-1984-chevrolet-1-2-ton-shortbox-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57002732-1984-chevrolet-1-2-ton-shortbox-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57002733-1984-chevrolet-1-2-ton-shortbox-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861345-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861346-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861347-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861348-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861349-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861350-1984-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/203/4960/57861351-1984-chevrolet-k-10-std.jpg"],"condition":["original engine","private seller","no A/C"],"redFlags":"No A/C.","notes":"Private seller. Original 305.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-05","year":1986,"make":"Chevrolet","model":"K10","trim":"Silverado 4x4","engine":"383 stroker V8","transmission":"TH350 automatic","price":30000,"priceType":"ask","auctionEnd":null,"mileage":135000,"mileageNote":"~135k","location":"Petersburg, IL","state":"IL","lat":40.0117,"lng":-89.8482,"source":"ClassicCars.com","url":"https://classiccars.com/listings/view/2115292","imageUrl":"https://photos.classiccars.com/cc-temp/listing/211/5292/61594406-1986-chevrolet-k-10-std.jpg","imageUrls":["https://photos.classiccars.com/cc-temp/listing/211/5292/61594406-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594409-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594412-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594408-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594410-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594411-1986-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/5292/61594407-1986-chevrolet-k-10-std.jpg"],"condition":["lifted","4in lift","33s","A/C","rust"],"redFlags":"Price conflict: $30,000 OBO, but the ad text says $34,900. Has a small rust area.","notes":"$30k OBO. 383 stroker, 4\" lift on 33s, working A/C.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-06","year":1981,"make":"Chevrolet","model":"K10","trim":"4x4","engine":"350 V8","transmission":"Automatic","price":30900,"priceType":"ask","auctionEnd":null,"mileage":67175,"mileageNote":"","location":"Kentwood, MI","state":"MI","lat":42.8695,"lng":-85.6447,"source":"ClassicCars.com","url":"https://classiccars.com/listings/view/2093502","imageUrl":"https://photos.classiccars.com/cc-temp/listing/209/3502/60528344-1981-chevrolet-k-10-std.jpg","imageUrls":["https://photos.classiccars.com/cc-temp/listing/209/3502/60528344-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528373-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528390-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528410-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528433-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528359-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528374-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528394-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528416-1981-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/209/3502/60528436-1981-chevrolet-k-10-std.jpg"],"condition":["lifted","leather","dealer"],"redFlags":"Sold as-is with no detail on rust. Ask for underside photos.","notes":"Dealer listing.","valueRating":"pricey","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-07","year":1978,"make":"Chevrolet","model":"K10","trim":"Bonanza Stepside 4x4","engine":"V8","transmission":"Automatic","price":26900,"priceType":"ask","auctionEnd":null,"mileage":null,"mileageNote":"193 shown, exempt","location":"Denver, CO","state":"CO","lat":39.7392,"lng":-104.9903,"source":"ClassicCars.com","url":"https://classiccars.com/listings/view/2118596","imageUrl":"https://photos.classiccars.com/cc-temp/listing/211/8596/61765456-1978-chevrolet-k-10-std.jpg","imageUrls":["https://photos.classiccars.com/cc-temp/listing/211/8596/61765456-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765483-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765499-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765468-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765478-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765492-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765455-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765480-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765502-1978-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/8596/61765454-1978-chevrolet-k-10-std.jpg"],"condition":["vintage A/C","wood bed","dealer"],"redFlags":"Frame and floors not inspected. Plus a $399 doc fee.","notes":"$26,900 + $399 doc fee. Dealer.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-08","year":1980,"make":"GMC","model":"K1500","trim":"High Sierra 4x4","engine":"5.7L V8","transmission":"3-speed automatic","price":3000,"priceType":"bid","auctionEnd":"2026-10-23T12:22:00-07:00","mileage":null,"mileageNote":"8k shown; title says Not Actual","location":"Davy, WV","state":"WV","lat":37.4779,"lng":-81.6526,"source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1980-gmc-k1500-3/","imageUrl":"https://bringatrailer.com/wp-content/uploads/2026/10/1980_gmc_k1500_1000000210-78159-scaled.jpg","imageUrls":["https://bringatrailer.com/wp-content/uploads/2026/10/1980_gmc_k1500_1000000210-78159-scaled.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000148-scaled-23487.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000149-scaled-23479.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000150-scaled-23484.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000151-scaled-23488.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000152-scaled-23483.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000155-scaled-23483.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1000000154-scaled-23491.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1980_gmc_k1500_1000000184-78226-scaled.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/1980_gmc_k1500_1000000180-78222-scaled.jpg"],"condition":["rust repaired","repaint","title issue (Not Actual miles)"],"redFlags":"Title is branded Not Actual mileage. Headlight switch and A/C issues.","notes":"Rust repaired and repainted. Bid is early, current, and not final.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-09","year":1986,"make":"Chevrolet","model":"K10","trim":"Silverado 4x4","engine":"V8","transmission":"Automatic","price":39895,"priceType":"ask","auctionEnd":null,"mileage":79000,"mileageNote":"","location":"Washington (city not listed)","state":"WA","lat":47.38,"lng":-120.45,"source":"Classic Car Deals","url":"https://www.classiccardeals.com/Listing/373528/1986-Chevrolet-K10-Silverado.aspx","imageUrl":"https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/8202424163846463.jpg","imageUrls":["https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/8202424163846463.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/9202424163846479.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/1202424163845990.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/2202424163846271.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/3202424163846322.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/4202424163846353.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/5202424163846401.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/6202424163846416.jpg","https://www.totalwebmanager.com/TWM/Images/1264/373528/Full/7202424163846448.jpg"],"condition":["original","one owner","loaded","A/C","documented","broker"],"redFlags":"VIN not shown (listed as a stock-number placeholder).","notes":"Broker listing. One owner, loaded, with A/C and documentation.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-10","year":1972,"make":"Chevrolet","model":"K10","trim":"Short Bed 4x4","engine":"350 V8","transmission":"Automatic","price":46000,"priceType":"ask","auctionEnd":null,"mileage":157000,"mileageNote":"","location":"Scottsdale, AZ","state":"AZ","lat":33.4942,"lng":-111.9261,"source":"Craigslist","url":"https://phoenix.craigslist.org/nph/cto/d/scottsdale-1972-chevrolet-10-pick-up/7973517285.html","imageUrl":"https://images.craigslist.org/00m0m_9eWw0SjSG5t_0CI0t2_600x450.jpg","imageUrls":["https://images.craigslist.org/00m0m_9eWw0SjSG5t_0CI0t2_600x450.jpg","https://images.craigslist.org/00o0o_1gZ6jFClGWC_0CI0t2_600x450.jpg","https://images.craigslist.org/00W0W_5KZKNNdNIx2_0CI0t2_600x450.jpg","https://images.craigslist.org/00T0T_gz62eSpA9ni_0CI0t2_600x450.jpg","https://images.craigslist.org/00Q0Q_eL8Pp1x68wS_0CI0t2_600x450.jpg","https://images.craigslist.org/00M0M_fEaY3w65iUH_0CI0t2_600x450.jpg","https://images.craigslist.org/00x0x_kKBhsNlnvIK_0CI0t2_600x450.jpg","https://images.craigslist.org/00X0X_7n6wABJ5NlK_0CI0t2_600x450.jpg","https://images.craigslist.org/00I0I_gcaALUUkosD_0CI0t2_600x450.jpg","https://images.craigslist.org/00k0k_dWwPahpqZEo_0CI0t2_600x450.jpg"],"condition":["rust-free (claimed)","private seller","title issue (says C10)"],"redFlags":"Title says C10. Verify the VIN shows a factory K10 (a 'K' in the VIN).","notes":"Local, so you can see it this weekend. Seller says no rust.","valueRating":"pricey","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-11","year":1967,"make":"Chevrolet","model":"K10","trim":"Short Bed 4x4","engine":"Built 350 V8","transmission":"M21 4-speed manual","price":27000,"priceType":"ask","auctionEnd":null,"mileage":null,"mileageNote":"Listed as 0 (placeholder)","location":"Cadillac, MI","state":"MI","lat":44.2519,"lng":-85.4012,"source":"ClassicCars.com","url":"https://classiccars.com/listings/view/2119290","imageUrl":"https://photos.classiccars.com/cc-temp/listing/211/9290/61805564-1967-chevrolet-k-10-std.jpg","imageUrls":["https://photos.classiccars.com/cc-temp/listing/211/9290/61805564-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805562-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805561-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805557-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805558-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805560-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805555-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805556-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805559-1967-chevrolet-k-10-std.jpg","https://photos.classiccars.com/cc-temp/listing/211/9290/61805563-1967-chevrolet-k-10-std.jpg"],"condition":["built 350","non-original NP203","broker"],"redFlags":"Odometer (0) and VIN are placeholders. Has a non-original NP203 transfer case. First-gen, not a square body.","notes":"Broker listing.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"},{"id":"k10-12","year":1972,"make":"Chevrolet","model":"C10","trim":"4x4 conversion (restomod)","engine":"5.3L V8","transmission":"Automatic","price":5000,"priceType":"bid","auctionEnd":"2026-10-23T11:09:00-07:00","mileage":null,"mileageNote":"1,700 indicated (aftermarket gauges)","location":"Lewes, DE","state":"DE","lat":38.7746,"lng":-75.1393,"source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-58/","imageUrl":"https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7402-scaled-a556a3e1b5628e2384f19be9f7c9f45e.jpg","imageUrls":["https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7402-scaled-a556a3e1b5628e2384f19be9f7c9f45e.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7403-scaled-773db8e655abc860da1f5d8dedeff5de.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7269-scaled-3e2a85082842d8669c8745a93e999ba3.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7404-scaled-5d7a98937f17486eff7f8f355b2dc474.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7268-scaled-2087b485f980c7507af091b077af54a6.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7267-scaled-054497bb319e18b29891ceabb8dab01a.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7220-scaled-d8123130ce17493bedc319adaa88005b.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7280-scaled-b9f38a6599c126dfdf5e1889421dadd8.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7221-scaled-30830f9be6f35c6c37889e4c8547e437.jpg","https://bringatrailer.com/wp-content/uploads/2026/10/IMG_7217-scaled-170ae3420e35de5a17f41e8831cafbeb.jpg"],"condition":["LS swap","lifted","restomod","not factory K10"],"redFlags":"2WD C10 VIN on a 1985 K10 frame. Not a factory K10, which affects value and registration.","notes":"5.3 Vortec restomod. Bid is current, not final.","valueRating":"fair","firstSeen":"2026-10-16T21:30:00-07:00"}],"comps":[{"year":1984,"trim":"K10 Silverado 4x4","soldPrice":29500,"soldDate":"2026-10-02","mileage":null,"mileageNote":"16k shown, rolled odometer","source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1984-chevrolet-k10-pickup-23/"},{"year":1976,"trim":"K10 Custom Deluxe Stepside 4x4","soldPrice":33000,"soldDate":"2026-10-01","mileage":null,"mileageNote":"46k shown, TMU","source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1976-chevrolet-k10-pickup-18/"},{"year":1978,"trim":"K10 Silverado 4x4","soldPrice":20000,"soldDate":"2026-09-24","mileage":61000,"mileageNote":"61k shown","source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1978-chevrolet-k10-pickup-22/"},{"year":1975,"trim":"K10 Silverado 4x4","soldPrice":22500,"soldDate":"2026-09-22","mileage":null,"mileageNote":"~373 mi shown, TMU","source":"Bring a Trailer","url":"https://bringatrailer.com/listing/1975-chevrolet-k10-pickup-10/"}]}</script>
+<!--K10-DATA-END-->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+(function(){
+'use strict';
+const PHX={lat:33.4484,lng:-111.9790};
+const TZ='America/Phoenix';
+const VAL={great:{label:'Great deal',color:'#5fbf6a',rank:0},fair:{label:'Fair',color:'#d6a83a',rank:1},pricey:{label:'Pricey',color:'#e0574a',rank:2}};
+const SRC_SHORT={'bring a trailer':'BaT','cars & bids':'Cars & Bids','facebook marketplace':'Marketplace','marketplace':'Marketplace','classiccars.com':'ClassicCars','classic car deals':'Classic Car Deals'};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money=n=>n==null||isNaN(n)?'—':'$'+Math.round(n).toLocaleString('en-US');
+const kmoney=n=>n==null?'—':(n>=1000?'$'+(n/1000).toFixed(n%1000?1:0).replace(/\.0$/,'')+'k':'$'+n);
+const miles=n=>n==null?'—':Math.round(n).toLocaleString('en-US')+' mi';
+const median=a=>{if(!a.length)return null;const s=[...a].sort((x,y)=>x-y),m=s.length>>1;return s.length%2?s[m]:(s[m-1]+s[m])/2;};
+const normVal=v=>{v=String(v||'').toLowerCase();return v.includes('great')||v.includes('good')?'great':v.includes('pric')||v.includes('high')||v.includes('over')?'pricey':'fair';};
+const srcShort=s=>SRC_SHORT[String(s||'').toLowerCase()]||s||'Other';
+const images=l=>{const a=Array.isArray(l.imageUrls)&&l.imageUrls.length?l.imageUrls.filter(Boolean):(l.imageUrl?[l.imageUrl]:[]);return a;};
+const title=l=>[l.year,l.make,l.model].filter(Boolean).join(' ');
+function hav(a,b){const R=3958.8,r=x=>x*Math.PI/180;const dLa=r(b.lat-a.lat),dLo=r(b.lng-a.lng);const h=Math.sin(dLa/2)**2+Math.cos(r(a.lat))*Math.cos(r(b.lat))*Math.sin(dLo/2)**2;return 2*R*Math.asin(Math.sqrt(h));}
+function fmtAZ(iso,opts){const d=new Date(iso);if(isNaN(d))return '—';return d.toLocaleString('en-US',Object.assign({timeZone:TZ,month:'short',day:'numeric',hour:'numeric',minute:'2-digit'},opts||{}))+' MST';}
+function countdown(iso){
+  const ms=new Date(iso)-Date.now();
+  if(isNaN(ms))return {t:'—',cls:''};
+  if(ms<=0)return {t:'Ended',cls:'ended'};
+  const d=Math.floor(ms/864e5),h=Math.floor(ms%864e5/36e5),m=Math.floor(ms%36e5/6e4),s=Math.floor(ms%6e4/1e3);
+  const t=d>0?`${d}d ${h}h ${m}m`:h>0?`${h}h ${m}m ${String(s).padStart(2,'0')}s`:`${m}m ${String(s).padStart(2,'0')}s`;
+  return {t,cls:ms<864e5?'urgent':''};
+}
+const PH=(txt)=>`<div class="ph"><svg viewBox="0 0 120 60"><use href="#truck"/></svg><span>${esc(txt||'No photo')}</span></div>`;
+function chipClass(c){c=c.toLowerCase();if(c.includes('title')||(c.includes('rust')&&!c.includes('free')))return 'c-rust';if(c.includes('original')||c.includes('rust-free')||c.includes('one owner'))return 'c-orig';if(c.includes('ls')||c.includes('swap'))return 'c-ls';if(c.includes('lift'))return 'c-lift';return '';}
+
+/* ---------- data ---------- */
+let DATA={listings:[],comps:[]},SRC='';
+function inline(){try{return JSON.parse(document.getElementById('k10-data').textContent);}catch(e){return null;}}
+async function load(){
+  if(location.protocol!=='file:'){
+    try{const r=await fetch('listings.json',{cache:'no-store'});if(r.ok){SRC='listings.json';return await r.json();}}catch(e){}
+  }
+  SRC='inline copy';return inline()||{listings:[],comps:[]};
+}
+
+/* ---------- state ---------- */
+const st={q:'',type:'all',az:false,soon:false,noTitle:false,min:null,max:null,ymin:null,ymax:null,miles:null,vals:new Set(['great','fair','pricey']),srcs:null,sort:'value',mapView:'sw'};
+let L_ALL=[],chart=null,map=null,markerLayer=null;
+let FIRST_SEEN_MIN=null; // listings from the very first batch never get a NEW badge
+
+function prep(d){
+  const ls=(d.listings||[]).map(l=>{
+    const o=Object.assign({},l);
+    o._val=normVal(l.valueRating);o._src=srcShort(l.source);o._imgs=images(l);
+    o._auction=l.priceType==='bid';
+    o._dist=(l.lat!=null&&l.lng!=null)?hav(PHX,{lat:l.lat,lng:l.lng}):null;
+    o._end=l.auctionEnd?new Date(l.auctionEnd).getTime():null;
+    o._text=[l.year,l.make,l.model,l.trim,l.engine,l.transmission,l.location,l.source,(l.condition||[]).join(' '),l.notes,l.redFlags].join(' ').toLowerCase();
+    o._title=(l.condition||[]).some(c=>/title/i.test(c));
+    return o;});
+  return ls;
+}
+
+function filtered(){
+  const now=Date.now();
+  let a=L_ALL.filter(l=>{
+    if(st.q&&!st.q.split(/\s+/).every(w=>l._text.includes(w)))return false;
+    if(st.type!=='all'&&(l.priceType||'ask')!==st.type)return false;
+    if(st.az&&String(l.state).toUpperCase()!=='AZ')return false;
+    if(st.soon&&!(l._end&&l._end>now&&l._end-now<=48*36e5))return false;
+    if(st.noTitle&&l._title)return false;
+    if(st.min!=null&&l.price<st.min)return false;
+    if(st.max!=null&&l.price>st.max)return false;
+    if(st.ymin!=null&&l.year<st.ymin)return false;
+    if(st.ymax!=null&&l.year>st.ymax)return false;
+    if(st.miles!=null&&(l.mileage==null||l.mileage>st.miles))return false;
+    if(!st.vals.has(l._val))return false;
+    if(st.srcs&&!st.srcs.has(l._src))return false;
+    return true;});
+  const inf=v=>v==null?Infinity:v;
+  const S={
+    value:(x,y)=>VAL[x._val].rank-VAL[y._val].rank||x.price-y.price,
+    ending:(x,y)=>{const ex=x._end&&x._end>now?x._end:Infinity,ey=y._end&&y._end>now?y._end:Infinity;return ex-ey||x.price-y.price;},
+    priceAsc:(x,y)=>x.price-y.price, priceDesc:(x,y)=>y.price-x.price,
+    yearDesc:(x,y)=>y.year-x.year, yearAsc:(x,y)=>x.year-y.year,
+    miles:(x,y)=>inf(x.mileage)-inf(y.mileage),
+    distance:(x,y)=>inf(x._dist)-inf(y._dist),
+    new:(x,y)=>new Date(y.firstSeen||0)-new Date(x.firstSeen||0)};
+  return a.sort(S[st.sort]||S.value);
+}
+
+/* ---------- header stats ---------- */
+function stats(){
+  const ls=L_ALL,asks=ls.filter(l=>!l._auction),auc=ls.filter(l=>l._auction);
+  $('#stActive').textContent=ls.length;
+  $('#stActiveS').textContent=`${asks.length} buy-now · ${auc.length} auction${auc.length===1?'':'s'}`;
+  const med=median(asks.map(l=>l.price));
+  $('#stMedian').textContent=money(med);
+  $('#stMedianS').textContent=asks.length?`across ${asks.length} buy-now listings`:'no buy-now listings';
+  const ch=asks.reduce((m,l)=>!m||l.price<m.price?l:m,null);
+  $('#stCheap').textContent=ch?money(ch.price):'—';
+  $('#stCheapS').textContent=ch?`${title(ch)} · ${ch.location||''}`:'';
+  tickEnd();
+}
+function tickEnd(){
+  const now=Date.now();const nx=L_ALL.filter(l=>l._end&&l._end>now).sort((a,b)=>a._end-b._end)[0];
+  if(!nx){$('#stEnd').textContent='—';$('#stEndS').textContent='no live auctions';return;}
+  $('#stEnd').textContent=countdown(nx.auctionEnd).t;
+  $('#stEndS').textContent=`${title(nx)} · bid ${money(nx.price)} · ${fmtAZ(nx.auctionEnd)}`;
+}
+
+/* ---------- cards ---------- */
+function card(l){
+  const imgs=l._imgs,v=VAL[l._val];
+  const fresh=l.firstSeen&&DATA.updated&&FIRST_SEEN_MIN!=null&&new Date(l.firstSeen)>FIRST_SEEN_MIN&&(new Date(DATA.updated)-new Date(l.firstSeen))<864e5;
+  const slides=imgs.length?imgs.map((u,i)=>`<div class="slide"><img src="${esc(u)}" alt="${esc(title(l))} photo ${i+1}" ${i?'loading="lazy"':''} referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML=window.__ph('Photo unavailable')"></div>`).join(''):`<div class="slide">${PH('No photo yet')}</div>`;
+  const multi=imgs.length>1;
+  const cd=l._auction&&l.auctionEnd?countdown(l.auctionEnd):null;
+  const meta=[
+    `<div><svg><use href="#i-road"/></svg><span>${l.mileage!=null?miles(l.mileage):'Unknown'}${l.mileageNote?`<br><small>${esc(l.mileageNote)}</small>`:''}</span></div>`,
+    `<div><svg><use href="#i-pin"/></svg><span>${esc(l.location||'—')}${l._dist!=null?`<br><small>${l._dist<15?'In Phoenix area':'~'+Math.round(l._dist).toLocaleString()+' mi from PHX'}</small>`:''}</span></div>`,
+    (l.engine||l.transmission)?`<div class="full"><svg><use href="#i-eng"/></svg><span>${esc([l.engine,l.transmission].filter(Boolean).join(' · '))}</span></div>`:''
+  ].join('');
+  return `<article class="card" id="card-${esc(l.id)}" data-id="${esc(l.id)}">
+    <div class="car" data-id="${esc(l.id)}" tabindex="0" aria-label="Photos, ${imgs.length}">
+      <div class="track">${slides}</div>
+      ${multi?`<button class="arrow prev" aria-label="Previous photo">‹</button><button class="arrow next" aria-label="Next photo">›</button><div class="dots">${imgs.map((_,i)=>`<b class="${i?'':'on'}"></b>`).join('')}</div>`:''}
+      ${imgs.length?`<span class="pc"><svg width="12" height="12"><use href="#i-cam"/></svg>${imgs.length}</span>`:''}
+      <span class="badge src">${esc(l._src)}</span>
+      <span class="badge val val-${l._val}">${v.label}</span>
+      ${fresh?'<span class="badge new">NEW</span>':''}
+    </div>
+    <div class="cbody">
+      <div><div class="ttl">${esc(title(l))}</div>${l.trim?`<div class="trim">${esc(l.trim)}</div>`:''}</div>
+      <div class="pricebar">
+        <div><div class="plabel">${l._auction?'Current bid <em>· not final</em>':'Asking'}</div><div class="price">${money(l.price)}</div></div>
+        ${cd?`<span class="cd ${cd.cls}" data-end="${esc(l.auctionEnd)}" title="Ends ${esc(fmtAZ(l.auctionEnd))}">⏱ ${cd.t}</span>`:''}
+      </div>
+      <div class="meta">${meta}</div>
+      ${(l.condition||[]).length?`<div class="chips">${l.condition.map(c=>`<span class="chip ${chipClass(c)}">${esc(c)}</span>`).join('')}</div>`:''}
+      ${l.redFlags?`<div class="flags"><b>⚑</b><span>${esc(l.redFlags)}</span></div>`:''}
+      ${l.notes?`<div class="notes">${esc(l.notes)}</div>`:''}
+      <div class="cfoot">
+        <a class="btn btn-primary" href="${esc(l.url)}" target="_blank" rel="noopener">View listing ↗</a>
+        ${l.lat!=null?`<button class="btn btn-ghost btn-sm" data-map="${esc(l.id)}" title="Show on map">Map</button>`:''}
+      </div>
+    </div></article>`;
+}
+window.__ph=PH;
+
+function renderGrid(list){
+  const g=$('#grid');
+  g.innerHTML=list.length?list.map(card).join(''):'<div class="empty">No trucks match these filters. Try widening price or turning off a toggle.</div>';
+  const n=list.length,t=L_ALL.length;
+  $('#count').innerHTML=`${n} truck${n===1?'':'s'}<small>${n<t?`of ${t} active`:'active'}</small>`;
+  g.querySelectorAll('.car').forEach(initCarousel);
+}
+
+/* ---------- card carousel ---------- */
+function initCarousel(el){
+  const track=el.querySelector('.track'),n=track.children.length,dots=[...el.querySelectorAll('.dots b')];
+  let i=0;
+  const go=k=>{i=(k+n)%n;track.style.transform=`translateX(${-i*100}%)`;dots.forEach((d,j)=>d.classList.toggle('on',j===i));
+    const nx=track.children[(i+1)%n]&&track.children[(i+1)%n].querySelector('img');if(nx)nx.loading='eager';};
+  el._go=go;
+  el.querySelector('.prev')?.addEventListener('click',e=>{e.stopPropagation();go(i-1);});
+  el.querySelector('.next')?.addEventListener('click',e=>{e.stopPropagation();go(i+1);});
+  el.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'){go(i-1);e.preventDefault();}else if(e.key==='ArrowRight'){go(i+1);e.preventDefault();}else if(e.key==='Enter')openLB(el.dataset.id,i);});
+  let x0=null,y0=null,dx=0,moved=false;
+  el.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;x0=e.clientX;y0=e.clientY;dx=0;moved=false;track.style.transition='none';});
+  el.addEventListener('pointermove',e=>{if(x0==null)return;dx=e.clientX-x0;if(Math.abs(dx)>8&&Math.abs(dx)>Math.abs(e.clientY-y0)){moved=true;if(n>1)track.style.transform=`translateX(calc(${-i*100}% + ${dx}px))`;}});
+  const end=e=>{if(x0==null)return;track.style.transition='';const w=el.clientWidth;
+    if(moved&&n>1&&Math.abs(dx)>w*0.18)go(dx<0?i+1:i-1);else go(i);
+    if(!moved&&e.type==='pointerup'&&!e.target.closest('button'))openLB(el.dataset.id,i);
+    x0=null;};
+  el.addEventListener('pointerup',end);el.addEventListener('pointercancel',end);el.addEventListener('pointerleave',e=>{if(x0!=null){moved=true;end(e);}});
+}
+
+/* ---------- lightbox ---------- */
+const lb={el:$('#lb'),l:null,i:0};
+function openLB(id,i){
+  const l=L_ALL.find(x=>String(x.id)===String(id));if(!l)return;
+  lb.l=l;lb.i=i||0;
+  $('#lbTitle').textContent=title(l)+(l.trim?' · '+l.trim:'');
+  $('#lbPrice').innerHTML=`${money(l.price)}<small>${l._auction?'current bid (not final)':'asking'}</small>`;
+  $('#lbLink').href=l.url||'#';
+  const imgs=l._imgs;
+  $('#lbThumbs').innerHTML=imgs.map((u,k)=>`<button data-k="${k}" aria-label="Photo ${k+1}"><img src="${esc(u)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'"></button>`).join('');
+  $('#lbThumbs').classList.toggle('hidden',imgs.length<2);
+  $('#lbPrev').classList.toggle('hidden',imgs.length<2);$('#lbNext').classList.toggle('hidden',imgs.length<2);
+  lbShow();lb.el.classList.add('open');lb.el.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';
+  $('#lbClose').focus();
+}
+function lbShow(){
+  const imgs=lb.l._imgs,n=imgs.length;
+  if(!n){$('#lbImgWrap').innerHTML=PH('No photos yet');$('#lbCtr').textContent='';return;}
+  lb.i=(lb.i+n)%n;
+  $('#lbImgWrap').innerHTML=`<img src="${esc(imgs[lb.i])}" alt="${esc(title(lb.l))} photo ${lb.i+1}" referrerpolicy="no-referrer" onerror="this.outerHTML=window.__ph('Photo unavailable')">`;
+  $('#lbCtr').textContent=`${lb.i+1} / ${n}`;
+  $('#lbThumbs').querySelectorAll('button').forEach((b,k)=>{b.classList.toggle('on',k===lb.i);if(k===lb.i)b.scrollIntoView({block:'nearest',inline:'center'});});
+  [lb.i+1,lb.i-1].forEach(k=>{const u=imgs[(k+n)%n];if(u){const p=new Image();p.referrerPolicy='no-referrer';p.src=u;}});
+}
+function closeLB(){lb.el.classList.remove('open');lb.el.setAttribute('aria-hidden','true');document.body.style.overflow='';
+  const c=document.querySelector(`.car[data-id="${CSS.escape(String(lb.l?.id))}"]`);if(c&&c._go)c._go(lb.i);lb.l=null;}
+$('#lbClose').onclick=closeLB;
+$('#lbPrev').onclick=()=>{lb.i--;lbShow();};$('#lbNext').onclick=()=>{lb.i++;lbShow();};
+$('#lbThumbs').addEventListener('click',e=>{const b=e.target.closest('button');if(b){lb.i=+b.dataset.k;lbShow();}});
+document.addEventListener('keydown',e=>{if(!lb.l)return;if(e.key==='Escape')closeLB();else if(e.key==='ArrowLeft'){lb.i--;lbShow();}else if(e.key==='ArrowRight'){lb.i++;lbShow();}});
+(()=>{const s=$('#lbStage');let x0=null,y0=0;
+  s.addEventListener('pointerdown',e=>{if(e.target.closest('button'))return;x0=e.clientX;y0=e.clientY;});
+  s.addEventListener('pointerup',e=>{if(x0==null||!lb.l)return;const dx=e.clientX-x0,dy=e.clientY-y0;x0=null;
+    if(Math.abs(dx)>40&&Math.abs(dx)>Math.abs(dy)){lb.i+=dx<0?1:-1;lbShow();}
+    else if(Math.abs(dx)<6&&Math.abs(dy)<6&&e.target===s)closeLB();});
+})();
+
+/* ---------- chart ---------- */
+function renderChart(list){
+  const note=$('#chartNote');
+  const noMi=list.filter(l=>l.mileage==null).length;
+  const compsNoMi=(DATA.comps||[]).filter(c=>c.mileage==null).length;
+  const parts=[];if(noMi)parts.push(`${noMi} listing${noMi>1?'s':''} without reliable mileage not plotted`);
+  if(compsNoMi)parts.push(`${compsNoMi} comp${compsNoMi>1?'s':''} without mileage not plotted`);
+  note.textContent=parts.join(' · ');
+  if(typeof Chart==='undefined'){$('.chartbox').innerHTML='<div class="fallback">Chart library didn’t load (offline?). Listing data is still shown in the cards.</div>';return;}
+  const pts=k=>list.filter(l=>l._val===k&&l.mileage!=null).map(l=>({x:l.mileage,y:l.price,l}));
+  const ds=Object.keys(VAL).map(k=>({label:VAL[k].label,data:pts(k),backgroundColor:VAL[k].color+'dd',borderColor:'#111',borderWidth:1,
+    pointStyle:c=>c.raw&&c.raw.l&&c.raw.l._auction?'triangle':'circle',pointRadius:c=>c.raw&&c.raw.l&&c.raw.l._auction?8:7,pointHoverRadius:10}));
+  ds.push({label:'Sold comps',data:(DATA.comps||[]).filter(c=>c.mileage!=null).map(c=>({x:c.mileage,y:c.soldPrice,c})),pointStyle:'rectRot',backgroundColor:'rgba(207,214,228,.85)',borderColor:'#111',borderWidth:1,pointRadius:6,pointHoverRadius:9});
+  if(chart){chart.data.datasets=ds;chart.update();return;}
+  Chart.defaults.color='#9b958b';Chart.defaults.font.family="Inter, system-ui, sans-serif";
+  chart=new Chart($('#chart'),{type:'scatter',data:{datasets:ds},options:{
+    responsive:true,maintainAspectRatio:false,animation:{duration:300},
+    plugins:{legend:{display:false},tooltip:{backgroundColor:'#1f1f24',borderColor:'#3a3a42',borderWidth:1,padding:10,titleColor:'#efe9df',bodyColor:'#cfc8bc',
+      callbacks:{title:items=>{const r=items[0].raw;return r.l?title(r.l):`SOLD ${r.c.year} ${r.c.trim||''}`;},
+        label:it=>{const r=it.raw;return r.l?`${money(r.y)} ${r.l._auction?'(current bid)':'ask'} · ${miles(r.x)}`:`${money(r.y)} sold ${r.c.soldDate||''} · ${miles(r.x)}`;}}}},
+    scales:{x:{title:{display:true,text:'Mileage'},grid:{color:'rgba(255,255,255,.05)'},ticks:{callback:v=>v>=1000?(v/1000)+'k':v},beginAtZero:true},
+      y:{title:{display:true,text:'Price'},grid:{color:'rgba(255,255,255,.05)'},ticks:{callback:v=>kmoney(v)},beginAtZero:true}},
+    onClick:(e,els)=>{if(!els.length)return;const r=chart.data.datasets[els[0].datasetIndex].data[els[0].index];if(r.l)focusCard(r.l.id);else if(r.c&&r.c.url)window.open(r.c.url,'_blank','noopener');},
+    onHover:(e,els)=>{e.native.target.style.cursor=els.length?'pointer':'default';}
+  }});
+}
+function focusCard(id){const c=document.getElementById('card-'+id);if(!c)return;c.scrollIntoView({behavior:'smooth',block:'center'});c.classList.remove('flash');void c.offsetWidth;c.classList.add('flash');}
+
+/* ---------- map ---------- */
+const SW=[[31.0,-121.0],[41.5,-102.0]];
+function renderMap(list){
+  if(typeof L==='undefined'){$('#map').innerHTML='<div class="fallback">Map library didn’t load (offline?). Locations are listed on each card.</div>';return;}
+  if(!map){
+    map=L.map('map',{zoomControl:true,attributionControl:true,scrollWheelZoom:false});
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}',{maxZoom:16,attribution:'Tiles © Esri, HERE, Garmin, © OpenStreetMap'}).addTo(map);
+    L.marker([PHX.lat,PHX.lng],{icon:L.divIcon({className:'home-pin',iconSize:[14,14]}),title:'Phoenix',zIndexOffset:-100}).addTo(map).bindPopup('<b>Phoenix, AZ</b><br>Home base');
+    markerLayer=L.layerGroup().addTo(map);
+    map.setView([36.2,-109.5],5);
+  }
+  markerLayer.clearLayers();
+  list.filter(l=>l.lat!=null&&l.lng!=null).forEach(l=>{
+    const m=L.circleMarker([l.lat,l.lng],{radius:9,color:'#111',weight:2,fillColor:VAL[l._val].color,fillOpacity:.95});
+    m.bindPopup(`<b>${esc(title(l))}</b><br>${esc(l.location||'')}<br>${money(l.price)} ${l._auction?'current bid':'ask'} · ${VAL[l._val].label}<br><a href="${esc(l.url)}" target="_blank" rel="noopener">View listing ↗</a> · <a href="#" data-goto="${esc(l.id)}">Show card</a>`);
+    m._lid=l.id;markerLayer.addLayer(m);
+  });
+  setMapView(st.mapView,list);
+}
+function setMapView(v,list){
+  if(!map)return;st.mapView=v;
+  document.querySelectorAll('#mapView button').forEach(b=>b.classList.toggle('on',b.dataset.v===v));
+  if(v==='sw'){map.setView([36.2,-109.5],5);return;}
+  const pts=(list||filtered()).filter(l=>l.lat!=null).map(l=>[l.lat,l.lng]);pts.push([PHX.lat,PHX.lng]);
+  map.fitBounds(pts,{padding:[24,24],maxZoom:8});
+}
+document.addEventListener('click',e=>{const g=e.target.closest('[data-goto]');if(g){e.preventDefault();focusCard(g.dataset.goto);}
+  const mb=e.target.closest('[data-map]');if(mb&&map){const l=L_ALL.find(x=>String(x.id)===mb.dataset.map);
+    $('#map').scrollIntoView({behavior:'smooth',block:'center'});map.setView([l.lat,l.lng],8);
+    markerLayer.eachLayer(m=>{if(String(m._lid)===String(l.id))m.openPopup();});
+    document.querySelectorAll('#mapView button').forEach(b=>b.classList.remove('on'));}});
+$('#mapView').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setMapView(b.dataset.v);});
+
+/* ---------- comps ---------- */
+function renderComps(){
+  const c=[...(DATA.comps||[])].sort((a,b)=>String(b.soldDate).localeCompare(String(a.soldDate)));
+  $('#compBody').innerHTML=c.length?c.map(x=>`<tr><td class="num">${esc(x.year)}</td><td>${esc(x.trim||'')}</td><td class="sp">${money(x.soldPrice)}</td><td class="num">${x.soldDate?new Date(x.soldDate+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'}):'—'}</td><td class="num">${x.mileage!=null?miles(x.mileage):'—'}${x.mileageNote?`<br><small style="color:var(--dim)">${esc(x.mileageNote)}</small>`:''}</td><td>${esc(srcShort(x.source))}</td><td>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">Results ↗</a>`:''}</td></tr>`).join(''):'<tr><td colspan="7" style="color:var(--muted)">No comps yet.</td></tr>';
+  const p=c.map(x=>x.soldPrice).filter(n=>n!=null);
+  $('#compSum').innerHTML=p.length?`${p.length} sales · median <b>${money(median(p))}</b> · range <b>${money(Math.min(...p))}–${money(Math.max(...p))}</b>`:'';
+}
+
+/* ---------- filters UI ---------- */
+function buildFilters(){
+  const vc=k=>L_ALL.filter(l=>l._val===k).length;
+  $('#fValue').innerHTML=Object.keys(VAL).map(k=>`<label class="check"><input type="checkbox" data-val="${k}" checked><span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${VAL[k].color}"></span>${VAL[k].label}<span class="n">${vc(k)}</span></label>`).join('');
+  const srcs=[...new Set(L_ALL.map(l=>l._src))].sort();
+  $('#fSource').innerHTML=srcs.map(s=>`<label class="check"><input type="checkbox" data-src="${esc(s)}" checked>${esc(s)}<span class="n">${L_ALL.filter(l=>l._src===s).length}</span></label>`).join('');
+}
+function readFilters(){
+  const num=id=>{const v=$(id).value;return v===''?null:+v;};
+  st.q=$('#fq').value.trim().toLowerCase();st.az=$('#fAZ').checked;st.soon=$('#fSoon').checked;st.noTitle=$('#fTitle').checked;
+  st.min=num('#fMin');st.max=num('#fMax');st.ymin=num('#fYMin');st.ymax=num('#fYMax');st.miles=num('#fMiles');
+  st.vals=new Set([...document.querySelectorAll('[data-val]:checked')].map(i=>i.dataset.val));
+  const all=document.querySelectorAll('[data-src]'),on=[...document.querySelectorAll('[data-src]:checked')].map(i=>i.dataset.src);
+  st.srcs=on.length===all.length?null:new Set(on);
+  st.sort=$('#sort').value;
+}
+function update(){readFilters();const list=filtered();renderGrid(list);renderChart(list);renderMap(list);}
+$('#filters').addEventListener('input',update);
+$('#sort').addEventListener('change',update);
+$('#fToggle').addEventListener('click',()=>$('#filters').classList.toggle('open'));
+$('#fType').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;st.type=b.dataset.v;document.querySelectorAll('#fType button').forEach(x=>x.classList.toggle('on',x===b));update();});
+$('#fReset').addEventListener('click',()=>{document.querySelectorAll('#filters input').forEach(i=>{if(i.type==='checkbox')i.checked=!!(i.dataset.val||i.dataset.src);else i.value='';});
+  st.type='all';document.querySelectorAll('#fType button').forEach(x=>x.classList.toggle('on',x.dataset.v==='all'));update();});
+
+/* ---------- tick ---------- */
+setInterval(()=>{document.querySelectorAll('.cd[data-end]').forEach(el=>{const c=countdown(el.dataset.end);el.textContent='⏱ '+c.t;el.className='cd '+c.cls;});tickEnd();},1000);
+
+/* ---------- boot ---------- */
+load().then(d=>{
+  DATA=d||{listings:[],comps:[]};L_ALL=prep(DATA);
+  {const fs=L_ALL.map(l=>new Date(l.firstSeen).getTime()).filter(n=>!isNaN(n));FIRST_SEEN_MIN=fs.length?Math.min(...fs):null;}
+  $('#updated').textContent=DATA.updated?fmtAZ(DATA.updated,{year:'numeric'}):'—';
+  $('#dataSrc').textContent=SRC?` · from ${SRC}`:'';
+  stats();buildFilters();renderComps();update();
+  document.body.dataset.ready='1';
+});
+})();
+</script>
+</body>
+</html>

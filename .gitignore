@@ -1,0 +1,5 @@
+preview*.png
+__pycache__/
+*.pyc
+new*.json
+batch*.json
