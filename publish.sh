@@ -8,7 +8,9 @@ MSG="${1:-Update listings $(TZ=America/Phoenix date '+%Y-%m-%d %H:%M MST')}"
 
 python3 -m json.tool listings.json >/dev/null || { echo "listings.json is not valid JSON" >&2; exit 1; }
 python3 sync_inline.py
-WANT=$(python3 -c 'import json;print(json.load(open("listings.json"))["updated"])')
+WANT=$(sha256sum listings.json | cut -d' ' -f1)
+WANT_HTML=$(sha256sum index.html | cut -d' ' -f1)
+UPD=$(python3 -c 'import json;print(json.load(open("listings.json"))["updated"])')
 
 git add -A
 if git diff --cached --quiet; then echo "Nothing changed; not publishing."; exit 0; fi
@@ -17,12 +19,13 @@ git push -q origin main
 echo "Pushed $(git rev-parse --short HEAD). Render auto-deploys on push; waiting for $SITE ..."
 
 for i in $(seq 1 40); do   # up to ~10 minutes
-  GOT=$(curl -fsS -m 20 "$SITE/listings.json?ts=$(date +%s)" 2>/dev/null | python3 -c 'import json,sys;print(json.load(sys.stdin).get("updated",""))' 2>/dev/null || true)
-  if [ "$GOT" = "$WANT" ]; then
+  GOT=$(curl -fsS -m 20 "$SITE/listings.json?ts=$(date +%s)" 2>/dev/null | sha256sum | cut -d' ' -f1)
+  GOT_HTML=$(curl -fsS -m 20 "$SITE/?ts=$(date +%s)" 2>/dev/null | sha256sum | cut -d' ' -f1)
+  if [ "$GOT" = "$WANT" ] && [ "$GOT_HTML" = "$WANT_HTML" ]; then
     N=$(curl -fsS -m 20 "$SITE/listings.json?ts=$(date +%s)" | python3 -c 'import json,sys;print(len(json.load(sys.stdin)["listings"]))')
-    echo "LIVE: $SITE is serving updated=$WANT with $N listings."; exit 0
+    echo "LIVE: $SITE is serving updated=$UPD with $N listings."; exit 0
   fi
   sleep 15
 done
-echo "Pushed, but $SITE still isn't serving updated=$WANT after ~10 min. Check deploys (Render MCP list_deploys for the k10-finder service), or trigger_deploy." >&2
+echo "Pushed, but $SITE still isn't serving the new files (updated=$UPD) after ~10 min. Check deploys (Render MCP list_deploys for the k10-finder service), or trigger_deploy." >&2
 exit 2

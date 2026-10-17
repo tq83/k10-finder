@@ -59,3 +59,6 @@ Chart.js, Leaflet and Google Fonts load from CDNs. Offline, the chart and map pa
 - **Right column:** price-vs-mileage scatter (circles are asks, triangles are current bids, diamonds are sold comps). Clicking a point jumps to its card. The Southwest map has a Phoenix marker and a Southwest/All toggle.
 - **Sold comps table** with median and range.
 - All times show in Arizona time (MST, no daylight saving).
+
+## Hosting
+Live at **https://k10-finder.onrender.com** (Render free static site, auto-deploys from https://github.com/tq83/k10-finder). See **UPDATE.md** for the alert-run update path (`merge_listings.py` → `publish.sh`).
