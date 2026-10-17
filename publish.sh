@@ -14,8 +14,9 @@ HOOK="${RENDER_DEPLOY_HOOK_URL:-}"
 
 is_live() {
   local a b
-  a=$(curl -fsS -m 20 "$SITE/listings.json?ts=$(date +%s%N)" 2>/dev/null | sha256sum | cut -d' ' -f1)
-  b=$(curl -fsS -m 20 "$SITE/?ts=$(date +%s%N)" 2>/dev/null | sha256sum | cut -d' ' -f1)
+  a=$(curl -fsS -m 20 "$SITE/listings.json" 2>/dev/null | sha256sum | cut -d' ' -f1)
+  # Check the plain URLs (no cache-buster): that is what a phone gets from the CDN edge cache.
+  b=$(curl -fsS -m 20 "$SITE/" 2>/dev/null | sha256sum | cut -d' ' -f1)
   [ "$a" = "$(sha256sum listings.json | cut -d' ' -f1)" ] && [ "$b" = "$(sha256sum index.html | cut -d' ' -f1)" ]
 }
 report_live() {
