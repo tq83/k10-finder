@@ -110,6 +110,19 @@ input:focus,select:focus{border-color:var(--orange)}
 .badge.val{right:10px;color:#111}
 .val-great{background:var(--great)}.val-fair{background:var(--fair)}.val-pricey{background:var(--pricey);color:#fff!important}
 .badge.new{left:10px;top:38px;background:var(--orange);color:#1a0f07}
+.newbtn{width:100%;display:flex;align-items:center;gap:10px;padding:11px 12px;margin:0 0 14px;border-radius:11px;cursor:pointer;
+  background:linear-gradient(180deg,rgba(226,112,43,.14),rgba(226,112,43,.06));border:1px solid rgba(226,112,43,.45);color:var(--text);
+  font:600 13px var(--body);text-align:left;transition:.15s}
+.newbtn:hover{border-color:var(--orange);background:linear-gradient(180deg,rgba(226,112,43,.22),rgba(226,112,43,.1))}
+.newbtn .spark{width:26px;height:26px;border-radius:8px;display:flex;align-items:center;justify-content:center;background:rgba(226,112,43,.2);color:var(--orange2);font-size:14px;flex:none}
+.newbtn .lbl{white-space:nowrap;min-width:0}
+.newbtn .lbl small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:500;font-size:11.5px;color:var(--muted)}
+.newbtn .cnt{margin-left:auto;min-width:28px;padding:3px 8px;border-radius:20px;background:var(--orange);color:#1a0f07;font-weight:800;font-size:12.5px;text-align:center;font-variant-numeric:tabular-nums}
+.newbtn[aria-pressed="true"]{background:linear-gradient(180deg,var(--orange2),var(--orange));border-color:var(--orange2);color:#1a0f07;box-shadow:0 0 0 3px rgba(226,112,43,.25)}
+.newbtn[aria-pressed="true"] .spark{background:rgba(26,15,7,.18);color:#1a0f07}
+.newbtn[aria-pressed="true"] .lbl small{color:#3a2210}
+.newbtn[aria-pressed="true"] .cnt{background:#1a0f07;color:var(--orange2)}
+.newbtn:disabled{opacity:.55;cursor:default}
 .ph{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:#6b6258;
   background:radial-gradient(circle at 50% 35%,#2a241e,#121212 70%)}
 .ph svg{width:46%;opacity:.55}
@@ -212,6 +225,8 @@ footer{padding:0 28px 30px;color:var(--dim);font-size:12px}
   #fToggle{cursor:pointer;display:flex;justify-content:space-between;margin:0}
   aside.filters:not(.open) .fgroup{display:none}
   aside.filters.open #fToggle{margin-bottom:10px}
+  #fNew{margin:12px 0 0}
+  aside.filters.open #fNew{margin:0 0 14px}
   aside.filters.open .ft-ind{transform:rotate(180deg)}
   .right{grid-template-columns:1fr}
   .grid{grid-template-columns:1fr}
@@ -261,6 +276,9 @@ footer{padding:0 28px 30px;color:var(--dim);font-size:12px}
 <div class="layout">
   <aside class="filters panel" id="filters">
     <h2 id="fToggle">Filters <span class="ft-ind">▾</span></h2>
+    <button type="button" class="newbtn" id="fNew" aria-pressed="false" title="Show only trucks the alerts found in the last 72 hours">
+      <span class="spark">★</span><span class="lbl">New (last 3 days)<small id="fNewSub">Found by your alerts</small></span><span class="cnt" id="fNewCnt">0</span>
+    </button>
     <div class="fgroup">
       <input type="search" id="fq" placeholder="Search year, trim, engine, city…">
     </div>
@@ -411,9 +429,13 @@ async function load(){
 }
 
 /* ---------- state ---------- */
-const st={q:'',type:'all',az:false,soon:false,noTitle:false,min:null,max:null,ymin:null,ymax:null,miles:null,vals:new Set(['great','fair','pricey']),srcs:null,sort:'value',mapView:'sw'};
+const st={newOnly:false,q:'',type:'all',az:false,soon:false,noTitle:false,min:null,max:null,ymin:null,ymax:null,miles:null,vals:new Set(['great','fair','pricey']),srcs:null,sort:'value',mapView:'sw'};
 let L_ALL=[],chart=null,map=null,markerLayer=null;
-let FIRST_SEEN_MIN=null; // listings from the very first batch never get a NEW badge
+// The Oct 16 baseline batch is never "new". Fixed cutoff (overridable with a top-level "baseline" in listings.json)
+// so it stays correct after baseline listings are removed.
+const NEW_WINDOW_MS=72*36e5;
+let BASELINE=new Date('2026-10-16T21:30:00-07:00').getTime();
+function isNew(l,now){const t=new Date(l.firstSeen).getTime();return !isNaN(t)&&t>BASELINE&&(now||Date.now())-t<=NEW_WINDOW_MS;}
 
 function prep(d){
   const ls=(d.listings||[]).map(l=>{
@@ -436,6 +458,7 @@ function filtered(){
     if(st.az&&String(l.state).toUpperCase()!=='AZ')return false;
     if(st.soon&&!(l._end&&l._end>now&&l._end-now<=48*36e5))return false;
     if(st.noTitle&&l._title)return false;
+    if(st.newOnly&&!isNew(l,now))return false;
     if(st.min!=null&&l.price<st.min)return false;
     if(st.max!=null&&l.price>st.max)return false;
     if(st.ymin!=null&&l.year<st.ymin)return false;
@@ -479,7 +502,7 @@ function tickEnd(){
 /* ---------- cards ---------- */
 function card(l){
   const imgs=l._imgs,v=VAL[l._val];
-  const fresh=l.firstSeen&&DATA.updated&&FIRST_SEEN_MIN!=null&&new Date(l.firstSeen)>FIRST_SEEN_MIN&&(new Date(DATA.updated)-new Date(l.firstSeen))<864e5;
+  const fresh=isNew(l);
   const slides=imgs.length?imgs.map((u,i)=>`<div class="slide"><img src="${esc(u)}" alt="${esc(title(l))} photo ${i+1}" ${i?'loading="lazy"':''} referrerpolicy="no-referrer" onerror="this.parentNode.innerHTML=window.__ph('Photo unavailable')"></div>`).join(''):`<div class="slide">${PH('No photo yet')}</div>`;
   const multi=imgs.length>1;
   const cd=l._auction&&l.auctionEnd?countdown(l.auctionEnd):null;
@@ -669,9 +692,14 @@ function update(){readFilters();const list=filtered();renderGrid(list);renderCha
 $('#filters').addEventListener('input',update);
 $('#sort').addEventListener('change',update);
 $('#fToggle').addEventListener('click',()=>$('#filters').classList.toggle('open'));
+function newCount(){const now=Date.now();return L_ALL.filter(l=>isNew(l,now)).length;}
+function paintNew(){const b=$('#fNew'),n=newCount();$('#fNewCnt').textContent=n;b.setAttribute('aria-pressed',String(st.newOnly));
+  $('#fNewSub').textContent=st.newOnly?'Showing new only':(n?'Found by your alerts':'Nothing new yet');b.disabled=!n&&!st.newOnly;}
+$('#fNew').addEventListener('click',()=>{st.newOnly=!st.newOnly;paintNew();update();});
+setInterval(paintNew,60000);
 $('#fType').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;st.type=b.dataset.v;document.querySelectorAll('#fType button').forEach(x=>x.classList.toggle('on',x===b));update();});
 $('#fReset').addEventListener('click',()=>{document.querySelectorAll('#filters input').forEach(i=>{if(i.type==='checkbox')i.checked=!!(i.dataset.val||i.dataset.src);else i.value='';});
-  st.type='all';document.querySelectorAll('#fType button').forEach(x=>x.classList.toggle('on',x.dataset.v==='all'));update();});
+  st.newOnly=false;paintNew();st.type='all';document.querySelectorAll('#fType button').forEach(x=>x.classList.toggle('on',x.dataset.v==='all'));update();});
 
 /* ---------- tick ---------- */
 setInterval(()=>{document.querySelectorAll('.cd[data-end]').forEach(el=>{const c=countdown(el.dataset.end);el.textContent='⏱ '+c.t;el.className='cd '+c.cls;});tickEnd();},1000);
@@ -679,10 +707,10 @@ setInterval(()=>{document.querySelectorAll('.cd[data-end]').forEach(el=>{const c
 /* ---------- boot ---------- */
 load().then(d=>{
   DATA=d||{listings:[],comps:[]};L_ALL=prep(DATA);
-  {const fs=L_ALL.map(l=>new Date(l.firstSeen).getTime()).filter(n=>!isNaN(n));FIRST_SEEN_MIN=fs.length?Math.min(...fs):null;}
+  if(DATA.baseline&&!isNaN(new Date(DATA.baseline)))BASELINE=new Date(DATA.baseline).getTime();
   $('#updated').textContent=DATA.updated?fmtAZ(DATA.updated,{year:'numeric'}):'—';
   $('#dataSrc').textContent=SRC?` · from ${SRC}`:'';
-  stats();buildFilters();renderComps();update();
+  stats();buildFilters();renderComps();paintNew();update();
   document.body.dataset.ready='1';
 });
 })();
