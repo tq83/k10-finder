@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T13:19:35-07:00",
+  "updated": "2026-10-18T18:13:04-07:00",
   "listings": [
     {
       "id": "k10-01",
@@ -96,7 +96,7 @@
       "trim": "Cheyenne 4x4 Long Bed",
       "engine": "Crate 350 V8",
       "transmission": "3-speed automatic",
-      "price": 20000,
+      "price": 21000,
       "priceType": "bid",
       "auctionEnd": "2026-10-20T11:49:00-07:00",
       "mileage": null,
@@ -2490,6 +2490,50 @@
       "valueRating": "great",
       "firstSeen": "2026-10-18T13:19:35-07:00",
       "id": "k10-56"
+    },
+    {
+      "year": 1987,
+      "make": "Chevrolet",
+      "model": "V10 Silverado",
+      "trim": "Silverado 1500 4x4 long bed (lifted)",
+      "engine": "V8 (size not stated)",
+      "transmission": "Automatic",
+      "price": 29500,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": 144487,
+      "mileageNote": "144,487 shown (5-digit-era odometer, unverified)",
+      "location": "Apache Junction, AZ",
+      "state": "AZ",
+      "lat": 33.415,
+      "lng": -111.549,
+      "source": "Facebook Marketplace",
+      "url": "https://www.facebook.com/marketplace/item/29014812801486365/",
+      "imageUrl": "photos/k10-57/69d4dd0cff54.jpg",
+      "imageUrls": [
+        "photos/k10-57/69d4dd0cff54.jpg",
+        "photos/k10-57/d902d7770191.jpg",
+        "photos/k10-57/e4441be05a1a.jpg",
+        "photos/k10-57/308f95598009.jpg",
+        "photos/k10-57/46fa83b10463.jpg",
+        "photos/k10-57/3c495f12e74d.jpg",
+        "photos/k10-57/5297101ce5d1.jpg",
+        "photos/k10-57/e28d391592d1.jpg",
+        "photos/k10-57/6e25bd90b252.jpg",
+        "photos/k10-57/63434f640543.jpg"
+      ],
+      "condition": [
+        "lifted",
+        "solid front axle 4x4",
+        "clean title",
+        "red/red",
+        "aftermarket wheels"
+      ],
+      "redFlags": "No seller description at all. Wears Colorado plates, so check cab corners, rockers and floors for road-salt rust; fresh black undercoating on the frame can hide repairs. 4x4 confirmed only from photos (leaf-sprung front axle).",
+      "notes": "Lifted 8-ft long bed on Cooper Discoverer STT Pro tires with red shocks and painted frame. Listed ~3 days ago. FB's 'LS' is a trim field, not a confirmed LS swap.",
+      "valueRating": "fair",
+      "firstSeen": "2026-10-18T18:13:04-07:00",
+      "id": "k10-57"
     }
   ],
   "comps": [
