@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T18:19:17-07:00",
+  "updated": "2026-10-21T08:14:13-07:00",
   "listings": [
     {
       "id": "k10-01",
@@ -9,7 +9,7 @@
       "trim": "Scottsdale 4x4",
       "engine": "350 V8",
       "transmission": "4-speed manual",
-      "price": 16500,
+      "price": 22000,
       "priceType": "bid",
       "auctionEnd": "2026-10-21T12:52:00-07:00",
       "mileage": 37000,
@@ -2837,7 +2837,7 @@
       "trim": "Stepside 4x4, 4-speed (lifted)",
       "engine": "Replacement 350 V8 (installed June 2022)",
       "transmission": "4-speed manual, dual-range transfer case",
-      "price": 2075,
+      "price": 3000,
       "priceType": "bid",
       "auctionEnd": "2026-10-26T12:36:00-07:00",
       "mileage": null,
