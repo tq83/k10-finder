@@ -1,50 +1,6 @@
 {
-  "updated": "2026-10-21T08:14:13-07:00",
+  "updated": "2026-10-21T13:10:06-07:00",
   "listings": [
-    {
-      "id": "k10-01",
-      "year": 1976,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Scottsdale 4x4",
-      "engine": "350 V8",
-      "transmission": "4-speed manual",
-      "price": 22000,
-      "priceType": "bid",
-      "auctionEnd": "2026-10-21T12:52:00-07:00",
-      "mileage": 37000,
-      "mileageNote": "37k shown",
-      "location": "Granby, CO",
-      "state": "CO",
-      "lat": 40.0861,
-      "lng": -105.9395,
-      "source": "Bring a Trailer",
-      "url": "https://bringatrailer.com/listing/1976-chevrolet-k10-pickup-19/",
-      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125649-scaled-80151.jpg",
-      "imageUrls": [
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125649-scaled-80151.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125653-scaled-80245.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125706-scaled-80106.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_130142-scaled-80215.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160711-scaled-80238.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260805_161135-scaled-80275.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160720-scaled-80174.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125714-scaled-80273.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260805_160727-scaled-80186.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/20260730_125725-scaled-80214.jpg"
-      ],
-      "condition": [
-        "original",
-        "one owner",
-        "original two-tone paint",
-        "records",
-        "no A/C"
-      ],
-      "redFlags": "No A/C, which matters for Phoenix summers. Bid will climb well past $12k.",
-      "notes": "One-owner truck with original two-tone paint and records. Bid is current, not final.",
-      "valueRating": "great",
-      "firstSeen": "2026-10-16T21:30:00-07:00"
-    },
     {
       "id": "k10-02",
       "year": 1977,
@@ -391,7 +347,7 @@
       "trim": "4x4 conversion (restomod)",
       "engine": "5.3L V8",
       "transmission": "Automatic",
-      "price": 5000,
+      "price": 5500,
       "priceType": "bid",
       "auctionEnd": "2026-10-23T11:09:00-07:00",
       "mileage": null,
@@ -3972,6 +3928,49 @@
       "valueRating": "fair",
       "firstSeen": "2026-10-20T18:19:17-07:00",
       "id": "k10-92"
+    },
+    {
+      "year": 1971,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Short bed, 454 swap",
+      "engine": "454 big-block V8 (swapped)",
+      "transmission": "Manual",
+      "price": 39999,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Shows 12,345 on the listing, which looks like a placeholder",
+      "location": "Tucson, AZ",
+      "state": "AZ",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "source": "Facebook Marketplace",
+      "url": "https://www.facebook.com/marketplace/item/1606533453668850/",
+      "imageUrl": "photos/k10-93/e7ba13e0bcb7.jpg",
+      "imageUrls": [
+        "photos/k10-93/e7ba13e0bcb7.jpg",
+        "photos/k10-93/54cfbd997984.jpg",
+        "photos/k10-93/bfe590bffb50.jpg",
+        "photos/k10-93/752aba08a194.jpg",
+        "photos/k10-93/24eb48e6de5b.jpg",
+        "photos/k10-93/9d91b263459d.jpg",
+        "photos/k10-93/2403fb815700.jpg",
+        "photos/k10-93/196434f9cddf.jpg"
+      ],
+      "condition": [
+        "blue/black, unfinished; seller offers to paint any color",
+        "original interior (per seller)",
+        "3/4-ton axle swap",
+        "rust free, runs and drives great (per seller)",
+        "clean title (per seller)",
+        "listed by a dealer/broker for The Brubaker Collection"
+      ],
+      "redFlags": "Needs paint, so the $40k is for an unfinished truck. 454 and 3/4-ton axles are non-original; listing never says 4x4 outright, so confirm transfer case and front axle. Placeholder mileage. Brokered listing.",
+      "notes": "Listed about 4 hours before the Oct 21 1PM run. Seller offers FaceTime video walkarounds and cheap shipping.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-10-21T13:10:06-07:00",
+      "id": "k10-93"
     }
   ],
   "comps": [
@@ -4104,6 +4103,16 @@
       "mileageNote": "93,850 shown (TMU)",
       "source": "Hagerty Marketplace",
       "url": "https://www.hagerty.com/marketplace/auction/1984-Chevrolet-K10/4b76e4ae-6ae7-47d2-a904-451b6c98288c"
+    },
+    {
+      "year": 1976,
+      "trim": "K10 Scottsdale 4x4",
+      "soldPrice": 23500,
+      "soldDate": "2026-10-21",
+      "mileage": 37000,
+      "mileageNote": "37k shown",
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1976-chevrolet-k10-pickup-19/"
     }
   ],
   "removed": [
@@ -4150,6 +4159,17 @@
       "url": "https://bringatrailer.com/listing/1975-chevrolet-k10-pickup-11-2/",
       "reason": "removed (gone/sold elsewhere)",
       "removedAt": "2026-10-20T18:19:17-07:00"
+    },
+    {
+      "id": "k10-01",
+      "year": 1976,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Scottsdale 4x4",
+      "lastPrice": 22000,
+      "url": "https://bringatrailer.com/listing/1976-chevrolet-k10-pickup-19/",
+      "reason": "sold $23500",
+      "removedAt": "2026-10-21T13:10:06-07:00"
     }
   ]
 }
