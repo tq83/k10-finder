@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T08:18:04-07:00",
+  "updated": "2026-10-22T13:10:03-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -347,7 +347,7 @@
       "trim": "4x4 conversion (restomod)",
       "engine": "5.3L V8",
       "transmission": "Automatic",
-      "price": 7000,
+      "price": 8000,
       "priceType": "bid",
       "auctionEnd": "2026-10-23T11:09:00-07:00",
       "mileage": null,
@@ -2326,7 +2326,7 @@
       "trim": "Silverado 4x4",
       "engine": "V8",
       "transmission": "Automatic",
-      "price": 32900,
+      "price": 31900,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": 108315,
