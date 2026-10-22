@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T08:15:52-07:00",
+  "updated": "2026-10-22T08:18:04-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -856,39 +856,6 @@
       "valueRating": "pricey",
       "firstSeen": "2026-10-17T18:21:04-07:00",
       "id": "k10-25"
-    },
-    {
-      "year": 1978,
-      "make": "GMC",
-      "model": "K15",
-      "trim": "Sierra 4x4",
-      "engine": "350 V8 (VIN L code), Edelbrock 650 carb + Air-Gap intake",
-      "transmission": "Automatic",
-      "price": 25000,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "35,000 per ad (5-digit odometer, unverified)",
-      "location": "Oceanside, CA",
-      "state": "CA",
-      "lat": 33.1959,
-      "lng": -117.3795,
-      "source": "Craigslist",
-      "url": "https://www.craigslist.org/view/d/oceanside-1978-gmc-sierra-k15/tK8segihSbg1BfTiDwYsvk",
-      "imageUrl": null,
-      "imageUrls": [],
-      "condition": [
-        "original paint (claimed)",
-        "rust spots lower panels",
-        "clean title",
-        "33in tires",
-        "private seller"
-      ],
-      "redFlags": "Ad has no photos. Seller admits rust spots on lower panels. Odometer can't be trusted.",
-      "notes": "Private party, owned 3 years, came from an Idaho farm. Red. New Edelbrock carb and intake, HEI, door panels and window parts, new 33in Falkens on factory Rally wheels. VIN TKL148Z512764 (K = 4x4, L = 350). Posted 2026-09-21.",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-17T18:21:04-07:00",
-      "id": "k10-26"
     },
     {
       "year": 1967,
@@ -4421,6 +4388,17 @@
       "url": "https://www.streetsideclassics.com/vehicles/5129-phx/1984-chevrolet-k10",
       "reason": "removed (gone/sold elsewhere)",
       "removedAt": "2026-10-22T08:15:52-07:00"
+    },
+    {
+      "id": "k10-26",
+      "year": 1978,
+      "make": "GMC",
+      "model": "K15",
+      "trim": "Sierra 4x4",
+      "lastPrice": 25000,
+      "url": "https://www.craigslist.org/view/d/oceanside-1978-gmc-sierra-k15/tK8segihSbg1BfTiDwYsvk",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-10-22T08:18:04-07:00"
     }
   ]
 }
