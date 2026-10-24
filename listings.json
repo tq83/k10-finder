@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T08:12:16-07:00",
+  "updated": "2026-10-24T13:09:41-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -2963,7 +2963,7 @@
       "trim": "4x4 conversion, 1-ton axles, 4-speed (lifted)",
       "engine": "6.0L Vortec V8 (swap)",
       "transmission": "Rebuilt SM465 4-speed manual, triple-stick transfer case",
-      "price": 6100,
+      "price": 6200,
       "priceType": "bid",
       "auctionEnd": "2026-10-26T12:58:00-07:00",
       "mileage": null,
@@ -4874,6 +4874,48 @@
       "city": "Tucson",
       "valueReason": "Around $20k is reasonable for a '70 K10 needing paint if it's truly a 4x4 with a solid body.",
       "id": "k10-117"
+    },
+    {
+      "year": 1978,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "Scottsdale Fleetside 4x4 (3/4-ton), 4in lift",
+      "engine": "383ci stroker V8 (installed 2025)",
+      "transmission": "TH400 3-speed automatic, dual-range transfer case",
+      "price": 15000,
+      "priceType": "bid",
+      "auctionEnd": "2026-10-29T13:17:00-07:00",
+      "mileage": null,
+      "mileageNote": "72k shown, true mileage unknown (TMU)",
+      "location": "Vancouver, WA",
+      "state": "WA",
+      "lat": 45.6387,
+      "lng": -122.6615,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1978-chevrolet-k20-pickup-12/",
+      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_04_20_PM-scaled-copy-2026-10-20-r5r-a1764f352cd653b946aa4932836d9833.jpg",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_04_20_PM-scaled-copy-2026-10-20-r5r-a1764f352cd653b946aa4932836d9833.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_04_50_PM-scaled-copy-2026-10-20-0b2-5193a73c64f68246630c1ae3ad43cce1.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_04_27_PM-scaled-copy-2026-10-20-0cy-5df114b463a72c7f1603de733a2d8bc2.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_14_46_PM-scaled-copy-2026-10-20-wrw-4611fbb7c074df90f422a8cd96c1794d.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_13_46_PM-scaled-copy-2026-10-20-od5-0155708ac0a62c4440f04b91da4450d1.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_11_03_PM-scaled-copy-2026-10-20-xkc-f738249ba6f00f4a2fec403539fd8d52.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/Photo_Oct_19_2026_12_09_19_PM-scaled-copy-2026-10-20-y2g-33cfe5823e0cc8c042716c7163f5dda5.jpg"
+      ],
+      "condition": [
+        "Refurbished 2025, repainted green",
+        "383 stroker, ProMaxx aluminum heads, Holley carb",
+        "4in lift, 35in tires on 17in American Racing wheels",
+        "Front discs, new master cylinder/calipers/rotors Sept 2026",
+        "Warn manual hubs, gooseneck + receiver hitch, spray-in bedliner",
+        "Missouri title, no reserve, dealer ($200 doc fee)"
+      ],
+      "redFlags": "K20 3/4-ton, not a K10 (stiffer ride, 8-lug). Mileage TMU. Fresh paint can hide rust repair, so ask for underside and cab corner photos. Dealer flip acquired in 2026.",
+      "notes": "No-reserve BaT auction from a Washington dealer. Built driver/worker rather than a stock restoration.",
+      "valueRating": "fair",
+      "firstSeen": "2026-10-24T13:09:41-07:00",
+      "id": "k10-118"
     }
   ],
   "comps": [
