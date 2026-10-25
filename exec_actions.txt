@@ -1,0 +1,7 @@
+# K10 alert run 2026-10-25 AM (Arizona time): merge_listings.py args
+# --remove: none. Every tracked non-Facebook listing that could be checked is still live.
+#   Unchecked: k10-105 (carsforsale.com showed a 'check the box' bot wall) and all Facebook listings (the browser agent covers those).
+# --sold: none. No tracked auction has ended yet; the earliest, k10-69, ends Oct 26 12:36 PM.
+#
+# Suggested command:
+# python3 merge_listings.py new_exec.json --dry-run
