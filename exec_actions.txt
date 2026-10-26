@@ -1,7 +1,28 @@
-# K10 alert run 2026-10-25 AM (Arizona time): merge_listings.py args
-# --remove: none. Every tracked non-Facebook listing that could be checked is still live.
-#   Unchecked: k10-105 (carsforsale.com showed a 'check the box' bot wall) and all Facebook listings (the browser agent covers those).
-# --sold: none. No tracked auction has ended yet; the earliest, k10-69, ends Oct 26 12:36 PM.
-#
-# Suggested command:
-# python3 merge_listings.py new_exec.json --dry-run
+# K10 sweep exec actions - Mon 2026-10-26 ~08:20 MST (UTC-7)
+# Nothing was published. listings.json and the seen file were not edited.
+
+## Suggested --remove args
+# None. Every tracked non-FB/eBay/Hemmings listing that was checked is still live.
+
+## Suggested --sold args
+# None yet. Two BaT auctions end today after this run:
+#   k10-69 1975 K10 (bid $10,000), ends 12:36 PM MST
+#   k10-77 1970 K20 (bid $11,500), ends 12:58 PM MST
+# After they close, use --sold <url>=<hammer> if sold. If reserve not met, let the
+# auto-remove handle it (2h after auctionEnd) or --remove:
+#   --sold https://bringatrailer.com/listing/1975-chevrolet-k10-pickup-12/=PRICE
+#   --sold https://bringatrailer.com/listing/1970-chevrolet-k20-pickup-10/=PRICE
+
+## Batch
+# new_exec.json: adds 1 (1980 K10 Custom Deluxe, Fourbie/Salem Autosports, $19,995)
+#   updates BaT bids: k10-69 10000, k10-77 11500, k10-106 5000, k10-120 9100
+#   comps +2: BaT 1972 C10 4x4 conversion $19,500 (10/23), Hagerty 1977 GMC K1500 4-spd $21,935 (7/15)
+# Dry run: added 1 (k10-130), updated 4, removed 0 -> 120 active, 17 comps
+
+## Unchecked / partial sites
+# Gateway Classic Cars (incl. Scottsdale): direct site 403/timeout. Only covered indirectly through ClassicCars.com cross-posts.
+# Barrett-Jackson 2027 Scottsdale docket: page renders no lots via fetch (JS). No K-series lots found in search index. Unverified.
+# Volo: inventory shows a "1972 Chevrolet K10" card with no price/stock in fetched text; detail not opened.
+# Streetside 4983-PHX (GMC, TBI 5.7/700R4 4x4): status/price not resolved.
+# Unique Classic Cars k10-101: card says 60,761 mi, detail page says 25,243 mi (unresolved).
+# Skipped by design: Facebook Marketplace, eBay, Hemmings, Classic.com, Cars & Bids, Mecum.
