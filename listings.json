@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T08:26:46-07:00",
+  "updated": "2026-10-27T13:16:36-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -4604,7 +4604,7 @@
       "trim": "Custom Deluxe 4x4 (383 stroker)",
       "engine": "383ci stroker V8, Holley Sniper EFI",
       "transmission": "3-speed automatic",
-      "price": 10000,
+      "price": 10250,
       "priceType": "bid",
       "auctionEnd": "2026-10-31T11:30:00-07:00",
       "mileage": null,
@@ -5347,7 +5347,7 @@
         "headers"
       ],
       "redFlags": "VIN 1GCDR14H5HF310988 decodes as R10 2WD. The dealer says it started as a V10 and was moved to 8-lug 3/4-ton axles, so this is not a factory half-ton 4x4. Wiring needs cleanup, some gauges don't work, the late-model seat isn't installed properly, and it needs a bedliner.",
-      "notes": "Davis stock 87C0988T, listed as COMING SOON. Dealer says it appears to have no rust underneath. Not on the davis4x4.com page yet.",
+      "notes": "Davis stock 87C0988T, listed as COMING SOON. Dealer says it appears to have no rust underneath. Not on the davis4x4.com page yet. Update 10/27 1 PM: now also on davis4x4.com Squarebody page, where it's titled \"1987 Chevrolet V20 Squarebody 4x4 COMING SOON\" (davisautosales.com still says R10); same $34,800 on both sites.",
       "valueRating": "pricey",
       "firstSeen": "2026-10-26T13:20:47-07:00",
       "id": "k10-136"
