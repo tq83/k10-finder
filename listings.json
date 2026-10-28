@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T08:33:06-07:00",
+  "updated": "2026-10-28T08:36:36-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -1063,56 +1063,6 @@
       "valueRating": "pricey",
       "firstSeen": "2026-10-17T18:21:04-07:00",
       "id": "k10-35"
-    },
-    {
-      "year": 1987,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Long Bed 4x4 (V10)",
-      "engine": "350 V8, EFI",
-      "transmission": "700R4 4-speed automatic",
-      "price": 29995,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "16,901 shown, mileage type unknown",
-      "location": "Concord, NC",
-      "state": "NC",
-      "lat": 35.4088,
-      "lng": -80.5795,
-      "source": "Streetside Classics",
-      "url": "https://www.streetsideclassics.com/vehicles/10065-cha/1987-chevrolet-k10-4x4",
-      "imageUrl": "https://cdn.dealeraccelerate.com/streetside/3/51087/4674641/1920x1440/1987-chevrolet-k10-4x4",
-      "imageUrls": [
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674641/1920x1440/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674639/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674638/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674529/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674640/1920x1440/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674537/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674538/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674539/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674541/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674543/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674611/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674612/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674615/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674614/1920x1440/w/1987-chevrolet-k10-4x4",
-        "https://cdn.dealeraccelerate.com/streetside/3/51087/4674616/1920x1440/w/1987-chevrolet-k10-4x4"
-      ],
-      "condition": [
-        "long bed",
-        "lift",
-        "cold A/C",
-        "refreshed interior",
-        "bedliner",
-        "dealer"
-      ],
-      "redFlags": "Long bed (usually worth less than a short bed). Mileage type unknown.",
-      "notes": "Streetside Charlotte. Red over red vinyl. Listed since about Sep 16.",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-17T18:21:04-07:00",
-      "id": "k10-36"
     },
     {
       "year": 1970,
@@ -6631,6 +6581,17 @@
       "url": "https://www.streetsideclassics.com/vehicles/5085-phx/1976-gmc-k-15-4x4",
       "reason": "removed (gone/sold elsewhere)",
       "removedAt": "2026-10-28T08:33:06-07:00"
+    },
+    {
+      "id": "k10-36",
+      "year": 1987,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Long Bed 4x4 (V10)",
+      "lastPrice": 29995,
+      "url": "https://www.streetsideclassics.com/vehicles/10065-cha/1987-chevrolet-k10-4x4",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-10-28T08:36:36-07:00"
     }
   ]
 }
