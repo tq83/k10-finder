@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T13:16:36-07:00",
+  "updated": "2026-10-27T18:07:15-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -4032,7 +4032,7 @@
       "trim": "Sierra Classic 4x4",
       "engine": "5.7L (350ci) V8, overhauled ~5 yrs ago (Edelbrock 4-bbl, headers)",
       "transmission": "3-speed automatic, dual-range transfer case (both overhauled)",
-      "price": 5600,
+      "price": 6000,
       "priceType": "bid",
       "auctionEnd": "2026-10-30T14:28:00-07:00",
       "mileage": null,
@@ -6066,6 +6066,51 @@
       "valueRating": "fair",
       "firstSeen": "2026-10-27T08:26:46-07:00",
       "id": "k10-152"
+    },
+    {
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "Silverado 4x4 (lifted, ZZ4) - No Reserve",
+      "engine": "ZZ4 350 V8 (crate swap), Edelbrock intake, headers, MSD",
+      "transmission": "Retrofitted 4-speed automatic, dual-range transfer case, locking rear diff",
+      "price": 1986,
+      "priceType": "bid",
+      "auctionEnd": "2026-11-03T14:07:00-07:00",
+      "mileage": null,
+      "mileageNote": "7k shown on 5-digit odometer, TMU; Carfax shows 100k+ readings since 1998",
+      "location": "Lakewood, WA",
+      "state": "WA",
+      "lat": 47.17,
+      "lng": -122.52,
+      "source": "Bring a Trailer (dealer, no reserve)",
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k20-pickup-17/",
+      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8328-scaled-637bad2b9b9f48aec26dc294a8805c36.jpg",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8328-scaled-637bad2b9b9f48aec26dc294a8805c36.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8268-scaled-2e1f9fb9356a28fbb0d31a51a5e4e442.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8269-scaled-b83a91ef88dc38f1753c39a1a72503fd.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8287-scaled-414cb93f0d8597d59844961c554ba42a.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8288-scaled-4d2c084a3a7b388791a1ceba2771f8a9.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8290-scaled-6886c1d4afc3ae1522f3dcf3699f96ad.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8291-scaled-738b4f8426a13e41e1443b7913c1d35f.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_8292-scaled-25037182f1122d7ab99b6b28ceab2e13.jpg"
+      ],
+      "condition": [
+        "3/4-ton K20",
+        "repainted red",
+        "lifted",
+        "ZZ4 crate 350",
+        "SnugTop cap",
+        "clean Carfax",
+        "WA title",
+        "no reserve"
+      ],
+      "redFlags": "K20 3/4-ton, not a K10. Mileage unknown (TMU). Older repaint, date unknown. Retrimmed seat. Bed cap lock doesn't work and the rear-window lift struts are broken. Modified: cowl hood, billet grille, MOMO wheel.",
+      "notes": "VIN 1GCGK24M3GS149194. Dealer-listed (seller ADVENTURE50), lot #272078. Apple Red originally, 315/75 BFG KO2s on 16in Ion wheels, Warn hubs.",
+      "valueRating": "fair",
+      "firstSeen": "2026-10-27T18:07:15-07:00",
+      "id": "k10-153"
     }
   ],
   "comps": [
