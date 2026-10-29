@@ -2631,8 +2631,8 @@
         "stock interior"
       ],
       "redFlags": "Built truck, not original: 454 swap (VIN shows a small block), built TH350, Moser axles. Description doesn't mention A/C. Nebraska truck: check for rust.",
-      "notes": "VIN 1GCEK14H5CS143119, stock C4891A. Gray over blue cloth. Holley carb, MSD ignition, Hooker headers, 3in stainless exhaust. New suspension and driveline (under 50 miles). Mickey Thompson 35x12.5x15s. Also on eBay (item 307242531343) at $38,897 (says fresh 468 BB, 4in BDS lift, Eaton lockers); dealer site still $38,989.",
-      "valueRating": "fair",
+      "notes": "VIN 1GCEK14H5CS143119, stock C4891A. Gray over blue cloth. Holley carb, MSD ignition, Hooker headers, 3in stainless exhaust. New suspension and driveline (under 50 miles). Mickey Thompson 35x12.5x15s. Also on eBay (item 307242531343) at $38,897 (says fresh 468 BB, 4in BDS lift, Eaton lockers); dealer site still $38,989. Relisted on eBay 10/28 as item 307254026882 (https://www.ebay.com/itm/307254026882) at $38,897 or Best Offer.",
+      "valueRating": "pricey",
       "firstSeen": "2026-10-19T18:21:30-07:00",
       "id": "k10-75"
     },
@@ -6212,42 +6212,6 @@
       "valueRating": "pricey",
       "firstSeen": "2026-10-29T08:22:35-07:00",
       "id": "k10-161"
-    },
-    {
-      "year": 1982,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Regular Cab Short Bed 4x4 'Big Block'",
-      "engine": "Big block V8 (per title; size unconfirmed - dealer's earlier listings say 454/468 swap)",
-      "transmission": "Automatic",
-      "price": 38897,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "Search page shows 109k; detail page mileage unconfirmed",
-      "location": "Plattsmouth, NE",
-      "state": "NE",
-      "lat": 41.0114,
-      "lng": -95.8822,
-      "source": "eBay Motors (Henry-Hobscheidt Motors, dealer; BIN/Best Offer)",
-      "url": "https://www.ebay.com/itm/307254026882",
-      "imageUrl": "https://i.ebayimg.com/images/g/pl4AAeSwqfVqIR2d/s-l500.webp",
-      "imageUrls": [
-        "https://i.ebayimg.com/images/g/pl4AAeSwqfVqIR2d/s-l500.webp",
-        "https://i.ebayimg.com/images/g/suMAAeSwfppqIR2d/s-l500.webp",
-        "https://i.ebayimg.com/images/g/j6AAAeSw5ShqIR2d/s-l500.webp",
-        "https://i.ebayimg.com/images/g/lJQAAeSwJatqIR2d/s-l500.webp"
-      ],
-      "condition": [
-        "clean title (per listing)",
-        "big block swap",
-        "dealer"
-      ],
-      "redFlags": "Very likely the SAME truck as k10-75 (Henry-Hobscheidt dealer listing henryhobmotors.com/vdp/23795547, VIN 1GCEK14H5CS143119, same 109k and same $38,897 eBay price) relisted under a new eBay item number. Built truck, engine not original. Nebraska truck: check for rust.",
-      "notes": "$38,897 or Best Offer. Listed on eBay Oct 28, 2026. eBay detail page blocked our fetch, so engine size and mileage not confirmed from the page.",
-      "valueRating": "pricey",
-      "firstSeen": "2026-10-29T08:22:35-07:00",
-      "id": "k10-162"
     }
   ],
   "comps": [
@@ -6696,6 +6660,11 @@
       "url": "https://bringatrailer.com/listing/1973-chevrolet-k10-pickup-7/",
       "reason": "sold $27000",
       "removedAt": "2026-10-29T08:22:35-07:00"
+    },
+    {
+      "url": "https://www.ebay.com/itm/307254026882",
+      "id": "k10-162",
+      "reason": "duplicate of k10-75 (relist)"
     }
   ]
 }
