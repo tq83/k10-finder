@@ -1,0 +1,14 @@
+# Oct 29 8 AM non-browser sweep - planned merge args (NOT run for real; dry-run only)
+# Batch: /workspace/k10-dashboard/new.json  (4 new: BaT 1985 GMC K1500-9, BaT 1985 K20-14, BaT 1975 K10/K20-5, CC 2121762 1975 K20;
+#   updates: bids k10-106/120/153 (+118 unchanged), CC 2119773 price 29,900->30,175, k10-07 pending note)
+python3 merge_listings.py new.json \
+  --remove "https://www.craigslist.org/view/d/glendale-1985-gmc-high-sierra-short-bed/u4BeijzCwiJEe8Cijwqa38" \
+           "https://www.classiccardeals.com/Listing/381821/1968-GMC-K10.aspx" \
+           "https://www.davis4x4.com/vehicle-details/1978-chevrolet-k-10-squarebody-4x4-truck-e37a96b32d2e81409604926286487bef" \
+  --sold "https://bringatrailer.com/listing/1973-chevrolet-k10-pickup-7/=27000"
+# Note: BaT 1973 K10 actually sold Oct 28, 2026 ($27,000); --sold stamps the comp with today's date (Oct 29).
+# Seen-file URLs to append after publish:
+# https://bringatrailer.com/listing/1985-gmc-k1500-9/
+# https://bringatrailer.com/listing/1985-chevrolet-k20-pickup-14/
+# https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/
+# https://classiccars.com/listings/view/2121762
