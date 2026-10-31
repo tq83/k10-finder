@@ -1,0 +1,14 @@
+# Oct 31 8 AM non-browser sweep - planned merge args (NOT run for real; dry-run only)
+# Batch: /workspace/k10-dashboard/new.json  (5 new: BaT 1974 K10-5 (Phoenix), BaT 1972 K10-59, GR Auto Gallery 1977 K10 b6865-k, CC 2123245 1981 GMC K1500, Hagerty 1979 K20;
+#   updates: bids k10-120 24,000 / k10-153 5,750 / k10-158 1,100 / k10-159 12,501 (unchanged) / k10-160 30,000; k10-80 price 19,500->17,500)
+# k10-106 (BaT 1979 GMC K1500-8) ended 10/30 bid to $25,500, NOT sold -> merge auto-moves it to removed (no comp).
+python3 merge_listings.py new.json \
+  --remove "https://www.davis4x4.com/vehicle-details/1987-chevrolet-v-10-lifted-squarebody-4x4-truck-ae308427df6a85409d1ce8a3d35d3d82"
+# Seen-file URLs to append after publish:
+# https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/
+# https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/
+# https://www.grautogallery.com/vehicles/b6865-k/1977-chevrolet-k-10
+# https://classiccars.com/listings/view/2123047
+# https://classiccars.com/listings/view/2123245
+# https://www.hagerty.com/marketplace/auction/1979-Chevrolet-K20/d6b31c7a-cb3e-447e-b133-8b82098f54ab
+# https://www.craigslist.org/view/d/prescott-1983-chevrolet-k30/6Z3EZmYMvJ8cvzbo2HLAPC   (reported FYI only, not on dashboard)
