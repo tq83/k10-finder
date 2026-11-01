@@ -1,0 +1,18 @@
+# Nov 1 8 AM non-browser sweep - planned merge args (NOT run for real; dry-run only, passed)
+# Batch: /workspace/k10-dashboard/new.json
+#   new (1): BaT 1986 K10 Silverado 4x4 (1986-chevrolet-k10-pickup-31), bid $14,444, ends 11/7 11:32 AM MST
+#   bid refresh: k10-153 $10,000 / k10-158 $5,555 / k10-159 $12,501 (no change) / k10-160 $30,000 (no change) / k10-168 $2,100 / k10-169 $20,000 (no change) / k10-172 Hagerty $2,650 (no change); end times unchanged
+#   dealer price changes: k10-72 37,050->34,950; k10-102 38,050->37,550; k10-103 38,050->37,550; k10-104 48,550->47,550 (B&B); k10-143 42,000->39,000 (Fourbie); k10-31 45,900->46,110 (CC)
+# --sold: k10-120 BaT 1986 K10 383 stroker sold $37,500 on 10/31/26 (ended 11:42 AM MST)
+# --remove: k10-35 CC 2118529 1985 GMC K1500 (PC Classic Cars) - shows on PC Classic Cars' own Sold Cars page (stock 504244); CC ad still up
+# Dry run: added 1 (k10-175), updated 9, removed 2 -> 145 active, 20 comps
+python3 merge_listings.py new.json \
+  --remove "https://classiccars.com/listings/view/2118529" \
+  --sold "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-30/=37500"
+# then: ./publish.sh "Alert run Nov 1 8AM"
+# Seen-file URLs to append after publish:
+# https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/
+# https://www.hagerty.com/marketplace/classified/1977-Chevrolet-K10-shortbed/e19291a7-c8f8-4a51-ac31-b8aa27aba652   (FYI only, $7,000 ask, below range)
+# https://www.fourbieexchange.com/listing/1972-chevrolet-k10-custom-deluxe   (cross-post of k10-103)
+# https://www.fourbieexchange.com/listing/1987-chevrolet-v10-shortbox-4x4   (cross-post of k10-71)
+# https://www.fourbieexchange.com/listing/1986-chevrolet-k20-1   (FYI only, $6,950 B&B driving project)

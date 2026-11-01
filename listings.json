@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T08:25:14-07:00",
+  "updated": "2026-11-01T08:24:11-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -830,7 +830,7 @@
       "trim": "Short Bed 4x4 (frame-off, LS swap)",
       "engine": "5.3L LS V8 swap",
       "transmission": "700R4 4-speed automatic (rebuilt)",
-      "price": 45900,
+      "price": 46110,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -868,7 +868,7 @@
         "dealer"
       ],
       "redFlags": "Modified (LS swap, digital dash). Ask for build records. 3.5% fee if paying by card.",
-      "notes": "GR Auto Gallery (Metro Detroit store). Blue/white two-tone, 4in lift, aluminum radiator, chrome bumpers.",
+      "notes": "GR Auto Gallery (Metro Detroit store). Blue/white two-tone, 4in lift, aluminum radiator, chrome bumpers. Price raised 11/1 from $45,900 to $46,110 on ClassicCars.com (Hemmings shows $46,110 too).",
       "valueRating": "fair",
       "firstSeen": "2026-10-17T18:21:04-07:00",
       "id": "k10-31"
@@ -1013,56 +1013,6 @@
       "valueRating": "fair",
       "firstSeen": "2026-10-17T18:21:04-07:00",
       "id": "k10-34"
-    },
-    {
-      "year": 1985,
-      "make": "GMC",
-      "model": "K1500",
-      "trim": "Sierra Classic 4x4",
-      "engine": "350 (5.7) V8, Edelbrock carb",
-      "transmission": "TH350 3-speed automatic",
-      "price": 39950,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": 47747,
-      "mileageNote": "47,747, believed actual",
-      "location": "Sherman, TX",
-      "state": "TX",
-      "lat": 33.6357,
-      "lng": -96.6089,
-      "source": "ClassicCars.com",
-      "url": "https://classiccars.com/listings/view/2118529",
-      "imageUrl": "https://photos.classiccars.com/cc-temp/listing/211/8529/61764558-1985-gmc-c-k-10-std.jpg",
-      "imageUrls": [
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764558-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764559-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764560-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764561-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764562-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764563-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764564-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764565-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764566-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764567-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764568-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764569-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764570-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764571-1985-gmc-c-k-10-std.jpg",
-        "https://photos.classiccars.com/cc-temp/listing/211/8529/61764572-1985-gmc-c-k-10-std.jpg"
-      ],
-      "condition": [
-        "factory A/C (cold)",
-        "manual hubs",
-        "dual tanks",
-        "solid underneath",
-        "clear title",
-        "dealer"
-      ],
-      "redFlags": "",
-      "notes": "PC Classic Cars. Apple Red over charcoal. Floor-shift transfer case, quad front shocks, 31in tires, power windows and locks. VIN 1GTEK14L8FJ504244.",
-      "valueRating": "pricey",
-      "firstSeen": "2026-10-17T18:21:04-07:00",
-      "id": "k10-35"
     },
     {
       "year": 1970,
@@ -2446,7 +2396,7 @@
       "trim": "Sierra 4x4 (6in lift, 3/4-ton axles, 35s)",
       "engine": "Crate 350 V8",
       "transmission": "4-speed automatic (overdrive)",
-      "price": 37050,
+      "price": 34950,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -2484,7 +2434,7 @@
         "crate engine"
       ],
       "redFlags": "Heavily modified: 3/4-ton axles, 6in lift, 315/75R16 tires, brush guard and light bar. Mileage unknown (placeholder). Dealer says the underside is clean with no rust, but it's a northern truck, so verify. As-is.",
-      "notes": "VIN 1GTEK14H2FJ504641, stock 14365. Red over red. Headers and dual exhaust, tonneau cover, spray-in liner.",
+      "notes": "VIN 1GTEK14H2FJ504641, stock 14365. Red over red. Headers and dual exhaust, tonneau cover, spray-in liner. Price cut 11/1 from $37,050 to $34,950 (sale price incl. $50 doc fee).",
       "valueRating": "pricey",
       "firstSeen": "2026-10-19T18:21:30-07:00",
       "id": "k10-72"
@@ -3591,7 +3541,7 @@
       "trim": "Stepside short bed 4x4",
       "engine": "350 V8",
       "transmission": "4-speed manual",
-      "price": 38050,
+      "price": 37550,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -3628,7 +3578,7 @@
         "horn inop"
       ],
       "redFlags": "Horn doesn't work. The site's spec field says \"RWD\", but the description and VIN (KE140) both show a K10 4WD. Mileage not stated.",
-      "notes": "Green Wyoming truck, VIN KE140J140403. New valve cover, oil pan and rear main seals. Price cut from $44,500. Dealer has a 3-day return policy ($1,000 restocking fee plus shipping both ways).",
+      "notes": "Green Wyoming truck, VIN KE140J140403. New valve cover, oil pan and rear main seals. Price cut from $44,500. Dealer has a 3-day return policy ($1,000 restocking fee plus shipping both ways). Price cut 11/1 from $38,050 to $37,550 (sale price incl. $50 doc fee).",
       "valueRating": "fair",
       "firstSeen": "2026-10-23T08:21:41-07:00",
       "id": "k10-102"
@@ -3640,7 +3590,7 @@
       "trim": "Short bed 4x4",
       "engine": "350 V8 with FiTech EFI",
       "transmission": "Automatic",
-      "price": 38050,
+      "price": 37550,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -3677,7 +3627,7 @@
         "rust-free (per seller)"
       ],
       "redFlags": "The original bed was replaced with a new-style fiberglass box, which hurts originality and resale.",
-      "notes": "Real 115\" short-box K10 with its RPO sticker, VIN CKE142S107176, from western SD. New steering box, front U-joints and seals. Price cut from $44,500.",
+      "notes": "Real 115\" short-box K10 with its RPO sticker, VIN CKE142S107176, from western SD. New steering box, front U-joints and seals. Price cut from $44,500. Price cut 11/1 from $38,050 to $37,550 (sale price incl. $50 doc fee). Also cross-listed on Fourbie Exchange at the same $37,550.",
       "valueRating": "fair",
       "firstSeen": "2026-10-23T08:21:41-07:00",
       "id": "k10-103"
@@ -3689,7 +3639,7 @@
       "trim": "Sierra short bed 4x4 (restored)",
       "engine": "350 V8",
       "transmission": "Turbo 350 automatic",
-      "price": 48550,
+      "price": 47550,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -3726,7 +3676,7 @@
         "horn inop"
       ],
       "redFlags": "Horn doesn't work. Aftermarket gauges and stereo. Priced at the top of the budget.",
-      "notes": "Brown metallic Washington truck with a real 115\" short box (RPO sticker), VIN KE134Z121881. New steering gear, alignment done. Price cut from $49,500.",
+      "notes": "Brown metallic Washington truck with a real 115\" short box (RPO sticker), VIN KE134Z121881. New steering gear, alignment done. Price cut from $49,500. Price cut 11/1 from $48,550 to $47,550 (sale price incl. $50 doc fee).",
       "valueRating": "pricey",
       "firstSeen": "2026-10-23T08:21:41-07:00",
       "id": "k10-104"
@@ -4253,58 +4203,6 @@
       "valueRating": "fair",
       "firstSeen": "2026-10-24T18:12:14-07:00",
       "id": "k10-119"
-    },
-    {
-      "year": 1986,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Custom Deluxe 4x4 (383 stroker)",
-      "engine": "383ci stroker V8, Holley Sniper EFI",
-      "transmission": "3-speed automatic",
-      "price": 24000,
-      "priceType": "bid",
-      "auctionEnd": "2026-10-31T11:30:00-07:00",
-      "mileage": null,
-      "mileageNote": "37k shown, TMU (Carfax shows a possible rollover in 1997 and a mileage inconsistency in 2026; title has a 'Prior State' odometer brand)",
-      "location": "Culpeper, VA",
-      "state": "VA",
-      "lat": 38.4732,
-      "lng": -77.9967,
-      "source": "Bring a Trailer",
-      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-30/",
-      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131029404_iOS-71170-scaled.jpg",
-      "imageUrls": [
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131029404_iOS-71170-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131032845_iOS-71174-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131037871_iOS-71178-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131110240_iOS-71190-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131631000_iOS-71309-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131112982_iOS-71194-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_131106483_iOS-71186-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132412323_iOS-71128-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132531993_iOS-71146-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132540133_iOS-71154-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132512243_iOS-71133-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132516517_iOS-71137-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132525244_iOS-71141-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132354114_iOS-71453-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1986_chevrolet_k10-pickup_20261008_132333938_iOS-71441-scaled.jpg"
-      ],
-      "condition": [
-        "383 stroker",
-        "Sniper EFI",
-        "Rough Country lift, 33in tires",
-        "repainted 2022 (light blue metallic)",
-        "Classic Auto Air",
-        "accident-free Carfax",
-        "Virginia title",
-        "dealer"
-      ],
-      "redFlags": "TMU, and the title carries a 'Prior State' odometer brand. Custom engine build with no stated break-in or dyno info.",
-      "notes": "Dealer seller (btm088). Build receipts included. Manual locking hubs, CalTracs, power windows (Nu-Relics).",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-24T18:12:14-07:00",
-      "id": "k10-120"
     },
     {
       "year": 1976,
@@ -5176,7 +5074,7 @@
       "trim": "Scottsdale short bed 4x4",
       "engine": "350 V8 rebuilt (Comp cam, Edelbrock)",
       "transmission": "SM465 4-speed manual, NP205",
-      "price": 42000,
+      "price": 39000,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": 79,
@@ -5216,7 +5114,7 @@
         "receipts"
       ],
       "redFlags": "TMU (only post-restoration miles shown). Upload id 3481 suggests an older listing, so it may be stale; confirm it's still available. Lifted on 35s, so not stock.",
-      "notes": "VIN CKL149F371442. Documented frame-off with floor metalwork and Ospho rust treatment, Raptor-lined short bed, two receipt books. Clean title.",
+      "notes": "VIN CKL149F371442. Documented frame-off with floor metalwork and Ospho rust treatment, Raptor-lined short bed, two receipt books. Clean title. Price cut 11/1 from $42,000 to $39,000 (Fourbie, now FEATURED).",
       "valueRating": "fair",
       "firstSeen": "2026-10-27T08:26:46-07:00",
       "id": "k10-143"
@@ -5634,7 +5532,7 @@
       "trim": "Silverado 4x4 (lifted, ZZ4) - No Reserve",
       "engine": "ZZ4 350 V8 (crate swap), Edelbrock intake, headers, MSD",
       "transmission": "Retrofitted 4-speed automatic, dual-range transfer case, locking rear diff",
-      "price": 5750,
+      "price": 10000,
       "priceType": "bid",
       "auctionEnd": "2026-11-03T14:07:00-07:00",
       "mileage": null,
@@ -5866,7 +5764,7 @@
       "trim": "Sierra Classic 4x4 (two-tone Doeskin Tan/Dark Chestnut)",
       "engine": "Replacement GM Goodwrench 5.7L (350) V8, Edelbrock carb",
       "transmission": "4-speed automatic (700R4), dual-range transfer case",
-      "price": 1100,
+      "price": 5555,
       "priceType": "bid",
       "auctionEnd": "2026-11-04T11:50:00-07:00",
       "mileage": null,
@@ -6305,7 +6203,7 @@
       "trim": "Custom Deluxe 4x4, original owner, camper shell (NO RESERVE)",
       "engine": "350 V8 (installed early 2000s), electronic port fuel injection with Ram Jet intake",
       "transmission": "4-speed manual, dual-range transfer case",
-      "price": 1974,
+      "price": 2100,
       "priceType": "bid",
       "auctionEnd": "2026-11-06T12:14:00-07:00",
       "mileage": null,
@@ -6615,6 +6513,56 @@
       "valueRating": "pricey",
       "firstSeen": "2026-10-31T08:25:14-07:00",
       "id": "k10-174"
+    },
+    {
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4 Pickup (350 crate V8)",
+      "engine": "350ci crate V8 (installed 2006, heads rebuilt 2024), Holley carb, long-tube headers",
+      "transmission": "4-speed automatic, dual-range transfer case, locking rear diff",
+      "price": 14444,
+      "priceType": "bid",
+      "auctionEnd": "2026-11-07T11:32:00-07:00",
+      "mileage": null,
+      "mileageNote": "2,100 shown on a rolled-over 5-digit odometer; Carfax shows mileage inconsistencies (8/2025, 7/2026). True miles unknown (TMU)",
+      "location": "Richmond, KY 40475",
+      "state": "KY",
+      "lat": 37.7479,
+      "lng": -84.2947,
+      "source": "Bring a Trailer (private party)",
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/",
+      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4398-scaled-e0b5dbadcb98f9690df4a78cf397ed2a.jpg",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4398-scaled-e0b5dbadcb98f9690df4a78cf397ed2a.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4106-scaled-17000.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4390-scaled-167336ecdd2c17eb14cde4b32bd1e6fc.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4391-scaled-ca1fb371bef07d2e03b668abcd0f97bc.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4132-scaled-17035.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4131-scaled-16679.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4392-scaled-4c9a95eac580f7a9d6dd5779d1fb364b.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4130-scaled-17034.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4129-scaled-16678.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4123-scaled-17031.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4122-scaled-17033.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4393-scaled-702af962a94fa897867e529e2d9fa519.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4394-scaled-e47185fd07c5ab49893294f61b9fce33.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4119-scaled-17032.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4397-scaled-03928bd51aabd0f8271b73abf9e90fec.jpg"
+      ],
+      "condition": [
+        "Repainted (Apple Red, early 2000s)",
+        "Replaced rockers & quarters",
+        "Crate 350 swap",
+        "A/C",
+        "Power windows/locks",
+        "Clean KY title"
+      ],
+      "redFlags": "Carfax damage entry (March 2004). Rocker and quarter panels replaced during the early-2000s repaint, so look closely for filler and rust. Driver-side fuel tank removed. Factory battery and oil-pressure gauges don't work. Wheel spacers. Mileage unknown.",
+      "notes": "Lot #272876, seller Hutch65, VIN 2GCEK14H5G1107419. Red over burgundy cloth, 15in Rally wheels on 32in Falken Wildpeaks, manual hubs, removed tonneau cover included, handwritten service notes. 510 watchers early. Comp: BaT 1986 K10 Custom Deluxe 383 stroker sold $37,500 on 10/31/26.",
+      "valueRating": "fair",
+      "firstSeen": "2026-11-01T08:24:11-07:00",
+      "id": "k10-175"
     }
   ],
   "comps": [
@@ -6807,6 +6755,16 @@
       "mileageNote": "72k shown, true mileage unknown (TMU)",
       "source": "Bring a Trailer",
       "url": "https://bringatrailer.com/listing/1978-chevrolet-k20-pickup-12/"
+    },
+    {
+      "year": 1986,
+      "trim": "K10 Custom Deluxe 4x4 (383 stroker)",
+      "soldPrice": 37500,
+      "soldDate": "2026-11-01",
+      "mileage": null,
+      "mileageNote": "37k shown, TMU (Carfax shows a possible rollover in 1997 and a mileage inconsistency in 2026; title has a 'Prior State' odometer brand)",
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-30/"
     }
   ],
   "removed": [
@@ -7111,6 +7069,28 @@
       "url": "https://bringatrailer.com/listing/1979-gmc-k1500-8/",
       "reason": "auction ended",
       "removedAt": "2026-10-31T08:25:14-07:00"
+    },
+    {
+      "id": "k10-35",
+      "year": 1985,
+      "make": "GMC",
+      "model": "K1500",
+      "trim": "Sierra Classic 4x4",
+      "lastPrice": 39950,
+      "url": "https://classiccars.com/listings/view/2118529",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-01T08:24:11-07:00"
+    },
+    {
+      "id": "k10-120",
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Custom Deluxe 4x4 (383 stroker)",
+      "lastPrice": 24000,
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-30/",
+      "reason": "sold $37500",
+      "removedAt": "2026-11-01T08:24:11-07:00"
     }
   ]
 }
