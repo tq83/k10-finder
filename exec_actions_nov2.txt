@@ -1,0 +1,90 @@
+# K10 sweep exec actions - Mon 2026-11-02 ~08:15-09:10 MST (Arizona, UTC-7). Non-browser sweep.
+# Nothing was published. listings.json and the seen file were NOT edited.
+# Batch: /workspace/k10-dashboard/new_exec.json
+# Dry run (passed): added 11 (k10-176..186), updated 6 (k10-153, 158, 175 bids; k10-137, k10-80 price cuts; k10-59 red flag), removed 0 -> 156 active, 20 comps
+
+## Proposed merge command (no --remove / --sold this run)
+python3 merge_listings.py new_exec.json
+# then: ./publish.sh "Alert run Nov 2 8AM"
+
+## --sold: none. No tracked BaT/Hagerty auction ended between Nov 1 8 AM and this run.
+#   Next closings (MST): k10-153 Tue 11/3 2:07 PM ($11,500); k10-158 Wed 11/4 11:50 AM ($5,750);
+#   k10-159 Wed 11/4 12:15 PM ($12,501); k10-160 Thu 11/5 11:28 AM ($30,000);
+#   k10-168 Fri 11/6 12:14 PM ($2,100); k10-169 Fri 11/6 2:00 PM ($20,000);
+#   k10-175 Sat 11/7 11:32 AM ($14,700); k10-172 Hagerty Fri 11/13 12:40 PM ($2,650)
+## --remove: none confirmed. Every tracked listing that was checked is still live.
+
+## New listings in batch (all asks; none are K10 half-tons except the 1970 GMC K1500)
+# k10-176 Hagerty 1970 Chevrolet K20 4x4, Pederson's, Sioux Falls SD, $33,900 (pricey)
+# k10-177 Hagerty 1972 K20 Fleetside LB 4x4, private, Isle of Palms SC, $39,500 OBO (pricey)
+# k10-178 Hagerty 1972 K20 Stepside 4x4, private, Smithfield UT, $45,000 (pricey)
+# k10-179 Hagerty 1972 K20 Fleetside LB 4x4 lifted, private, Valparaiso IN, $47,500 (pricey)
+# k10-180 Classic Car Deals 1975 GMC K25 LB 4x4, $21,995 (fair)
+# k10-181 Classic Car Deals 1970 GMC K1500 4x4, $41,995 (pricey)
+# k10-182 Fourbie/Salem Autosports 1979 GMC K2500 Sierra Grande, Trevor WI, $17,995 (fair)
+# k10-183 CC-2047259 1976 GMC K25 454/4-spd 8in lift, VL Classics, Strafford MO, $46,500 (pricey)
+# k10-184 CC-2114590 1983 Chevrolet K20 lifted, Garage Kept Motors, Grand Rapids MI, $36,900 (pricey)
+# k10-185 CC-2117117 1984 Chevrolet K20 short-bed conversion, REBUILD title, Ortonville MI, $35,000 OBO (pricey)
+# k10-186 CC-1985891 1970 GMC K25 frame-off, private, Valley View OH, $45,000 (pricey)
+
+## Seen-file URLs to append after publish
+https://www.hagerty.com/marketplace/classified/1970-Chevrolet-K20/0e78d508-6ca6-4eca-9c80-ac9eb173273d
+https://www.hagerty.com/marketplace/classified/1972-Chevrolet-K20/14ba6807-54a4-4ab0-9b5b-8936c4ee3073
+https://www.hagerty.com/marketplace/classified/1972-Chevrolet-K20/9c27eb99-ecf6-460f-a908-1d3550ea30cd
+https://www.hagerty.com/marketplace/classified/1972-Chevrolet-K20/c8c41384-3dd5-47c9-9bde-66cc21bd0574
+https://www.classiccardeals.com/Listing/412501/1975-GMC-K25.aspx
+https://www.classiccardeals.com/Listing/387404/1970-GMC-1500.aspx
+https://www.fourbieexchange.com/listing/1979-gmc-k2500-sierra-grande
+https://classiccars.com/listings/view/2047259
+https://classiccars.com/listings/view/2114590
+https://classiccars.com/listings/view/2117117
+https://classiccars.com/listings/view/1985891
+# FYI-only (opened; cross-posts, 2WD, out of price range, sold or no price):
+https://www.hagerty.com/marketplace/classified/1979-GMC-Sierra-Grand%201500/2bbe2ba5-8cb4-4de4-a8c6-0296b992d989
+https://www.hagerty.com/marketplace/classified/1986-GMC-K1500/4b37a4b7-b84b-4d68-8536-c102835a8abb
+https://www.fourbieexchange.com/listing/1968-chevrolet-k-10-short-bed
+https://www.fourbieexchange.com/listing/1971-chevrolet-k-10-stepside-4x4
+https://www.fourbieexchange.com/listing/1972-chevrolet-k10
+https://www.fourbieexchange.com/listing/ls-powered-1968-chevrolet-k10
+https://www.fourbieexchange.com/listing/1978-chevrolet-k10-silverado
+https://www.fourbieexchange.com/listing/1987-gmc-sierra-classic-44
+https://www.fourbieexchange.com/listing/1971-gmc-k1500-shortbox-4x4
+https://downsouthindustriesllc.com/showroom/1987-chevrolet-silverado-4x4/
+https://downsouthindustriesllc.com/showroom/1987-gmc-sierra-classic-4x4/
+https://www.bnbautosales.com/inventory/used-1987-chevrolet-v10-shortbox-4x4-1gcev14k4hs178065-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1979-gmc-k1500-shortbox-4x4-tkl149j516709-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1971-chevrolet-c-k-pickup-1500-ke141s671040-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1972-chevrolet-k10-cke142j121528-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1972-chevrolet-k2500-cke242z136461-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1973-gmc-k1500-tcy143f719486-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1986-chevrolet-k10-shortbox-4x4-1gcek14h6gf371001-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1986-chevrolet-k20-base-1gcek24l6gs115720-in-brookings-sd
+https://www.bnbautosales.com/inventory/used-1987-gmc-v1500-shortbox-4x4-1gtev14k6hs520244-in-brookings-sd
+https://www.classiccardeals.com/Listing/431099/1985-GMC-Sierra-1500.aspx
+https://www.classiccardeals.com/Listing/431398/1967-Chevrolet-K10.aspx
+https://www.classiccardeals.com/Listing/400169/1977-GMC-Sierra-Grande-15.aspx
+https://classiccars.com/listings/view/2111614
+https://classiccars.com/listings/view/2123140
+https://classiccars.com/listings/view/2121877
+https://classiccars.com/listings/view/2028070
+https://classiccars.com/listings/view/2112784
+https://classiccars.com/listings/view/2114787
+https://classiccars.com/listings/view/2121361
+https://classiccars.com/listings/view/2120001
+https://classiccars.com/listings/view/2041869
+https://classiccars.com/listings/view/2119327
+https://classiccars.com/listings/view/2104554
+https://www.craigslist.org/view/d/roseville-1978-chevrolet-k-10-classic/_jU-s3rV8RG9kNpXPHEDNg
+https://www.craigslist.org/view/d/puyallup-1983-chevrolet-k-20-4x4-4wd/iLljSLTJ8RGy8qv3FipJuA
+
+## Unchecked / partial sites
+# Blocked (403 to both WebFetch and plain curl today; there was no browser to fall back on): Streetside Classics, Unique Classic Cars,
+#   Worldwide Vintage Autos, GR Auto Gallery, Fast Lane Classic Cars, Vanguard Motor Sales, Volo, Gateway Classic Cars direct
+#   (covered only through ClassicCars.com cross-posts), Canyon State direct (checked its classic.com dealer page instead: no K-series),
+#   davis4x4.com (davisautosales.com checked; no cross-site price comparison possible), Duncan Imports (k10-74), carsforsale.com (k10-105).
+#   Tracked listings at those dealers were not re-verified today.
+# Hagerty: only the K10/K20/C10/GMC make-model search pages were reviewed.
+# Barrett-Jackson 2027 Scottsdale: auctions page still shows "View docket (Coming soon)". No lots posted yet.
+# Classic Car Deals: inventory pagination repeated/capped (~802 unique URLs scanned). Every tracked CCD URL was opened directly
+#   (all live, no price changes).
+# Skipped by design: Facebook Marketplace, eBay, Hemmings, Classic.com search, Cars & Bids, Mecum.
