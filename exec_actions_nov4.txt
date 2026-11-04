@@ -1,0 +1,52 @@
+# K10 exec run - Wed Nov 4, 2026, ~8:18-8:26 AM MST (Arizona)
+# Batch file: new_exec_nov4.json (2 new listings + 7 bid refreshes + 5 note/price updates + 1 sold comp)
+# Not published; the seen list was not edited.
+
+## Proposed merge command
+python3 merge_listings.py new_exec_nov4.json --remove \
+  https://www.classiccardeals.com/Listing/405262/1979-Chevrolet-K10.aspx \
+  https://www.classiccardeals.com/Listing/321038/1976-Chevrolet-Silverado.aspx \
+  https://www.hagerty.com/marketplace/classified/1972-Chevrolet-K20/9c27eb99-ecf6-460f-a908-1d3550ea30cd \
+  https://bringatrailer.com/listing/1986-chevrolet-k20-pickup-17/
+# (note: give --remove ONCE with all URLs; repeating the flag keeps only the last one)
+# then: ./publish.sh "Alert run Nov 4 8AM"
+
+## --remove reasons
+# k10-63  CCD 1979 K10 long bed ($28,495): listing page now redirects to the CCD home/featured page (gone).
+# k10-148 CCD 1976 Silverado ($26,995): same, listing page gone.
+# k10-178 Hagerty 1972 K20 Stepside, Smithfield UT ($45,000): classified taken down ("listing": null); URL now shows only the owner's garage page with no price.
+# k10-153 BaT 1986 K20 (sold, see below): removed via --remove because the sold comp, dated 11/3, is already in the batch "comps".
+#         (Using --sold instead would stamp the comp with today's date, 11/4.)
+
+## --sold equivalent (already in batch comps, with the correct date)
+# --sold https://bringatrailer.com/listing/1986-chevrolet-k20-pickup-17/=21750
+#   ZZ4 1986 K20 Silverado, sold $21,750 on Tue 11/3 at 2:17 PM MST (34 bids, no reserve)
+
+## Bid refreshes in batch (end times unchanged, MST)
+# k10-158 BaT 1985 GMC K1500 Sierra Classic   $8,800   ends Wed 11/4 11:50 AM
+# k10-159 BaT 1985 K20 Scottsdale             $13,000  ends Wed 11/4 12:15 PM
+# k10-160 BaT 1975 K20 Silverado 454          $34,500  ends Thu 11/5 11:28 AM
+# k10-168 BaT 1974 K10 Custom Deluxe (PHX)    $2,600   ends Fri 11/6 12:14 PM
+# k10-169 BaT 1972 K10 454 4-speed            $20,000  ends Fri 11/6 2:00 PM
+# k10-175 BaT 1986 K10 Silverado              $14,700  ends Sat 11/7 11:32 AM
+# k10-172 Hagerty 1979 K20 427                $4,200   ends Fri 11/13 12:40 PM
+
+## Price changes in batch
+# k10-31 1986 K10 LS swap (GR Auto Gallery): CC $46,110 -> $40,110; GR site and Fourbie show $39,900
+# k10-59 1977 K10 (MAXmotive): CC $37,500 -> $34,995
+
+## Seen-file URLs to append after publish
+https://classiccars.com/listings/view/2123916
+https://www.fourbieexchange.com/listing/1985-chevrolet-k10-Silverado
+# FYI-only (opened; cross-posts, relists, 2WD, K20, over budget):
+https://classiccars.com/listings/view/2123933
+https://www.craigslist.org/view/d/modesto-chevrolet-c10-k10-classic/qjJ1Ldsba9Kbi9M1AtYYq3
+https://www.fourbieexchange.com/listing/1973-chevrolet-k20-cheyenne
+https://www.fourbieexchange.com/listing/1977-chevrolet-k-10
+https://www.fourbieexchange.com/listing/1986-chevrolet-k10-3
+https://www.grautogallery.com/vehicles/bw4575/1986-chevrolet-k-10
+https://www.fourbieexchange.com/listing/1976-chevrolet-k20-scottsdale-1
+https://classiccars.com/listings/view/2118366
+https://classiccars.com/listings/view/2123871
+https://classiccars.com/listings/view/2124067
+https://www.craigslist.org/view/d/sierra-vista-1982-chevy-silverado-short/ghaJeRx9JNp5GDgSgXvDNL
