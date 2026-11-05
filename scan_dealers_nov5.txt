@@ -1,0 +1,13 @@
+K10 dealer scan — Nov 5, 2026 (America/Phoenix)
+
+Checked all 18 assigned dealers plus ClassicCars.com. Nine sites blocked WebFetch with 403/timeout (Unique, Streetside, Gateway, Vanguard, Volo, Worldwide Vintage, GR Auto Gallery, Fast Lane, Canyon State direct); noted unchecked, no browser used. Live inventory confirmed at Classic Car Deals, B&B, Davis (both URLs), Bird Imports, PC Classic, Down South, Sparky's, Duc, Fourbie Exchange, and ClassicCars.com (limited search utility).
+
+NEW confirmed-active trucks in/near the $20k–$50k 4x4 band:
+1) Sparky's Machines (Loganville, GA) — 1984 Chevy K10 Silverado 4x4, $29,900. Loaded Silverado with cold A/C, 3" lift, BFGs; mileage not listed; detail page live though not on the Our Cars index. Fair.
+2) Duc Auto Collection (Miami, FL) — 1987 Chevy K10/V10 Custom Deluxe shortbed TBI 4-speed, $26,500. Verify true 4x4 (page body is thin on transfer case). Fair.
+3) Duc — 1972 K10 Cheyenne long bed 4x4 Ochre CA truck, $43,500, 400 SBC, factory A/C needs work. Fair for a long-bed 67–72.
+4) Duc — 1979 K10 Scottsdale shortbed 4x4 Cordova Brown/Camel, $16,900 (driver, minor rust, needs U-joints). Great if solid underneath.
+
+Possible RELIST: Duc also still hosts https://www.ducautocollection.com/1979-chevrolet-k10.html at $28,900 with nearly the same Cordova Brown shortbed story as the $16,900 /1979-chevy-k10.html page — treat as dual-URL / price cut until confirmed.
+
+Also noted (not in new_listings): Unique's $30,175 1986 orange long-bed K10 only visible via classic.com (Unique 403); several new CCD project trucks well under $20k; Davis coming-soon V10/V20 stock mismatches; PC Classic / Down South sold pages; B&B price cuts on already-seen URLs.

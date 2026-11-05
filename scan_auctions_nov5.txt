@@ -1,0 +1,44 @@
+K10 morning auction/classified scan — Thu Nov 5, 2026 (America/Phoenix)
+========================================================================
+
+SUMMARY
+- Confirmed NEW active listings in ~$20k-$50k: 1
+- Active BaT relists (already in seen): 3
+- Specialty Cars 1987 K10 $32,900 Latrobe PA: SOLD (not active)
+- MaxFindsCars 1973 K10 Cheyenne ~$17,750: STALE — BaT sold $27,000 on 2026-10-28
+- Cars & Bids: 0 live K10 auctions
+- Barrett-Jackson 2027 Scottsdale: docket Coming soon / Cloudflare blocked confirmation
+- Mecum Kissimmee 2027: Coming soon / JS-heavy; no K10 lots in static page
+
+NEW LISTINGS
+1) 1986 Chevrolet K10 Silverado 4x4 Long Bed — Pederson's Classics (Tea/Sioux Falls, SD)
+   URLs:
+     https://www.pedersonautobrokers.com/details/used-1986-chevrolet-ck-10-series/133298420
+     https://www.hagerty.com/marketplace/classified/1986-Chevrolet-K10/6aa62cd9-dca7-4d3a-ba12-7cc61951ebc9
+   Ask: $34,995 headline (body also says $29,995) — price inconsistency
+   Miles: 71,936 TMU | VIN 1GCEK14H7GJ146101 | Auto | 4WD
+   Notes: older red repaint, not restored; new 32" BFGs; dual tanks; A/C slightly cold
+   Engine conflict: copy says 350, specs list 5.0L
+   valueRating: fair
+   Images: Pederson cdn05.carsforsale.com gallery + Hagerty imgix (see JSON)
+
+RELISTS / STILL-ACTIVE (seen URLs)
+1) BaT 1975 K20/K10 Fall Guy 454 — https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/
+   Bid $50,000 (21 bids) | Ends 2026-11-05T11:28:00-07:00 | Greenacres WA | valueRating: pricey
+2) BaT 1974 K10 Ram Jet no-reserve — https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/
+   Bid $3,500 (6 bids) | Ends 2026-11-06T12:14:00-07:00 | Phoenix AZ | valueRating: watch
+3) BaT 1986 K10 Silverado 350 — https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/
+   Bid $14,700 (6 bids) | Ends 2026-11-07T11:32:00-07:00 | Richmond KY | valueRating: watch
+
+BLOCKED / NEEDS BROWSER
+- Hemmings K10 search + candidate listings (403 / title-only)
+- eBay Motors search (challenge / timeout)
+- Barrett-Jackson 2027 Scottsdale (Cloudflare)
+- Classic.com source dealer verification beyond search cards
+- Hagerty 1972 classified (504)
+
+NOT FOR SALE (opened, skipped)
+- Hagerty My Garage 1984 copper shortbed K10 (listing:null): https://www.hagerty.com/marketplace/classified/1984-chevrolet-k10/0867a54d-4b61-40ef-a45e-23e33f805500
+
+BARRETT-JACKSON: 2027 Scottsdale Jan 23-31 2027 — docket not confirmed; Coming soon
+MECUM: Kissimmee Jan 5-17 2027 — Coming soon / JS; no K10 lots confirmed

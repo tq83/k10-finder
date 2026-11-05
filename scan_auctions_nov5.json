@@ -1,0 +1,225 @@
+{
+  "checked": [
+    {
+      "site": "Bring a Trailer",
+      "url": "https://bringatrailer.com/chevrolet/ck-1973-1991/",
+      "result": "6 live C/K auctions; 3 relevant K10/K20 4x4 already in seen"
+    },
+    {
+      "site": "Bring a Trailer",
+      "url": "https://bringatrailer.com/search/?s=chevrolet+k10",
+      "result": "3 live K10-related; all previously seen URLs"
+    },
+    {
+      "site": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1973-chevrolet-k10-pickup-7/",
+      "result": "SOLD $27,000 on 2026-10-28; MaxFindsCars $17,750 bid is stale"
+    },
+    {
+      "site": "Bring a Trailer",
+      "url": "https://bringatrailer.com/gmc/ck-1973-1991/",
+      "result": "No live GMC C/K auctions visible"
+    },
+    {
+      "site": "Bring a Trailer",
+      "url": "https://bringatrailer.com/todayonbat/",
+      "result": "1975 Fall Guy K20 closing today among auctions"
+    },
+    {
+      "site": "Cars & Bids",
+      "url": "https://carsandbids.com/search?q=k10",
+      "result": "0 live auctions; only ended results"
+    },
+    {
+      "site": "Classic.com",
+      "url": "https://www.classic.com/search/?q=chevrolet+k10+4x4",
+      "result": "Aggregator search returned many dealer ads; no new source URLs confirmed via direct open"
+    },
+    {
+      "site": "Hemmings",
+      "url": "https://www.hemmings.com/classifieds/cars-for-sale/chevrolet/k10",
+      "result": "WebFetch partial titles only; curl returned HTTP 403"
+    },
+    {
+      "site": "Hagerty Marketplace",
+      "url": "https://www.hagerty.com/marketplace/chevrolet/k10",
+      "result": "Active classifieds include 1986 K10 (new) and seen 1977 shortbed; auction results mostly sold"
+    },
+    {
+      "site": "Specialty Cars Limited",
+      "url": "https://specialtycarslimited.com/products/1987-chevrolet-k10",
+      "result": "Collection page marks SOLD; not active"
+    },
+    {
+      "site": "Pederson Classics",
+      "url": "https://www.pedersonautobrokers.com/details/used-1986-chevrolet-ck-10-series/133298420",
+      "result": "Active dealer listing confirmed"
+    },
+    {
+      "site": "Barrett-Jackson",
+      "url": "https://www.barrett-jackson.com/2027-scottsdale",
+      "result": "Cloudflare challenge / timeout; search says docket Coming soon"
+    },
+    {
+      "site": "Mecum Kissimmee 2027",
+      "url": "https://www.mecum.com/auctions/kissimmee-2027/",
+      "result": "Event page loads; Coming Soon; no K10/K1500 lots in static HTML"
+    },
+    {
+      "site": "eBay Motors",
+      "url": "https://www.ebay.com/sch/i.html?_nkw=chevrolet+k10+4x4&_sacat=6001&_udlo=20000&_udhi=50000",
+      "result": "WebFetch timeout; curl returned challenge page with 0 item IDs"
+    }
+  ],
+  "blocked_needs_browser": [
+    {
+      "site": "Hemmings",
+      "url": "https://www.hemmings.com/classifieds/cars-for-sale/chevrolet/k10",
+      "reason": "HTTP 403 / JS shell; cannot confirm prices or full listing URLs"
+    },
+    {
+      "site": "Hemmings",
+      "url": "https://www.hemmings.com/classifieds/listing/1972-chevrolet-k10-marietta-ga-2976294",
+      "reason": "Fetch returned title only; no ask/details confirmed"
+    },
+    {
+      "site": "Hemmings",
+      "url": "https://www.hemmings.com/classifieds/listing/1971-chevrolet-k10-bellevue-wa-2974508",
+      "reason": "Fetch returned title only; no ask/details confirmed"
+    },
+    {
+      "site": "eBay Motors",
+      "url": "https://www.ebay.com/sch/i.html?_nkw=chevrolet+k10+4x4&_sacat=6001&_udlo=20000&_udhi=50000&LH_PrefLoc=1",
+      "reason": "Timeout / bot challenge; zero parseable item URLs"
+    },
+    {
+      "site": "Barrett-Jackson",
+      "url": "https://www.barrett-jackson.com/2027-scottsdale",
+      "reason": "Cloudflare interstitial; cannot confirm docket contents"
+    },
+    {
+      "site": "Barrett-Jackson",
+      "url": "https://www.barrett-jackson.com/auctions",
+      "reason": "WebFetch timed out"
+    },
+    {
+      "site": "Classic.com detail pages",
+      "url": "https://www.classic.com/search/?q=chevrolet+k10+4x4",
+      "reason": "Search works but many source dealer pages need browser to verify still-active asks"
+    },
+    {
+      "site": "Hagerty",
+      "url": "https://www.hagerty.com/marketplace/classified/1972-chevrolet-k10/03260c48-acca-4df5-8862-4db60fceace6",
+      "reason": "504 Gateway Timeout"
+    }
+  ],
+  "new_listings": [
+    {
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4 Standard Cab Long Bed",
+      "engine": "Description says 350ci V8; dealer vehicle info also lists 5.0L V8 (conflict)",
+      "transmission": "Automatic 4-speed",
+      "drivetrain": "4WD",
+      "price": 34995,
+      "priceAlt": 29995,
+      "priceNote": "Dealer page headline ask $34,995; same ad body text says 'priced fairly at $29,995'. Hagerty classified mirrors the $29,995 body language.",
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": 71936,
+      "mileageNote": "71,936 shown, TMU (5-digit)",
+      "vin": "1GCEK14H7GJ146101",
+      "location": "Tea / Sioux Falls, SD",
+      "state": "SD",
+      "source": "Pederson's Classics (also cross-listed Hagerty Marketplace classified)",
+      "url": "https://www.pedersonautobrokers.com/details/used-1986-chevrolet-ck-10-series/133298420",
+      "altUrls": [
+        "https://www.hagerty.com/marketplace/classified/1986-Chevrolet-K10/6aa62cd9-dca7-4d3a-ba12-7cc61951ebc9"
+      ],
+      "imageUrls": [
+        "https://cdn05.carsforsale.com/4f2a57d590766305d9c770bdb1f4d9ce/480x360/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://cdn05.carsforsale.com/00817d29f4552d6b3dc00ec8d81dee0ebd/800x600/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://cdn05.carsforsale.com/008930ea4b33e53f2150829ed415853ac3/800x600/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://cdn05.carsforsale.com/008a2c1624dd68e76177e16f4ac3a77412/800x600/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://cdn05.carsforsale.com/008b4c69cc4d5d3fd114c9c3ba7395b4b3/800x600/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://cdn05.carsforsale.com/008ec90a637b068750682023ddcc9a8d40/800x600/1986-chevrolet-c-k-10-series-k10-silverado-2dr-4wd-standard-cab-lb.jpg",
+        "https://hagerty-hdc-production.imgix.net/bfd2a294-ada6-4a91-86b1-0d905abb5e59.jpeg",
+        "https://hagerty-hdc-production.imgix.net/1f7a69b1-6dec-46f7-96d7-7a36cddcdc57.jpeg",
+        "https://hagerty-hdc-production.imgix.net/9d94f3cc-960e-445b-84de-fabb2bbeb498.jpeg",
+        "https://hagerty-hdc-production.imgix.net/a804e19b-174f-43b5-934c-299194c08ff3.jpeg"
+      ],
+      "condition": [
+        "dealer",
+        "Silverado package",
+        "older repaint (red)",
+        "not a full restoration",
+        "new 32\" BFGs",
+        "dual exhaust",
+        "working dual tanks",
+        "power windows/locks",
+        "A/C slightly cold",
+        "original warranty card / manuals / RPO codes claimed"
+      ],
+      "redFlags": "Long bed (not short box). Headline ask $34,995 vs body $29,995. Specs list 5.0L while copy says 350. Typical underside surface rust acknowledged. Mileage TMU. Showroom in Tea/Sioux Falls SD; appointment only.",
+      "notes": "Confirmed active on Pederson dealer site and Hagerty classified. In ~$20-50k band. Driver-quality LB Silverado 4x4 with documentation claim. YouTube: https://youtu.be/Wp24SyotGMA",
+      "valueRating": "fair"
+    }
+  ],
+  "relists": [
+    {
+      "url": "https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/",
+      "title": "454-Powered 1975 Chevrolet K20 Silverado 4x4 (Fall Guy style)",
+      "status": "LIVE / closing today",
+      "price": 50000,
+      "priceType": "bid",
+      "bids": 21,
+      "auctionEnd": "2026-11-05T11:28:00-07:00",
+      "auctionEndNote": "BaT shows Nov 5 10:28am PT = 11:28am America/Phoenix",
+      "location": "Greenacres, WA",
+      "vin": "CKM145F396851",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4528-scaled-copy-2026-10-28-olg-b1f3e37e42c545e0c3f23ecd509cab8c.jpg"
+      ],
+      "notes": "Already in seen file. Title says K20; writeup also says K10 Silverado. Modified Fall Guy tribute, 454, 6\" lift, 37s. Bid at budget ceiling (~$50k).",
+      "valueRating": "pricey"
+    },
+    {
+      "url": "https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/",
+      "title": "No Reserve: Original-Owner Ram Jet 5.7L 1974 Chevrolet K10 Custom Deluxe 4x4 4-Speed",
+      "status": "LIVE",
+      "price": 3500,
+      "priceType": "bid",
+      "bids": 6,
+      "auctionEnd": "2026-11-06T12:14:00-07:00",
+      "auctionEndNote": "BaT Nov 6 11:14am PT = 12:14pm America/Phoenix",
+      "location": "Phoenix, AZ 85033",
+      "vin": "CKY144J125551",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4477-scaled-copy-2026-10-22-gtp-ee97ad033a73d65f6451bac643957e51.jpg"
+      ],
+      "notes": "Already in seen. AZ original-owner, camper shell, rolled odometer 153 mi. Early bid well under budget; expect to climb. Local to Tarry.",
+      "valueRating": "watch"
+    },
+    {
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/",
+      "title": "350-Powered 1986 Chevrolet K10 Silverado 4x4 Pickup",
+      "status": "LIVE",
+      "price": 14700,
+      "priceType": "bid",
+      "bids": 6,
+      "auctionEnd": "2026-11-07T11:32:00-07:00",
+      "auctionEndNote": "BaT Nov 7 10:32am PT = 11:32am America/Phoenix",
+      "location": "Richmond, KY",
+      "vin": "2GCEK14H5G1107419",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4391-scaled-copy-2026-10-26-hj2-625a37d28a920289a473a43de82f230c.jpg"
+      ],
+      "notes": "Already in seen. Crate 350, Carfax damage 2004 + mileage inconsistencies, TMU. Current bid under budget.",
+      "valueRating": "watch"
+    }
+  ],
+  "barrett_jackson": "2027 Scottsdale (Jan 23-31, 2027): docket not confirmed from fetch (Cloudflare). Public search/index text indicates docket still 'Coming soon'. No K10/K-series 4x4 lots verified.",
+  "mecum": "Kissimmee 2027 (Jan 5-17, 2027): event page loads; inventory/docket appears Coming Soon / JS-driven. Static HTML has zero K10/K1500 matches. Needs browser for lot search.",
+  "notes": "Scan time ~2026-11-05 08:16-08:30 America/Phoenix. MaxFindsCars 1973 K10 Cheyenne (~$17,750) is the BaT listing already seen; it SOLD for $27,000 on 2026-10-28 \u2014 do not treat as active. Specialty Cars Limited 1987 K10 $32,900 Latrobe PA is SOLD on their trucks collection page. Cars & Bids: no live K10. Only confirmed NEW active in-budget listing opened today: Pederson/Hagerty 1986 K10 Silverado LB 4x4. Hagerty URL 1984 copper shortbed is My Garage (listing:null), not for sale. Do not invent prices for blocked Hemmings/eBay/BJ pages."
+}
