@@ -1,0 +1,336 @@
+{
+  "scan_date": "2026-11-06",
+  "timezone": "America/Phoenix",
+  "new_listings": [
+    {
+      "year": 1970,
+      "make": "GMC",
+      "model": "K10",
+      "trim": "Sierra Shortbed 4x4",
+      "engine": "307ci V8",
+      "transmission": "4-speed manual",
+      "drivetrain": "4WD",
+      "price": 21000,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": 6000,
+      "mileageNote": "6,000 shown; seller implies long-life CA truck \u2014 treat as TMU / likely rolled or incomplete story",
+      "location": "Verdi, NV",
+      "state": "NV",
+      "lat": 39.5182,
+      "lng": -119.9888,
+      "source": "Craigslist (Reno area / Verdi)",
+      "url": "https://www.craigslist.org/view/d/verdi-1970-gmc-shortbed-4x4/8QJXsNDbbQ4UpetjfTzwjR",
+      "imageUrls": [
+        "https://images.craigslist.org/00Y0Y_jW6N2AfjLgk_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00M0M_jDZH5sCRy5D_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00u0u_kwwgdnaPczh_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00B0B_4H4iuMGE0rf_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00000_4PqPVDmu39R_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00l0l_36dvk6UpFXr_0lM0t2_600x450.jpg",
+        "https://images.craigslist.org/00K0K_jX5pS6N30u9_0j10e2_600x450.jpg",
+        "https://images.craigslist.org/00d0d_ljTuk2WVwR4_0CI0t2_600x450.jpg"
+      ],
+      "condition": [
+        "Claimed complete original / unmolested shortbed 4x4",
+        "Original paint and sheetmetal; surface rust and body wear",
+        "Wood bed floor",
+        "NP205 transfer case; power steering",
+        "Has original pink slip and Protect-O-Plate per seller"
+      ],
+      "redFlags": [
+        "Odometer 6,000 on a 56-year-old truck is not credible without documentation",
+        "Seller copy mixed 'c10' wording; confirm title/VIN is GMC K10 4x4",
+        "Patina / surface rust \u2014 full cosmetic restore likely"
+      ],
+      "notes": "Owner FS near Reno/Verdi; CA-history shortbox 67-72 4x4 at low end of budget. Posted 2026-10-14; confirmed still active 2026-11-06. Strong nationwide-adjacent Southwest find.",
+      "valueRating": "fair"
+    }
+  ],
+  "bid_updates": [
+    {
+      "year": 1974,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Custom Deluxe 4x4",
+      "engine": "Replacement Ram Jet / LT1 5.7L fuel-injected V8",
+      "transmission": "4-speed manual",
+      "price": 7000,
+      "priceType": "bid",
+      "priorBid": 3500,
+      "bids": 19,
+      "auctionEnd": "2026-11-06T12:14:00-07:00",
+      "auctionEndNote": "BaT shows Friday Nov 6 11:14am PT = 12:14pm America/Phoenix; no-reserve; may soft-close",
+      "mileage": 153,
+      "mileageNote": "153 on rolled 5-digit odometer; TMU",
+      "location": "Phoenix, AZ",
+      "state": "AZ",
+      "lat": 33.4484,
+      "lng": -112.074,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4477-scaled-copy-2026-10-22-gtp-ee97ad033a73d65f6451bac643957e51.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/5053867841181320392-6c30c4f2826b52d46bdcc95d43990998.jpeg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/20260809_131346-c1799cde59a3b7a98394eb1e922e66ff.jpeg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4484-scaled-copy-2026-10-22-bk1-afbde02625423ad0d8a2c351353f5394.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1633333107584299771-copy-2026-10-22-791-5975cf2e0059a0f109a14f2994ae869b.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/20260809_131542-copy-2026-10-22-ydn-db31cad333592f52edb7d1f54c6f7313.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/5578572391807537902-copy-2026-10-22-dr5-96de8b1764236f11628df9bde2259807.jpg"
+      ],
+      "condition": [
+        "Original-owner AZ truck 50+ years",
+        "Repainted Grecian Bronze; camper shell",
+        "Driver door latch sticks; window regulators hard",
+        "No reserve \u2014 bid still early relative to comps"
+      ],
+      "redFlags": [
+        "Rolled odometer / TMU",
+        "Driver door latch and window issues"
+      ],
+      "notes": "Local Phoenix NR auction closing today. Bid climbed from $3,500 (Nov 5 scan) to $7,000.",
+      "valueRating": "watch"
+    },
+    {
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4",
+      "engine": "350ci crate V8 (Holley carb; heads rebuilt 2024)",
+      "transmission": "4-speed automatic",
+      "price": 14700,
+      "priceType": "bid",
+      "priorBid": 14700,
+      "bids": 6,
+      "auctionEnd": "2026-11-07T11:32:00-07:00",
+      "auctionEndNote": "BaT Saturday Nov 7 10:32am PT = 11:32am America/Phoenix",
+      "mileage": 2100,
+      "mileageNote": "2,100 shown on rolled odometer; Carfax mileage inconsistencies; TMU",
+      "location": "Richmond, KY",
+      "state": "KY",
+      "lat": 37.7479,
+      "lng": -84.2947,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4391-scaled-copy-2026-10-26-hj2-625a37d28a920289a473a43de82f230c.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4394-scaled-copy-2026-10-26-lq6-5cdf23021a54b36b44d8bcd9d7f33d50.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4131-scaled-copy-2026-10-26-m6l-0f39a605a1533180dabd1c8b260727b4.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4090-scaled-copy-2026-10-26-g3k-81a50bcc753c546600f3627110c45183.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4084-scaled-copy-2026-10-26-47i-eef68a8b5ede74f5dd902083a683bc46.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4111-scaled-copy-2026-10-26-oe1-daa63b6803e6b54379ba054a4525136e.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_3959-scaled-copy-2026-10-26-vel-f218de54fa19fc22e0abfcbe4021ec17.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4403-scaled-copy-2026-10-26-ge0-861fa60dfe957fcd4e0557a802b5975a.jpg"
+      ],
+      "condition": [
+        "Repaint red over burgundy cloth",
+        "Locking rear differential; dual-range transfer case",
+        "Rally wheels / Falken A/T tires",
+        "Carfax damage entry March 2004"
+      ],
+      "redFlags": [
+        "Carfax damage + mileage inconsistencies",
+        "One fuel tank removed",
+        "Some factory gauges inop"
+      ],
+      "notes": "Bid unchanged vs Nov 5 scan ($14,700 / 6 bids). Still below $20k band but likely to climb before close.",
+      "valueRating": "watch"
+    },
+    {
+      "year": 1972,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "4x4 Pickup",
+      "engine": "Rebuilt 454ci V8 (0.030 over, COMP cam, Weiand intake, FST 750)",
+      "transmission": "4-speed manual (McLeod hydraulic clutch)",
+      "price": 22000,
+      "priceType": "bid",
+      "priorBid": null,
+      "bids": 9,
+      "auctionEnd": "2026-11-06T14:00:00-07:00",
+      "auctionEndNote": "BaT Friday Nov 6 1:00pm PT = 2:00pm America/Phoenix; no reserve",
+      "mileage": 19000,
+      "mileageNote": "19k shown on rolled odometer; TMU",
+      "location": "Livermore, CA",
+      "state": "CA",
+      "lat": 37.6819,
+      "lng": -121.768,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_5698b6b2-6622-44ef-8962-ad25dbfd53e6-DE6Urr-7140139156197ff38b3e901ec1c3cc35-c2a48f40fb5d7931aee43fed38-ca0ce1b0b4b40960ca477f6b498cae81.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_ce3adece-3311-4b58-a855-b8b5bdf47d3b-yRjngK-f7bbd78fa55902d279bbeb477af4d516-ece97b79a396c8e48d798f9894-329e091657d7d8ca4a13e539c35d7d92.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_aea6e84c-7ebb-40d2-856c-7a307b999230-obGrwt-0cc0d2d465fafbe1b42cab4db9725e68-50c784d915418834f047cb6936-e7799e4ea64546ba236ff8f5e13a06c7.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_f0eabf7d-446d-41b2-9558-889bf77279c3-4ptJAx-1efe7e94f028c2047d11e95a47678cf2-9ee4e5ecc69845bc917d9c13bb-faa1244de1f6312d6a66e69c598e5887.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_03d26d55-6646-41f7-a54e-baab6e04d0bf-delaxW-f0910e371eda2789148b76bb2533b209-5c36fd59b4fa902f05326d199b-3138e48178fd30f801d7074a4158ff1c.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_7b0289ba-7be2-4ff1-96bc-9b34990d6780-clUMJp-9e6191a98777a05b0e21c3b52d81a2b7-66bd3a91514fce5f83e5060562-31370887d8c3b8f76276a545314f1c7b.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/1972_chevrolet_k10-pickup_1972_chevrolet_k10-pickup_d0deb1b1-d91f-4ff1-bd05-bae92aba1336-ilPgmp-15b048312545003aceece636580eed8e-f4618203fe4d85e6304a3e1959-59e68cdba8f0262c4dd1370a68da25ea.jpg"
+      ],
+      "condition": [
+        "Refurb with rebuilt 454, trans, transfer case, diffs",
+        "Olive green & white repaint; black vinyl",
+        "4\" lift; 17\" steel wheels; 33\" tires",
+        "Hydroboost front discs; spray-in bedliner"
+      ],
+      "redFlags": [
+        "Rolled odometer / TMU",
+        "Lifted / modified stance"
+      ],
+      "notes": "Already in seen file; confirming still LIVE and refreshing bid for dashboard. Closing today.",
+      "valueRating": "fair"
+    }
+  ],
+  "sold_comps": [
+    {
+      "year": 1975,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4 Fall Guy tribute (listed as K20 chassis / 3/4-ton gear)",
+      "engine": "454ci V8",
+      "transmission": "3-speed automatic",
+      "soldPrice": 57500,
+      "priceType": "sold",
+      "soldDate": "2026-11-05",
+      "auctionEnd": "2026-11-05T10:31:00-07:00",
+      "location": "Greenacres, WA",
+      "state": "WA",
+      "lat": 47.6668,
+      "lng": -117.0721,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/",
+      "notes": "Sold $57,500 (24 bids) on Nov 5. Prior scan had live bid $50,000. Title/URL say K20; build uses Dana 44 / 14-bolt 3/4-ton gear. Above $50k band \u2014 useful high-end squarebody 4x4 comp.",
+      "valueRating": "pricey"
+    }
+  ],
+  "remove_urls": [
+    "https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/"
+  ],
+  "relists": [
+    {
+      "year": 1985,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4 body-off / LS restomod",
+      "engine": "6.0L LQ4 LS V8 (892 heads)",
+      "transmission": "4L60 automatic",
+      "price": 32800,
+      "priceType": "ask",
+      "priorUrl": "https://www.hemmings.com/listing/1985-chevrolet-k10-fenton-mi-921270",
+      "url": "https://classiccars.com/listings/view/2124417/1985-chevrolet-k-10-for-sale-in-fenton-michigan-48430",
+      "altUrls": [
+        "https://classiccars.com/listings/view/2124417",
+        "https://www.hemmings.com/listing/1985-chevrolet-k10-fenton-mi-921270"
+      ],
+      "mileage": null,
+      "mileageNote": "Odometer listed 0 on ClassicCars card; not a reliable reading",
+      "location": "Fenton, MI",
+      "state": "MI",
+      "lat": 42.7978,
+      "lng": -83.7049,
+      "source": "ClassicCars.com (Heritage Auto Gallery) \u2014 also Hemmings",
+      "imageUrls": [
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117506-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117507-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117508-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117509-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117510-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117511-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117512-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117513-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117514-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117515-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117516-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117517-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117518-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117519-1985-chevrolet-k-10-std.jpg",
+        "https://photos.classiccars.com/cc-temp/listing/212/4417/62117520-1985-chevrolet-k-10-std.jpg"
+      ],
+      "condition": [
+        "Body-off restored restomod",
+        "Cold A/C; power windows/locks",
+        "White over red; new bumpers/mirrors/tires"
+      ],
+      "redFlags": [
+        "Hemmings page fetch returned title only (blocked details)",
+        "Hypercars aggregator notes same truck seen across multiple sites; some dealer inventory mirrors may show higher ask (~$39.9k) \u2014 ClassicCars confirmed $32,800"
+      ],
+      "notes": "RELIST / cross-list: Hemmings URL already in seen file; ClassicCars CC-2124417 is new URL for same Heritage Auto Gallery Fenton truck. Confirmed active ask $32,800.",
+      "valueRating": "fair",
+      "priceChange": "Unknown vs prior Hemmings ask (Hemmings details blocked); ClassicCars ask confirmed $32,800"
+    },
+    {
+      "year": 1977,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Scottsdale 4x4 (lifted dealer special)",
+      "engine": "Original V8 (unspecified displacement in ad)",
+      "transmission": "Manual",
+      "price": 24999,
+      "priceType": "ask",
+      "priorUrl": "https://www.craigslist.org/view/d/modesto-chevy-k10-scottsdale-old-school/7YQ52iiLTtsz1JkNG1D4M2",
+      "url": "https://www.craigslist.org/view/d/modesto-chevrolet-k-10-classic-square/x5qGSCM3cgFU7RuCSAPV6m",
+      "mileage": 119410,
+      "location": "Modesto, CA",
+      "state": "CA",
+      "lat": 37.6391,
+      "lng": -120.9969,
+      "source": "Craigslist (VIP Auto Sales Modesto)",
+      "imageUrls": [
+        "https://images.craigslist.org/01717_4nqae9IfPGL_04w03o_600x450.jpg",
+        "https://images.craigslist.org/01313_7YT3wEaQkSX_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00t0t_9J6cMnAGcgr_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00G0G_2hIg3VfObzA_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00D0D_ekP6IKzsTLQ_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00W0W_iYViC75KXdJ_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00H0H_jhhC004roWD_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00O0O_kasGpXFYUqc_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/01010_3PsuwBtFc48_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00r0r_dPBK0oZKSaU_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00N0N_1KL7T9x8zrA_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00P0P_529j1mryYiW_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00Z0Z_lot5cL6ezrA_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00G0G_1SU9MUZyr9Q_0dp0a3_600x450.jpg",
+        "https://images.craigslist.org/00h0h_eH8A5lcMRjV_0dp0a3_600x450.jpg"
+      ],
+      "condition": [
+        "Fresh paint; 4\" lift; 24x14 wheels; 35\" tires",
+        "Dealer financing pitch ad"
+      ],
+      "redFlags": [
+        "Extreme wheel/tire setup (24x14) \u2014 hard sell for stock-oriented buyers",
+        "Dealer SEO ad recycling"
+      ],
+      "notes": "RELIST: same VIP Auto Sales Modesto 1977 K10 Scottsdale as seen URL 7YQ52iiLTtsz1JkNG1D4M2 (same $24,999, 119,410 miles, same hero photo). New CL slug posted 2026-11-04. No price change.",
+      "valueRating": "pricey",
+      "priceChange": "none ($24,999 unchanged)"
+    }
+  ],
+  "blocked": [
+    {
+      "site": "Hemmings",
+      "url": "https://www.hemmings.com/listing/1985-chevrolet-k10-fenton-mi-921270",
+      "reason": "Fetch returned title-only shell; could not confirm current Hemmings ask for price-change delta"
+    },
+    {
+      "site": "Heritage Auto Gallery dealer inventory",
+      "url": "https://www.heritageautogallery.com/vehicles/current",
+      "reason": "HTTP 403 Forbidden"
+    },
+    {
+      "site": "Hagerty My Garage pages",
+      "url": "https://www.hagerty.com/marketplace/classified/1985-chevrolet-k10/dacab694-69f9-458b-8561-4fe42fe87b3b",
+      "reason": "Page loads as My Garage / no confirmed asking price \u2014 not treated as active for-sale listing"
+    },
+    {
+      "site": "Classic Car Deals inventory grid (sort DateDesc ASPX)",
+      "url": "https://www.classiccardeals.com/Inventory/location-Cadillac-Michigan/all-years/all-makes/K10/all-series/all-bodystyles/all-types/page1/sort-DateDesc/AllArrivalsInventory.aspx?v=grid",
+      "reason": "HTTP 520 on one inventory URL; alternate classic-car-dealer.aspx inventory did load (mostly already-seen listings)"
+    },
+    {
+      "site": "Tucson / Albuquerque / San Diego Craigslist K10 search",
+      "url": "https://tucson.craigslist.org/search/cta?query=k10+OR+squarebody&sort=date",
+      "reason": "Search pages returned no parseable active K10 4x4 hits in band on this pass"
+    }
+  ],
+  "notes": "BaT live squarebody/67-72 K 4x4s confirmed: 1974 NR Phoenix ($7k), 1986 Richmond KY ($14.7k), 1972 Livermore CA ($22k). Fall Guy sold $57.5k Nov 5. BJ 2027 Scottsdale Jan 23-31 2027 docket still Coming soon \u2014 no K10 lots. GMC BaT 73-91: no live auctions. Hagerty marketplace cards show prior sold auctions + seen classifieds; 1985 My Garage not for sale. CCD new Listing/430164 1972 K10 SWB CA is $98,995 (out of band). ClassicCars CC-2124551 1972 LS restomod Marietta $149,900 out of band. Phoenix CL 1972 $46k still the known Scottsdale/Glendale seen URL. Seen file NOT updated."
+}

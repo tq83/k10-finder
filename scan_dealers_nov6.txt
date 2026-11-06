@@ -1,0 +1,18 @@
+K10 dealer scan — Nov 6, 2026 (America/Phoenix)
+
+Checked all assigned dealer/specialty sources. WebFetch 403/timeout on Unique, Gateway, Vanguard, Volo, Streetside, Worldwide Vintage, GR Auto Gallery, Fast Lane, davis4x4 custom-11, and Canyon State /inventory (homepage + classic.com mirror OK). Live inventory confirmed at Classic Car Deals, B&B, Davis square_body, Bird Imports, PC Classic, Down South, Sparky's, Duc, Fourbie Exchange, and Canyon State homepage/classic.com.
+
+NEW confirmed-active trucks (opened detail pages):
+1) Duc Auto Collection (Miami, FL) — 1972 Chevy K10 4x4 short bed Medium Green, $37,900. Mild resto/patina Texas truck, TH400 rebuild, 2" lift, BFG KO2s. Fair.
+2) Duc — 1987 Chevy Silverado shortbed 4x4 (TBI year), $27,900, 111k mi, 6" Skyjacker, 35" KO2s, cold A/C, service folder. Fair.
+3) Duc — 1987 GMC Sierra Classic shortbed LS restomod 4x4, $39,900. 5.3 LS / 4L60E, BDS 4" + Fox, receipt binder. Fair. (Prior Fourbie crosslist URL no longer shows the truck.)
+4) Classic Car Deals — 1979 K10 Scottsdale 4x4, NC consignment, $14,750. Shop-built 350, thin listing, mileage unknown. Great only after PPI.
+5) Classic Car Deals — 1983 K10 4x4 dump-bed project, Utah, $14,995. Frame-off claim; transfer case needed / trailer recommended. Specialty unfinished build.
+
+RELIST / dual URL: Duc Cordova Brown 1979 still at both /1979-chevy-k10.html ($16,900) and /1979-chevrolet-k10.html ($28,900).
+
+PRICE UPDATES (B&B, already-seen URLs): 1987 V10 shortbox $39,000→$37,550; 1986 K10 shortbox project $17,500→$14,050; 1979 GMC K1500 shortbox $34,500→$31,600.
+
+REMOVE / SOLD: PC Classic 1987 K10 1GCEV14K7HJ111028 SOLD; Down South 1987 Chevy Silverado 4x4 and 1987 GMC Sierra Classic 4x4 both SOLD; Fourbie 1987-gmc-sierra-classic-44 no longer a live listing page.
+
+Also noted (not in new_listings): Duc 1970 Olive shortbed $57,900 (over budget); Duc 1987 Nevada GMC K10 BaT-coming / no ask; Down South showroom 1968 short bed $62,500 over budget; Unique 1986 orange long-bed $30,175 only via classic.com (Unique 403); Davis Coming Soon stock/VIN/price mismatches; Sparky's 1984 still $29,900 (seen); Bird 1973 still $39k (seen); Canyon State no K10s on mirror.

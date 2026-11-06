@@ -1,0 +1,72 @@
+K10 morning auction/classified scan — Fri Nov 6, 2026 (America/Phoenix)
+========================================================================
+
+SUMMARY
+- Confirmed NEW active listings in ~$20k-$50k: 1
+- Bid updates (already-seen live auctions): 3
+- Relists / new URLs for known trucks: 2
+- Sold comps: 1 (Fall Guy)
+- Barrett-Jackson 2027 Scottsdale: docket Coming soon — no K10 lots
+- BaT GMC C/K 1973-1991: no live auctions
+- Seen file NOT updated (per instructions)
+
+NEW LISTINGS
+1) 1970 GMC K10 Sierra Shortbed 4x4 — Verdi, NV (Reno area Craigslist)
+   URL: https://www.craigslist.org/view/d/verdi-1970-gmc-shortbed-4x4/8QJXsNDbbQ4UpetjfTzwjR
+   Ask: $21,000 | Miles: 6,000 shown (treat TMU) | 307 V8 / 4-spd manual / NP205
+   Notes: Claimed original CA shortbox 4x4 with Protect-O-Plate; surface rust/patina; wood bed
+   valueRating: fair
+
+BID UPDATES (still-active, already in seen)
+1) BaT 1974 K10 Custom Deluxe Ram Jet NR — Phoenix AZ
+   https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/
+   Bid $7,000 (19 bids) | was $3,500 on Nov 5 | Ends 2026-11-06 12:14pm America/Phoenix
+   valueRating: watch
+2) BaT 1986 K10 Silverado 350 — Richmond KY
+   https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/
+   Bid $14,700 (6 bids) | unchanged vs Nov 5 | Ends 2026-11-07 11:32am America/Phoenix
+   valueRating: watch
+3) BaT 1972 K10 454 4-spd NR — Livermore CA
+   https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/
+   Bid $22,000 (9 bids) | Ends 2026-11-06 2:00pm America/Phoenix
+   valueRating: fair
+
+RELISTS
+1) 1985 K10 Silverado LS restomod — Heritage Auto Gallery, Fenton MI
+   NEW URL: https://classiccars.com/listings/view/2124417 (CC-2124417) ask $32,800
+   PRIOR seen: https://www.hemmings.com/listing/1985-chevrolet-k10-fenton-mi-921270
+   Price change vs Hemmings: unknown (Hemmings details blocked); ClassicCars confirmed $32,800
+   valueRating: fair
+2) 1977 K10 Scottsdale lifted — VIP Auto Sales Modesto CA
+   NEW URL: https://www.craigslist.org/view/d/modesto-chevrolet-k-10-classic-square/x5qGSCM3cgFU7RuCSAPV6m
+   PRIOR seen: https://www.craigslist.org/view/d/modesto-chevy-k10-scottsdale-old-school/7YQ52iiLTtsz1JkNG1D4M2
+   Ask still $24,999 / 119,410 mi — no price change (dealer repost Nov 4)
+   valueRating: pricey
+
+SOLD / REMOVE
+1) BaT Fall Guy 1975 K10/K20 tribute — Greenacres WA
+   https://bringatrailer.com/listing/1975-chevrolet-k20-pickup-5/
+   SOLD $57,500 on 2026-11-05 (was live at $50k on Nov 5 scan)
+   → add to remove_urls / sold_comps
+
+OUT OF BAND (opened, not counted as new in-band)
+- CCD Listing/430164 1972 K10 SWB CA — $98,995
+- ClassicCars CC-2124551 1972 K10 LS restomod Marietta GA — $149,900
+- ClassicCars CC-2123677 1972 Cheyenne Super Marietta — $104,900 (already seen)
+- ClassicCars CC-2123933 1976 K10 Lithia Springs — $50,394 (already seen; top of band)
+
+BARRETT-JACKSON
+- https://www.barrett-jackson.com/2027-scottsdale + /auctions confirmed
+- 2027 Scottsdale Jan 23-31 2027 — View docket (Coming soon); no K10 lots listed
+- Nov 2026 Digital Select is live but not scanned for K10 lots in depth this pass
+
+BLOCKED / PARTIAL
+- Hemmings Fenton detail (title-only)
+- Heritage Auto Gallery inventory (403)
+- Hagerty 1985 My Garage (no ask — not for sale)
+- Tucson/ABQ/SD Craigslist: no usable in-band K10 hits this pass
+- One CCD AllArrivalsInventory ASPX returned HTTP 520 (alternate inventory page worked)
+
+HAGERTY
+- Marketplace index: auction results only (no new live K10 auctions); classifieds include seen 1977 shortbed ($18k ask on index) and Pederson 1986 (seen)
+- 1984 / 1985 / 1972 My Garage pages are NOT active for-sale listings
