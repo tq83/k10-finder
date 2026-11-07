@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T08:24:45-07:00",
+  "updated": "2026-11-07T08:27:17-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -5533,55 +5533,6 @@
       "id": "k10-155"
     },
     {
-      "year": 1967,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Stepside 4x4 (relist of k10-27/k10-135)",
-      "engine": "350 V8 (rebuilt, high-performance)",
-      "transmission": "TH350 3-speed automatic",
-      "price": 49500,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "32,553 shown (5-digit odometer, true miles unknown)",
-      "location": "Reno, NV",
-      "state": "NV",
-      "lat": 39.523,
-      "lng": -119.7897,
-      "source": "Craigslist (Sierra Classics & Imports, dealer)",
-      "url": "https://www.craigslist.org/view/d/reno-1967-chevrolet-chevy-k10-stepside/2As__brR8RG-J7-GdrWg5g",
-      "imageUrl": "photos/k10-156/7bc140879f97.jpg",
-      "imageUrls": [
-        "photos/k10-156/7bc140879f97.jpg",
-        "photos/k10-156/94638368f081.jpg",
-        "photos/k10-156/7d1662bf0068.jpg",
-        "photos/k10-156/6fa7b4dee0f2.jpg",
-        "photos/k10-156/0639d7191c72.jpg",
-        "photos/k10-156/a406af7ab0e6.jpg",
-        "photos/k10-156/1208eb0cb8f9.jpg",
-        "photos/k10-156/660babf1d11b.jpg",
-        "photos/k10-156/71e514522f00.jpg",
-        "photos/k10-156/d65a1b5961bf.jpg",
-        "photos/k10-156/c2e212c0f47e.jpg",
-        "photos/k10-156/3f6578b54bf4.jpg",
-        "photos/k10-156/ffc46bd203c3.jpg",
-        "photos/k10-156/207e6751db0a.jpg",
-        "photos/k10-156/0c73032b010a.jpg"
-      ],
-      "condition": [
-        "dealer",
-        "rebuilt engine",
-        "3/4-ton axles (per earlier ad)",
-        "orange/black",
-        "as-is"
-      ],
-      "redFlags": "RELIST at a HIGHER price: same truck (stock S142292, VIN KE147Z142292, 32,553 mi) is still on ClassicCars.com (k10-27) and Hemmings (k10-135) at $35,000. This Craigslist ad asks $49,500, $14,500 more. Paint chips and orange peel, no wipers, spare or jack, and 2005 tires per the earlier ads.",
-      "notes": "Sierra Classics & Imports, 525 Kietzke Lane, Reno. Posted Oct 26, 9:00 PM. Ask the dealer which price is current.",
-      "valueRating": "pricey",
-      "firstSeen": "2026-10-28T08:33:06-07:00",
-      "id": "k10-156"
-    },
-    {
       "year": 1986,
       "make": "GMC",
       "model": "K25",
@@ -8418,6 +8369,17 @@
       "url": "https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/",
       "reason": "auction ended",
       "removedAt": "2026-11-07T08:24:45-07:00"
+    },
+    {
+      "id": "k10-156",
+      "year": 1967,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Stepside 4x4 (relist of k10-27/k10-135)",
+      "lastPrice": 49500,
+      "url": "https://www.craigslist.org/view/d/reno-1967-chevrolet-chevy-k10-stepside/2As__brR8RG-J7-GdrWg5g",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-07T08:27:17-07:00"
     }
   ]
 }
