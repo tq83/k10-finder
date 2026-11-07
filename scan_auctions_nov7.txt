@@ -1,0 +1,63 @@
+K10 morning auction/classified scan — Sat Nov 7, 2026 (times in MST / Arizona)
+==============================================================================
+
+SUMMARY
+- New listings confirmed active: 5 (1 BaT no-reserve auction, 4 Craigslist K20s at about $18.5k-$25.9k). No new in-band K10 buy-now finds.
+- Bid updates: 2 | Sold comps: 2 | Price drops on known trucks: 4 | Relists: 2 (no price change)
+- Barrett-Jackson 2027 Scottsdale (Jan 23-31): docket still "Coming soon", no K10 lots
+- Unchecked: eBay Motors (timeouts/403), Hemmings detail pages (title-only)
+- Seen file / listings.json NOT edited
+
+TRACKED AUCTIONS
+- BaT 1986 K10 Silverado 350/4-spd auto, Richmond KY: bid $16,500 (9 bids, was $14,700). Ends TODAY 11:32 AM MST.
+  https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/
+- Hagerty 1979 K20 427/4-spd, Hellertown PA: bid $8,000 (21 bids, was $4,200). Ends Fri Nov 13 12:40 PM MST.
+- BaT 1974 K10 Custom Deluxe (Phoenix, NR): SOLD $13,750 on 11/6 (47 bids). Remove; add as a comp.
+- BaT 1972 K10 454 4-spd (Livermore, NR): SOLD $25,250 on 11/6 (22 bids). Remove; add as a comp.
+
+NEW LISTINGS
+1) 1977 Chevrolet K10 4x4 4-speed, No Reserve (BaT). Orem, UT
+   305 V8 (installed 2026) / 4-spd manual, dual-range t-case. Bid $3,200 (4 bids). Ends Fri Nov 13 1:57 PM MST.
+   19k shown, TMU; speedo dead. Rust in lower fenders, cab corners, lower bedsides; faded paint, dents, cracked dash.
+   Parked ~40 yrs, UT title. Take: rust-repair project; probably finishes ~$10-15k. Fair if it stays there.
+   https://bringatrailer.com/listing/1977-chevrolet-k10-pickup-18/
+2) 1973 Chevrolet K20 Fleetside LB 4x4 (3/4-ton). Garden City/Boise, ID (private)
+   Rebuilt V8 (size not stated) / automatic. $25,900. 18,500 shown (unverified).
+   Orange, 4in lift, 20s on 35s, AC, t-case rebuilt, lots of new parts. 2nd owner. No VIN, short ad.
+   Take: fair for a sorted lifted K20; in line with B&B's 1973 K20 at $25,950. Not a K10.
+   https://www.craigslist.org/view/d/garden-city-1973-chevrolet-k20/wYfVYhmfAdJ3AUZWRkqbFy
+3) 1980 Chevrolet K20 long bed 4x4. Corrales, NM (private, cash only)
+   V8 (not stated) / manual. $19,970. Odometer 1,111 (placeholder).
+   Dark lifted look; seller says "done top to bottom," "very minor work" left. Very vague ad.
+   Take: fair only if an inspection backs it up. Southwest, ~7 hrs away.
+   https://www.craigslist.org/view/d/corrales-k20-long-bed/bzGruhQe98BfYiPK8zgJ1C
+4) 1977 Chevrolet K20 4x4. Beverly Hills/Los Angeles, CA (private)
+   V8 (not stated) / factory automatic. $19,500. 32,648 shown, "original miles" claimed (unverified).
+   Original, never-repainted orange two-tone, camper shell, passed smog, CA title. Needs carpet and door cards. Only 4 photos.
+   Take: fair to good for an original-paint CA K20 if the body's clean.
+   https://www.craigslist.org/view/d/los-angeles-1977-chevy-k20/2apJa7He73yrXhnfvMN5P2
+5) 1976 Chevrolet K20 Camper Special 4x4. San Diego area, CA (private)
+   400 SBC / rebuilt TH350. $18,500. Odometer 77,777 (placeholder).
+   Recent green two-tone repaint, new stock-style upholstery, rechromed bumper. Stock look.
+   Take: fair. Under the band, 3/4-ton.
+   https://www.craigslist.org/view/d/los-angeles-1976-chevy-k20-camper/nm3b8NeAJYGmzYezZLujio
+
+PRICE DROPS ON KNOWN TRUCKS
+- B&B 1970 K10 stepside 350/4-spd: $37,550 -> $35,950
+- B&B 1972 K10 shortbox 350 FiTech auto: $37,550 -> $35,950
+- Foresthill CA 1973 K20 383/700R4: $23,000 -> $20,000
+- ClassicCars CC-2119730 1977 GMC K1500 St. George UT: $17,000 -> $16,500 OBO
+
+RELISTS (no price change)
+- Sierra Classics Reno 1967 K10 stepside $49,500: new CL URL .../wM4PXYHa8RG3ufdalUKRcA (prior .../2As__brR8RG-J7-GdrWg5g)
+- Hayes Classics Roseville 1978 "C/K 10" $50,108: new CL URLs. VIN is CCS (2WD, lowered), so not a 4x4. Ignore.
+
+STILL-ACTIVE CHECKS
+- Verdi 1970 GMC K10 $21,000: active
+- ClassicCars 2124417 1985 K10 LS (Fenton MI) $32,800: active
+- Modesto VIP 1977 K10 $24,999: active
+- Hemmings 1979 K10 Bonanza Morgantown $36,500: probably active (still on the index; detail page shows only the title)
+
+SOURCES CHECKED
+BaT (Chevy/GMC C/K 67-72 & 73-91 + search), Cars & Bids (0 live), Hagerty (K10/K20/GMC), Hemmings K10 index,
+ClassicCars.com (K-10, C/K, GMC lists), Classic.com (K10 2nd/3rd gen), Craigslist (27 West/Southwest areas), Barrett-Jackson.

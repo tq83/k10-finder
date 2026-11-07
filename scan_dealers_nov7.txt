@@ -1,0 +1,19 @@
+K10 dealer scan, Sat Nov 7, 2026, ~8:45 AM MST (Arizona time)
+
+Blocked by 403, so unchecked: Unique (classic.com mirror shows no K10s listed this past week), Gateway incl. Scottsdale, Vanguard, Volo, Streetside incl. Phoenix, Worldwide Vintage, GR Auto Gallery, Fast Lane, davis4x4 custom-11 (so no Davis cross-site price compare), and Canyon State (classic.com mirror OK, no K-trucks).
+Checked live: Classic Car Deals, B&B, Davis square_body, Bird, PC Classic, Down South, Sparky's, Duc, Fourbie.
+
+No strong new finds today. Two old CCD consignments surfaced that weren't in the seen file or listings.json. Both have 2022-dated photos and may be stale, so call to confirm.
+1) 1973 Chevy K20 3/4-ton LWB 4x4, patina. 350/auto, $23,895, 37,000 on the odometer (unverified), Texas. Thin listing: restored bench, new tires, tune-up/brakes. Fair price for a patina 3/4-ton if it's still available.
+   https://www.classiccardeals.com/Listing/328493/1973-Chevrolet-K20.aspx
+2) 1985 Chevy K20 3/4-ton 4x4, 6.2 diesel/auto, $31,995, Colorado. Ex-school snow truck, 2 owners, records. Mileage conflicts (75k in the spec field vs 55k in the text). Rhino-coated body. Pricey for a 6.2 work truck.
+   https://www.classiccardeals.com/Listing/318516/1985-Chevrolet-K20.aspx
+
+PRICE DROPS (B&B, known URLs):
+- 1970 K10 stepside shortbox 4-spd (k10-102): $37,550 -> $35,950
+- 1972 K10 shortbox Olive, FiTech (k10-103): $37,550 -> $35,950
+- 1985 GMC K1500 lifted, 35s (k10-72): $34,950 -> $31,950
+
+RELIST/DUAL: Duc Cordova Brown 1979 still on 2 URLs ($16,900 / $28,900).
+REMOVE: none new. Yesterday's removals (PC Classic 1987, Down South 1987s) are still sold/gone.
+Watch: Sparky's 1984 K10 ($29,900) dropped off the index, but its detail page is still live. Davis coming-soon trucks (1987 V10 red, 1986 GMC red, 1983 stepside) still have no price. Davis 1987 GMC R/V $17,500 is 2WD, so skipped.

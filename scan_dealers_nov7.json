@@ -1,0 +1,170 @@
+{
+ "scan_time": "2026-11-07T08:45:00-07:00",
+ "new_listings": [
+  {
+   "year": 1973,
+   "make": "Chevrolet",
+   "model": "K20",
+   "trim": "3/4-ton long bed 4x4 (patina)",
+   "engine": "350 V8",
+   "transmission": "Automatic",
+   "price": 23895,
+   "priceType": "ask",
+   "auctionEnd": null,
+   "mileage": null,
+   "mileageNote": "37,000 listed (5-digit odometer, unverified)",
+   "location": "Texas (consignor's home; exact city not given)",
+   "state": "TX",
+   "lat": 31.0,
+   "lng": -99.0,
+   "source": "Classic Car Deals",
+   "url": "https://www.classiccardeals.com/Listing/328493/1973-Chevrolet-K20.aspx",
+   "imageUrls": [
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/2720222599428773.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/2820222599428806.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/120222599428383.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/220222599428398.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/320222599428414.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/420222599428414.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/520222599428430.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/620222599428430.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/720222599428445.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/820222599428445.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/920222599428461.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/1020222599428461.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/1120222599428461.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/1220222599428476.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/328493/Full/1320222599428476.jpg"
+   ],
+   "condition": [
+    "patina",
+    "3/4-ton",
+    "long bed",
+    "restored vinyl bench",
+    "new tires",
+    "fresh tune-up/brakes",
+    "consignment"
+   ],
+   "redFlags": "Very thin listing: one headline line and no detailed description. Photo filenames carry 2022 dates and the listing ID is old, so it may be a stale consignment that is already sold. Call CCD (231-468-2809 ext 1) to confirm it's still available before spending any time on it. 3/4-ton, not a K10.",
+   "notes": "Stock AAH32527. CCD headline: 1973 Chevy K20 LWB, 350 V8, auto, 4x4, 3/4 ton, restored vinyl bench, new tires, fresh tune-up/brakes, 'killer patina'. Wasn't in the seen file or listings.json (older CCD ID, turned up on the K20 category page).",
+   "valueRating": "fair"
+  },
+  {
+   "year": 1985,
+   "make": "Chevrolet",
+   "model": "K20",
+   "trim": "3/4-ton 4x4 6.2 diesel (ex-school snow truck)",
+   "engine": "6.2L diesel V8",
+   "transmission": "Automatic",
+   "price": 31995,
+   "priceType": "ask",
+   "auctionEnd": null,
+   "mileage": null,
+   "mileageNote": "Listing conflicts: spec field says 75,000, description says 55k original",
+   "location": "Colorado (consignor's home; exact city not given)",
+   "state": "CO",
+   "lat": 39.0,
+   "lng": -105.5,
+   "source": "Classic Car Deals",
+   "url": "https://www.classiccardeals.com/Listing/318516/1985-Chevrolet-K20.aspx",
+   "imageUrls": [
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/242022139154724895.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/252022139154724911.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/12022139154724708.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/22022139154724708.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/32022139154724723.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/42022139154724723.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/52022139154724723.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/62022139154724739.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/72022139154724739.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/82022139154724739.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/92022139154724754.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/102022139154724754.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/112022139154724754.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/122022139154724770.jpg",
+    "https://www.totalwebmanager.com/TWM/Images/1264/318516/Full/132022139154724786.jpg"
+   ],
+   "condition": [
+    "2 owner",
+    "diesel",
+    "3/4-ton",
+    "maintenance records",
+    "Rhino-lined paint",
+    "custom bumpers",
+    "new tires/wheels",
+    "new interior pieces"
+   ],
+   "redFlags": "Mileage conflict (75k in the spec field vs 55k in the description). Rhino-coated body may hide old snow-plow rust. 6.2 non-turbo diesel is slow. Photo filenames carry 2022 dates, so it may be a stale consignment. Call CCD to confirm it's available.",
+   "notes": "Stock AAH30347. Seller says it was a school's snow-removal truck its whole life, 2 owners, a big folder of maintenance records, new brakes/shocks/exhaust/seat/carpet/door panels/windshield, power windows and locks, brake controller, tool box, mirror backup camera.",
+   "valueRating": "pricey"
+  }
+ ],
+ "relists": [
+  {
+   "note": "Duc Cordova Brown 1979 shortbed Scottsdale is still live on two URLs with different asks, unchanged from Nov 6. Same truck, so this is a dual listing / price ambiguity.",
+   "urls": [
+    "https://www.ducautocollection.com/1979-chevy-k10.html",
+    "https://www.ducautocollection.com/1979-chevrolet-k10.html"
+   ],
+   "prices": [
+    16900,
+    28900
+   ]
+  }
+ ],
+ "price_updates": [
+  {
+   "url": "https://www.bnbautosales.com/inventory/used-1970-chevrolet-k10-ke140j140403-in-brookings-sd",
+   "old": 37550,
+   "new": 35950,
+   "note": "B&B 1970 K10 stepside shortbox 4-speed. Detail page: $44,500 list - $8,600 discount + $50 doc = $35,950. It's not on the classic-cars index page but the detail page is live. Spec table says RWD, but the description says 4WD."
+  },
+  {
+   "url": "https://www.bnbautosales.com/inventory/used-1972-chevrolet-k10-cke142s107176-in-brookings-sd",
+   "old": 37550,
+   "new": 35950,
+   "note": "B&B 1972 K10 shortbox (Olive green, FiTech EFI, fiberglass bed). $44,500 - $8,600 + $50 = $35,950. Not on the index but the detail page is live."
+  },
+  {
+   "url": "https://www.bnbautosales.com/inventory/used-1985-gmc-k1500-4x4-1gtek14h2fj504641-in-brookings-sd",
+   "old": 34950,
+   "new": 31950,
+   "note": "B&B 1985 GMC K1500 lifted (6in, 35s, 14-bolt). List is now $32,000 - $100 + $50 doc = $31,950. Index and detail page agree."
+  }
+ ],
+ "remove_urls": [],
+ "unchecked_sites": [
+  "uniqueclassiccars.com (403). classic.com dealer mirror loaded; its recent For Sale entries (Oct 31-Nov 7) show no K10s",
+  "gatewayclassiccars.com incl. Scottsdale (403)",
+  "vanguardmotorsales.com (403)",
+  "volocars.com (403)",
+  "streetsideclassics.com incl. Phoenix (403)",
+  "worldwidevintageautos.com (403)",
+  "grautogallery.com/vehicles (403)",
+  "fastlanecars.com/vehicles (403)",
+  "davis4x4.com/custom-11 (403), so the cross-site price comparison wasn't possible",
+  "canyonstateclassics.com (403). classic.com mirror loaded: no K10/C-K trucks"
+ ],
+ "checked": [
+  "davisautosales.com/square_body_inventory (+ 1987 GMC R/V 1500 window sticker)",
+  "birdimportstx.com used-vehicles (+ 1976 GMC K15 detail)",
+  "pcclassiccars.com/inventory",
+  "classiccardeals.com (category pages K10, K20, C10, Silverado, Pickup, 1500, Scottsdale, Cheyenne, GMC; detail pages; re-checked dashboard CCD URLs)",
+  "bnbautosales.com/classic-cars (+ 6 detail pages)",
+  "downsouthindustriesllc.com/showroom (+ 1987 Silverado detail)",
+  "sparkysmachines.com/our-cars (+ 1984 K10 detail)",
+  "ducautocollection.com/inventory.html (+ 7 K10 detail pages)",
+  "fourbieexchange.com (home + /listings?make=chevrolet)"
+ ],
+ "also_noted": [
+  "Davis 1987 GMC R/V 1500 Sierra Classic long bed, $17,500, 84,078 mi, stock 87G4376: VIN 1GTDR14H... means R = 2WD, and it's an unfinished project. Not included.",
+  "Davis coming-soon trucks unchanged: 1987 V10 red 87C0736C (no price, 63,654 mi), 1986 GMC C/K 1500 4x4 red 86G3704 (no price, 6,613 mi), 1983 C/K10 Stepside 4x4 burgundy 83C1087T (no price, 0 mi shown), 1987 R10 4x4 87C0988T coming soon $34,800. All other Davis K-trucks are at the same prices as the dashboard. Over budget: 1985 C/K 10 black $55,000, 1984 GMC K15 $69,995, 1977 K-20 $57,995, 1979 K-3500 $85,000.",
+  "Duc 1972 Medium Green K10 (k10-200) is still $37,900. The price on the page shows without a $ sign.",
+  "Sparky's 1984 K10 (k10-193) has dropped off the /our-cars/ index, but its detail page is still live at $29,900. Watch it.",
+  "Down South 1987 Silverado 4x4 detail page still says SOLD (it's off the showroom price list). 1968 K-10 short bed $62,500 is over budget.",
+  "Bird 1973 K10 $39,000 and 1976 GMC K15 $49,000 are unchanged.",
+  "CCD old consignments with no dashboard entry, already seen in earlier runs' k10-run/ccd.json: 1987 Chevy 1-ton military 4x4 CO $21,995 (CUCV, 383 stroker), 1985 Chevy 1500 OH $35,995 (drivetrain not stated), 1972 Cheyenne AZ $34,995 (drivetrain not stated), 1970 Cheyenne TX $19,995 4WD.",
+  "PC Classic: no 1973-87 K-trucks (1987 C10 VIN 1GCDR = 2WD).",
+  "Fourbie: no new square-body K10/K20 on the Chevrolet listings page."
+ ]
+}

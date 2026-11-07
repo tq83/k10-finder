@@ -1,0 +1,360 @@
+{
+  "scan_date": "2026-11-07",
+  "scanned_at": "2026-11-07T08:45:00-07:00",
+  "timezone": "America/Phoenix",
+  "new_listings": [
+    {
+      "year": 1977,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Pickup 4x4 4-Speed (No Reserve, weathered custom)",
+      "engine": "305ci V8 (installed 2026)",
+      "transmission": "4-speed manual, dual-range transfer case",
+      "price": 3200,
+      "priceType": "bid",
+      "auctionEnd": "2026-11-13T13:57:00-07:00",
+      "mileage": null,
+      "mileageNote": "19k shown on 5-digit odometer, TMU; speedometer inoperative",
+      "location": "Orem, UT",
+      "state": "UT",
+      "lat": 40.2969,
+      "lng": -111.6946,
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1977-chevrolet-k10-pickup-18/",
+      "imageUrls": [
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4028-scaled-022e5cbcc09c9de94b4adfcf14264593.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4165-scaled-69fce43aa0623a678fdd27a2c8656e2a.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4030-scaled-22c0535c613d08aa2afa861068d24715.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4166-scaled-90d1b2dbc3a70db9fc7c7cc3ddf6a25d.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4031-scaled-34c1dcf8dac60b9ec41edd3d29953aea.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4167-scaled-d0f87ecf1d0528bc3f1b08a610a4e20f.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4032-scaled-4666da5a52278473ef12dc236f7894be.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4168-scaled-8b922ebb0c8b1b4eac57afc033ddfded.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4033-scaled-fb6c5136a0d6d9fda5091f0df834f995.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4169-scaled-7287694bf6b22c9f337d4426b079041c.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4170-scaled-70da7293f08b145b3c0d5e08358df179.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4034-scaled-0c00ee912c70f2951f58c25c57f39cf2.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4171-scaled-ce3dd15461dc5c10a8cca3a6c48b0771.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4035-scaled-d22d43ef9d615e49e5739f55b27b7933.jpg",
+        "https://bringatrailer.com/wp-content/uploads/2026/10/IMG_4172-scaled-13da88e9b4eb55a5c066afd9ba5e05ac.jpg"
+      ],
+      "condition": [
+        "no reserve",
+        "project / driver",
+        "weathered black paint w/ red graphics",
+        "rust: lower fenders, cab corners, lower bedsides",
+        "4-speed manual",
+        "power steering, front discs",
+        "Utah title"
+      ],
+      "redFlags": "Seller notes rust in lower fenders, cab corners and lower bedsides; faded paint, dents. Dash cracked, seat worn, speedometer doesn't work, true mileage unknown. 305 swapped in 2026 (used engine, gaskets only). Bid is far below the $20k band today.",
+      "notes": "BaT lot #274,155, private seller HGURR404. Customized by original owner, parked ~40 years from 1985, bought by seller in 2026. 31x10.5 Falken Wildpeak A/T, turbine-style wheels, roll bar with aux lights, 8-track. Current bid $3,200 (4 bids) as of 2026-11-07 ~8:20 AM MST. Ends Fri Nov 13 12:57 PM PT = 1:57 PM MST. Likely finishes below $20k; watch as a cheap rust-repair 4-speed project.",
+      "valueRating": "fair"
+    },
+    {
+      "year": 1973,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "Fleetside long bed 4x4 (3/4-ton, lifted)",
+      "engine": "Rebuilt V8 (seller says 300 hp; displacement not stated)",
+      "transmission": "Automatic",
+      "price": 25900,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "18,500 shown (5-digit odometer, true miles unknown)",
+      "location": "Garden City (Boise), ID",
+      "state": "ID",
+      "lat": 43.7318,
+      "lng": -116.2797,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/garden-city-1973-chevrolet-k20/wYfVYhmfAdJ3AUZWRkqbFy",
+      "imageUrls": [
+        "https://images.craigslist.org/00202_bTcpbfPHmNv_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00101_emFB6Oyki03_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00T0T_2yT2netWSMD_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00X0X_llQMBznRgZ4_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00Y0Y_3Q0nXRGIdLM_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00b0b_alE0wgzpvKQ_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00m0m_1yKmx5vg3IH_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00m0m_3DVO5qaTdM2_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00n0n_5J0IVbGVxJN_0t20CI_600x450.jpg"
+      ],
+      "condition": [
+        "private party",
+        "2nd owner",
+        "orange repaint",
+        "4in lift",
+        "20in wheels / 35in tires",
+        "AC",
+        "transfer case rebuilt",
+        "clean title"
+      ],
+      "redFlags": "3/4-ton K20, not a K10. Short ad with no VIN, no engine size and only 9 photos. 20in wheels on 35s change the ride a lot. Mileage can't be verified.",
+      "notes": "Private seller, posted 2026-11-03. Claims a full go-through: rebuilt V8 with new intake/carb, AC, radiator, transfer case rebuild, 4in lift, shocks, exhaust, brakes, hubs, windshield, step rails, bed liner, new battery. Not the same truck as the blue B&B 1973 K20 ($25,950).",
+      "valueRating": "fair"
+    },
+    {
+      "year": 1980,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "Long bed 4x4 (3/4-ton)",
+      "engine": "V8 (not stated)",
+      "transmission": "Manual",
+      "price": 19970,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Odometer listed as 1,111 (placeholder; true miles unknown)",
+      "location": "Corrales, NM",
+      "state": "NM",
+      "lat": 35.29845,
+      "lng": -106.550621,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/corrales-k20-long-bed/bzGruhQe98BfYiPK8zgJ1C",
+      "imageUrls": [
+        "https://images.craigslist.org/00b0b_jXC50HXueqy_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/01414_jivaYe9TS1g_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00404_5t8krA9pmyD_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00v0v_1LcTqPW5klh_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00A0A_dBJ27hLulh3_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00u0u_57HidfTJQov_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00S0S_cJg6szDMLWO_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00707_foJ96jeGEnh_0CI0t2_600x450.jpg"
+      ],
+      "condition": [
+        "private party",
+        "manual",
+        "lifted, black wheels",
+        "dark gray/black paint",
+        "clean title",
+        "cash only, no trades"
+      ],
+      "redFlags": "Very vague ad: no engine, VIN, or list of what was done. Seller says it needs 'very minor work' to finish a restoration. 3/4-ton K20. Odometer entry is a placeholder.",
+      "notes": "Private seller near Albuquerque, posted 2026-10-25. Seller calls it 'done top to bottom' and super dependable. Year (1980) is from the listing attributes only. About 7 hrs from Phoenix. Just under the $20k band.",
+      "valueRating": "fair"
+    },
+    {
+      "year": 1977,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "4x4 (3/4-ton, original paint, with camper shell)",
+      "engine": "V8 (not stated)",
+      "transmission": "Automatic (factory)",
+      "price": 19500,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "32,648 shown; seller says 'original miles' (5-digit odometer, unverified)",
+      "location": "Beverly Hills / Los Angeles, CA",
+      "state": "CA",
+      "lat": 34.0699,
+      "lng": -118.3492,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/los-angeles-1977-chevy-k20/2apJa7He73yrXhnfvMN5P2",
+      "imageUrls": [
+        "https://images.craigslist.org/00T0T_hBLTDFSh5TN_0iS0eg_600x450.jpg",
+        "https://images.craigslist.org/00G0G_7itGLTrmtTM_0iS0gR_600x450.jpg",
+        "https://images.craigslist.org/00q0q_bChRGI8CA7J_0b60di_600x450.jpg",
+        "https://images.craigslist.org/00404_ad1TiVDbltV_0eR0iI_600x450.jpg"
+      ],
+      "condition": [
+        "original paint",
+        "never repainted (per seller)",
+        "camper shell included",
+        "CA title, passed smog",
+        "aftermarket wheels/tires",
+        "original bench and headliner"
+      ],
+      "redFlags": "Only 4 photos so far. Engine size not stated. 3/4-ton K20. Carpet and door cards need replacing. 'Original miles' claim on a 5-digit odometer needs paperwork.",
+      "notes": "Private seller, posted 2026-11-04. Orange two-tone; 4x4 tested and works; new water pump. Original-paint California truck just under the band.",
+      "valueRating": "fair"
+    },
+    {
+      "year": 1976,
+      "make": "Chevrolet",
+      "model": "K20",
+      "trim": "Camper Special 4x4 (3/4-ton)",
+      "engine": "400 small-block V8",
+      "transmission": "Rebuilt TH350 automatic",
+      "price": 18500,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Odometer listed as 77,777 (looks like a placeholder)",
+      "location": "San Diego area, CA (posted in Los Angeles)",
+      "state": "CA",
+      "lat": 34.037,
+      "lng": -118.305,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/los-angeles-1976-chevy-k20-camper/nm3b8NeAJYGmzYezZLujio",
+      "imageUrls": [
+        "https://images.craigslist.org/00707_l05eO023YmS_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00303_4fIjLK6KUwh_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00F0F_ai9h4c3ymni_0t20CI_600x450.jpg",
+        "https://images.craigslist.org/00E0E_d2zNEo2p1pw_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00303_dn7DN7V88Z6_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00Z0Z_3EX6CnuP1Mg_0CI0t2_600x450.jpg",
+        "https://images.craigslist.org/00J0J_9z111rDsTtv_0CI0t2_600x450.jpg"
+      ],
+      "condition": [
+        "recent repaint (two-tone green)",
+        "new original-style upholstery",
+        "rechromed bumper, new moldings",
+        "stock look (white steel wheels)",
+        "no accidents (per seller)",
+        "clean title"
+      ],
+      "redFlags": "3/4-ton camper special, not a K10. Below the $20k band. Ad map pin is LA but text says the truck is in the San Diego area. Mileage looks like a placeholder.",
+      "notes": "Private seller, posted 2026-11-04, updated 11-05. Stock-looking OG K20 Camper Special; seller says the color combo is rare.",
+      "valueRating": "fair"
+    }
+  ],
+  "relists": [
+    {
+      "year": 1967,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Stepside 4x4",
+      "url": "https://www.craigslist.org/view/d/reno-1967-chevrolet-chevy-k10-stepside/wM4PXYHa8RG3ufdalUKRcA",
+      "priorUrl": "https://www.craigslist.org/view/d/reno-1967-chevrolet-chevy-k10-stepside/2As__brR8RG-J7-GdrWg5g",
+      "price": 49500,
+      "priorPrice": 49500,
+      "priceChange": 0,
+      "notes": "Sierra Classics & Imports, Reno. Same VIN KE147Z142292, stock S142292, 32,553 shown. Reposted 2026-11-07 00:00. No price change."
+    },
+    {
+      "year": 1978,
+      "make": "Chevrolet",
+      "model": "C/K 10",
+      "trim": "Silverado (Hayes Classics)",
+      "url": "https://www.craigslist.org/view/d/roseville-1978-chevrolet-k-10-classic/glJmUzHP8RGXAefZjzFBSw",
+      "priorUrl": "https://www.craigslist.org/view/d/roseville-1978-chevrolet-k-10-classic/_jU-s3rV8RG9kNpXPHEDNg",
+      "price": 50108,
+      "priorPrice": 50108,
+      "priceChange": 0,
+      "notes": "Hayes Classics dealer repost (also a third copy in search: .../qAeOe4zG8RGtE-ouK-n66g, not opened). VIN 0000CCS448Z208717 decodes as a C (2WD) truck; ad says professionally lowered, 454. Not a 4x4, so ignore it for the hunt."
+    }
+  ],
+  "bid_updates": [
+    {
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/",
+      "price": 16500,
+      "bids": 9,
+      "priorPrice": 14700,
+      "auctionEnd": "2026-11-07T11:32:00-07:00",
+      "notes": "High bidder Chavous as of ~8:15 AM MST. Ends today 10:32 AM PT = 11:32 AM MST (2-minute soft close)."
+    },
+    {
+      "url": "https://www.hagerty.com/marketplace/auction/1979-Chevrolet-K20/d6b31c7a-cb3e-447e-b133-8b82098f54ab",
+      "price": 8000,
+      "bids": 21,
+      "priorPrice": 4200,
+      "auctionEnd": "2026-11-13T12:40:00-07:00",
+      "notes": "Ends Fri Nov 13 7:40 PM UTC = 12:40 PM MST. 427 V8 / 4-speed, Hellertown PA."
+    }
+  ],
+  "price_changes": [
+    {
+      "url": "https://classiccars.com/listings/view/2119730",
+      "priorPrice": 17000,
+      "price": 16500,
+      "notes": "1977 GMC 1500 Sierra 4x4 (SM465/NP205), St. George UT, private. Now $16,500 OBO."
+    },
+    {
+      "url": "https://www.craigslist.org/view/d/foresthill-1973-chevy-k20/hs3dvSfg7uE8CxdiCVAGPY",
+      "priorPrice": 23000,
+      "price": 20000,
+      "notes": "1973 K20 383 crate / 700R4, Foresthill CA. Ad updated 2026-11-06 5:15 PM; now $20,000."
+    },
+    {
+      "url": "https://www.bnbautosales.com/inventory/used-1970-chevrolet-k10-ke140j140403-in-brookings-sd",
+      "priorPrice": 37550,
+      "price": 35950,
+      "notes": "B&B 1970 K10 stepside shortbox 350/4-speed. $44,500 list - $8,600 discount + $50 doc = $35,950."
+    },
+    {
+      "url": "https://www.bnbautosales.com/inventory/used-1972-chevrolet-k10-cke142s107176-in-brookings-sd",
+      "priorPrice": 37550,
+      "price": 35950,
+      "notes": "B&B 1972 K10 shortbox 350 FiTech, auto, olive green. Now $35,950 out the door."
+    }
+  ],
+  "sold_comps": [
+    {
+      "url": "https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/",
+      "price": 13750,
+      "date": "2026-11-06",
+      "year": 1974,
+      "trim": "K10 Custom Deluxe",
+      "mileage": null,
+      "mileageNote": "153 on rolled odometer",
+      "source": "Bring a Trailer",
+      "description": "No reserve, original-owner AZ truck, Ram Jet 5.7 EFI swap, 4-speed, camper shell, door latch/regulator issues. Phoenix AZ. Sold $13,750, 47 bids; ended 11:26 AM PT (12:26 PM MST)."
+    },
+    {
+      "url": "https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/",
+      "price": 25250,
+      "date": "2026-11-06",
+      "year": 1972,
+      "trim": "K10 4x4 4-speed (454)",
+      "mileage": null,
+      "mileageNote": "19k on rolled odometer",
+      "source": "Bring a Trailer",
+      "description": "No reserve, rebuilt 454, 4-speed, rebuilt t-case/diffs, 4in lift, olive/white repaint. Livermore CA. Sold $25,250, 22 bids; ended 1:06 PM PT (2:06 PM MST)."
+    }
+  ],
+  "remove_urls": [
+    "https://bringatrailer.com/listing/1974-chevrolet-k10-pickup-5/",
+    "https://bringatrailer.com/listing/1972-chevrolet-k10-pickup-59/"
+  ],
+  "still_active_checks": [
+    {
+      "url": "https://www.craigslist.org/view/d/verdi-1970-gmc-shortbed-4x4/8QJXsNDbbQ4UpetjfTzwjR",
+      "status": "active",
+      "price": 21000,
+      "notes": "Opened; $21,000, posted 10/14, updated 10/14."
+    },
+    {
+      "url": "https://classiccars.com/listings/view/2124417",
+      "status": "active",
+      "price": 32800,
+      "notes": "Opened; $32,800, Heritage Auto Gallery, Fenton MI. Also still on the Hemmings K10 index at $32,800."
+    },
+    {
+      "url": "https://www.craigslist.org/view/d/modesto-chevrolet-k-10-classic-square/x5qGSCM3cgFU7RuCSAPV6m",
+      "status": "active",
+      "price": 24999,
+      "notes": "Opened; $24,999, 119,410 mi. The older VIP repost (7YQ52iiL...) also still shows in Fresno search results."
+    },
+    {
+      "url": "https://www.hemmings.com/classifieds/listing/1979-chevrolet-k10-morgantown-pa-2976738",
+      "status": "likely active (not fully confirmed)",
+      "price": 36500,
+      "notes": "Detail page returns title only. The Hemmings K10 index still shows the 1979 Bonanza at $36,500, and Classic.com shows it listed Nov 4 by Classic Auto Mall."
+    }
+  ],
+  "unchecked_sites": [
+    {
+      "site": "eBay Motors",
+      "reason": "WebFetch timed out on 3 search URLs; plain curl got HTTP 403. Not checked."
+    },
+    {
+      "site": "Hemmings listing detail pages",
+      "reason": "Detail pages return title only, and curl gets 403. The K10 index page loaded (prices/titles, no URLs). In-band titles all match known trucks, or Streetside listings that Classic.com shows as sold/removed."
+    },
+    {
+      "site": "Barrett-Jackson /2027-scottsdale page",
+      "reason": "Timed out. /auctions loaded: 2027 Scottsdale Jan 23-31, 2027 docket still 'Coming soon', so no K10 lots."
+    },
+    {
+      "site": "Classic.com GMC K15/K1500 market page",
+      "reason": "404 on guessed URL. Chevy K10 2nd/3rd-gen market pages and search were checked."
+    },
+    {
+      "site": "Facebook Marketplace",
+      "reason": "Skipped per instructions (handled separately)."
+    }
+  ],
+  "notes": "BaT Chevy C/K 1973-91 live: only K10s are the 1986 Richmond KY ($16.5k, ends today) and the new 1977 Orem UT ($3.2k NR). BaT GMC C/K 67-72 and 73-91: no live auctions. Cars & Bids: 0 live K-series. Hagerty: no new K-series 4x4 listings (1986 K10 classified card shows $29,900 while Pederson's own site still says $34,995 headline / $29,995 in text). ClassicCars.com K-10 and GMC lists: nothing new in band (CC-2124915 1968 K10 454 long bed $58,980 is out of band). Craigslist: 27 West/Southwest areas searched via plain curl of the static results; nothing new in AZ. Seen file and listings.json NOT edited."
+}
