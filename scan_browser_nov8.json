@@ -1,0 +1,85 @@
+{
+ "new_listings": [
+  {
+   "year": 1972,
+   "make": "Chevrolet",
+   "model": "K10",
+   "trim": "Custom Deluxe",
+   "engine": "350 V8",
+   "transmission": "Automatic",
+   "price": 49000,
+   "priceType": "ask",
+   "auctionEnd": null,
+   "mileage": 157000,
+   "mileageNote": "Listing says 157,000 miles driven",
+   "location": "Glendale, AZ (Phoenix 85310)",
+   "state": "AZ",
+   "lat": 33.5387,
+   "lng": -112.186,
+   "source": "Facebook Marketplace",
+   "url": "https://www.facebook.com/marketplace/item/1008015924886518/",
+   "imageUrls": [
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/854337796_122143532007383274_9166815756145352463_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1537&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=946e27&_nc_ohc=IHYcu0anCPUQ7kNvwFA39x3&_nc_oc=AdoUpsYVnpZ15aDtxIjq--M14Fda62p_Uv-DiN1G72zGk1pVQ7jBQ0-XUEpS6Dwa8pI&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQTLxnUDgOfK3c0m6FvTSKN7Tu0gOJHG5fzEuRTe6BqE2A&oe=6AF6655F",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/896260687_122143532247383274_3438256257222011122_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=946e27&_nc_ohc=3OwdQTjOBFUQ7kNvwFXh-yE&_nc_oc=Adr-k7oNsLa2m3LE7tfhuscyRLy41Ty8I33H44P_r8CL5ZkuCGM6kxzRfOk7-6WWC-o&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQRel-ewkfBG8tmXNomMK6bS1VApH8Scy995IVdva0N8YA&oe=6AF6518A",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/854476273_122143532061383274_6231082085303772024_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=946e27&_nc_ohc=ti0zDcrqNTwQ7kNvwGy6wdq&_nc_oc=AdrWpFAtnZxTGNoxGHeI-8NLz9J2R7GRkQ87unjeRl_AOVPowx33JNkpqIaSwPegNtU&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQT60z9hsVvVXcftMflHwfGqwP8admQxAtfUeSAkQ7WaoQ&oe=6AF66D06",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/855000374_122143532049383274_768083957527829121_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=946e27&_nc_ohc=YPI5f6jr2hwQ7kNvwE6fZ7u&_nc_oc=AdquHTP_YwkVGrV2iKxpZY_WSW2eSvhDd6OB2sA5bv5eU8eJMXFITARnGBIuJEFTxlA&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQS5vzQGWadzSMEvDb2zTnPbpMaGPc1T0wc7exiHCrlUKA&oe=6AF66E1E",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/854409775_122143532313383274_3669179605715405957_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=946e27&_nc_ohc=vof59nglhRsQ7kNvwH4uAag&_nc_oc=AdoctCyz4zJ5MVzxuUusuNJwbw6RlsV1uBcWyuS594DR0HB_aGshMcFQ5hHXgU2Ge84&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQSy5LqhdMuMKeqsvbr2aGX-1rT0l6brJo0Y24rNkfE7jw&oe=6AF64EB8",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/854470517_122143532001383274_6647843009883756981_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=946e27&_nc_ohc=dMTsPBHjv_gQ7kNvwF2d7xM&_nc_oc=AdqEWGGQ-dVeVoT6TwdjrmpIEzKgBKIrxpcB024n1_FczkcQZEN0FlMJMgJwHYIFseI&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQT1jzqA5wP09yuCgejj_ASyQ7pd17XDoU7we2A7bJcFcw&oe=6AF6773B",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t39.30808-6/854412215_122143532367383274_6801482410956473536_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=946e27&_nc_ohc=Nn015KAOScsQ7kNvwFbtuXo&_nc_oc=AdrFDUjIXPIW3t39axNib8BjAmcxofoyEogBYI89qYVRQ5wI1rn05qG4srzOwxLFmcw&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=d9suvmLIN98cZZvMdBZJsw&_nc_ss=7b2a8&oh=00_AQQM4U5vGeFnhppE8UezUl2IX9doMxeypc4itWxENSTaQA&oe=6AF64E0E"
+   ],
+   "condition": [
+    "4x4 short bed",
+    "Factory A/C",
+    "Original green/white",
+    "Newer paint (~3 yrs)",
+    "Clean title",
+    "2 owners"
+   ],
+   "redFlags": "A/C clutch needs replacement; older tires; paint is block-sanded/primed + clear, not a full restoration; seller joined Facebook 2026; priced at top of budget.",
+   "notes": "Listed 3 days ago. Seller claims never cut/modified, no rust issues, runs and drives good, power steering, front disc brakes, 15in rally wheels. 'Priced to sell', no dealers.",
+   "valueRating": "pricey"
+  },
+  {
+   "year": 1969,
+   "make": "Chevrolet",
+   "model": "C20/K20 pickup (3/4-ton) 4x4",
+   "trim": "",
+   "engine": "New 350 crate",
+   "transmission": "4-speed manual",
+   "price": 36500,
+   "priceType": "ask",
+   "auctionEnd": null,
+   "mileage": null,
+   "mileageNote": "Not listed",
+   "location": "Tucson, AZ",
+   "state": "AZ",
+   "lat": 32.2226,
+   "lng": -110.9747,
+   "source": "Facebook Marketplace",
+   "url": "https://www.facebook.com/marketplace/item/1108876495137364/",
+   "imageUrls": [
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/776062646_1486853813474396_3123266290894493020_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=247b10&_nc_ohc=GcTMXnqLY-YQ7kNvwEJipP0&_nc_oc=AdoYaXHl5_e9mIY2xTkgc48M0gfHxrbtBUlOB7Z5m4t7eCtJF1aiDLq957XJSLSsgkc&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=7H-cUTZ2FP7X-_DW3sDkAA&_nc_ss=7b2a8&oh=00_AQT6UDz0UprFXTyHlImm8CphIBQfrrAPdhFR6an-46tbOg&oe=6AF64F15",
+    "https://scontent-phx1-1.xx.fbcdn.net/v/t45.5328-4/784078760_1094712172994626_8929240479668786623_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=247b10&_nc_ohc=72SpdQEn8-kQ7kNvwERiUdH&_nc_oc=AdoYTovrSGFD_O_xJsb0mIHTutuu5dOuyMIayMU8lr9-eCDjT0xmMNQAYg7UO9_7zJA&_nc_zt=23&_nc_ht=scontent-phx1-1.xx&_nc_gid=7H-cUTZ2FP7X-_DW3sDkAA&_nc_ss=7b2a8&oh=00_AQSkxU8M5QWWmx_mEcl22jQcv3MyLGTAsWPgPlSIjtYWvg&oe=6AF67371"
+   ],
+   "condition": [
+    "3/4-ton 4x4",
+    "Frame-off restoration (per seller)",
+    "New 350 crate",
+    "A/C"
+   ],
+   "redFlags": "Listing titled 'c 20' and very short; 4WD claim comes from description only (verify). Listed 11 weeks ago so not fresh. Few photos captured. Title status not stated.",
+   "notes": "Seller: complete frame-off restoration, new 350 crate engine, A/C, 4-wheel drive, four-speed.",
+   "valueRating": "fair"
+  }
+ ],
+ "relists": [],
+ "price_changes": [],
+ "gone": [],
+ "unchecked": [
+  "Facebook searches 'k1500 4x4' and 'gmc k10' (not separately run; first 3 searches returned a large overlapping set)",
+  "Streetside Classics, Gateway, Canyon State inventories: pages loaded but keyword search not applied by JS; only homepage/featured visible, no K10 spotted (not exhaustively reviewed)",
+  "Hemmings, eBay Motors, classic.com (not attempted)"
+ ],
+ "mecum_kissimmee": "Kissimmee 2027 (Jan 5-17, 2027, ~4,500 vehicles) event page loads; lots search page errored ('Error Details (Development Only)') so no K10/K-series lots could be confirmed.",
+ "notes": "Cars & Bids: 0 live auctions for chevrolet k10 or gmc k1500 (only past results). Facebook signed in already. Other FB items reviewed but not reported: 1522546326039165 (1979 1500, 5,000 mi, $32.5k, listed 18 wks, no 4x4 stated), 969900468923130 (1985 C10 $26k, 27 wks, 2WD likely), 1009772505472524 (1981 C10 $29.5k, 2WD, 22in wheels), 1627201418751829 (bagged 84 C10). Other unseen AZ FB 4x4 candidates not opened (cheap/low): 1191050416487588 1982 k10 4x4 Tucson $9k; 1076324218654565 1986 3/4-ton 4x4 Sedona $9.8k; 1088007234109152 1984 K10 Las Vegas $59,995; 1018510291293435 1985 K10 Henderson $10k; 1478406034255044 1979 K20 Phoenix $6k (just listed)."
+}

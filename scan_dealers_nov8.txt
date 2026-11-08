@@ -1,0 +1,20 @@
+K10 dealer scan, Sun Nov 8, 2026, ~8:50 AM MST (Arizona time)
+
+Blocked by 403 (or timeout then 403), so unchecked: Unique (homepage and /vehicles), Gateway incl. Scottsdale, Vanguard, Volo, Streetside inventory/Phoenix/detail pages (homepage loaded, no K10s featured), Worldwide Vintage, GR Auto Gallery, Fast Lane, davis4x4 custom-11 (so no Davis cross-site price compare), and Canyon State direct (classic.com mirror OK, 22 for-sale vehicles, no square-body K-trucks).
+Checked live: Classic Car Deals (K10 and K20 category pages plus opened details), B&B classic-cars plus known detail pages, Davis square_body plus three coming-soon window stickers, Bird used-vehicles, PC Classic inventory, Down South showroom, Sparky's index/our-cars plus the 1984 K10 detail, Duc inventory plus eight K10 details, Fourbie homepage plus the 1980 K10 detail.
+
+Two near-budget 1977 K20 3/4-tons surfaced on CCD that were not in the seen file or listings.json. No new in-band half-ton K10s.
+1) 1977 Chevy K20 Silverado 3/4-ton 4x4, original paint. 400/TH350, $17,495, 80,000 listed (unverified), California. PW/PL, A/C, dual tanks, described as very solid and complete. Fair if a PPI confirms it; 3/4-ton, thin listing.
+   https://www.classiccardeals.com/Listing/431147/1977-Chevrolet-K20-Silverado.aspx
+2) 1977 Chevy K20 3/4-ton long bed 4x4, Arizona. Crate 350 (300 hp claimed) / rebuilt NV4500 5-speed, $18,995. Seller says the engine and trans have under 3,000 miles, receipts mentioned, needs tires, minimal rust claimed. Page also calls it a C20 — verify it is actually 4x4. Older listing ID / 2025-dated photo filename, so call CCD to confirm it is still available. Fair, and convenient if it really is still in AZ.
+   https://www.classiccardeals.com/Listing/410448/1977-Chevrolet-K20.aspx
+
+PRICE CHANGES: none today. Yesterday's B&B drops are holding (1970 and 1972 K10s $35,950; 1985 GMC K1500 $31,950; 1987 V10 $37,550; 1979 GMC $31,600; 1978 K10 $27,050).
+
+RELIST/DUAL: Duc Cordova Brown 1979 still on 2 URLs ($16,900 / $28,900), unchanged.
+REMOVE: none new. Prior removals still sold/gone (PC Classic 1987; Down South 1987 Chevy Silverado 4x4 and 1987 GMC Sierra Classic 4x4).
+
+Watch:
+- Sparky's 1984 K10 ($29,900) is still off the Our Cars index, but https://sparkysmachines.com/our-cars/1984-chevrolet-k10/ is still live.
+- Davis coming-soon trucks still have no price: 1987 V10 red (87C0736C, 63,654 mi, almost ready — body-side trim left); 1986 GMC red (86G3704, 6,613 mi shown; comments describe a 2WD-to-4x4 K20/2500 swap, "priced early next week"; ignore a stray $39,995 NEW ARRIVAL on that page that matches the 1982 K10); 1983 stepside monster truck (83C1087T, VIN 1GCDC14H... originally a C10, 417 LS, 44s). Davis 1987 R10 4x4 COMING SOON still $34,800 (R = 2WD in 1987). davis4x4 was blocked, so no stock-number price mismatch check.
+- Also noted, not in new_listings: CCD project/thin trucks well under $20k (1975 CA K10 $10,495; 1981 ND Scottsdale $7,495; 1976 CA shortbed lifted $11,495; 1978 UT $13,995 with almost no detail-page text). Duc 1970 Olive shortbed still $57,900 (over budget); Duc 1987 Nevada GMC K10 still no ask (BaT coming). Bird 1973 K10 $39,000 and 1976 GMC K15 $49,000 unchanged. Fourbie homepage showed a 1969 K10 Velocity Build with no visible price; known Fourbie asks that were visible are unchanged (1980 K10 $19,995, 1985 Silverado $46,500, 1979 Scottsdale $39,000).

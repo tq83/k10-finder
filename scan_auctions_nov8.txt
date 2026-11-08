@@ -1,0 +1,65 @@
+K10 morning auction/classified scan — Sun Nov 8, 2026 (times in MST / Arizona)
+==============================================================================
+
+SUMMARY
+- New listings confirmed active: 2 (1967 K10 shortbed 4x4 in Sherman TX at $47,999; 1985 K10 shortbed 4-speed in Cumming GA at $24,890). No new in-band AZ/SW private-party finds whose ads I could open.
+- Bid updates: 2 (1986 BaT ended Reserve Not Met at $24,444; Hagerty 1979 K20 now $12,010). BaT 1977 Orem UT unchanged at $3,200.
+- Sold comps: 0 new (the 1986 BaT did not sell). Relists: 0. Price drops on known trucks: 0 confirmed.
+- Barrett-Jackson 2027 Scottsdale (Jan 23-31): docket still "Coming soon", no K10 lots
+- Unchecked: eBay Motors (timeout / empty filtered results); ClassicCars.com search UI (no listing results returned); several Craigslist cities (timeouts); BaT 1987 V10 Stepside listing page (live on the category index at $5,000, URL not resolved)
+- Seen file / listings.json NOT edited
+
+TRACKED AUCTIONS
+- BaT 1986 K10 Silverado 350/4-spd auto, Richmond KY: ENDED Sat Nov 7, 10:38 AM PT = 11:38 AM MST. High bid $24,444 (31 bids). Reserve Not Met — no sale.
+  https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/
+- Hagerty 1979 K20 427/4-spd, Hellertown PA: bid $12,010 (24 bids, was $8,000 / 21 bids). Ends Fri Nov 13 12:40 PM MST.
+  https://www.hagerty.com/marketplace/auction/1979-Chevrolet-K20/d6b31c7a-cb3e-447e-b133-8b82098f54ab
+- BaT 1977 K10 4x4 4-speed, Orem UT, no reserve: still bid $3,200 (4 bids). Ends Fri Nov 13 12:57 PM PT = 1:57 PM MST. No change.
+  https://bringatrailer.com/listing/1977-chevrolet-k10-pickup-18/
+
+NEW LISTINGS
+1) 1967 Chevrolet K10 short-bed Fleetside 4x4 (Gearhead Classics). Sherman, TX
+   350 V8 / Turbo 350 automatic. $47,999. 62,385 shown, TMU.
+   Red, tan bench, 3-inch body lift, 15in Dick Cepek wheels on 35x12.50R15 Mickey Thompson tires, Rancho shocks, dual steering stabilizers, cowl-induction hood, billet grille, spray-in liner, aftermarket A/C, RetroSound radio, four-gauge pod, sliding rear glass, PS / front discs.
+   VIN KE147Z119192 (1967 K10 short-bed Fleetside, Flint). Dealer copy calls the paint "driver-quality." Listed about Oct 22 (17 days on Carsforsale).
+   Take: first-year Action Line shortbed 4x4 is the right shape, but $47,999 is at the top of the band for a lifted/modified driver. Pricey unless an in-person look backs up the body.
+   https://www.carsforsale.com/vehicle/details/132569569
+   Also: https://www.classic.com/veh/1967-chevrolet-k10-short-bed-pickup-ke147z119192-nX9ljAW/
+2) 1985 Chevrolet K10 short-bed 4x4 4-speed (Muscle Car Jr.). Cumming, GA
+   350 small-block (swapped in place of the original 305) with headers, Edelbrock intake and carb / 4-speed manual, hydraulic clutch, power steering, factory-style Rally wheels on 33x12.5 BFG Mud-Terrain T/As. $24,890. 49,805 shown, TMU (title reads exempt).
+   Matte/off-white, grey interior that the seller calls excellent; new A/C system included; aftermarket two-knob radio inop. VIN 2GCEK14H2F1157984.
+   Confirmed on the dealer homepage and on CLASSIC.COM (posted Aug 19, 2026). Same truck is also on a Hagerty classified/garage page with no ask shown.
+   Take: fair if the sheet metal is as solid as claimed. Shortbed + 4-speed + 350 is a good combo in the lower half of the band; Georgia dealer, so plan on a PPI and a real title/mileage check.
+   https://www.classic.com/veh/1985-chevrolet-k10-short-bed-pickup-12gcek14h2f115-pP3J3oW/
+   Hagerty cross-list (no price displayed): https://www.hagerty.com/marketplace/classified/1985-chevrolet-k10/dacab694-69f9-458b-8561-4fe42fe87b3b
+   Dealer homepage (confirms $24,890 / 49,805 mi): https://www.musclecarjrinc.com/
+
+LIVE ON BAT CATEGORY INDEX — LISTING PAGE NOT OPENED
+- 1987 Chevrolet V10 Custom Deluxe Stepside 4x4 4-speed. Bid $5,000 on the Chevy C/K 1973-1991 live-auctions list.
+  Category card: replacement 5.7L V8 rebuilt Dec 2024 with Comp Cams parts, 4-speed manual, dual-range t-case, Edelbrock carb, 15in Xtreme wheels, suspension work.
+  Could not resolve the listing URL (search did not index a /listing/ slug; Today on BaT for Nov 7-8 did not name it). Not added to new_listings. Another pass should open it.
+  Category page: https://bringatrailer.com/chevrolet/ck-1973-1991/
+
+OVER-BUDGET / INDEX-ONLY (not added as new)
+- 1968 K10 long-bed 454 / TH400 / NP205, 1-ton Dana 60 gear, Heber City UT: still $58,980 (over the $50k cap). Noted yesterday as CC-2124915. Also live on Carsforsale as https://www.carsforsale.com/vehicle/details/133377276 (VIN KE148Z166993; 1,234 miles after rebuild). Yellow, custom leather, $499 doc fee.
+- SF Bay Craigslist search index (detail URLs not in the fetched page, so ads were not opened): 1967 Chevy 4x4 K10 $22,000 Boulder Creek; 1978 K10 "original miles 67K" $20,000 Morgan Hill; 1984 K10 4x4 diesel $10,500 Dublin/Pleasanton/Livermore.
+- Los Angeles index: 1970 K10 Pickup $8,500 central LA (well under band; URL not retrieved). Known 1970 shorty still $24,000; known Modesto VIP 1977 still $24,999.
+- San Diego / Orange County index: 1975 Chevy K10 4x4 4-speed short bed $6,800 Oceanside (well under band; URL not retrieved).
+- El Paso index: 1971 K10 4x4 $10,000 (under band; URL not retrieved).
+- Inland Empire index: 1972 Chevrolet K10 4x4 short bed $89,000 Fontana (well over band).
+- Denver index: 1968 SWB 4x4 K10 project $8,000 Westminster (project, under band).
+- Fourbie homepage card: 1969 Chevrolet K10 "Velocity Build" (seafoam, V8, 10-speed auto) with no price shown and no listing URL in the fetched page.
+- Hagerty garage/classified pages not treated as confirmed active sales: 1984 K10 (copper metallic, 4-speed, 4in lift) at https://www.hagerty.com/marketplace/classified/1984-chevrolet-k10/0867a54d-4b61-40ef-a45e-23e33f805500 (no ask, no location); 1973 K20 "firm 30K" at https://www.hagerty.com/marketplace/classified/1973-chevrolet-k20/c8f1d61b-7184-41b2-b26f-108ccc66d63b (owner comments dated "a year ago").
+
+GONE
+- https://phoenix.craigslist.org/nph/cto/d/scottsdale-1972-chevrolet-10-pick-up/7973517285.html — 404 (older URL form; the same Scottsdale/Glendale 1972 green/white shortbed is still live at $46,000 on https://www.craigslist.org/view/d/scottsdale-1972-chevrolet-10-pick-up/2MF3VCwsw4g5vGFHq9f3hA , dashboard k10-119)
+- https://www.craigslist.org/view/d/phoenix-1972-chevrolet-truck-4x4/tSTWCQhAEWR5JLL35MwksW — 404
+
+STILL-ACTIVE CHECKS
+- Scottsdale/Glendale 1972 K10 shortbed $46,000: active (opened; posted 10/24, updated 11/6). Medium Green/White, 350/auto, 157k, Albuquerque history, A/C clutch needs work.
+- Sacramento index still shows Sierra Classics Reno 1967 K10 stepside at $49,500 and the Foresthill 1973 K20 at $20,000 (no further drop from yesterday).
+- Boise index still shows the Garden City 1973 K20 at $25,900.
+- Hemmings K10 index still shows known in-band titles (Fenton 1985 LS $32,800; Morgantown 1979 Bonanza $36,500; Mankato 1986 $30,175; GR Auto Gallery 1977 $30,110 vs dashboard $29,900 — dealer page 403, so that possible $210 bump is not confirmed).
+
+SOURCES CHECKED
+BaT (Chevy C/K 67-72 and 73-91, GMC 73-91, site search k10 and 1987 V10, Today on BaT Nov 7-8), Cars & Bids (k10 and k1500: 0 live), Hagerty (marketplace home, /chevrolet/k10, tracked K20 auction, three classified URLs), Hemmings K10 index, Classic.com K10 2nd- and 3rd-gen market pages, Fourbie Exchange homepage, Barrett-Jackson /auctions, Craigslist (Phoenix, Tucson, Flagstaff, Prescott, Las Vegas, Albuquerque, San Diego, Los Angeles, Orange County, Inland Empire, Palm Springs, Sacramento, SF Bay, Salt Lake City, St. George, Boise, El Paso, Las Cruces; Denver search loaded).

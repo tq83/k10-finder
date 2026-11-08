@@ -1,0 +1,135 @@
+{
+  "scan_date": "2026-11-08",
+  "scanned_at": "2026-11-08T08:50:00-07:00",
+  "timezone": "America/Phoenix",
+  "new_listings": [
+    {
+      "year": 1967,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Short-bed Fleetside 4x4 (first-year Action Line, lifted)",
+      "engine": "350ci V8 (Edelbrock aluminum intake)",
+      "transmission": "Turbo 350 automatic",
+      "price": 47999,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": 62385,
+      "mileageNote": "62,385 shown, TMU",
+      "location": "Sherman, TX",
+      "state": "TX",
+      "lat": 33.6357,
+      "lng": -96.6089,
+      "source": "Carsforsale.com (Gearhead Classics, dealer)",
+      "url": "https://www.carsforsale.com/vehicle/details/132569569",
+      "imageUrls": [
+        "https://cdn05.carsforsale.com/54474516f27b58811e4871ec9fe459f8/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/3b491bc76263b16e633d72e06cc12209/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/00fba6a14845f619c22aa671838017d1c7/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/00b15bba4c36796a9b8be860ac5412d996/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/3ff774c3c970246e15655b771b08c034/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/00cd45ca58441f8a5870b315b421afbb05/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/484bcb51bc05f91eb44ea80b7896d002/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/27af520c32aba41c33b30d2211d8ccf4/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/00d636ea57f3abe838de03f0472d98d587/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/7f6a2315cc9936055d4ebb24b4ad47b1/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/009cdf69e4f656427dae36de7d0520b53e/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/00a7f1532b40b844c525c79467f91dd8a0/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/47fa967e81cab9a475c2d9393d196673/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/581575001be254112a6adbd7b8a8721a/800x600/1967-chevrolet-c-k-10-series.jpg",
+        "https://cdn05.carsforsale.com/6477a28e06e4068cbe0549dc4d9b9552/800x600/1967-chevrolet-c-k-10-series.jpg"
+      ],
+      "condition": [
+        "dealer",
+        "first-year Action Line short bed",
+        "red driver-quality paint",
+        "3in body lift",
+        "35in Mickey Thompson tires",
+        "cowl-induction hood",
+        "billet grille",
+        "aftermarket A/C",
+        "power steering / front discs"
+      ],
+      "redFlags": "Dealer copy calls the paint driver-quality. 3-inch body lift and 35s change the ride a lot. Mileage is TMU. $47,999 is the top of the $20-50k band for a modified driver.",
+      "notes": "Gearhead Classics, 4501 W Houston St, Sherman TX. VIN KE147Z119192. 350 / TH350, Rancho shocks, dual steering stabilizers, spray-in liner, RetroSound radio, four-gauge pod, sliding rear glass. Listed about Oct 22, 2026 (17 days on Carsforsale as of this scan). Also on CLASSIC.COM at the same $47,999.",
+      "valueRating": "pricey"
+    },
+    {
+      "year": 1985,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Short-bed 4x4 4-speed",
+      "engine": "350ci small-block (swapped in place of original 305; headers, Edelbrock intake and carb)",
+      "transmission": "4-speed manual, hydraulic clutch",
+      "price": 24890,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": 49805,
+      "mileageNote": "49,805 shown, TMU; seller says title reads exempt after the engine swap",
+      "location": "Cumming, GA",
+      "state": "GA",
+      "lat": 34.2073,
+      "lng": -84.1402,
+      "source": "CLASSIC.COM (Muscle Car Jr., dealer)",
+      "url": "https://www.classic.com/veh/1985-chevrolet-k10-short-bed-pickup-12gcek14h2f115-pP3J3oW/",
+      "imageUrls": [
+        "https://hagerty-hdc-production.imgix.net/894de0f8-0f30-4ca5-b5ff-95189c4375c8.jpeg",
+        "https://images.classic.com/vehicles/006c25bd371a99a5ef5170e7b9ca07c5.jpg"
+      ],
+      "condition": [
+        "dealer",
+        "short bed 4x4",
+        "4-speed manual",
+        "350 swap",
+        "matte / off-white paint",
+        "Rally wheels / 33in BFG M/T",
+        "new A/C included",
+        "title exempt"
+      ],
+      "redFlags": "Title reads exempt and mileage cannot be verified. Matte/off-white finish can hide body work. Aftermarket two-knob radio does not work. Only two listing photos could be captured from the opened pages; the Hagerty card claims many more. Georgia dealer (Muscle Car Jr., 433 Canton Rd, Cumming).",
+      "notes": "Confirmed $24,890 / 49,805 miles on the Muscle Car Jr. homepage (https://www.musclecarjrinc.com/) and on CLASSIC.COM (posted Aug 19, 2026). VIN 2GCEK14H2F1157984. Same truck appears on Hagerty classifieds with no ask displayed: https://www.hagerty.com/marketplace/classified/1985-chevrolet-k10/dacab694-69f9-458b-8561-4fe42fe87b3b \u2014 do not add that URL as a second truck. Seller (Pete, 678-858-5786) describes it as a solid shortbed 4x4 with an excellent interior.",
+      "valueRating": "fair"
+    }
+  ],
+  "relists": [],
+  "bid_updates": [
+    {
+      "url": "https://bringatrailer.com/listing/1986-chevrolet-k10-pickup-31/",
+      "oldBid": 16500,
+      "newBid": 24444,
+      "bids": 31,
+      "auctionEnd": "2026-11-07T11:38:00-07:00",
+      "status": "Reserve Not Met"
+    },
+    {
+      "url": "https://www.hagerty.com/marketplace/auction/1979-Chevrolet-K20/d6b31c7a-cb3e-447e-b133-8b82098f54ab",
+      "oldBid": 8000,
+      "newBid": 12010,
+      "bids": 24,
+      "auctionEnd": "2026-11-13T12:40:00-07:00",
+      "status": "active"
+    }
+  ],
+  "sold": [],
+  "gone": [
+    {
+      "url": "https://phoenix.craigslist.org/nph/cto/d/scottsdale-1972-chevrolet-10-pick-up/7973517285.html",
+      "reason": "404. Older Craigslist URL form; the same 1972 green/white shortbed is still active at $46,000 on https://www.craigslist.org/view/d/scottsdale-1972-chevrolet-10-pick-up/2MF3VCwsw4g5vGFHq9f3hA (dashboard k10-119)."
+    },
+    {
+      "url": "https://www.craigslist.org/view/d/phoenix-1972-chevrolet-truck-4x4/tSTWCQhAEWR5JLL35MwksW",
+      "reason": "404. Listing removed or expired."
+    }
+  ],
+  "price_changes": [],
+  "unchecked": [
+    "eBay Motors (WebFetch timed out or returned 0 results on filtered searches)",
+    "ClassicCars.com listing search (keyword/q pages rendered the advanced-search UI with no results; did not return current K10 cards)",
+    "Bring a Trailer 1987 V10 Custom Deluxe Stepside listing page (live at $5,000 on the C/K 1973-1991 category index; listing URL not resolved)",
+    "Craigslist Reno, Yuma, Colorado Springs, Santa Fe, Sierra Vista (timeouts or not fetched this pass)",
+    "Craigslist detail pages for SF Bay / Oceanside / El Paso / Denver / central LA index hits (search pages listed titles and prices but stripped the ad URLs)",
+    "Fourbie Exchange 1969 Velocity K10 card (homepage showed the truck with no price and no listing URL)",
+    "GR Auto Gallery 1977 K10 dealer page (403; Hemmings index shows $30,110 vs dashboard $29,900, unconfirmed)"
+  ],
+  "barrett_jackson": "2027 Scottsdale (Jan 23-31, 2027) still shows 'View docket (Coming soon)' on https://www.barrett-jackson.com/auctions. No K10/K-series 4x4 lots posted. Unchanged from Nov 7.",
+  "notes": "BaT Chevy C/K 1973-91 live auctions (5): the tracked 1977 Orem UT K10 at $3,200; a 1987 V10 Custom Deluxe Stepside 4x4 4-speed at $5,000 (listing page not opened); plus a 1985 C20 2WD, a 1987 V30 crew-cab dually, and a 1987 R10 2WD, which were skipped. BaT Chevy C/K 1967-72 live: only 2WD C10s. BaT GMC C/K 1973-91: no live auctions. BaT k10 search: 1 live listing (the 1977). The 1986 Richmond KY K10 closed Sat Nov 7 at 10:38 AM PT (11:38 AM MST) \u2014 bid to $24,444, 31 bids, Reserve Not Met (remove from live tracked auctions; not a sold comp). Cars & Bids k10 and k1500: 0 live. Hagerty K10 page: known 1977 shortbed still $18,000; no new confirmed active K10 auctions besides the tracked 1979 K20 (now $12,010 / 24 bids). Classic.com 2nd/3rd-gen K10 market pages surfaced the Sherman 1967 and Cumming 1985, and confirmed B&B's 1970 and 1972 stepsides still at yesterday's $35,950. Craigslist West/Southwest: no newly opened in-band private-party ads; the known Scottsdale 1972 is still $46,000. Barrett-Jackson 2027 Scottsdale docket still Coming soon. Seen file and listings.json were not edited."
+}
