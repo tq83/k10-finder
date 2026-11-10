@@ -1,0 +1,44 @@
+{
+  "scan_date": "2026-11-10",
+  "network_note": "User computer offline; browsing used box network instead.",
+  "candidates": [
+    {
+      "source": "CLASSIC.com",
+      "year": 1968,
+      "model": "Chevrolet C/K Pickup 1500 K10",
+      "trim": "not stated",
+      "drive": "4WD",
+      "price_usd": 39900,
+      "fees": "not disclosed",
+      "mileage_mi_shown": 3795,
+      "engine": "Seller describes 350 cubic-inch V8; CLASSIC VIN-decoded specifications say 327ci V8 (L30 177hp); discrepancy requires verification.",
+      "transmission": "manual",
+      "location": "Bismarck, North Dakota",
+      "listing_date": "2026-11-04",
+      "listing_age": "6 days as of Nov 10",
+      "url": "https://www.classic.com/veh/1968-chevrolet-ck-pickup-1500-k10-ke148j114367-nQ9GJvn/",
+      "source_url": "https://www.rides-autosales.com/vehicle-details/980fcdb8b7d14e788135cc08e250e31c",
+      "condition_notes": "Seller calls truck clean, Tripoli Turquoise Poly, Sun Super Tach II, Cooper Discoverer S/T tires, Warn locking hubs. Rust and title not stated. Mileage shown, actual mileage not verified. Engine description conflicts with decoded specs; fees not disclosed.",
+      "photo_urls": [
+        "https://images.classic.com/vehicles/ca216ef00f61a828f86b8cf6707c4dc0.jpg?ar=16%3A10&auto=format&fit=crop&h=480&w=768",
+        "https://images.classic.com/vehicles/f32bd52947cd5274783a041f9f8b9cb3.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/0b188a9c616784644c9e8f6e6727942f.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/94477e233decd16117d278218bf1fd7e.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/d4046fe1812db4d4c5649d9d51cab50a.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/1def48aff48f5089a55a57df725bc296.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/f4cd4ac557bee5b2634ec5844e0dd815.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/c656d4d44924b6392264f3019943de44.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/a19d5282742bb2622448827a2f186ce8.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600",
+        "https://images.classic.com/vehicles/de7d0d17510c3d07be09d52d98319cfa.jpg?ar=16%3A9&auto=format&fit=crop&h=338&w=600"
+      ]
+    }
+  ],
+  "site_notes": {
+    "Facebook": "Checked three requested searches, newest visible results. No confirmed new qualifying K10. Opened 1970 C10 (not K10) and 1975 short bed with 4WD unspecified; not treated as qualifying.",
+    "eBay": "Requested search returned repeated 'Something went wrong on our end'; unchecked.",
+    "Hemmings": "Chevrolet K10 and GMC K1500 checked; K15 URL redirected to generic GMC. Visible qualifying examples largely on known list. Search sorted recommended despite requested sort.",
+    "CLASSIC.com": "Requested path returned not found; searched Chevrolet K10 via site search.",
+    "Cars & Bids": "K10, K1500, square body searches each had 0 live auctions.",
+    "Mecum": "Kissimmee 2027 K10 search showed four K10 lots: 1181996, 1181937, 1184853, 1182668; all in full known list, not re-detailed."
+  }
+}

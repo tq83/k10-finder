@@ -1,0 +1,30 @@
+K10 morning sweep (exec), Tue Nov 10 2026, about 8:15-9:00 AM Arizona time
+Staged in scan_nov10_exec.json (merge dry run OK: +9 new, 4 bid/notes updates, 1 removal). NOT merged or published, and the seen list was NOT edited.
+
+NEW: BaT live auctions
+- 1986 Chevy K20 Silverado 4x4, 5.7/3-speed auto, 24k shown, Keenesburg CO, 6in lift, 20in Welds on 38s, factory two-tone. Bid $5,000 (1 bid). Ends Mon Nov 16, 2:55 PM. Fair.
+  https://bringatrailer.com/listing/1986-chevrolet-k20-pickup-18/
+- 1985 GMC K1500 Sierra Classic 4x4, NO RESERVE, swapped 350/3-speed auto, rolled odometer (45k shown, TMU), Wareham MA, white repaint, 4in body lift, A/C doesn't work. Bid $100. Ends Mon Nov 16, 12:32 PM. Fair (watch for Northeast rust).
+  https://bringatrailer.com/listing/1985-gmc-k1500-10/
+
+NEW: buy-now (first seen on Classic.com, Carsforsale or ClassicCars.com)
+- 1985 K10 Custom Deluxe short bed 4x4, GR Auto Gallery, Grand Rapids MI, $26,110 (about $25,900 on GR's own site), 74k shown, lifted on 35s. Fair.
+- 1981 K10 short bed 4x4, GR Auto Gallery, Grand Rapids MI, $28,900, 67k shown (TMU), red with black leather, lifted. Fair.
+- 1978 K10 Scottsdale short bed 4x4, private seller, Ponchatoula LA, $45,000, 383 stroker, lifted, 211k shown (TMU). Pricey.
+- 1973 GMC K1500 Sierra Grande 4x4, Drive The Coast, Santa Rosa Beach FL, $34,000, 350/auto, A/C, 33s. Fair (a search snippet showed $28k elsewhere; confirm).
+- 1980 GMC K1500 4x4, Daily Driver Classic Motors, St. Louis MO, $36,000, 350/auto, 14k shown (TMU), no description. Pricey until photos and details come in.
+- 1971 K10 Custom 4x4, Finley Motors, Finley ND, $35,000, manual, 70k shown, VIN decodes as a six-cylinder. Pricey.
+- 1970 K10, Thiel Motor Sales, De Witt IA, $39,997, manual, 80k shown, no photos or description, VIN body code suggests a cab & chassis. Pricey or thin.
+
+BID UPDATES
+- BaT 1978 K10 Silverado 18k (Johnson City NY): $22,000 (11 bids), up from $15,000. Ends Sun Nov 15, 11:29 AM.
+- BaT 1987 V10 CD Stepside 4-speed (NJ): $5,200 (3 bids). Ends Sat Nov 14, 12:28 PM. Carfax NAM title brands.
+- BaT 1977 K10 4-speed, no reserve (Orem UT): $3,300 (5 bids). Ends Fri Nov 13, 1:57 PM.
+- Hagerty 1979 K20 427/4-speed: $12,010 (24 bids), unchanged. Ends Fri Nov 13, 12:40 PM.
+
+REMOVE: k10-39, LA Craigslist 1970 K10 shorty $24,000 ("This posting has expired").
+RELISTS / PRICE CHANGES: none confirmed. Fourbie 1976 K10 Stepside = Streetside 9501-ATL (k10-165), same $49,995. B&B 1971 GMC URL slug changed (k15), same $47,550. Duc 1972 teal K10 page no longer shows a price.
+STILL ACTIVE (spot-checked): all 28 CCD detail pages, B&B, Bird, Davis, Sparky's 1984, Duc, Fourbie, Glendale 1972 K10 CL ($46k), and other tracked Craigslist ads.
+NOT ADDED: Davis 1984 "K30 camper" 84C4192 $25k (VIN says 2WD C20); Davis 1985 K10 85C8859 $55k (over budget); Down South 1968 K-10 SOLD; Belen NM 1987 V30 dually $20k.
+BARRETT-JACKSON 2027 Scottsdale: site blocked (403). Search results say the docket isn't posted yet, so no K10 lots.
+BLOCKED: Unique, Gateway (incl. Scottsdale), Vanguard, Volo, Worldwide Vintage, Fast Lane, GR Auto Gallery, davis4x4, Canyon State direct, Streetside search, Barrett-Jackson, CCD search (520), ClassicCars.com search.
