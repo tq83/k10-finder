@@ -1,0 +1,13 @@
+# K10 exec run - Wed Nov 11, 2026 (Arizona time). Batch: scan_nov11_exec.json (4 new + 5 BaT bid refreshes + 5 price updates). Not merged/published; seen list not edited.
+python3 merge_listings.py scan_nov11_exec.json --remove \
+  https://www.craigslist.org/view/d/foresthill-1973-chevy-k20/hs3dvSfg7uE8CxdiCVAGPY \
+  https://classiccars.com/listings/view/2118596 \
+  https://classiccars.com/listings/view/2087419 \
+  https://classiccars.com/listings/view/2124417
+# (give --remove once with all URLs)
+# --sold: none (no tracked auction ended; ClassicCars "sold" pages show no sale price)
+## --remove reasons
+# k10-155 Foresthill CA 1973 K20 CL: "This posting has expired."
+# k10-07  ClassicCars 2118596 1978 K10 Bonanza (WWVA Denver, $26,900): "This vehicle has been sold"
+# k10-51  ClassicCars 2087419 1985 K10 LS (Fenton MI, $32,800): "This vehicle has been sold"
+# k10-198 ClassicCars 2124417 (same Fenton truck, $32,800): "This vehicle has been sold"
