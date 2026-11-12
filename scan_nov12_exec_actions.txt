@@ -1,0 +1,11 @@
+# K10 exec run - Thu Nov 12, 2026 (Arizona time). Batch: scan_nov12_exec.json (5 new + 8 auction bid refreshes + 5 price/notes updates). Not merged/published; seen list not edited.
+python3 merge_listings.py scan_nov12_exec.json --remove \
+  https://classiccars.com/listings/view/2079420 \
+  https://classiccars.com/listings/view/2114590
+# (give --remove once with all URLs)
+# --sold: none (no tracked auction ended; ClassicCars "sold" pages show no sale price)
+## --remove reasons
+# k10-85  ClassicCars 2079420 1971 K10 lifted show truck (Palmetto FL, $39,995): "This vehicle has been sold"
+# k10-184 ClassicCars 2114590 1983 K20 lifted (Grand Rapids MI, $36,900): "This vehicle has been sold"
+## Watch (not removed)
+# k10-193 Sparky's 1984 K10 $29,900: gone from the 'Our Cars' index, but the detail page still loads with no SOLD mark. Note added; recheck next run.

@@ -1,0 +1,46 @@
+K10 morning sweep (exec), Thu Nov 12 2026, Arizona time
+Staged in scan_nov12_exec.json. Merge dry run OK: +5 new (k10-237..241), 13 bid/price/notes updates, 2 removals, 0 comps. NOT merged or published, and the seen list was NOT edited. Actions are in scan_nov12_exec_actions.txt.
+All browsing went over the box's own network (curl + WebFetch, no browser).
+
+NEW: auctions
+- 1987 Chevy V10 Custom Deluxe Fleetside 4x4, 4-speed, NO RESERVE, 5.7 V8 (Edelbrock AVS2/Performer), Canadian-market truck, 174k km (~108k mi) shown, but the Arkansas title says OD Exempt. Cavalier ND (Canadian dealer). Yellow repaint from a refurbishment ~20 yrs ago, then stored; lift, manual hubs, tube bumpers, sport bar. Rocker corrosion, dry-rotted tires; new alternator, battery and plugs. Clean Carfax. Bid $1,000. Ends Wed Nov 18, 12:05 PM. Fair: likely $14-22k, a cheap 4-speed build base.
+  https://bringatrailer.com/listing/1987-chevrolet-c-k-r10-pickup-54/
+- "Modified 1972 Chevrolet Pickup 4x4": a 1972 C20 cab/bed (VIN CCE242A144609 = 2WD) on a 1980 K20 frame. 350/TH400/NP205, 14-bolt, 4" Skyjacker, A/C, Hugger Orange/Dover White, 85k shown (TMU), Pell City AL, private seller. Alabama REGISTRATION ONLY, no title. RESERVE. Bid $15,000. Ends Wed Nov 18, 12:44 PM. Fair only if it stays near $20-25k; not a factory K-truck.
+  https://bringatrailer.com/listing/1972-chevrolet-k20-pickup-33/
+
+NEW: buy-now
+- 1981 Chevy K20 Scottsdale 4x4, 350 (rebuilt, about 20k miles on it), manual, dual tanks, Colorado (CCD consignment at the owner's home), $19,900. Owner reports no leaks, a tight 4x4 and minimal rust, with patch metal included; mileage and VIN not listed. Great: cheapest honest-sounding square-body K20 in range.
+  https://www.classiccardeals.com/Listing/431611/1981-Chevrolet-Scottsdale-K20.aspx
+- 1976 Chevy K20 4x4, 350 FiTech EFI and long-tube headers, auto, A/C, tilt, RetroSound/Kicker audio, orange/white over brown cloth, 70,563 shown, Gateway San Antonio/Austin (New Braunfels TX), $45,000, VIN CKL246Z120977. Pricey (K20 drivers sell for about $17-24k).
+  https://classiccars.com/listings/view/2113070
+- 1970 Chevy K20 4x4, 4-speed, rebuilt fuel-injected '87 350 with Vortec heads, older Medium Bronze repaint with white roof, oak bed, Skyjacker shocks, Veit's Vettes (Bettendorf IA), $44,995, odometer shows 0 (unknown). VIN KS24011271118. Possibly the same truck as the seen Hemmings 1970 "K10" in Bettendorf (2952513); confirm before adding. Pricey; $30-38k is more realistic, and the low listing ID suggests it has sat for a while.
+  https://classiccars.com/listings/view/2026467
+
+BID UPDATES (all MST; BaT bid counts not visible)
+- Hagerty 1979 K20 427/4-speed: $12,010 (24 bids), unchanged. Ends Fri Nov 13, 12:40 PM.
+- BaT 1977 K10, no reserve (Orem UT): $5,000, unchanged. Ends Fri Nov 13, 1:57 PM.
+- BaT 1987 V10 4-speed (NJ): $5,650, up from $5,200. Ends Sat Nov 14, 12:28 PM.
+- BaT 1978 K10 18k (NY): $22,500, unchanged. Ends Sun Nov 15, 11:29 AM.
+- BaT 1985 GMC K1500, no reserve (MA): $6,925, up from $1,000. Ends Mon Nov 16, 12:32 PM.
+- BaT 1986 K20 (CO): $10,000, unchanged. Ends Mon Nov 16, 2:55 PM.
+- BaT 1971 K10 9k-mile (CO): $37,250, up from $37,000. Ends Tue Nov 17, 3:28 PM.
+- Hagerty 1972 K10, no reserve (UT): $7,500 (5 bids), up from $5,500. Ends Wed Nov 25, 12:20 PM.
+  Not added: BaT 1987 V30 Cummins crew cab, $11,500 (out of scope).
+
+PRICE CHANGES / INFO UPDATES
+- k10-80 ClassicCars 2119730 1977 GMC 1500 (St. George UT): $16,500 -> $14,999 OBO.
+- k10-233 Fourbie 1985 K10 6.2 diesel: now also ClassicCars CC-2125706, same $28,900, which states 73,000 miles (mileage added).
+- k10-67 Skyway 1978 GMC K1500 LS (ClassicCars $49,997): same truck on Fourbie at $47,997 (stock SN2990). Note only.
+- k10-226 Drive The Coast 1973 GMC K1500 ($34,000): cross-posted on CCD as "1973 GMC New Sierra 2500" at $38,999 (identical photos). Note only; buy direct.
+- k10-193 Sparky's 1984 K10 $29,900: off the inventory index, but the detail page is still live. Possible sale; flagged in notes, not removed.
+
+REMOVE (no --sold; no sale prices shown)
+- k10-85 ClassicCars 2079420 1971 K10 lifted, Palmetto FL, $39,995: marked SOLD.
+- k10-184 ClassicCars 2114590 1983 K20 lifted, Grand Rapids MI, $36,900: marked SOLD.
+
+RELISTS / CROSS-POSTS (no new entries): CCD 432347 = k10-226 (+$4,999). ClassicCars 2110477 1985 K20 diesel $31,995 = CCD 318516 (seen). ClassicCars 2117490 1977 K20 Silverado = CCD k10-214. ClassicCars 2125706 = k10-233. Fourbie: 1976 GMC K15 $49k = Bird k10-121; 1976 K10 Stepside $49,995 = k10-165; 1979 K10 $39,995 = Streetside k10-58; 1978 GMC K1500 $47,997 = k10-67. Hagerty classified 1987 V10 = k10-49.
+COMPS: no new K-series 4x4 BaT sales since 11/7. Out of scope: 1987 R10 2WD $20,250 (11/11), 1987 V30 crew dually $40,670 (11/10), 1995 K1500 $16,250. Down South 1987 Silverado 4x4 now SOLD (never priced, untracked).
+STILL ACTIVE (spot-checked, same price unless noted above): all tracked ClassicCars.com pages (direct page or current search result) except the 2 sold; all 28 CCD pages; all 11 tracked Craigslist ads (k10-119 slug now "glendale", same post ID); B&B (8); Bird ($39k, $49k); Fourbie (9); Duc (teal 1972 still no price); Davis k10-123/124/125/136/146 (87C0736C V10, 86G3704 and 83C1087T still "coming soon", no price); Hagerty classifieds k10-176/177/179 live (no price on detail pages).
+NOTHING NEW / NOT ADDED: 2WD skipped: ClassicCars 2125544 1973 GMC (Premier Auction Group, Dec 3-5), 2117387, 2053185, 2119556; CCD 428506/424711/422754/419077/428870/376165/346434; Albuquerque CL 1977 C10 $35k. Over budget: Fontana CL 1972 K10 $89,000; Davis 1984 GMC $69,995, 1977 K-20 $57,995, 1985 K10 $55k; Fourbie LS 1968 K-10 $78k. Under budget: El Cajon 1977 K20 $12,900 (x2), Las Vegas 1976 K20 $13,995, La Habra 1978 K10 $12,500, Oceanside 1975 K10 $6,800, New River AZ 1976 GMC K15 $4,900, Phoenix 1972 4x4 $6,000, Fourbie 1977 K10 $13,995, several CCD under $15k. PC Classic only C10s/1993 K1500. Canyon State (via classic.com, 23 for sale): no K-trucks.
+BARRETT-JACKSON 2027 Scottsdale (Jan 23-31): site blocked (403). Search results show the docket isn't published yet, so no K10 lots.
+UNCHECKED (blocked): Unique (k10-101 unverified), Gateway direct (incl. Scottsdale; San Antonio checked via ClassicCars), Vanguard, Volo, Streetside (incl. Phoenix), Worldwide Vintage, GR Auto Gallery, Fast Lane, Canyon State direct, davis4x4 (no Davis cross-site price check), Barrett-Jackson, Hemmings detail pages (WebFetch returns only FAQ boilerplate). Cars & Bids not checked. eBay, Mecum, FB, classic.com search left to the browser pass (scan_browser_nov12.json exists; no URL overlap with this batch).
