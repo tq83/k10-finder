@@ -1,0 +1,23 @@
+# K10 exec run - Fri Nov 13, 2026 (Arizona time). Batch: scan_nov13_exec.json (2 new + 10 auction bid refreshes + 4 price/notes updates). Not merged/published; seen list not edited.
+python3 merge_listings.py scan_nov13_exec.json --remove \
+  https://www.hagerty.com/marketplace/classified/1972-Chevrolet-K20/c8c41384-3dd5-47c9-9bde-66cc21bd0574 \
+  https://www.ducautocollection.com/1987-chevrolet-k10-custom-deluxe.html \
+  https://www.ducautocollection.com/1972-chevrolet-k10-ochre.html \
+  https://www.ducautocollection.com/1979-chevy-k10.html \
+  https://www.ducautocollection.com/1972-chevy-k10-teal.html \
+  https://www.ducautocollection.com/1987-chevrolet-silverado-1500.html \
+  https://www.ducautocollection.com/1987-gmc-sierra-classic-ls-4x4.html
+# (give --remove once with all URLs)
+# --sold: none (no tracked auction has ended yet; Hagerty 1979 K20 ends 12:40 PM and BaT 1977 K10 ends 1:57 PM today; Duc shows no sale prices)
+## --remove reasons
+# k10-179 Hagerty classified 1972 K20 (Valparaiso IN, $47,500): ad pulled. The page now shows only the owner's garage profile ("listing": null, no asking price) and the truck has dropped out of Hagerty's Chevrolet K20 search.
+# k10-194 Duc 1987 K10 Custom Deluxe ($26,500)
+# k10-195 Duc 1972 K10 Cheyenne long bed (ochre) ($43,500)
+# k10-196 Duc 1979 K10 ($16,900)
+# k10-200 Duc 1972 K10 short bed, 518 Medium Green ($37,900)
+# k10-201 Duc 1987 Silverado 1500 4x4 ($27,900)
+# k10-202 Duc 1987 GMC Sierra Classic LS 4x4 ($39,900)
+#   All six are marked "Sold!" on Duc's inventory page.
+#   An archived copy of that page (k10-run/nov3am/p/duc2.html) already showed them "Sold!", so these were stale orphan detail pages when they were added Nov 5-6. The detail pages still show the old prices.
+## Watch (not removed)
+# k10-193 Sparky's 1984 K10 $29,900: missing from the 'Our Cars' index for a second day. The detail page is unchanged with no SOLD mark. Likely sold; add to --remove if you agree.
