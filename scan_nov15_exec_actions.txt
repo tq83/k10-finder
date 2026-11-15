@@ -1,0 +1,17 @@
+# K10 exec run - Sun Nov 15, 2026 (Arizona time). Batch: new_nov15_exec.json (3 new + 10 auction bid refreshes + 8 price/notes updates). Not merged/published; seen list not edited.
+python3 merge_listings.py new_nov15_exec.json --remove \
+  https://www.streetsideclassics.com/vehicles/10212-cha/1986-gmc-sierra-classic-1500-4x4 \
+  https://www.classiccardeals.com/Listing/429454/1974-Chevrolet-Custom-Deluxe-K10.aspx \
+  https://bringatrailer.com/listing/1987-chevrolet-c-k-v10-pickup-42/
+# (give --remove once with all URLs)
+# --sold: none yet. BaT 1978 K10 (k10-216) ends TODAY 11:29 AM Arizona time, after this run. If it sells, add:
+#   --sold https://bringatrailer.com/listing/1978-chevrolet-k10-pickup-25/=<final price>
+#   If it is bid-to/reserve not met, add its URL to --remove instead (merge also auto-removes it 2h after the end).
+## --remove reasons
+# k10-53  Streetside 10212-CHA 1986 GMC Sierra Classic 1500 4x4 (Concord NC, $44,995): page now reads "$44,995 SOLD" / "Apply Now SOLD".
+# k10-112 Classic Car Deals 429454 1974 K10 Custom Deluxe ($18,995): listing URL now redirects to /Inventory/CurrentInventory.aspx and the truck is missing from CCD's Chevrolet K10/pickup/Custom Deluxe inventory pages.
+# k10-217 BaT 1987 V10 Custom Deluxe Stepside 4-speed (Lake Hopatcong NJ): auction ended Sat Nov 14 12:28 PM, "bid to USD $15,000", reserve not met (not sold, so no comp).
+## Watch (not removed)
+# k10-193 Sparky's 1984 K10 $29,900: off the 'Our Cars' index for a third check; detail page unchanged, no SOLD mark.
+# k10-102 B&B 1970 K10 (KE140J140403) $35,950: not on B&B's truck/Chevrolet index pages today, but the detail page still loads at $35,950 with no sold mark.
+# k10-138 Hemmings 1979 K10 Fort Lauderdale ($44,999): Hemmings K10 search shows a "1979 Chevrolet K10 Pickup" at $42,000, possibly a price cut on this ad. Not confirmed (Hemmings pages show no price to WebFetch), so the data was not changed.
