@@ -1,0 +1,42 @@
+{
+ "run": "K10 exec morning scan, Mon Nov 16 2026 (Arizona time)",
+ "newListings": [],
+ "relistsCrossPosts": [
+  {"url": "https://classiccars.com/listings/view/2126417", "sameAs": "k10-233 (Fourbie 1985 K10 6.2 diesel $28,900) / CCD 432378", "price": 34675, "note": "CCD consignment cross-post, $5,775 over Fourbie direct"},
+  {"url": "https://classiccars.com/listings/view/2126799", "sameAs": "CCD 432457 1976 K20 Camper (seen)", "price": 27495, "mileage": 77777, "note": "CCD consignment at client's home; VIN shown as placeholder 00000AMS496150000"},
+  {"url": "https://classiccars.com/listings/view/2126642", "sameAs": "k10-250 CCD 432447 1977 K20", "price": 24495, "note": "same price"},
+  {"url": "https://www.uniqueclassiccars.com/vehicles (1986 K10 4x4, 60,761 mi, 350/700R4)", "sameAs": "k10-38 ClassicCars 2119773", "price": 29900, "note": "dealer site $29,900 vs ClassicCars $30,175"}
+ ],
+ "bidUpdates": {
+  "k10-222 BaT 1985 GMC K1500 NR": {"bid": 14950, "prev": 12750, "ends": "2026-11-16T12:32:00-07:00"},
+  "k10-221 BaT 1986 K20": {"bid": 15000, "prev": 15000, "ends": "2026-11-16T14:55:00-07:00"},
+  "k10-231 BaT 1971 K10": {"bid": 60000, "prev": 50000, "ends": "2026-11-17T15:28:00-07:00"},
+  "k10-237 BaT 1987 V10 NR": {"bid": 1500, "prev": 1000, "ends": "2026-11-18T12:05:00-07:00"},
+  "k10-238 BaT 1972 C20-on-K20": {"bid": 27000, "prev": 26500, "ends": "2026-11-18T12:44:00-07:00"},
+  "k10-245 BaT 1979 K10 NR Sierra Vista AZ": {"bid": 8500, "prev": 8000, "ends": "2026-11-19T11:46:00-07:00"},
+  "k10-246 BaT 1972 K20 454": {"bid": 6000, "prev": 5000, "ends": "2026-11-19T15:00:00-07:00"},
+  "k10-248 BaT 1970 K10": {"bid": 15250, "prev": 13100, "ends": "2026-11-20T12:53:00-07:00"},
+  "k10-251 BaT 1972 K20 LT4": {"bid": 43000, "prev": 28300, "ends": "2026-11-21T12:25:00-07:00"},
+  "k10-232 Hagerty 1972 K10 NR": {"bid": 16000, "prev": 16000, "bids": 13, "ends": "2026-11-25T12:20:00-07:00"}
+ },
+ "sold": [{"id": "k10-216", "url": "https://bringatrailer.com/listing/1978-chevrolet-k10-pickup-25/", "soldPrice": 56000, "soldDate": "2026-11-15", "note": "18k-mile 1978 K10 Silverado SWB, ended 11:50 AM AZ after extensions"}],
+ "removed": [],
+ "otherUpdates": ["k10-38: engine/trans/notes from full ClassicCars description + Unique direct price"],
+ "notAdded": [
+  "Craigslist La Grande OR 1969 custom K10 3/4-ton, crate 350/4-spd/NP205, $18,500, 22k on rolled odo (just under budget, thin ad) https://www.craigslist.org/view/d/la-grande-1969-chevy-4x4/1mWacJfesyPJNtLuPiTmL9",
+  "Craigslist Fontana 1972 K10 SWB $89,000 (over budget)",
+  "Fourbie 1987 R10 Custom Deluxe, North East PA, $24,991, branded title: listed 4x4 but R10/VIN 1GCDR14K = 2WD",
+  "Fourbie 1969 K20 Spady Auto Scottsdale AZ $62,591 (over budget)",
+  "Davis 1985 K10 85C8859 $55,000 (over; davis4x4 shows no price); Davis 1987 V20 'coming soon' on davis4x4 only, no price/stock shown",
+  "ClassicCars GAA-style no-price lots: 1983 K-10 'Alabama Registration Only', 1979 K-10 6in lift EML title, 1972 K-10 CC-2118659",
+  "ClassicCars 1972 GMC Sierra Grande CC-2126438 (Premier Auction Group Dec 3-5, Punta Gorda FL) is TCE = 2WD; CC-2125513 1972 GMC C20 $39,500 2WD",
+  "Vanguard K-trucks all $99.9k+; Bird $39k 1973 K10 and $49k 1976 K15 unchanged (tracked)"
+ ],
+ "sites": {
+  "checked": ["BaT live auctions + results (curl)", "Hagerty (tracked auction + classifieds, curl)", "Craigslist 26 SW/West areas x 7 queries (curl)", "ClassicCars searches via WebFetch (K-10 73-87, K-10 67-72, K-20, GMC Sierra, GMC K1500)", "classic.com K10 3rd-gen market + Canyon State dealer page (WebFetch)", "Classic Car Deals (Chevy/GMC newest 4 pages each)", "Fourbie pages 1-8", "Davis both sites", "Bird Imports (WebFetch)", "GR Auto Gallery full list (WebFetch)", "Unique (detail pages via WebFetch)", "Vanguard (WebFetch)", "B&B pages 1-12", "PC Classic", "Down South", "Sparky's", "Duc", "Barrett-Jackson (WebFetch)", "73 tracked dealer/CL pages re-checked by curl"],
+  "blocked": ["Gateway direct incl. Scottsdale", "Volo", "Streetside incl. Phoenix (search loads but doesn't filter)", "Worldwide Vintage", "Fast Lane", "Canyon State direct", "Unique inventory index", "carsforsale.com (k10-105/212/228 unverified)"],
+  "needsBrowser": ["eBay Motors", "Hemmings", "Cars & Bids", "classic.com search", "Facebook Marketplace", "Mecum Kissimmee 2027"]
+ },
+ "barrettJackson": "2027 Scottsdale Jan 23-31: docket still 'Coming soon'",
+ "dashboard": {"commit": "eb54fb4", "publishExit": 3, "renderDeploy": "dep-dbti7dtg1s2s73b6l4s0 triggered via MCP", "live": "2026-11-16T08:37:12-07:00, 189 listings, 27 comps"}
+}

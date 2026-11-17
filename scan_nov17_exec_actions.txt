@@ -1,0 +1,15 @@
+# K10 exec run - Tue Nov 17, 2026 (Arizona time, MST). Batch: new_nov17_exec.json (0 new; 4 BaT bid refreshes + 2 price cuts + 2 cross-post notes). Not merged/published; seen list not edited.
+# Dry run OK: "updated 8, removed 2 (k10-221, k10-222 sold $17000), now 187 active listings, 28 comps".
+python3 merge_listings.py new_nov17_exec.json \
+  --remove https://bringatrailer.com/listing/1986-chevrolet-k20-pickup-18/ \
+  --sold https://bringatrailer.com/listing/1985-gmc-k1500-10/=17000
+## reasons
+# --sold  k10-222 BaT No Reserve 350-powered 1985 GMC K1500 Sierra Classic 4x4: page reads "Sold for USD $17,000 on 11/16/26" (Lot #274,463; last tracked bid $14,950).
+#         NOTE: merge stamps soldDate with the merge day (2026-11-17); the real sale date is 2026-11-16, so fix that comp's soldDate if you care about it.
+# --remove k10-221 BaT 1986 Chevrolet K20 Silverado 4x4: ended Mon Nov 16, "Bid to USD $27,000", reserve not met (not sold, so no comp). Merge would also auto-drop it (ended >2h ago).
+## Today's auction: BaT k10-231 1971 K10 Custom (9k miles) ends TODAY 3:28 PM Arizona time, after this run; bid $70,000 at 8:30 AM (over budget).
+#   If it sells, a later run can add: --sold https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/=<final>
+## Watch (not removed)
+# k10-249 Davis 1980 K-20 (1271812) $29,500: no longer on Davis's square_body_inventory page, but still in the main inventory search and the detail page loads at $29,500.
+# k10-104 B&B 1971 GMC K15 (KE134Z121881) $47,550: the tracked URL now redirects to a renamed slug (used-1971-gmc-k15-shortbox-4x4-...). Same truck, same price; no action.
+# k10-193 Sparky's 1984 K10 $29,900: Sparky's home page lists no cars; detail page still loads, no SOLD mark.
