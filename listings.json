@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T08:36:01-07:00",
+  "updated": "2026-11-18T08:30:57-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -6825,7 +6825,7 @@
       "trim": "Custom Deluxe Fleetside short bed 4x4 (lifted, matte black)",
       "engine": "350ci V8",
       "transmission": "700R4 automatic",
-      "price": 22500,
+      "price": 21500,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -6851,7 +6851,7 @@
         "private party"
       ],
       "redFlags": "Very thin ad (one photo, 3 sentences). No rust, frame or interior details. 20in wheels and a matte black finish can hide bodywork. Ask for underside/cab-corner photos and a cold-start video.",
-      "notes": "VIN CKL146Z161445 (C-K-L = Chevrolet 4x4 with 350, 1976, Fremont-built). Seller says great condition, 4x4 works, garaged the past 20 years. Southwest truck about 430 mi from Phoenix. Comps: BaT 1976 K10 Scottsdale $23,500 (10/21), 1975 K10 Silverado $22,500 (9/22). Fair at ask, so there's room to negotiate if the body checks out.",
+      "notes": "VIN CKL146Z161445 (C-K-L = Chevrolet 4x4 with 350, 1976, Fremont-built). Seller says great condition, 4x4 works, garaged the past 20 years. Southwest truck about 430 mi from Phoenix. Comps: BaT 1976 K10 Scottsdale $23,500 (10/21), 1975 K10 Silverado $22,500 (9/22). Nov 18: price cut on Fourbie from $22,500 to $21,500 OBO ('Make offer!'). Fair to good at this ask.",
       "valueRating": "fair",
       "firstSeen": "2026-11-09T08:25:17-07:00",
       "id": "k10-218"
@@ -7222,56 +7222,6 @@
       "id": "k10-230"
     },
     {
-      "year": 1971,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Custom Fleetside 4x4, 9k miles shown, one-family ranch truck",
-      "engine": "350ci V8",
-      "transmission": "3-speed Turbo Hydramatic automatic, dual-range transfer case",
-      "price": 70000,
-      "priceType": "bid",
-      "auctionEnd": "2026-11-17T15:28:00-07:00",
-      "mileage": 9000,
-      "mileageNote": "Under 9k shown on 5-digit odometer; truck was taken out of service around 1977 (Colorado registration sticker expired April 1977), which supports it, but BaT doesn't certify actual miles",
-      "location": "Salida, CO",
-      "state": "CO",
-      "lat": 38.5347,
-      "lng": -105.9989,
-      "source": "Bring a Trailer",
-      "url": "https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/",
-      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_4dfb7de4-51b9-4499-b150-06d6b9eda9c8-ShXrOu-2786db052585baa83259414a4ca37bca-3654900630b3d9d6acd5c0b031b1c3ce-scaled.jpg",
-      "imageUrls": [
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_4dfb7de4-51b9-4499-b150-06d6b9eda9c8-ShXrOu-2786db052585baa83259414a4ca37bca-3654900630b3d9d6acd5c0b031b1c3ce-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_d2043781-1621-4b89-a080-dbb4758d012d-JdBsGO-3900b5862db4dc3a54b36f04a530a16e-ed883ec2fe9292f15dd65ae7175bfeeb-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_89c874f0-cf91-4c0a-9b30-addb89d66b88-O3HWfP-2683eb8a159bc3152710edf2c1d7cf34-8967189749e480d6d1025f302b738664-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_74da4451-75ba-4046-bbc0-61faa5ec19b5-guhSns-65ab13ac26f2b14598081e487c47ecab-6e98af6a499409f00cdd5baac660c60b-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_3b1ee412-8e26-4638-ae73-cbe48b26075d-juXCl5-9096f96fc47062e31589efa636a7de2b-a5facab7ce0eb17473a4e33124341f27-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_e66bccd8-75c6-45f7-b467-d074177af7e5-vrvFUL-5e4de4ebb85e5fd9bfd583a45a9e0f0f-43b13e96a50e07f411e5eaef84c6b349-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_72068210-16f3-48b0-b06a-6771c155ce4d-O4NT0l-5ea35971910ad17b11fc2457b8cbe5c2-bba0129e5098674b69b0b7289e6a23a2-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_a0ee2d0a-4a37-43fb-b365-43b91549c85d-cQT9zk-f04e75424460c2cb5e46dde8211b2a47-b949d86c54b0c34a4f19d11288efac49-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_ac5b9281-f2cc-40db-819f-c5ebea6f13e5-7KSgmN-d782a8d342a1d64d117bff7eab74a7c8-6b9fd124a8d589df44b0c473e31ede8e-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_b4e7c67c-5852-4eed-87f5-705a186eab43-Y1e0hC-7227a55f3ec88203a039dbb0da1b9a5a-5d82cffc02b193cc1935324f39e4ab5f-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_8d4e6d87-8f09-44ae-8233-1741aee74005-4dqHWT-e726c1ec32d3bac4011a2e7766d15e8a-93eccd4ba662876680a24d9b72f46527-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_f530c9f0-b32a-4208-a717-7a62ed2257be-raDVzs-63750385c4b84b5c2ca823b69a9513c1-6ce9fb19e6984a83ac2bb76d01f9dcdc-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_3942e7f3-3266-42f1-81f3-9b36ca767b13-PqHvIb-98619fdaf34e53f04077a5491d5bf191-932925b4618082f0531d69167a8bf1ec-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_5496bad9-e47c-4f26-a96e-4629e085754a-4qLA8l-0e02341d72a6de22436aad005c0cfccd-c576deed94d42ffc7a17475f798de184-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/09/1971_chevrolet_k10-pickup_1971_chevrolet_k10-pickup_62da08c1-b093-488e-a645-5fa602641682-aQjLXQ-0085a186f02c14ef2f0768a38182fa2c-3572b298e49894cafe8aa0672efe8898-scaled.jpg"
-      ],
-      "condition": [
-        "original survivor",
-        "original Colorado ranch owner",
-        "Dark Blue over blue vinyl, Fleetside",
-        "original Goodyear tires (believed)",
-        "owner's manual + service records",
-        "clean Minnesota title"
-      ],
-      "redFlags": "Has sat for decades: carburetor needs a rebuild and the fuel tank was drained; old original tires shouldn't be driven on; passenger window regulator sticks. Reserve auction already at $37,000 with 6 days left, so it will very likely finish above $45k.",
-      "notes": "Bid $60,000 on Mon Nov 16 morning (up from $50,000). Ends Tue Nov 17 at 3:28 PM Arizona time. Now above the $50k budget ceiling.",
-      "valueRating": "fair",
-      "firstSeen": "2026-11-11T08:33:01-07:00",
-      "id": "k10-231"
-    },
-    {
       "year": 1972,
       "make": "Chevrolet",
       "model": "K10",
@@ -7318,7 +7268,7 @@
         "receipts"
       ],
       "redFlags": "Not original color; dash cut for a single-DIN radio and doors cut for speakers; spray-in bed coating; interior wear. Mileage TMU.",
-      "notes": "No reserve. Bid $16,000 (13 bids, last bid Nov 14) on Sun Nov 15 morning, unchanged. Ends Wed Nov 25 at 12:20 PM Arizona time.",
+      "notes": "No reserve. Bid $16,000 (13 bids) on Wed Nov 18 morning, unchanged since Nov 14. Ends Wed Nov 25 at 12:20 PM Arizona time.",
       "valueRating": "great",
       "firstSeen": "2026-11-11T08:33:01-07:00",
       "id": "k10-232"
@@ -7381,7 +7331,7 @@
       "trim": "Sierra short bed 4x4, LS swapped",
       "engine": "5.3L LS V8 (freshened per seller)",
       "transmission": "4L80E 4-speed automatic, new transfer case",
-      "price": 34990,
+      "price": 32990,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -7423,47 +7373,10 @@
         "green, mostly stock exterior"
       ],
       "redFlags": "Cracked windshield. Price is firm. Sold with a 60-day temp tag. Ad odometer of 4,300 isn't credible. VIN TKL146F728558 decodes as a 1976 GMC K half-ton originally with a 350.",
-      "notes": "Posted Tue Nov 10 at 7:12 PM Arizona time on Denver-area Craigslist (truck is in Hays, KS). A sorted LS/4L80E short-bed K1500 at $35k is in line with market; Kansas, about 13 hours to Phoenix.",
+      "notes": "Posted Tue Nov 10 at 7:12 PM Arizona time on Denver-area Craigslist (truck is in Hays, KS). A sorted LS/4L80E short-bed K1500 is in line with market. Kansas, about 13 hours to Phoenix. Nov 18: price cut on Craigslist from $34,990 to $32,990.",
       "valueRating": "fair",
       "firstSeen": "2026-11-11T08:33:01-07:00",
       "id": "k10-234"
-    },
-    {
-      "year": 1984,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Silverado 4x4",
-      "engine": "Crate V8",
-      "transmission": "Automatic",
-      "price": 31900,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": 108315,
-      "mileageNote": "",
-      "location": "Statesville, NC",
-      "state": "NC",
-      "lat": 35.7826,
-      "lng": -80.8873,
-      "source": "eBay Motors",
-      "url": "https://www.ebay.com/itm/227608477734",
-      "imageUrl": "https://i.ebayimg.com/images/g/DWMAAeSw-Mdqert8/s-l1600.webp",
-      "imageUrls": [
-        "https://i.ebayimg.com/images/g/DWMAAeSw-Mdqert8/s-l1600.webp",
-        "https://i.ebayimg.com/images/g/mnsAAeSwnu5qert7/s-l1600.webp",
-        "https://i.ebayimg.com/images/g/gTcAAeSwO2lqert7/s-l1600.webp"
-      ],
-      "condition": [
-        "red over red",
-        "crate V8",
-        "A/C",
-        "clean title",
-        "Relisted on eBay Nov 2026 under a new item number, same $31,900 ask (was ebay 227596556100)"
-      ],
-      "redFlags": "Only the eBay search summary and listing basics were checked; no rust or underside details confirmed yet.",
-      "notes": "Buy It Now $31,900, new eBay listing 11/4.",
-      "valueRating": "fair",
-      "firstSeen": "2026-11-11T08:33:01-07:00",
-      "id": "k10-235"
     },
     {
       "year": 1979,
@@ -7506,7 +7419,7 @@
       "trim": "Custom Deluxe Fleetside 4x4, 4-speed (No Reserve, Canadian-market)",
       "engine": "5.7L (350) V8, Edelbrock AVS2 carb and Performer intake",
       "transmission": "4-speed manual, dual-range transfer case",
-      "price": 2000,
+      "price": 3600,
       "priceType": "bid",
       "auctionEnd": "2026-11-18T12:05:00-07:00",
       "mileage": null,
@@ -7546,7 +7459,7 @@
         "Clean Carfax"
       ],
       "redFlags": "BaT notes corrosion on the rocker panels and dry-rotted tires; refurbishment was about 20 years ago. Arkansas title marked OD Exempt, so true miles are unknown. Seller is a Canadian retail dealer (truck staged in North Dakota).",
-      "notes": "No reserve. Bid $1,500 on Mon Nov 16 morning (up from $1,000). Ends Wed Nov 18 at 12:05 PM Arizona time.",
+      "notes": "No reserve. Bid $3,600 on Wed Nov 18 at 8:17 AM (up from $2,000 on Nov 17). Ends TODAY Wed Nov 18 at 12:05 PM Arizona time.",
       "valueRating": "fair",
       "firstSeen": "2026-11-12T08:26:50-07:00",
       "id": "k10-237"
@@ -7596,7 +7509,7 @@
         "Registration only (no title)"
       ],
       "redFlags": "Not a factory 4x4 truck: VIN CCE242A144609 is a 2WD C20; the cab and bed were moved onto a 1980 K20 frame. Sold on Alabama registration (no title), which can complicate an Arizona title and VIN inspection.",
-      "notes": "Bid $27,000 on Mon Nov 16 morning (up from $26,500). Ends Wed Nov 18 at 12:44 PM Arizona time.",
+      "notes": "Bid $27,000 on Wed Nov 18 at 8:17 AM, unchanged since Nov 16. Ends TODAY Wed Nov 18 at 12:44 PM Arizona time.",
       "valueRating": "fair",
       "firstSeen": "2026-11-12T08:26:50-07:00",
       "id": "k10-238"
@@ -7824,7 +7737,7 @@
       "trim": "Custom Deluxe 4x4, refurbished 2025 (No Reserve, Arizona title)",
       "engine": "5.7L (350) V8",
       "transmission": "3-speed automatic, dual-range transfer case, manual locking hubs",
-      "price": 8700,
+      "price": 10000,
       "priceType": "bid",
       "auctionEnd": "2026-11-19T11:46:00-07:00",
       "mileage": null,
@@ -7864,7 +7777,7 @@
         "15in alloys"
       ],
       "redFlags": "Mileage unknown (AZ title 'Exceeds Mechanical Limits'). Rust and body repair was done before the 2025 repaint, so check the repaired areas, cab corners and floors in person. Seller reports brakes about 60% worn on the left side.",
-      "notes": "No reserve, Arizona title. Bid $8,500 on Mon Nov 16 morning (up from $8,000). Ends Thu Nov 19 at 11:46 AM Arizona time.",
+      "notes": "No reserve, Arizona title. Bid $10,000 on Wed Nov 18 morning (up from $8,700). Ends Thu Nov 19 at 11:46 AM Arizona time.",
       "valueRating": "fair",
       "firstSeen": "2026-11-13T08:30:58-07:00",
       "id": "k10-245"
@@ -7876,7 +7789,7 @@
       "trim": "Custom Deluxe 4x4, 454 swap, 6in lift",
       "engine": "454ci big-block V8 (installed 2022), Edelbrock intake, 4-bbl, headers and Flowmaster mufflers, aluminum radiator",
       "transmission": "TH350 3-speed automatic (rebuilt 2026), NP205, Dana 60 front / 14-bolt rear",
-      "price": 6000,
+      "price": 7500,
       "priceType": "bid",
       "auctionEnd": "2026-11-19T15:00:00-07:00",
       "mileage": null,
@@ -7917,7 +7830,7 @@
         "Paint chips and bed dings"
       ],
       "redFlags": "With reserve and no bids yet. Factory A/C components removed; tailgate missing; paint chips and dings in the bed. True mileage unknown (digital gauges). The BaT essentials say 37in tires but the description says 35x12.5 BFGoodrich, so confirm. California title and 454 swap: check smog/registration paperwork if it matters for resale.",
-      "notes": "Bid $6,000 on Mon Nov 16 morning (up from $5,000). Ends Thu Nov 19 at 3:00 PM Arizona time.",
+      "notes": "Bid $7,500 on Wed Nov 18 morning (up from $6,000). Ends Thu Nov 19 at 3:00 PM Arizona time.",
       "valueRating": "fair",
       "firstSeen": "2026-11-13T08:30:58-07:00",
       "id": "k10-246"
@@ -8006,7 +7919,7 @@
         "Custom gray/black interior"
       ],
       "redFlags": "Not a factory short bed: bed and frame rails were cut and welded, so inspect the frame splice. Tachometer does not work and the fuel gauge reads backwards (seller). Front sheet metal swapped to 1968 style. Total miles unknown.",
-      "notes": "Bid $15,250 on Mon Nov 16 morning (up from $13,100). Ends Fri Nov 20 at 12:53 PM Arizona time.",
+      "notes": "Bid $15,250 on Wed Nov 18 morning, unchanged since Nov 16. Ends Fri Nov 20 at 12:53 PM Arizona time.",
       "valueRating": "fair",
       "firstSeen": "2026-11-14T08:26:55-07:00",
       "id": "k10-248"
@@ -8117,7 +8030,7 @@
       "trim": "Cheyenne 4x4, supercharged LT4 restomod (orange, tan leather)",
       "engine": "Supercharged 6.2L LT4 V8 (installed during build), Drive Junky serpentine drive, Ron Davis aluminum radiator, Borla dual exhaust with cutouts",
       "transmission": "10L90 10-speed automatic, Advance Adapters Atlas twin-stick dual-range transfer case, Dana 44 front / 14-bolt rear",
-      "price": 45000,
+      "price": 75000,
       "priceType": "bid",
       "auctionEnd": "2026-11-21T12:25:00-07:00",
       "mileage": null,
@@ -8160,7 +8073,7 @@
         "Montana title"
       ],
       "redFlags": "Montana title lists the truck as a 1972 Chevrolet C20, although the chassis number CKE242Z128857 decodes as a factory 4WD K20, so expect a title correction step. The swap is new: 39 miles since the build, so shakedown issues are possible. Bidding is far from done, and finished LT4/10-speed builds like this usually sell well above $50k.",
-      "notes": "BaT lot 275,697, private seller (2254Charlie), reserve. Chassis CKE242Z128857. Seller bought it in 2015 from a friend who had owned it since 1973. Multi-year build finished in 2025: supercharged LT4, 10L90, Atlas twin-stick, BDS leaf springs, Fox shocks and dual steering stabilizers, Wilwood front discs with GM rear discs and a CPP HydraStop brake booster, 18in polished Raceline wheels, AMP power running boards, oak bed floor, power windows and locks, cruise, Dakota Digital RTX, 29-gal Rick's tank, American Autowire harness. Bid $43,000 on Mon Nov 16 morning (up from $28,300). Ends Sat Nov 21 at 12:25 PM Arizona time. Note only: BaT's 1975 K20 Fall Guy tribute (a show-level build) sold for $57,500 on Nov 5, and a supercharged LT4 restomod should finish above that, so it is unlikely to stay in budget.",
+      "notes": "BaT lot 275,697, private seller (2254Charlie), reserve. Chassis CKE242Z128857. Seller bought it in 2015 from a friend who had owned it since 1973. Multi-year build finished in 2025: supercharged LT4, 10L90, Atlas twin-stick, BDS leaf springs, Fox shocks and dual steering stabilizers, Wilwood front discs with GM rear discs and a CPP HydraStop brake booster, 18in polished Raceline wheels, AMP power running boards, oak bed floor, power windows and locks, cruise, Dakota Digital RTX, 29-gal Rick's tank, American Autowire harness. Bid $75,000 on Wed Nov 18 morning (up from $45,000). Now well over the $50k budget. Ends Sat Nov 21 at 12:25 PM Arizona time.",
       "valueRating": "pricey",
       "firstSeen": "2026-11-15T08:36:07-07:00",
       "id": "k10-251"
@@ -8281,7 +8194,7 @@
       "trim": "4x4, 4\" lift",
       "engine": "350 V8 (new Blueprint crate 350, under 1,000 mi, under warranty per seller)",
       "transmission": "Automatic (TH350)",
-      "price": 24500,
+      "price": 20000,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": null,
@@ -8292,8 +8205,17 @@
       "lng": -112.3577,
       "source": "Facebook Marketplace",
       "url": "https://www.facebook.com/marketplace/item/29946723918268547/",
-      "imageUrl": null,
-      "imageUrls": [],
+      "imageUrl": "photos/k10-254/f0283407c045.jpg",
+      "imageUrls": [
+        "photos/k10-254/f0283407c045.jpg",
+        "photos/k10-254/7e7fbf323451.jpg",
+        "photos/k10-254/f101e0dabf7f.jpg",
+        "photos/k10-254/66173cfc29a1.jpg",
+        "photos/k10-254/ef280aa34cc2.jpg",
+        "photos/k10-254/55c53aa98d25.jpg",
+        "photos/k10-254/343aeb0dd224.jpg",
+        "photos/k10-254/de1364a98929.jpg"
+      ],
       "condition": [
         "new 4\" lift, wheels and tires (per seller)",
         "new starter and lots of new parts, has paperwork",
@@ -8302,10 +8224,96 @@
         "private seller, open to trades (SxS / 90s Blazer + cash)"
       ],
       "redFlags": "Title status not stated; mileage not shown; seller says it's not a show truck and better photos are coming. Missing seat. Check cab corners, rockers, floors and frame under the lift.",
-      "notes": "Listed about 14 hours before the Nov 15 morning check. Asking OBO.",
+      "notes": "Private seller in Goodyear. New Blueprint 350 crate (under 1,000 mi), automatic, new 4in lift, wheels and tires; no seat currently. Nov 18: price cut from $24,500 to $20,000 OBO.",
       "valueRating": "fair",
       "firstSeen": "2026-11-15T08:36:07-07:00",
       "id": "k10-254"
+    },
+    {
+      "year": 1972,
+      "make": "GMC",
+      "model": "K10",
+      "trim": "Sierra Grande short bed 4x4, LS3 restomod (yellow/white)",
+      "engine": "6.2L LS3 V8 crate engine (per ad)",
+      "transmission": "4L65E 4-speed automatic (per ad)",
+      "price": 24770,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Ad says odometer 11,170; restomod with replacement gauges (Dakota Digital), so total miles unknown (TMU)",
+      "location": "San Diego, CA",
+      "state": "CA",
+      "lat": 32.7157,
+      "lng": -117.1611,
+      "source": "Craigslist",
+      "url": "https://www.craigslist.org/view/d/san-diego-1972-gmc-k10-sierra-grande/s6JxpiJvmoPDgJ7qZMCGSB",
+      "imageUrl": "photos/k10-255/2ff7e4804eb1.jpg",
+      "imageUrls": [
+        "photos/k10-255/2ff7e4804eb1.jpg",
+        "photos/k10-255/9ae19699252d.jpg",
+        "photos/k10-255/a418ba7c9be4.jpg",
+        "photos/k10-255/514fd4edc4c7.jpg",
+        "photos/k10-255/6859b05360c8.jpg",
+        "photos/k10-255/f074ea36661e.jpg",
+        "photos/k10-255/1fbc89f95687.jpg",
+        "photos/k10-255/65418c67bfd0.jpg",
+        "photos/k10-255/2cce81e51dd1.jpg"
+      ],
+      "condition": [
+        "LS3 swap",
+        "4in lift",
+        "powder-coated frame",
+        "repaint",
+        "clean title (per ad)",
+        "likely scam"
+      ],
+      "redFlags": "Likely scam. The ad text is lifted almost word for word from Bring a Trailer's write-up of a yellow and white LS3/4L65E 1972 GMC K10 Sierra Grande from Sheridan, WY. That truck bid to $78,200 on BaT in 2020 and didn't sell. A matching frame-off LS3 1972 Sierra Grande (VIN TKE142S521662) was later at Barrett-Jackson Scottsdale 2023. An odd $24,770 ask, about a third of that truck's value, plus a short copied description and no phone or story fit the usual Craigslist scam pattern. Don't send money or deposits. Only engage in person, with the title in hand, and match the VIN to the title.",
+      "notes": "Posted Tue Nov 17 at 8:05 AM Arizona time (post id 8002067784). By-owner ad, condition 'like new', clean title per ad, 11,170 on the odometer. Lists a 4in lift, stainless fuel tank, aluminum radiator, Dakota Digital gauges, Vintage Air and a Bluetooth stereo. If it were real, an LS3 frame-off K10 at $24.8k would be a steal: BaT's LS3 72 bid to $78.2k, and the 454 1972 K10 sold for $25,250 on 11/6. The copied text makes it far more likely bait.",
+      "valueRating": "fair",
+      "firstSeen": "2026-11-18T08:30:57-07:00",
+      "id": "k10-255"
+    },
+    {
+      "year": 1983,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "4x4, custom paint and interior (Dreamsicle Orange / Carmel)",
+      "engine": "5.0L (305) V8, rebuilt per title",
+      "transmission": "Automatic",
+      "price": 48500,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "eBay item specifics say '38' while the search card said 35,000; true miles unconfirmed",
+      "location": "Randleman, NC",
+      "state": "NC",
+      "lat": 35.8176,
+      "lng": -79.8031,
+      "source": "eBay Motors",
+      "url": "https://www.ebay.com/itm/940073502357",
+      "imageUrl": "https://i.ebayimg.com/images/g/-mIAAeSwF9Fq6-g5/s-l1600.webp",
+      "imageUrls": [
+        "https://i.ebayimg.com/images/g/-mIAAeSwF9Fq6-g5/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/uDoAAeSwgqhqhGcd/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/b9sAAeSw9uxq6-gO/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/~gwAAeSwKJZq6-gO/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/AjgAAeSwZbpq6-gi/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/5hkAAeSwMqBq6-gO/s-l1600.webp",
+        "https://i.ebayimg.com/images/g/5e8AAeSw-hpq6-gP/s-l1600.webp"
+      ],
+      "condition": [
+        "custom paint",
+        "custom interior",
+        "rebuilt V8",
+        "new stereo",
+        "clean title (per listing)",
+        "VIN 1GCEK14H5DS159502"
+      ],
+      "redFlags": "AutoCheck score 3 (vs 55-72 for similar), title check 'Minor Issue', 25 owners listed. Mileage field inconsistent. Seller description not captured; no rust/underside info confirmed. Seller is a sports-card dealer.",
+      "notes": "Buy It Now $48,500 or Best Offer, private seller farmboysportscards; listing ends Dec 7. 305 small-block with custom paint at the top of the budget.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-11-18T08:30:57-07:00",
+      "id": "k10-256"
     }
   ],
   "comps": [
@@ -8587,6 +8595,16 @@
       "mileageNote": "45k shown on rolled odometer; Carfax flags a possible rollover in Sept 2018 (TMU)",
       "source": "Bring a Trailer",
       "url": "https://bringatrailer.com/listing/1985-gmc-k1500-10/"
+    },
+    {
+      "year": 1971,
+      "trim": "K10 Custom Fleetside 4x4, 9k miles shown, one-family ranch truck",
+      "soldPrice": 78500,
+      "soldDate": "2026-11-17",
+      "mileage": 9000,
+      "mileageNote": "Under 9k shown on 5-digit odometer; out of service since about 1977, but BaT doesn't certify actual miles",
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/"
     }
   ],
   "removed": [
@@ -9320,6 +9338,28 @@
       "url": "https://bringatrailer.com/listing/1985-gmc-k1500-10/",
       "reason": "sold $17000",
       "removedAt": "2026-11-17T08:36:01-07:00"
+    },
+    {
+      "id": "k10-235",
+      "year": 1984,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Silverado 4x4",
+      "lastPrice": 31900,
+      "url": "https://www.ebay.com/itm/227608477734",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-18T08:30:57-07:00"
+    },
+    {
+      "id": "k10-231",
+      "year": 1971,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Custom Fleetside 4x4, 9k miles shown, one-family ranch truck",
+      "lastPrice": 70000,
+      "url": "https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/",
+      "reason": "auction ended",
+      "removedAt": "2026-11-18T08:30:57-07:00"
     }
   ]
 }

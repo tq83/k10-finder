@@ -1,0 +1,16 @@
+# K10 exec run - Wed Nov 18, 2026 (Arizona time, MST). Batch: new_nov18_exec.json (1 new [likely scam, flagged] + 7 auction refreshes + 2 price cuts + 1 sold comp). Not merged/published; seen list not edited.
+# Dry run OK: "added 1: k10-255 | updated 9 | removed 1: k10-231 | now 187 active listings, 29 comps".
+python3 merge_listings.py new_nov18_exec.json \
+  --remove https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/
+## reasons
+# --remove k10-231 BaT 9k-mile 1971 K10 Custom: page reads "Sold for USD $78,500 on 11/17/26" (Lot #274,887; last tracked bid $70,000).
+#          The sold comp (soldDate 2026-11-17) is already in the batch "comps", so --remove is used instead of --sold.
+#          (--sold would stamp today's date and add a duplicate comp.) Merge would also auto-drop it as "auction ended".
+## New listing (k10-255 in dry run): Craigslist San Diego 1972 GMC K10 Sierra Grande LS3 restomod, $24,770. LIKELY SCAM.
+#   The ad text is copied from BaT's 2020 listing (bid to $78,200, Sheridan WY). Red flag set on the card. Drop it from the batch if you'd rather not show it.
+## Today's auctions: k10-237 BaT 1987 V10 NR ends 12:05 PM (bid $3,600); k10-238 BaT 1972 C20-on-K20 ends 12:44 PM (bid $27,000).
+#   If merged after ~2:05 / 2:44 PM, merge auto-drops them as "auction ended". A later run can add --sold <url>=<final> for comps.
+## Watch (not removed)
+# k10-193 Sparky's 1984 K10 $29,900: detail page live (no SOLD) but it's gone from Sparky's our-cars index.
+# k10-235 eBay 1984 K10: eBay search shows $30,900 BIN (tracked $31,900); item page blocked, so not changed.
+# k10-142 Davis 1987 V10: still coming soon, no price.

@@ -1,0 +1,179 @@
+{
+ "run": "K10 exec morning scan, Wed Nov 18 2026 (Arizona time, about 8:16-8:50 AM)",
+ "newListings": [
+  {
+   "url": "https://www.craigslist.org/view/d/san-diego-1972-gmc-k10-sierra-grande/s6JxpiJvmoPDgJ7qZMCGSB",
+   "title": "1972 GMC K10 Sierra Grande short bed 4x4, LS3/4L65E restomod",
+   "price": 24770,
+   "location": "San Diego, CA",
+   "posted": "2026-11-17 08:05 AZ",
+   "valueRating": "fair",
+   "flag": "LIKELY SCAM: ad text copied from BaT's 2020 listing of a yellow/white LS3 1972 Sierra Grande (bid to $78,200, Sheridan WY; later at Barrett-Jackson Scottsdale 2023 as VIN TKE142S521662); ask is about 1/3 of value"
+  }
+ ],
+ "relistsCrossPosts": [
+  {
+   "url": "https://www.craigslist.org/view/d/payson-1963-chevy-k10-long-bed-step-side/jPkyEkGgAMXFktABMwwgEV",
+   "sameAs": "seen-list Payson 1963 K10 long bed stepside (old URL 1dAPH1MZSCCXe9Rw5A9YnP, now gone)",
+   "price": 32500,
+   "note": "reposted Nov 17 10:14 AM AZ, same $32,500, 79,600 mi; 1963 is outside the year scope, not added"
+  },
+  {
+   "url": "https://www.fourbieexchange.com/listing/1978-gmc-k1500",
+   "sameAs": "k10-67 (ClassicCars 2082322)",
+   "price": 46997,
+   "note": "unchanged vs Nov 17 ($46,997 Fourbie vs $47,997 ClassicCars)"
+  },
+  {
+   "url": "https://www.fourbieexchange.com/listing/1987-chevrolet-v-10",
+   "sameAs": "k10-166 / k10-219",
+   "price": 48997,
+   "note": "unchanged ($48,997 vs ClassicCars $49,497)"
+  },
+  {
+   "url": "eBay search (no item URL; eBay item pages block fetch)",
+   "sameAs": "k10-59 ClassicCars 1977 K10, Pittsburgh (MAXMotive)",
+   "price": 34995,
+   "note": "eBay shows it as an auction with $500 opening bid / $34,995 Buy It Now, 15,381 mi, 0 bids, ends Thu Nov 19 (eBay's time shown as 06:52 PM, zone not confirmed)"
+  },
+  {
+   "url": "eBay search (no item URL)",
+   "sameAs": "k10-235 eBay 1984 K10 Silverado (108,315 mi, apvintagemotors)",
+   "price": 30900,
+   "note": "eBay search now shows $30,900 BIN (tracked at $31,900), matching ClassicCars k10-60 $30,900. Item page not opened, so data not changed"
+  }
+ ],
+ "bidUpdates": {
+  "k10-237 BaT 1987 V10 NR": {
+   "bid": 3600,
+   "prev": 2000,
+   "ends": "2026-11-18T12:05:00-07:00"
+  },
+  "k10-238 BaT 1972 C20-on-K20": {
+   "bid": 27000,
+   "prev": 27000,
+   "ends": "2026-11-18T12:44:00-07:00"
+  },
+  "k10-245 BaT 1979 K10 NR Sierra Vista AZ": {
+   "bid": 10000,
+   "prev": 8700,
+   "ends": "2026-11-19T11:46:00-07:00"
+  },
+  "k10-246 BaT 1972 K20 454": {
+   "bid": 7500,
+   "prev": 6000,
+   "ends": "2026-11-19T15:00:00-07:00"
+  },
+  "k10-248 BaT 1970 K10": {
+   "bid": 15250,
+   "prev": 15250,
+   "ends": "2026-11-20T12:53:00-07:00"
+  },
+  "k10-251 BaT 1972 K20 LT4": {
+   "bid": 75000,
+   "prev": 45000,
+   "ends": "2026-11-21T12:25:00-07:00",
+   "note": "over budget"
+  },
+  "k10-232 Hagerty 1972 K10 NR": {
+   "bid": 16000,
+   "prev": 16000,
+   "bids": 13,
+   "ends": "2026-11-25T12:20:00-07:00"
+  }
+ },
+ "priceChanges": [
+  {
+   "id": "k10-234",
+   "url": "https://www.craigslist.org/view/d/hays-1976-gmc-sierra-k1500-4x4-short/rE9V8Vg8tL29bCQ7rBximK",
+   "from": 34990,
+   "to": 32990,
+   "note": "1976 GMC K1500 LS/4L80E, Hays KS"
+  },
+  {
+   "id": "k10-218",
+   "url": "https://www.fourbieexchange.com/listing/1976-chevrolet-k-series-1",
+   "from": 22500,
+   "to": 21500,
+   "note": "1976 K10 Custom Deluxe, El Paso TX, now OBO"
+  }
+ ],
+ "sold": [
+  {
+   "id": "k10-231",
+   "url": "https://bringatrailer.com/listing/1971-chevrolet-k10-pickup-28/",
+   "soldPrice": 78500,
+   "soldDate": "2026-11-17",
+   "note": "9k-mile 1971 K10 Custom, Lot #274,887, 'Sold for USD $78,500 on 11/17/26' (last tracked bid $70,000). Comp is in the batch with the correct date, and the URL is passed via --remove instead of --sold"
+  }
+ ],
+ "removed": [],
+ "watch": [
+  "k10-193 Sparky's 1984 K10 $29,900: detail page still live, no SOLD mark, but Sparky's our-cars index (14 cars) no longer lists it",
+  "k10-142 Davis 1987 V10 (87C0736C): still 'coming soon', no price, on both Davis sites",
+  "k10-249 Davis 1980 K-20 $29,500: same $29,500 on davis4x4.com (80C1952), so no cross-site price gap",
+  "k10-176 Hagerty 1970 K20: page data field askingPrice is $33,900 while the description says $33,995 (same as yesterday, no change)",
+  "Duc Auto Collection grid shows a '1972 Chevrolet K10 Factory 4x4 - Original Medium Green - Mild Restoration' with no detail link or price. Only the first 4 grid entries link to pages; the rest look like archived/sold. Not added"
+ ],
+ "notAdded": [
+  "eBay leads seen in WebFetch search results only (item pages blocked, no item URLs captured), for the browser agent: 1983 Chevrolet K10 4WD, 35,000 mi, clean title, automatic, $48,500 or Best Offer, seller farmboysportscards (not in records). 1972 'Chevrolet C-10 C/K Stepside (Frame Off Restored) Stock #444510' listed as 4WD, auction $5,100 / 2 bids, ends Thu, seller fsbovehicles (verify K vs C). 1984 K10 4WD 121,500 mi $7,900 OBO (under budget)",
+  "Fourbie 1969 Chevrolet K20 4x4 (Spady Auto Group, Scottsdale AZ) $62,591: K20, over budget",
+  "ClassicCars CC-2127221 1987 GMC Sierra (Premier Auction Group, Punta Gorda FL, Dec 3-5 auction): VIN 1GTGR24K = 2WD 3/4-ton",
+  "ClassicCars CC-1962995 1978 K-10 restored $80,000, CC-2125693 1970 K-10 $95,000 OBO, CC-2089097 1967 GMC K15 custom show truck $60,000: over budget",
+  "Classic Car Deals 432531 1970 Custom 10 ($41,964, RWD, lowered) and 427137 1970 GMC Stepside LS ($48,495, 2WD): not 4x4",
+  "Davis 1984 C/K 20 84C4192 $25,000: VIN 1GCGC24 = 2WD; davis4x4.com 1979 K-10 79C7587C $97,500 (over budget)",
+  "Down South: three new showroom entries (1971 and 1974 K5 Blazers, 1961 Buick), no pickups. The 1987 Silverado 4x4 (seen list only) is gone from the showroom",
+  "Vanguard Chevy/GMC 4x4 trucks all $99.9k+; Volo 1972 K10 copper $59,998 (over, known via Hemmings); Bird 1973 K10 $39k and 1976 K15 $49k unchanged",
+  "PC Classic: only C10s (2WD); Craigslist Albuquerque 1977 C-10 $35,000 and Vista 1968 C20 $20,000 (2WD, as noted Nov 17)"
+ ],
+ "sites": {
+  "checked": [
+   "BaT live auctions (full list, 1,355 lots) + 7 tracked lots (curl)",
+   "Hagerty tracked auction + 2 tracked classifieds (curl); Hagerty search pages return generic marketplace (no K10 hits)",
+   "Craigslist 26 SW/West areas x 7 queries (curl) + 10 tracked CL ads",
+   "ClassicCars via WebFetch (K-10 73-87, K-10 67-72, GMC Sierra 73-87, GMC K1500, GMC K15) + CC-2127221 detail",
+   "Classic Car Deals Chevy/GMC newest 4 pages each (curl) + 3 detail pages",
+   "Fourbie listings pages 1-12 + 7 detail pages",
+   "Davis square_body_inventory (curl) + davis4x4.com custom-11 (WebFetch)",
+   "Bird Imports (WebFetch)",
+   "GR Auto Gallery pages 1-5 (WebFetch)",
+   "Vanguard (WebFetch)",
+   "Volo (WebFetch)",
+   "Worldwide Vintage list + k10-13 detail (WebFetch)",
+   "Streetside newest list + 9501-ATL and 5437-NSH detail (WebFetch; both still active at $50,495 / $40,495)",
+   "B&B Chevrolet/GMC (curl)",
+   "PC Classic (curl)",
+   "Canyon State via classic.com dealer page (WebFetch; no trucks)",
+   "Down South",
+   "Sparky's (home, our-cars, k10-193 detail)",
+   "Duc (WebFetch + curl)",
+   "Barrett-Jackson (WebFetch)",
+   "Cars & Bids search (WebFetch): 0 live",
+   "Hemmings K10 search titles (WebFetch; all known cross-posts)",
+   "eBay K10 4x4 search results (WebFetch; item pages not fetchable)",
+   "152 tracked non-Facebook buy-now pages re-checked by curl"
+  ],
+  "blocked": [
+   "Gateway Classic Cars incl. Scottsdale (403 curl + WebFetch)",
+   "Unique Classic Cars (403; WebFetch list is oldest-first page 1 only, k10-101 detail 403)",
+   "Canyon State direct site (403)",
+   "Fast Lane beyond page 1 (page 1 only reaches 1964)",
+   "Streetside 7888-DFW detail (403)",
+   "ClassicCars detail pages by curl (403; tracked CC listings not individually re-verified)",
+   "carsforsale.com (k10-105/212/228 unverified)",
+   "Hemmings detail pages",
+   "eBay item pages (403) and eBay RSS (timeout)",
+   "classic.com search",
+   "Mecum (403)"
+  ],
+  "needsBrowser": [
+   "eBay: open the 1983 K10 $48,500 (farmboysportscards) and 1972 'C-10 C/K' 4WD auction (fsbovehicles); confirm k10-235's $30,900",
+   "Gateway incl. Scottsdale",
+   "Unique full inventory",
+   "Hemmings",
+   "Facebook Marketplace",
+   "Mecum Kissimmee 2027"
+  ]
+ },
+ "barrettJackson": "2027 Scottsdale Jan 23-31: docket still 'Coming soon' (checked Nov 18 AM)"
+}
