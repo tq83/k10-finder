@@ -1,0 +1,19 @@
+# K10 exec run - Fri Nov 20, 2026 (Arizona time, MST). Batch: new_nov20_exec.json (1 new + 3 auction refreshes + 1 price cut + 1 sold comp). Not merged/published; seen list not edited.
+# Dry run OK: "added 1: k10-257 | updated 4: k10-248(price,notes), k10-251(price,notes), k10-232(price,notes), k10-218(price,notes) | removed 2: k10-245, k10-246 | now 183 active listings, 31 comps".
+python3 merge_listings.py new_nov20_exec.json \
+  --remove https://bringatrailer.com/listing/1979-chevrolet-k10-pickup-23/ \
+           https://bringatrailer.com/listing/1972-chevrolet-k20-pickup-31/
+## reasons
+# --remove k10-245 BaT No Reserve 1979 K10 Custom Deluxe (Sierra Vista AZ): page reads "Sold for USD $18,000 on 11/19/26" (Lot #275,143; last tracked bid $13,000).
+#          The sold comp (soldDate 2026-11-19) is already in the batch "comps", so --remove is used instead of --sold
+#          (--sold would stamp today's date and add a duplicate comp). Merge would also auto-drop it as "auction ended".
+# --remove k10-246 BaT 1972 K20 454 swap: page reads "Bid to USD $16,000 on 11/19/26", reserve not met (Lot #275,286). Not sold, so no comp.
+## New listing (k10-257 in dry run): BaT No Reserve 1987 Chevrolet V10 Silverado Fleetside 4x4, Toney AL. Bid $30,000; ends Fri Nov 27 4:02 PM AZ.
+#   Add to the seen list after merge: https://bringatrailer.com/listing/1987-chevrolet-c-k-v10-pickup-43/
+## Price cut: k10-218 Fourbie 1976 K10 (El Paso, private) $21,500 -> $19,900 OBO.
+## Today's auction: k10-248 BaT 1970 K10 ends TODAY 12:53 PM AZ (bid $26,000 at 8:22 AM, reserve). If merged after ~2:53 PM, merge auto-drops it as "auction ended".
+#   If it sells, a later run can add: --sold https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/=<final>
+## Watch (not added)
+# WWV 1974 K10 FI V8 auto, lift, winch, $26,900 (stock CTP5405): live on WWV's inventory list but no detail URL could be fetched. Browser run should open it.
+# k10-193 Sparky's 1984 K10 $29,900: detail live, still off the our-cars index.
+# k10-142 Davis 1987 V10: still coming soon, no price.

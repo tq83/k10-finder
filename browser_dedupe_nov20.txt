@@ -1,0 +1,48 @@
+K10 browser scan dedupe — Fri Nov 20, 2026 (AZ time). NOT merged; listings.json and the seen list are unchanged.
+Checked 28 candidate URLs against listings.json (184 listings, 72 removed), new_nov20_exec.json and earlier scan notes.
+None of the 28 URLs appears anywhere in tracked data, so every match below is by year, price, mileage, dealer, location or specs.
+
+== CROSS-POSTS / RELISTS OF TRACKED TRUCKS (9 confirmed + 1 possible) ==
+eBay 287743203918   = k10-58  1979 K10 4-spd, Streetside La Vergne TN. 9,577 mi, $40,495 — no price change.
+eBay 307280953935   = k10-249 1980 K20 Silverado, Davis Auto Sales VA. 25,852 mi, $29,500 — no price change.
+eBay 307287907324   = k10-125 1980 K10 stepside, Davis VA. 34,584 mi, $47,995 — no price change. eBay lists it as RWD, but tracked VIN CKL14 shows a K10 4x4.
+eBay 267848219714   = k10-166 / k10-219 1987 V10, Skyway Classics Bradenton (SN2793). 24,245 mi. Relists the eBay item 267834508233 that ended Nov 12.
+                      Now $48,997, $500 below the tracked $49,497 (the same price as the Fourbie cross-post noted Nov 17).
+eBay 128203535131   = k10-29  1978 K10 Custom Deluxe stepside, 4-spd, Classic Auto Mall Morgantown PA. $16,500 — no change.
+eBay 287728332805   = k10-68  1986 K10 "4x4 Tribute", Streetside Fort Worth (= Hemmings 2911721). 51,508 mi.
+                      Now an eBay auction at a $14,481 bid (1 bid). The $48,495 ask still stands; this is an auction start, not a price cut.
+eBay 940086372201   = k10-140 1970 K-series 4x4, 396, 4-spd, 1976 3/4-ton gear, gooseneck. $28,000 — no change.
+                      Relist of the Consignify1 item 278443256784 under a new eBay number.
+Hemmings 2945328    = k10-36 (REMOVED Oct 28) 1987 K10 V10, Streetside Charlotte/Concord NC, $29,995.
+                      Streetside's own page showed it SOLD on Nov 17, so this is a stale syndication. Don't re-add it.
+Hemmings 2919302    ~ k10-24 (REMOVED Oct 22) 1984 K10, Streetside 5129-PHX, last price $31,995. POSSIBLE MATCH, not confirmed.
+                      Same dealer chain; now $29,995 in Lithia Springs GA (-$2,000). Trim differs: tracked "Silverado", this one "Scottsdale".
+                      Needs a VIN or stock-number check before deciding.
+
+== GENUINELY NEW TRUCKS (not tracked) ==
+In-budget, worth a look:
+  eBay 227621948070   1980 K10 4WD, manual, 84,906 mi, $28,500 OBO, clean title. No tracked 1980 matches on miles or price.
+  FB 1991347678969909 1983 GMC Sierra, LS 6.2/4L80, Litchfield Park AZ, $45,000 OBO (also shown $49k). 4x4 not stated.
+                      Not k10-16, the 1984 Chevy in the same town: different year, make, engine and price.
+  FB 1504317731622395 1983 Chevy 1500 SWB, 5.3, 154k mi, Phoenix, $22,000. 4x4 not stated.
+  FB 1715162217062027 1971 Chevy 1500, Kingman AZ, $21,000. Not opened; 4x4 unknown.
+  FB 30123994030536204 1970 GMC pickup, Litchfield Park AZ, $37,000. 4x4 unknown.
+  Mecum 1187064       1970 K10 CST, 350/auto, lot K318, Kissimmee Jan 2027. No tracked 1970 Mecum lot. 4x4 not checked.
+New but likely skip:
+  FB 1170974188953494 1978 Chevy 1500, 454, Mesquite NV, $20,000. 2WD (not a 4x4).
+  FB 970871275780075  1971 C10, Tucson, $29,000. Likely 2WD. Not k10-93, the Tucson 1971 K10 454 swap at $40k.
+  FB 1530881218870024 1967 GMC C-10 stepside, Chandler, $33,900. Likely 2WD.
+  FB 1064339339738674 1978 GMC 1500 LWB, Apache Junction, $15,000. At the bottom of the range.
+  FB 1450368733238037 1981 K20 4x4, Poway CA, $5,800. Under range.
+  eBay 307280953942   1977 Blazer, Davis Auto Sales (same seller as k10-249/k10-125), $39,995. Not a pickup.
+  eBay 267825710915   1960 Apache K10, $32,000. Pre-square-body year.
+Over budget (new to tracking, not trackable):
+  Hemmings 2876576 1970 K10 Chatsworth CA $150,950; 2963785 1969 K10 LS3 Mesa AZ $190,495;
+  2946261 1972 K10 Traverse City MI $169,900 (GR Auto Gallery, seen Nov 17); 2974508 1971 Bellevue WA $69,950 (seen Nov 5);
+  2976878 1972 Marietta GA $149,900 (same as ClassicCars CC-2124551, seen Nov 6).
+
+== SIDE NOTE (tracked by URL, so not a candidate) ==
+FB 1769493537672724 = k10-107 1977 GMC K15, Yuma: now $16,000, was $18,000 tracked (-$2,000).
+
+Totals: 9 cross-posts/relists + 1 possible (k10-24) | 18 new (6 worth a look, 7 likely skip, 5 over budget).
+Price changes: k10-166/219 -$500 ($48,997); k10-107 -$2,000 ($16,000); k10-24 possible -$2,000 ($29,995, removed truck); k10-68 now an eBay auction ($14,481 bid).
