@@ -1,0 +1,24 @@
+# K10 exec scan, Sat Nov 21 2026, about 8:17-8:45 AM Arizona time (MST). NOT merged, NOT published, seen list NOT edited.
+# Dry run OK: "added 0 | updated 2: k10-251(price,notes), k10-257(price,notes) | removed 2: k10-248, k10-119 | now 184 active listings, 32 comps".
+python3 merge_listings.py new_nov21_exec.json \
+  --remove https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/ \
+           https://www.craigslist.org/view/d/scottsdale-1972-chevrolet-10-pick-up/2MF3VCwsw4g5vGFHq9f3hA
+## reasons
+# --remove k10-248 BaT Modified 1970 K10 (Bakersfield CA): page reads "Sold for USD $45,750 on 11/20/26" (Lot #275,501, 30 bids, winner Gtdealer1;
+#          ended Fri Nov 20 11:59 AM PT = 12:59 PM AZ after extensions; last tracked bid $26,000). The sold comp (soldDate 2026-11-20) is already in
+#          the batch "comps", so use --remove, not --sold (--sold would stamp today's date and add a duplicate comp). Merge would also auto-drop it as "auction ended".
+# --remove k10-119 Craigslist Scottsdale 1972 K10 shortbed $46,000 (relist of FB k10-82): ad URL now returns HTTP 410 (deleted by seller), checked twice.
+#          FB k10-82 ($49,000, same truck) can't be checked without the browser; leave it for the browser run.
+## No new in-range listings today, so nothing to add to the seen list.
+## Bid updates (in batch): k10-251 BaT 1972 K20 LT4 $85,000 -> $95,000 (24 bids), ends TODAY 12:25 PM AZ. If merged after ~2:25 PM, merge auto-drops it as "auction ended".
+#                          k10-257 BaT 1987 V10 Silverado NR $30,000 -> $35,000 (9 bids), ends Fri Nov 27 4:02 PM AZ.
+#                          k10-232 Hagerty 1972 K10 NR unchanged at $18,000 (14 bids), ends Wed Nov 25 12:20 PM AZ.
+## Buy-now price changes seen: none (recheck of 154 tracked non-FB pages: every fetchable page still shows the tracked price).
+## Watch (not added)
+# Hagerty classified 1974 Chevy K-10 4x4, Maryville TN, asking $15,500 (under the $20k floor), listed Oct 24, never reported:
+#   https://www.hagerty.com/marketplace/classified/1974-Chevy-K-10/ab9f3155-b8a8-4ea1-8318-7a91c94d31c7  (VIN CKY144F434929, rebuilt 350, rebuilt auto, 2in lift)
+# Hagerty classified 1987 V10 (Pederson, Sioux Falls SD) = cross-post of tracked k10-49 (VIN 1GCEV14H7HJ161951). Hagerty data $31,900 vs $31,995 in the ad text/ClassicCars. No change.
+# B&B 1971 GMC K15 (k10-104) slug changed (k1500 -> k15) on the index; tracked URL still resolves at $47,550.
+# Davis: 1980 K-20 (k10-249) not on davisautosales square_body page today, but its detail page and davis4x4 still show $29,500. 1987 V10 (k10-142),
+#   1983 K-10 Stepside (83C1087T) and 1986 GMC C/K 1500 still coming soon with no price. No price differences between the two Davis sites.
+# Duc: the "1972 K10 Factory 4x4 Original Medium Green" grid entry is marked Sold! in the raw HTML. Nothing for sale.

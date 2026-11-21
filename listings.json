@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T08:41:05-07:00",
+  "updated": "2026-11-21T08:34:05-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -3825,53 +3825,6 @@
       "id": "k10-117"
     },
     {
-      "year": 1972,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Shortbed 4x4 (relist of FB k10-82)",
-      "engine": "350 V8",
-      "transmission": "Automatic",
-      "price": 46000,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "Ad says 157,000 and 'odometer rolled over' (5-digit odometer), so true miles unknown",
-      "location": "Scottsdale, AZ",
-      "state": "AZ",
-      "lat": 33.4942,
-      "lng": -111.9261,
-      "source": "Craigslist",
-      "url": "https://www.craigslist.org/view/d/scottsdale-1972-chevrolet-10-pick-up/2MF3VCwsw4g5vGFHq9f3hA",
-      "imageUrl": "photos/k10-119/7732fbb731e7.jpg",
-      "imageUrls": [
-        "photos/k10-119/7732fbb731e7.jpg",
-        "photos/k10-119/44a0d7af2c5d.jpg",
-        "photos/k10-119/0f6db44446e3.jpg",
-        "photos/k10-119/a1c29e7320ec.jpg",
-        "photos/k10-119/6f9c8c60acab.jpg",
-        "photos/k10-119/023a8d1ca406.jpg",
-        "photos/k10-119/92b26f6799ea.jpg",
-        "photos/k10-119/32c52a9e8443.jpg",
-        "photos/k10-119/5ad960058881.jpg",
-        "photos/k10-119/615bd3b0206e.jpg",
-        "photos/k10-119/8ffeaddd3fc3.jpg",
-        "photos/k10-119/9402176e75c9.jpg"
-      ],
-      "condition": [
-        "clean title (per ad)",
-        "runs and drives",
-        "seller claims zero rust",
-        "lifelong Albuquerque truck (per seller)",
-        "private seller",
-        "turquoise/white in photos (ad says green)"
-      ],
-      "redFlags": "RELIST: same truck as Facebook listing k10-82 (Scottsdale, 157k, 2nd owner, bought at Sands Chevy, Albuquerque life). Price dropped from $49,000 on FB to $46,000 here. 'Zero rust' and 'excellent' are seller claims; ad is short and gives no VIN.",
-      "notes": "Craigslist by-owner ad posted 2026-10-24 1:57 PM AZ. Seller asks for text/email/call. 12 photos.",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-24T18:12:14-07:00",
-      "id": "k10-119"
-    },
-    {
       "year": 1976,
       "make": "GMC",
       "model": "K15",
@@ -7674,58 +7627,6 @@
       "id": "k10-247"
     },
     {
-      "year": 1970,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Modified 4x4 pickup, short-bed conversion, 6in lift (Reserve, California title)",
-      "engine": "355ci V8 (GM Performance aluminum heads, Holley 4-bbl)",
-      "transmission": "700R4 4-speed automatic, twin-stick dual-range transfer case, 4.11 gears",
-      "price": 26000,
-      "priceType": "bid",
-      "auctionEnd": "2026-11-20T12:53:00-07:00",
-      "mileage": null,
-      "mileageNote": "Digital odometer shows ~2k miles added since the build; total mileage unknown",
-      "location": "Bakersfield, CA",
-      "state": "CA",
-      "lat": 35.3733,
-      "lng": -119.0187,
-      "source": "Bring a Trailer",
-      "url": "https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/",
-      "imageUrl": "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_1efff81f-21e7-4647-9a33-789e1c9f1949-q39j4V-a5b16cbf5a8f7c369730efa526cd94de-594c7e98fb8b5357336fece1923d62a3-scaled.jpg",
-      "imageUrls": [
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_1efff81f-21e7-4647-9a33-789e1c9f1949-q39j4V-a5b16cbf5a8f7c369730efa526cd94de-594c7e98fb8b5357336fece1923d62a3-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_74757cfb-57de-40f9-874b-e2ac397e1a19-WnGXIU-0c2e04e5d620d678610190e6fd343289-79272045bc338ae79ffb652732-e0ce36b7acb25c80b1e2264857bdc70d.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_2a4e8953-7aaa-4c33-ac10-e14e0595ff81-OU8eKP-05909bb6f6f3f97cbcd46b5d592493da-2017802da18eb436b16dbd0b80be43b3-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_9d1290fa-be00-48c8-8126-929b7f1025b7-AgZSA2-f8ad311fe249784a7d593adc24f63c9b-e1ff39b187913dace17f77400beb3948-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_a2098559-3099-482c-94b8-d20951065ebc-q3h45D-cae9459c76c03ca274cba330f438c95c-0b295efb1ecd78432f3937782cff6ed1-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_d8e6e99e-5c17-4763-9dcc-8db493f4b36e-91L6P4-eacc099d383f0aa7afb6b9b89af89ef6-6337b3ea36468e97ee89e3b4db5f52de-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_8ac2018f-9669-4d86-9739-a657774b068f-v1dTau-0b6ae60510c45ba21a01c14babc35e85-de2db140a4c18f9b8a569b8e5619865f-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_71436b4b-b2bf-4278-869e-cf261209a52e-izzsca-f803a892a831139b56fbca696893caf8-ad90b8a00772b657f46cbdd6f31740f1-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_d54dad90-ad9e-4da6-9f55-74e139087d76-lYMkXa-4af8dc804ffd746b2dbb6b6d5b401947-28ba9d3155928822adaa1d7fc45aad91-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_7759cf9a-e595-44db-89f4-e2fbba187784-vi4LUa-c8400f7a8f3c2b369226f5829cf51c80-b2f706984dd1c6e0e36fd75564b2499b-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_760ee19b-9509-4fb0-ab31-a62ab975bb70-Iz6K57-0755a482248657737821832df2a7be3f-f1d38316aea9bcda61b3376fad88b268-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_dc06c95f-606e-465f-a421-d40e57101edd-kqSO85-8e02018cf6d38f4e6ac701aa11a1b700-b6a31aff4ed576024a5d5e61f2c226a9-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_6fe2d626-a425-4725-a5df-5df5e91fd7be-IoS5z6-390b65fef20c8f7e947152ac83fac7da-64b01c22f81fac5f824c517aab8ce289-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_547085c4-1a92-4d5a-9fb3-0e4b308ce560-fCd04k-0475e2e3fa8fb4984b8efab77ff2ecac-eb172ab03f2bd82b1e5606e8ac92fac1-scaled.jpg",
-        "https://bringatrailer.com/wp-content/uploads/2026/10/1970_chevrolet_k10-pickup_1970_chevrolet_k10-pickup_4f8b1bd1-c7d4-447b-9ade-57c698262efe-2KZ7CX-318b8af72925e89a2a8bf50d44a12804-3b9d10354545c418bfda6e403bc420c8-scaled.jpg"
-      ],
-      "condition": [
-        "Reserve",
-        "California title",
-        "Long-bed to short-bed conversion (bed and frame cut/welded)",
-        "1968-style grille/hood/fenders",
-        "Porsche Chalk Grey repaint",
-        "Vintage Air",
-        "Skyjacker 6in lift, 35in Mickey Thompsons on 17in Fuel wheels",
-        "Custom gray/black interior"
-      ],
-      "redFlags": "Not a factory short bed: bed and frame rails were cut and welded, so inspect the frame splice. Tachometer does not work and the fuel gauge reads backwards (seller). Front sheet metal swapped to 1968 style. Total miles unknown.",
-      "notes": "Reserve, California title. Bid $26,000 on Fri Nov 20 at 8:22 AM AZ (up from $25,000 on Nov 19). Ends TODAY Fri Nov 20 at 12:53 PM Arizona time.",
-      "valueRating": "fair",
-      "firstSeen": "2026-11-14T08:26:55-07:00",
-      "id": "k10-248"
-    },
-    {
       "year": 1980,
       "make": "Chevrolet",
       "model": "K20",
@@ -7831,7 +7732,7 @@
       "trim": "Cheyenne 4x4, supercharged LT4 restomod (orange, tan leather)",
       "engine": "Supercharged 6.2L LT4 V8 (installed during build), Drive Junky serpentine drive, Ron Davis aluminum radiator, Borla dual exhaust with cutouts",
       "transmission": "10L90 10-speed automatic, Advance Adapters Atlas twin-stick dual-range transfer case, Dana 44 front / 14-bolt rear",
-      "price": 85000,
+      "price": 95000,
       "priceType": "bid",
       "auctionEnd": "2026-11-21T12:25:00-07:00",
       "mileage": null,
@@ -7874,7 +7775,7 @@
         "Montana title"
       ],
       "redFlags": "Montana title lists the truck as a 1972 Chevrolet C20, although the chassis number CKE242Z128857 decodes as a factory 4WD K20, so expect a title correction step. The swap is new: 39 miles since the build, so shakedown issues are possible. Bidding is far from done, and finished LT4/10-speed builds like this usually sell well above $50k.",
-      "notes": "BaT lot 275,697, private seller (2254Charlie), reserve. Chassis CKE242Z128857. Seller bought it in 2015 from a friend who had owned it since 1973. Multi-year build finished in 2025: supercharged LT4, 10L90, Atlas twin-stick, BDS leaf springs, Fox shocks and dual steering stabilizers, Wilwood front discs with GM rear discs and a CPP HydraStop brake booster, 18in polished Raceline wheels, AMP power running boards, oak bed floor, power windows and locks, cruise, Dakota Digital RTX, 29-gal Rick's tank, American Autowire harness. Bid $85,000 on Fri Nov 20 morning (up from $75,000). Well over the $50k budget. Ends Sat Nov 21 at 12:25 PM Arizona time.",
+      "notes": "BaT lot 275,697, private seller (2254Charlie), reserve. Chassis CKE242Z128857. Seller bought it in 2015 from a friend who had owned it since 1973. Multi-year build finished in 2025: supercharged LT4, 10L90, Atlas twin-stick, BDS leaf springs, Fox shocks and dual steering stabilizers, Wilwood front discs with GM rear discs and a CPP HydraStop brake booster, 18in polished Raceline wheels, AMP power running boards, oak bed floor, power windows and locks, cruise, Dakota Digital RTX, 29-gal Rick's tank, American Autowire harness. Bid $95,000 (24 bids) on Sat Nov 21 at 8:20 AM AZ (up from $85,000 on Nov 20). Well over the $50k budget. Ends Sat Nov 21 at 12:25 PM Arizona time.",
       "valueRating": "pricey",
       "firstSeen": "2026-11-15T08:36:07-07:00",
       "id": "k10-251"
@@ -8079,7 +7980,7 @@
       "trim": "Silverado Fleetside 4x4, short bed (No Reserve), 2.5in lift, Apple Red repaint",
       "engine": "5.7L (350) TBI V8",
       "transmission": "4-speed automatic (700R4), dual-range transfer case, manual locking hubs",
-      "price": 30000,
+      "price": 35000,
       "priceType": "bid",
       "auctionEnd": "2026-11-27T16:02:00-07:00",
       "mileage": 99000,
@@ -8121,7 +8022,7 @@
         "right fuel tank inoperable"
       ],
       "redFlags": "Right-side fuel tank is inoperable. It was repainted under previous ownership, so check for hidden rust and filler. It's sold on an Alabama registration with no title. Alabama doesn't title vehicles this old, so plan for an Arizona VIN inspection and bonded/registration-based titling. The 5-digit odometer shows 99k, but total miles are unverified.",
-      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026. Bid $30,000 (6 bids, 447 watchers) on Fri Nov 20 at 8:22 AM AZ. No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT). Comps: BaT 1987 V10 Custom Deluxe 4-speed NR, rough Canadian-market truck, sold $10,000 on 11/18; 1987 GMC V1500 Sierra Classic (Sniper EFI) $29,524 in Aug; 1986 K10 383 stroker $37,500 on 11/1; 1986 GMC K1500 Sierra Classic 68k $32,500 in Aug. A clean, lightly lifted Silverado with A/C typically hammers around $30-40k on BaT, so a $30k bid with a week to go points to a likely finish in the mid-to-high $30s. At $30k it's fair; at $40k+ it's pricey.",
+      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026. Bid $35,000 (9 bids) on Sat Nov 21 at 8:20 AM AZ (was $30,000 on Nov 20). No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT). Comps: BaT 1987 V10 Custom Deluxe 4-speed NR, rough Canadian-market truck, sold $10,000 on 11/18; 1987 GMC V1500 Sierra Classic (Sniper EFI) $29,524 in Aug; 1986 K10 383 stroker $37,500 on 11/1; 1986 GMC K1500 Sierra Classic 68k $32,500 in Aug. A clean, lightly lifted Silverado with A/C typically hammers around $30-40k on BaT, so $35k with six days left already sits in the expected range; the 1970 K10 restomod went for $45,750 on 11/20, but that was a full build. Fair up to the high $30s; pricey at $40k+.",
       "valueRating": "fair",
       "firstSeen": "2026-11-20T08:41:05-07:00",
       "id": "k10-257"
@@ -8571,6 +8472,16 @@
       "mileageNote": "54k shown (TMU); Arizona title carries an 'Exceeds Mechanical Limits' odometer note",
       "source": "Bring a Trailer",
       "url": "https://bringatrailer.com/listing/1979-chevrolet-k10-pickup-23/"
+    },
+    {
+      "year": 1970,
+      "trim": "K10 Modified 4x4, short-bed conversion, 355/700R4, 6in Skyjacker lift, Porsche Chalk Grey (Reserve, California title, Bakersfield CA)",
+      "soldPrice": 45750,
+      "soldDate": "2026-11-20",
+      "mileage": null,
+      "mileageNote": "Digital odometer shows ~2k miles since the build; total mileage unknown",
+      "source": "Bring a Trailer",
+      "url": "https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/"
     }
   ],
   "removed": [
@@ -9381,6 +9292,28 @@
       "url": "https://bringatrailer.com/listing/1972-chevrolet-k20-pickup-31/",
       "reason": "removed (gone/sold elsewhere)",
       "removedAt": "2026-11-20T08:41:05-07:00"
+    },
+    {
+      "id": "k10-248",
+      "year": 1970,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Modified 4x4 pickup, short-bed conversion, 6in lift (Reserve, California title)",
+      "lastPrice": 26000,
+      "url": "https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-21T08:34:05-07:00"
+    },
+    {
+      "id": "k10-119",
+      "year": 1972,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Shortbed 4x4 (relist of FB k10-82)",
+      "lastPrice": 46000,
+      "url": "https://www.craigslist.org/view/d/scottsdale-1972-chevrolet-10-pick-up/2MF3VCwsw4g5vGFHq9f3hA",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-21T08:34:05-07:00"
     }
   ]
 }
