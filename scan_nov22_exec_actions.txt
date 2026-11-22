@@ -1,0 +1,24 @@
+# K10 exec scan, Sun Nov 22 2026, about 8:25-9:20 AM Arizona time (MST). NOT merged, NOT published, seen list NOT edited.
+# Dry run OK: "added 1: k10-261 | updated 5: k10-54, k10-67, k10-80, k10-166, k10-138 (price,notes) | removed 3: k10-251, k10-32, k10-76 | now 182 active listings, 32 comps".
+python3 merge_listings.py new_nov22_exec.json \
+  --remove https://bringatrailer.com/listing/1972-chevrolet-k20-pickup-36/ \
+           https://classiccars.com/listings/view/2115371 \
+           https://classiccars.com/listings/view/2104089
+## reasons
+# --remove k10-251 BaT supercharged LT4 1972 K20 (lot 275,697): "Bid to USD $110,000 on 11/21/26", reserve not met (37 bids). Not sold, so no comp.
+#          Merge would also auto-drop it as "auction ended".
+# --remove k10-32  ClassicCars CC-2115371 Gateway Milwaukee 1987 V10 $49,000 (VIN 1GCEV14K3HF379478): page reads "This vehicle has been sold". No sale price, so --remove, not --sold.
+# --remove k10-76  ClassicCars CC-2104089 / CCD stock 429454 1974 K10 $18,995: ClassicCars says "This vehicle has been sold". The CCD listing URL now redirects to the inventory index. No sale price.
+## NEW (k10-261 in dry run). Add to the seen list after merge:
+#   https://www.craigslist.org/view/d/houston-1985-chevrolet-chevy-silverado/xgqk1erl8RGv1KZ8AoT0_Q
+#   1985 K10 Silverado long bed, LS swap, lifted, red/red, Diesel of Houston (TX), $39,995, VIN 1GCEK14H0FS182284. Same truck as carsforsale 131382314 and eBay (listed since ~Oct 4, same price). Rated pricey.
+## Price changes (in batch): k10-54 ClassicCars 1984 K10 LT1 $28,500 -> $23,500 | k10-67 1978 GMC K1500 LS $47,997 -> $46,997 | k10-80 1977 GMC K15 $14,999 -> $13,999 OBO
+#                            k10-166 1987 V10 Skyway $49,497 -> $48,997 | k10-138 Hemmings 1979 K10 Exotic Car Trader $44,999 -> $41,499 (read from Hemmings results card; detail page won't render; matches k10-105 carsforsale)
+## Bids (no change, not in batch): k10-257 BaT 1987 V10 NR $35,000 (9 bids), ends Fri Nov 27 4:02 PM AZ. k10-232 Hagerty 1972 K10 NR $18,000 (14 bids), ends Wed Nov 25 12:20 PM AZ.
+## Watch (not added)
+# Craigslist Tucson 1978 Chevrolet Scottsdale K30 crew cab Camper Special SRW 4x4, 350/SM465/NP205, 109k, clean title, $22,500 OBO (1-ton crew, outside K10/K15 scope):
+#   https://www.craigslist.org/view/d/tucson-rare-1978-chevrolet-scottsdale/o63o3PzFhxqe4gAyARkUXF
+# Craigslist Roseville 1978 "C/K 10" $50,108 (Hayes Classics) reposted under a 3rd URL (Kv_DRNHl8RGeraWEXRA9ZQ). VIN CCS448Z = 2WD C10, lowered. Not a target.
+# Davis 1985 K-10 85C8859 $55,000 and 1984 GMC $69,995 still over budget. 1987 V10 (k10-142), 1986 GMC 86G3704 and 1983 K-10 83C1087T are still coming soon with no price.
+#   Davis 1985 GMC k10-123's index slug changed (K-15_SQUAREBODY_4X4 -> C/K_1500), same stock 1263841, same $49,995. davis4x4 blocked (403), so prices couldn't be compared across the two Davis sites.
+# Barrett-Jackson 2027 Scottsdale (Jan 23-31): docket still "Coming soon", no lots posted.
