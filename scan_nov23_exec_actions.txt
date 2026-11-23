@@ -1,0 +1,45 @@
+# K10 exec scan, Mon Nov 23 2026, morning Arizona time (MST). NOT merged, NOT published, seen list NOT edited.
+# Dry run OK: "added 1: k10-265 | updated 1: k10-256 (price,notes) | removed 8: k10-127, k10-128, k10-133, k10-139, k10-140, k10-149, k10-150, k10-152 | now 177 active listings, 32 comps".
+python3 merge_listings.py new_nov23_exec.json \
+  --remove https://www.ebay.com/itm/237136534514 \
+           https://www.ebay.com/itm/267823027745 \
+           https://www.ebay.com/itm/257808854376 \
+           https://www.ebay.com/itm/820276605100 \
+           https://www.ebay.com/itm/940086372201 \
+           https://www.ebay.com/itm/178536390040 \
+           https://www.ebay.com/itm/227583361691 \
+           https://www.ebay.com/itm/880017439730
+## reasons (eBay pages read via WebFetch; eBay end times as shown on the page, timezone not stated)
+# --remove k10-127 eBay 1975 K10 Cheyenne $33,995 (Hayden ID): "ended by the seller on Tue, Nov 10 ... item is no longer available".
+# --remove k10-128 eBay 1979 K10 Scottsdale 400 (Portland OR, lot99llc): "ended by the seller on Fri, Nov 20 ... no longer available"; last price shown $20,495 (tracked $21,245).
+# --remove k10-133 eBay 1982 K10 6.2 diesel $37,900 (Leland NC): "This listing ended on Thu, Nov 19". No sale price shown.
+# --remove k10-139 eBay 1968 K20 $23,400: item page returns 404 (delisted).
+# --remove k10-140 eBay 1970 4x4 396/4-speed 3/4-ton $28,000 (Yreka CA, Consignify): "ended by the seller on Sat, Nov 21 ... no longer available".
+# --remove k10-149 eBay 1972 K10 502 EFI $27,500 (Kalispell MT): "This listing ended on Wed, Oct 28" (stale).
+# --remove k10-150 eBay 1972 GMC K2500 $29,950 (Beverly Hills Car Club): "This listing ended on Fri, Oct 30" (stale).
+# --remove k10-152 eBay 1975 K15 Sierra $27,900 (WWV Denver): "This listing ended on Fri, Nov 13" (stale).
+# None show a sale price, so --remove, not --sold. No new comps.
+## NEW (k10-265 in dry run). Add to the seen list after merge:
+#   https://bringatrailer.com/listing/1977-chevrolet-k10-pickup-20/
+#   1977 K10 4x4, new Jasper 350 + new 3-spd auto (2026), 4in lift, 33s, light blue/white repaint, Jonesville SC, dealer consignment, chassis CKL147F418889.
+#   Bid $16,000 (9 bids), ends Sun Nov 29 11:44 AM AZ. Rated fair (fair hammer ~$20-27k).
+## Also add to the seen list (cross-list, no card):
+#   https://www.fourbieexchange.com/listing/1973-gmc-k1500-sierra-grande  = k10-226 (VIN TKY143F716312), same $34,000, Drive the Coast, Santa Rosa Beach FL.
+## Price changes (in batch): k10-256 eBay 1983 K10 Dreamsicle (Randleman NC) $48,500 -> $44,999 OBO (updated Nov 20).
+## Unchanged (verified today): all tracked ClassicCars and CCD prices; eBay k10-191 $39,995, k10-219 $48,997, k10-244 $38,500, k10-258 $28,500, k10-262 $50,495, k10-263 $29,500.
+## Bids (no change, not in batch): k10-257 BaT 1987 V10 NR $35,000 (9 bids), ends Fri Nov 27 4:02 PM AZ. k10-232 Hagerty 1972 K10 NR $18,000 (14 bids), ends Wed Nov 25 12:20 PM AZ.
+## Watch (not added)
+# Fourbie lists Streetside ATL 1976 K-10 stepside (stock 9501-ATL, k10-165/k10-220) at $49,995 vs tracked $50,495; possible $500 cut, unverified on Streetside (403). classic.com still shows $50,495.
+# Unique k10-101 detail page shows no price today (was $29,900): possibly sold/pending; verify next run.
+# WWV 1986 GMC LS swap short box LCC2055 $33,900: 4x4 unconfirmed (detail 403). WWV 1974 CTP5405 "factory K10 4x4" $26,900 is a Suburban.
+# Davis: 1987 V10 (k10-142), 1986 GMC 86G3704, 1983 K-10 83C1087T still coming soon, no price. 85C8859 $55,000 on main site but no price on davis4x4 (mismatch).
+#   davis4x4 1979 K-10 79C7587C $97,500 (over budget). Other prices match across both Davis sites.
+# Fourbie 1987 R10 NFI Empire $24,991 labeled 4x4 but VIN 1GCDR = 2WD. PC Classic 1987 R10 pending, 2WD.
+# Craigslist Tucson 1978 K30 crew cab $22,500 OBO still up; Roseville 1978 C10 (Kv_DRNHl8RGeraWEXRA9ZQ) still up (2WD).
+# Out of range: Spady 1969 K20 $62,591 (Scottsdale); B&B 1973 GMC K1500 $14,950; CCD 1979 GMC K1500 $11,495; Salem Autosports 1980 K10 $19,995; Classic Auto Mall 1987 V10 Silverado $60,000;
+#   Vanguard 1969 GMC 1500 4x4 $129,900 / 1972 GMC 4x4 restomod $279,900; Unique 1972 Cheyenne K10 $64,900.
+# Barrett-Jackson 2027 Scottsdale (Jan 23-31): docket still "Coming soon".
+## Unchecked / blocked
+# Fast Lane (403), Streetside detail (403), WWV detail (403), Gateway + Gateway Scottsdale (403/empty; ClassicCars dealer page for Scottsdale shows no K10), Volo (403),
+# Unique page 5 (403 rate-limit; 1980-87 trucks incl. "1980 K10 4x4" not seen), Canyon State homepage only, ClassicCars search unusable (details checked one by one),
+# Hemmings detail pages render title only (no price/status), carsforsale (403), Mecum lot pages not rechecked, Facebook Marketplace not scanned, eBay search JS-only (no new eBay finds possible).
