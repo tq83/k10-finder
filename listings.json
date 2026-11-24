@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T08:30:33-07:00",
+  "updated": "2026-11-24T08:28:26-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -5614,7 +5614,7 @@
         "Silverado",
         "SPID label present"
       ],
-      "redFlags": "Long bed (131in wheelbase), not a short bed. Replacement engine, not numbers-matching. Restoration is 'seller-reported' with no shop or photos-of-work named. The seller is a camp that was given the truck, so it may not know the history well.",
+      "redFlags": "VIN 2GCDC14H2F1209977 decodes as a 2WD C10 (5th digit C, not K), and Fourbie's drivetrain field says RWD, but the description says four-wheel drive. Treat it as 2WD or a 4x4 conversion until the seller sends photos of the front axle/transfer case and the SPID. Long bed (131in wheelbase), not a short bed. Replacement engine, not numbers-matching. Restoration is 'seller-reported' with no shop or photos-of-work named. The seller is a camp that was given the truck, so it may not know the history well.",
       "notes": "Originally Midnight Blue/Silver deluxe two-tone with blue custom cloth per SPID label; Rally wheels, tilt, cruise, AM/FM/quartz clock. Ownership records and CARFAX available. Comps: 1984 K10 Silverado $29,500 (BaT 10/2/26), 1986 GMC Sierra Classic $32,500 (BaT 8/31/26), 1986 K10 383 $37,500 (BaT 11/1/26). Fair range about $32k-$38k for a restored long bed.",
       "valueRating": "pricey",
       "firstSeen": "2026-11-04T08:28:53-07:00",
@@ -7479,7 +7479,7 @@
       "trim": "Silverado Fleetside 4x4, short bed (No Reserve), 2.5in lift, Apple Red repaint",
       "engine": "5.7L (350) TBI V8",
       "transmission": "4-speed automatic (700R4), dual-range transfer case, manual locking hubs",
-      "price": 35000,
+      "price": 37000,
       "priceType": "bid",
       "auctionEnd": "2026-11-27T16:02:00-07:00",
       "mileage": 99000,
@@ -7521,7 +7521,7 @@
         "right fuel tank inoperable"
       ],
       "redFlags": "Right-side fuel tank is inoperable. It was repainted under previous ownership, so check for hidden rust and filler. It's sold on an Alabama registration with no title. Alabama doesn't title vehicles this old, so plan for an Arizona VIN inspection and bonded/registration-based titling. The 5-digit odometer shows 99k, but total miles are unverified.",
-      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026. Bid $35,000 (9 bids) on Sat Nov 21 at 8:20 AM AZ (was $30,000 on Nov 20). No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT). Comps: BaT 1987 V10 Custom Deluxe 4-speed NR, rough Canadian-market truck, sold $10,000 on 11/18; 1987 GMC V1500 Sierra Classic (Sniper EFI) $29,524 in Aug; 1986 K10 383 stroker $37,500 on 11/1; 1986 GMC K1500 Sierra Classic 68k $32,500 in Aug. A clean, lightly lifted Silverado with A/C typically hammers around $30-40k on BaT, so $35k with six days left already sits in the expected range; the 1970 K10 restomod went for $45,750 on 11/20, but that was a full build. Fair up to the high $30s; pricey at $40k+.",
+      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026. Bid $37,000 (13 bids) on Tue Nov 24 morning AZ (was $35,000/9 bids on Nov 21). No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT). Comps: BaT 1987 V10 Custom Deluxe 4-speed NR, rough Canadian-market truck, sold $10,000 on 11/18; Mecum Las Vegas 1987 V10 Silverado SB 95k sold $33,000 on 11/13 (per classic.com); 1987 GMC V1500 Sierra Classic (Sniper EFI) $29,524 in Aug; 1986 K10 383 stroker $37,500 on 11/1. Fair up to the high $30s; pricey at $40k+.",
       "valueRating": "fair",
       "firstSeen": "2026-11-20T08:41:05-07:00",
       "id": "k10-257"
@@ -7837,7 +7837,7 @@
       "trim": "Pickup 4x4 (short bed fleetside), lifted",
       "engine": "Replacement 350 V8 (Jasper, installed 2026)",
       "transmission": "Replacement 3-speed automatic (Monster Transmissions, 2026), dual-range transfer case",
-      "price": 16000,
+      "price": 18000,
       "priceType": "bid",
       "auctionEnd": "2026-11-29T11:44:00-07:00",
       "mileage": null,
@@ -7878,7 +7878,7 @@
         "clean SC title"
       ],
       "redFlags": "Repaint over an unknown body; check for rust and filler in cab corners, rockers, bed and floors. True mileage unknown (5-digit odometer). Dealer consignment. Base-level interior (wind-up windows, heater, AM/FM, no A/C mentioned). Lift and big tires on a 1977 means you should check steering/driveline angles.",
-      "notes": "BaT lot #276,952, seller WTS_OFJONESVILLE (dealer). Chassis CKL147F418889. Bid $16,000 with 9 bids as of Mon Nov 23 morning AZ; ends Sun Nov 29 11:44 AM AZ. New drivetrain in 2026 is the main value. Comps: BaT 1977 K10 $7,069 (11/13/26, rough), Hagerty 1977 K10 Scottsdale $35,666 (10/24/25), 1977 GMC K1500 4-speed $21,935 (7/15/26). Fair hammer about $20k-27k; above ~$28k gets pricey for a base-trim lifted driver.",
+      "notes": "BaT lot #276,952, seller WTS_OFJONESVILLE (dealer). Chassis CKL147F418889. Bid $18,000 with 10 bids as of Tue Nov 24 morning AZ (was $16,000/9 bids Nov 23); ends Sun Nov 29 11:44 AM AZ. New drivetrain in 2026 is the main value. Comps: BaT 1977 K10 $7,069 (11/13/26, rough), Hagerty 1977 K10 Scottsdale $35,666 (10/24/25), 1977 GMC K1500 4-speed $21,935 (7/15/26). Fair hammer about $20k-27k; above ~$28k gets pricey for a base-trim lifted driver.",
       "valueRating": "fair",
       "firstSeen": "2026-11-23T08:30:33-07:00",
       "id": "k10-265"
@@ -7914,6 +7914,126 @@
       "valueRating": "fair",
       "firstSeen": "2026-11-23T08:30:33-07:00",
       "id": "k10-266"
+    },
+    {
+      "year": 1977,
+      "make": "GMC",
+      "model": "K1500",
+      "trim": "Sierra Grande regular cab 4x4, lifted (rebuilt title)",
+      "engine": "400ci small-block Chevrolet V8, Holley Brawler 4bbl, aluminum intake, headers",
+      "transmission": "Turbo 350 3-speed automatic, NP203 transfer case",
+      "price": 29900,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Dealer lists 1 mile / classic.com shows 77 mi TMU; true mileage unknown",
+      "location": "Searcy, AR",
+      "state": "AR",
+      "lat": 35.2468,
+      "lng": -91.7337,
+      "source": "CLASSIC.COM (Creekwood Motor Company, dealer)",
+      "url": "https://www.classic.com/veh/1977-gmc-k1500-sierra-grande-tkr147z522992-4VDYlvW/",
+      "imageUrl": "https://images.classic.com/vehicles/482e2f1ea838c65aa2f61ad2980947bc.jpg",
+      "imageUrls": [
+        "https://images.classic.com/vehicles/482e2f1ea838c65aa2f61ad2980947bc.jpg"
+      ],
+      "condition": [
+        "REBUILT title",
+        "Skyjacker 5in lift and shocks",
+        "35x12.50R15 Cooper tires on 15in US Wheels",
+        "13K winch",
+        "Bully steps",
+        "Warn hubs",
+        "10-bolt front / 12-bolt rear",
+        "dual 15-gal tanks",
+        "spray-in bedliner",
+        "black leather interior, Boss radio, Skar/Crunch audio, Bluetooth",
+        "heat only, no A/C",
+        "brown/cream paint"
+      ],
+      "redFlags": "REBUILT (salvage) title: ask what the damage was, get repair photos/receipts, and check frame straightness and insurability (resale will be lower). Mileage is unknown (TMU). No A/C. Lifted on 35s, so check steering, driveline angles and brakes. Only 1 key. Ask for underside photos.",
+      "notes": "Dealer stock 26581, VIN TKR147Z522992 (T=GMC, K=4WD). Listed on classic.com Nov 20, 2026; confirmed active at $29,900 on creekwoodmotorcompany.com inventory Nov 24. Not the 2021 AutoHunter 1977 GMC K1500 Sierra Grande (VIN TKR147F744927, Gladstone OR, sold $22,000 Oct 2021). Comps: BaT 1977 GMC K1500 $22,250 (10/10/26), Hagerty 1977 GMC K1500 $21,935 (7/15/26), BaT 1979 K10 NR $18,000 (11/19/26), BaT 1974 K10 Phoenix $13,750 (11/6/26). With a rebuilt title, heavy mods, no A/C and TMU, fair is about $18-24k, so $29,900 is pricey.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-11-24T08:28:26-07:00",
+      "id": "k10-267"
+    },
+    {
+      "year": 1986,
+      "make": "GMC",
+      "model": "K1500",
+      "trim": "High Sierra Wideside long bed 4x4, custom/lifted",
+      "engine": "5.0L (305ci) V8 4bbl (RPO LE9)",
+      "transmission": "Dealer says automatic; SPID shows MM4 4-speed manual and BuyTheCar mentions a B&M shifter, so verify",
+      "price": 20000,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "47,390 shown; TMU per BuyTheCar",
+      "location": "Seattle, WA",
+      "state": "WA",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "source": "Dealer (Wild About Cars Garage)",
+      "url": "https://wildaboutcarsgarage.com/vehicles/12874095-1986-GMC-Pickup/",
+      "imageUrl": "https://cdn-thumbor.autodealersdigital.com/unsafe/fit-in/1200x630/filters:upscale():max_bytes(500000):quality(100):fill(blur):sharpen(0.7,0.5,true):format(jpg)/104822/12874095/728631795279987.jpg",
+      "imageUrls": [
+        "https://cdn-thumbor.autodealersdigital.com/unsafe/fit-in/1200x630/filters:upscale():max_bytes(500000):quality(100):fill(blur):sharpen(0.7,0.5,true):format(jpg)/104822/12874095/728631795279987.jpg",
+        "https://assets.buythecar.com/uploads/auction_item/e4/9f/e49f37dbe766f3453e1d315ccccf8bc6d0f4467b.jpg/thumb_69753_auction_item_medium.jpg"
+      ],
+      "condition": [
+        "clean WA title",
+        "8ft Wideside long bed, 117.5in wheelbase",
+        "lifted, multi-shock setup",
+        "LT315/75R16 tires",
+        "custom paint and graphics",
+        "rollbar with KC lights, dual pop-up sunroofs",
+        "Gov-Lok, 3.08 gears, aux tank",
+        "surface rust in various spots",
+        "no A/C"
+      ],
+      "redFlags": "Relist: it went unsold on BuyTheCar on Nov 19 with only a $4,000 high bid (8 bids, reserve not met), so the market said far less than $20k. Surface rust in various spots; inspect the frame, cab corners and floors. A bidder asked about valve-train noise. The transmission doesn't match: the dealer says auto, the SPID says MM4 4-speed manual. Long bed, 305, no A/C, 1980s-style custom look. Mileage TMU.",
+      "notes": "Stock 721047, VIN 1GTEK14H6GF721047. BuyTheCar lot https://buythecar.com/listing/1986-gmc-1500-3503 ended Nov 19, 2026 2:00 PM AZ (1:00 PM PST) at a $4,000 high bid, reserve not met. Relisted by the dealer at $20,000 (on classic.com Nov 23). Comps: BaT 1985 GMC K1500 $17,000 (11/16/26); BaT 1986 GMC K1500 $32,500 (8/31/26, much nicer truck). Fair is about $10-15k given rust, custom work and the $4k no-sale.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-11-24T08:28:26-07:00",
+      "id": "k10-268"
+    },
+    {
+      "year": 1971,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Short bed (listed as \"c/k 10\"; 4x4 not stated, lifted stance in photos)",
+      "engine": "454 big-block V8",
+      "transmission": "Listing field says automatic; description says manual (verify)",
+      "price": 39999,
+      "priceType": "ask",
+      "auctionEnd": null,
+      "mileage": null,
+      "mileageNote": "Listed as 12,345 miles, a placeholder-looking figure; true mileage unknown",
+      "location": "Tucson, AZ",
+      "state": "AZ",
+      "lat": 32.2226,
+      "lng": -110.9747,
+      "source": "Facebook Marketplace (listed on behalf of The Brubaker Collection)",
+      "url": "https://www.facebook.com/marketplace/item/2408889663217411/",
+      "imageUrl": "photos/k10-269/fe1293089b5a.jpg",
+      "imageUrls": [
+        "photos/k10-269/fe1293089b5a.jpg",
+        "photos/k10-269/0f3e3cb463fd.jpg"
+      ],
+      "condition": [
+        "454 big block",
+        "3/4-ton axle swap",
+        "original interior",
+        "seller says rust free, runs and drives great",
+        "clean title",
+        "dark blue/primer-looking paint; seller will paint any color",
+        "lifted on big tires"
+      ],
+      "redFlags": "Never says 4x4 and no VIN given, so confirm it's a factory K (VIN starts CKE/KE) and not a converted C10. Transmission contradicts itself (auto vs manual). 12,345 miles is clearly not real. Paint unfinished. Broker-style listing (Brubaker Collection) — ask for VIN, title in whose name, underside photos.",
+      "notes": "Facebook Marketplace, listed ~2 hrs before 8:30 AM Nov 24, 2026, Tucson. Blue over black. Fair for a driver-quality '71 K10 with a non-original 454 and unfinished paint is roughly $25-35k, so $39,999 is on the high side unless it checks out as a solid factory 4x4.",
+      "valueRating": "pricey",
+      "firstSeen": "2026-11-24T08:28:26-07:00",
+      "id": "k10-269"
     }
   ],
   "comps": [

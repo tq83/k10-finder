@@ -1,0 +1,38 @@
+# K10 exec scan, Tue Nov 24 2026, morning Arizona time (MST). NOT merged, NOT published, seen list NOT edited.
+# Dry run OK: "added 2: k10-267, k10-268 | updated 3: k10-257(price,notes), k10-265(price,notes), k10-189(redFlags) | removed 0: - | now 180 active listings, 32 comps".
+python3 merge_listings.py new_nov24_exec.json
+## reasons
+# No --remove and no --sold today. Every tracked listing spot-checked today is still live at the same price:
+#   eBay k10-191 $39,995, k10-219 $48,997, k10-256 $44,999 OBO, k10-258 $28,500 OBO, k10-263 $29,500 OBO (k10-244, k10-262 not checked today).
+#   Craigslist k10-129, k10-154, k10-199, k10-207, k10-208, k10-209, k10-210, k10-211, k10-234, k10-261 all live, prices unchanged.
+#   Dealers: Bird k10-121 $49,000 / k10-126 $39,000; GR k10-170 $29,900 (detail live, though missing from the GR index page); Streetside k10-58 $40,495, k10-68 $48,495, k10-165 $50,495;
+#   Sparky's k10-193 $29,900; Fourbie k10-189 $46,500, k10-233 $28,900, k10-252 $29,500; Hagerty classifieds k10-176 $33,995, k10-177 $39,500 OBO;
+#   CCD k10-02 $24,995, k10-18 $24,495, k10-110 $21,995, k10-111 $17,995; Davis k10-123/124/125/146/249 same prices; k10-136 same price; k10-142 V10 (87C0736C) still "coming soon".
+## NEW (k10-267, k10-268 in dry run). Add to the seen list after merge:
+#   https://www.classic.com/veh/1977-gmc-k1500-sierra-grande-tkr147z522992-4VDYlvW/
+#     1977 GMC K1500 Sierra Grande 4x4, 400/TH350/NP203, 5in lift, 35s, winch, REBUILT TITLE, no A/C, Creekwood Motor Co (Searcy AR) stock 26581, $29,900. Rated pricey.
+#   https://wildaboutcarsgarage.com/vehicles/12874095-1986-GMC-Pickup/
+#     1986 GMC K1500 High Sierra long bed 4x4, 305, custom/lifted, surface rust, no A/C, VIN 1GTEK14H6GF721047, Seattle WA, $20,000. Rated pricey.
+## Also add to the seen list (same truck as k10-268, no card):
+#   https://buythecar.com/listing/1986-gmc-1500-3503   (BuyTheCar auction ended Nov 19, 2026 1:00 PM PST, $4,000 high bid, reserve not met = relist source)
+## Relists flagged
+#   k10-268 = BuyTheCar 1986 GMC K1500 (RNM at $4,000 Nov 19) relisted by the same dealer (WildAboutCars) at $20,000 asking.
+#   eBay "!!No Reserve!! 1986 Chevrolet K10" Jupiter FL (VIN 2GCEK14H1G1203659): 5th eBay run since Oct 9 per hypercars.io, now $10,000 bid, ~6 days left. Under $20k and rust noted; item ID not retrievable via WebFetch. Not added.
+## Bid updates (in batch): k10-257 BaT 1987 V10 NR $35,000 -> $37,000 (13 bids), ends Fri Nov 27 4:02 PM AZ. k10-265 BaT 1977 K10 $16,000 -> $18,000 (10 bids), ends Sun Nov 29 11:44 AM AZ.
+## Bids (no change, not in batch): k10-232 Hagerty 1972 K10 NR $18,000 (14 bids), ends Wed Nov 25 12:20 PM AZ (tomorrow).
+## Flag update (in batch): k10-189 Fourbie 1985 "K10" Silverado $46,500: VIN 2GCDC14H2F1209977 = 2WD C10; Fourbie drivetrain field says RWD. Consider removing it if the seller confirms 2WD.
+## Watch (not added)
+# Unique k10-101 1986 K10 Scottsdale: detail page still live but shows no price for the 2nd day; not on inventory page 5 with the other 1986 K10 (k10-38). Possibly sold/pending.
+# Duc Auto: new "1972 Chevrolet K10 Factory 4x4, Original Medium Green, Mild Restoration" on the inventory page. Couldn't find its detail URL or a price. Duc 1970 K10 $57,900 (over budget).
+# Hemmings index shows "1972 Chevrolet K10 $49,000" and "1984 K10 Scottsdale 4X4 $29,995" / "1987 K10 4x4 $29,995". These may be stale or the same trucks as tracked ones. Detail URLs not retrievable; check in the browser.
+# RPM Garage (Dallas) 1987 V10 Silverado $29,991 from search results: the URL 404s and it's not in RPM's inventory, so probably sold.
+# Davis: 85C8859 $55,000, 84G9120C $69,995, 79C7587C $97,500, 77C2630C K-20 $57,995, 79C4598C K-3500 $85,000 are over budget or not the target model; davis4x4 blocked (403), so the two Davis sites couldn't be compared today.
+# Out of range/not target: Down South 1974 K5 $67,500, 1987 GMC Sierra Classic 4x4 (seen, no price); Vanguard square-body trucks all over $99k;
+#   PC Classic 1987 R10 (2WD); Davis 87C0988T R10 (2WD); eBay 1984 K10 $7,900; classic.com 1984 K10 Fort Wayne $11,570 (under range).
+# Comps seen (not added; URLs not verified): Mecum Las Vegas 1987 V10 Silverado SB 95k sold $33,000 (11/13); GAA 1985 GMC K1500 High Sierra sold $45,000 (11/6); Mecum LV 1984 GMC K1500 Sierra Classic high bid $23,000 (11/14).
+# Barrett-Jackson 2027 Scottsdale (Jan 23-31): docket still "View docket (Coming soon)"; no lots posted.
+## Unchecked / blocked
+# Fast Lane (403), davis4x4 (403), Gateway incl. Scottsdale (403), WWV (403), CCD inventory search (403; detail pages fine), Volo (partial: titles have no model names), B&B (only page 1 checked, modern cars),
+# Craigslist search pages (render empty in WebFetch, so no new CL finds possible; known ads checked one by one), ClassicCars.com search (unusable),
+# eBay search (item IDs not exposed; k10-244, k10-262 not checked), WWV k10-13 not checked, Hemmings details, classic.com ?sort=newest (500), Mecum and Facebook not checked.
+# Note: one curl status probe was used on ducautocollection.com to guess detail URLs (all 404 except an old 2021 1987 GMC K10 page); everything else used WebFetch/WebSearch.
