@@ -1,0 +1,50 @@
+# K10 scan, Wed Nov 25 2026 morning (AZ, MST). Box network (Tarry's computer offline).
+# Dry run: added 1: k10-270 | updated 2: k10-257(price,valueRating,notes), k10-267(price,notes) | removed 6 | now 176 active listings, 32 comps
+# NOT merged. Seen list NOT edited.
+
+cd /workspace/k10-dashboard && python3 merge_listings.py new_nov25_exec.json \
+  --remove https://www.streetsideclassics.com/vehicles/5437-nsh/1979-chevrolet-k10-4x4 \
+           https://www.pedersonautobrokers.com/details/used-1986-chevrolet-ck-10-series/133298420 \
+           https://www.classiccardeals.com/Listing/431147/1977-Chevrolet-K20-Silverado.aspx \
+           https://henryhobmotors.com/vdp/23795547 \
+           https://www.craigslist.org/view/d/oceanside-1978-gmc-sierra-k15/7egftCuEucDH9rbmAQKT3E \
+           https://www.craigslist.org/view/d/corrales-k20-long-bed/bzGruhQe98BfYiPK8zgJ1C
+
+## reasons
+- k10-58 Streetside 5437-NSH 1979 K10: page shows "$40,495 SOLD" (that's the dealer ask, not a hammer price, so --remove rather than --sold)
+- k10-192 Pederson's 1986 K10 Silverado LB (VIN 1GCEK14H7GJ146101, $29,995): marked Sold
+- k10-214 CCD 431147 1977 K20 $17,495: URL now redirects to CCD CurrentInventory
+- k10-75 Henry-Hob 1982 K10 $38,989: VDP redirects to /newandusedcars (WebFetch gets 403). Probably sold; hold this one out if you want a second check.
+- k10-129 Craigslist Oceanside 1978 GMC K15 $25,000: 404 (deleted)
+- k10-208 Craigslist Corrales 1980 K20 $19,970: 404 (deleted)
+
+## NEW (add to seen list)
+https://www.davisautosales.com/windowsticker/vehicle/1272967/1986_GMC_K1500_SQUAREBODY_4X4
+  1986 GMC K1500 Sierra Classic SB 4x4, 350/auto, 119,194 mi, red/gray, $39,995, North Chesterfield VA, VIN 1GTEK14L4GJ526999, rated pricey
+
+## Relists
+- None confirmed.
+- Correction: yesterday's "new" Duc 1972 K10 Medium Green is k10-200 (ducautocollection 1972-chevy-k10-teal, $37,900). Raw HTML shows "Sold!", and it was already removed Nov 13. Not new, so don't add it.
+
+## Price changes
+- k10-267 Creekwood 1977 GMC K1500: $29,900 -> $29,500 (classic.com)
+
+## Bid updates (Wed morning AZ)
+- k10-257 BaT 1987 V10 NR: $37,000 -> $44,000 (21 bids). Ends Fri Nov 27 4:02 PM AZ. Re-rated fair -> pricey.
+- k10-265 BaT 1977 K10: $18,000, 10 bids, unchanged. Ends Sun Nov 29 11:44 AM AZ.
+- k10-232 Hagerty 1972 K10 NR: $18,000, 14 bids, unchanged (~8:30 AM AZ). Ends TODAY 12:20 PM AZ, result not yet known. Afternoon scan: if sold, --sold <url>=<price>.
+
+## Watch
+- Unique k10-101 (2311, 1986 K10 Scottsdale): 403 today, no price for 3 days, likely sold. Remove if it's still priceless next check.
+- Unique 2905 1986 K10 Silverado 4x4 (blue, 2,563 TMU, rebuilt 350/auto, VIN 2GCEK14H6G1114458, stock 5130): page loaded once with NO price shown; a search snippet says sold. Not added. Not in the seen list.
+- Vaughn's Classic Cars 1986 Chevrolet C/K 10 $29,900 (ClassicCars newest list): 2WD/4x4 unknown, no ID; vaughnsclassiccars.com 403.
+- WWV: a search snippet mentions a "1974 factory K10 4x4 $27,900". Unverified (site 403); may be the stale removed k10-14 1975 K15 $27,900.
+- Davis k10-142 V10 still "COMING SOON", call for price.
+- Mecum Kissimmee 2027 1972 K10 Custom 4x4 (VIN CKE142B150199, Jan 15) = already-seen lot 1181937.
+- Barrett-Jackson 2027 Scottsdale docket: page loads but no lots render (JS). No K-series lots seen.
+
+## Unchecked / blocked
+- eBay (search and all items, timeouts): k10-191, 219, 244, 256, 258, 262, 263
+- Craigslist search pages (empty render): Phoenix, Tucson, Flagstaff, Prescott, Yuma, Las Vegas, Albuquerque, San Diego, Inland Empire. Known ads checked one by one.
+- 403: Unique (k10-101), Fast Lane, davis4x4.com, Gateway site (Scottsdale classiccars dealer page checked, no K trucks), WWV (k10-13, k10-187), Volo, Canyon State's own site, Duncan (k10-74), carsforsale (k10-105, 212, 228), vaughnsclassiccars
+- ClassicCars search (IDs not exposed), Mecum search (JS), Facebook (not checked)
