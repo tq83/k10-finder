@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T08:42:03-07:00",
+  "updated": "2026-11-26T08:33:08-07:00",
   "listings": [
     {
       "id": "k10-02",
@@ -2967,55 +2967,6 @@
       "id": "k10-100"
     },
     {
-      "year": 1986,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Scottsdale 4x4",
-      "engine": "350 V8 (Edelbrock carb)",
-      "transmission": "Automatic with overdrive",
-      "price": 29900,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "25,243 shown, listed as unknown (TMU)",
-      "location": "Mankato, MN",
-      "state": "MN",
-      "lat": 44.164,
-      "lng": -93.999,
-      "source": "Unique Classic Cars (dealer)",
-      "url": "https://www.uniqueclassiccars.com/vehicles/2311/1986-chevrolet-k10-scottsdale",
-      "imageUrl": "https://cdn.dealeraccelerate.com/mankato/1/2584/174432/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-      "imageUrls": [
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174432/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174434/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174433/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174435/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174436/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174438/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174437/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174440/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174439/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174441/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174443/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174442/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174445/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174444/1920x1440/1986-chevrolet-k10-scottsdale-4x4",
-        "https://cdn.dealeraccelerate.com/mankato/1/2584/174446/1920x1440/1986-chevrolet-k10-scottsdale-4x4"
-      ],
-      "condition": [
-        "driver quality",
-        "K20 axles",
-        "new seat cover",
-        "spray-in liner",
-        "aftermarket stereo"
-      ],
-      "redFlags": "Rides on K20 axles (non-stock swap, so check the 6-lug vs 8-lug wheels, gearing and the driveshaft). Seat recently reupholstered. Mileage unknown.",
-      "notes": "Black Scottsdale (classic.com lists it as a short bed; the dealer page doesn't say), VIN 2GCEK14H0G1168404, stock #4834. Price was cut from $37,900 to $29,900. Dealer has a video. Out-of-state buyers pay a $125 title fee and no MN tax.",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-23T08:21:41-07:00",
-      "id": "k10-101"
-    },
-    {
       "year": 1970,
       "make": "Chevrolet",
       "model": "K10",
@@ -4467,56 +4418,6 @@
       "valueRating": "fair",
       "firstSeen": "2026-10-27T08:26:46-07:00",
       "id": "k10-151"
-    },
-    {
-      "year": 1977,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Scottsdale 4x4 (lifted, 24in wheels)",
-      "engine": "V8 (size not stated)",
-      "transmission": "Manual (per ad)",
-      "price": 24999,
-      "priceType": "ask",
-      "auctionEnd": null,
-      "mileage": null,
-      "mileageNote": "Ad lists 119,410 (5-digit odometer; unverified)",
-      "location": "Modesto, CA",
-      "state": "CA",
-      "lat": 37.5949,
-      "lng": -120.9932,
-      "source": "Craigslist (VIP Auto Sales, dealer)",
-      "url": "https://www.craigslist.org/view/d/modesto-chevy-k10-scottsdale-old-school/7YQ52iiLTtsz1JkNG1D4M2",
-      "imageUrl": "photos/k10-154/16f4035e85fe.jpg",
-      "imageUrls": [
-        "photos/k10-154/16f4035e85fe.jpg",
-        "photos/k10-154/403a4b8f0c78.jpg",
-        "photos/k10-154/5f4292142d6a.jpg",
-        "photos/k10-154/17643b74c216.jpg",
-        "photos/k10-154/a55adf875f4c.jpg",
-        "photos/k10-154/ef54fef72f9a.jpg",
-        "photos/k10-154/cf5b668eb046.jpg",
-        "photos/k10-154/c6c2ed3bcd4c.jpg",
-        "photos/k10-154/cd52779338e4.jpg",
-        "photos/k10-154/cee66a3787f5.jpg",
-        "photos/k10-154/af1634d81d2c.jpg",
-        "photos/k10-154/20ee605b8986.jpg",
-        "photos/k10-154/c7e4a962f4b2.jpg",
-        "photos/k10-154/38d5ee7f9b45.jpg",
-        "photos/k10-154/a604bdb564ce.jpg"
-      ],
-      "condition": [
-        "dealer",
-        "clean title (per ad)",
-        "lifted",
-        "24x14 wheels on 35s",
-        "fresh paint",
-        "red"
-      ],
-      "redFlags": "Buy-here-pay-here style ad with no detail on engine, rust, or what's under the fresh paint. The 24in wheels and lift are not what you'd keep for a build. Mileage can't be verified on a 5-digit odometer.",
-      "notes": "VIP Auto Sales, 125 E Whitmore Ave, Modesto. VIN 0000CKL147Z205888 (CKL14 decodes as K10 with a 350). Posted Oct 26, 4:11 PM. 11/4/26: VIP Auto Sales reposted the same truck (same VIN, 119,410 mi, $24,999, no price change) as a new Craigslist ad on 11/3 4:20 PM: https://www.craigslist.org/view/d/modesto-chevrolet-c10-k10-classic/qjJ1Ldsba9Kbi9M1AtYYq3 . Original ad still live.",
-      "valueRating": "fair",
-      "firstSeen": "2026-10-28T08:33:06-07:00",
-      "id": "k10-154"
     },
     {
       "year": 1986,
@@ -6347,7 +6248,7 @@
       "trim": "Custom 4x4 (six-cylinder per VIN)",
       "engine": "Inline-6 per VIN (KS prefix); dealer lists no engine",
       "transmission": "Manual",
-      "price": 35000,
+      "price": 29999,
       "priceType": "ask",
       "auctionEnd": null,
       "mileage": 70095,
@@ -6383,7 +6284,7 @@
         "33 photos"
       ],
       "redFlags": "The VIN KS141J619624 decodes as a six-cylinder half-ton 4x4 (KS = K-series six), not a V8. It's been listed 90+ days with almost no description. North Dakota truck, so check for rust.",
-      "notes": "Action Line K10 4x4. $35k for a six-cylinder truck with no description is high next to B&B's V8 1970 and 1972 K10s at $35,950.",
+      "notes": "Action Line K10 4x4, Finley Motors stock A3816, orange over black, 4WD manual, 70,095 miles shown. Nov 26: price cut $35,000 -> $29,999 (carsforsale page, 90+ days listed; classic.com also shows $29,999). Still almost no description. Comps: Hagerty 1972 K10 Custom 350/4-speed one-family NR sold $25,025 (11/25/26); B&B's V8 1970 and 1972 K10s at $35,950 ask. For a six-cylinder truck with no detail, fair is about $20-25k, so $29,999 is still pricey.",
       "valueRating": "pricey",
       "firstSeen": "2026-11-10T08:34:52-07:00",
       "id": "k10-228"
@@ -6461,58 +6362,6 @@
       "valueRating": "fair",
       "firstSeen": "2026-11-10T08:34:52-07:00",
       "id": "k10-230"
-    },
-    {
-      "year": 1972,
-      "make": "Chevrolet",
-      "model": "K10",
-      "trim": "Custom Fleetside 4x4, 4-speed, one-family owned since new",
-      "engine": "350ci V8, rebuilt about 12 years ago (Carter AFB 4bbl, long-tube headers, dual exhaust)",
-      "transmission": "4-speed manual",
-      "price": 18000,
-      "priceType": "bid",
-      "auctionEnd": "2026-11-25T12:20:00-07:00",
-      "mileage": null,
-      "mileageNote": "5,750 indicated, Hagerty marks TMU",
-      "location": "Genola, UT",
-      "state": "UT",
-      "lat": 40.0141,
-      "lng": -111.8432,
-      "source": "Hagerty Marketplace",
-      "url": "https://www.hagerty.com/marketplace/auction/1972-Chevrolet-K10/288956f8-68af-4176-8142-f8efd4eb9c72",
-      "imageUrl": "https://hagerty-marketplace-prod.imgix.net/assets/SwkMsALcKOSKFUvdZpLllQ.jpg",
-      "imageUrls": [
-        "https://hagerty-marketplace-prod.imgix.net/assets/SwkMsALcKOSKFUvdZpLllQ.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/sK9HqkGLQYxjgjJiOLFq_Q.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/nO6cY4vzglH8y5phd3Vzkg.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/PLU12sOq2d6_NHDIkBI9fg.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/2bJYD4ue70RoyPd1uUzr_g.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/LVMqZgXrTYqAP77Nta-psw.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/xScw0jZlbRKFG0So9qKM8Q.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/uiDiKuCVAC_bp33LxPHieg.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/qHZYmZUJx_5HhyDm9hJhDg.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/y5XReEAGt3BKo8rNEHSApQ.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/QdgN_pCekrhywlHyQCzckA.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/BvRsyf9kuWl0r7uaFbDtVw.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/6XbM3R6YdDbZ9GsmJGm1ng.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/14r6HvPX7r6R0xqxVYOEag.jpg",
-        "https://hagerty-marketplace-prod.imgix.net/assets/mKkXKI_FB20dltxutHYhPA.jpg"
-      ],
-      "condition": [
-        "no reserve",
-        "one-family owned",
-        "silver over gray (originally Medium Green per SPID)",
-        "engine rebuilt ~12 yrs ago",
-        "Center Line 16in wheels, Rancho shocks",
-        "garage stored 20 years",
-        "clean Utah title",
-        "receipts"
-      ],
-      "redFlags": "Not original color; dash cut for a single-DIN radio and doors cut for speakers; spray-in bed coating; interior wear. Mileage TMU.",
-      "notes": "No reserve. Bid $18,000 (14 bids) on Fri Nov 20 morning (up from $16,000, which had held since Nov 14). Ends Wed Nov 25 at 12:20 PM Arizona time (7:20 PM UTC).",
-      "valueRating": "great",
-      "firstSeen": "2026-11-11T08:33:01-07:00",
-      "id": "k10-232"
     },
     {
       "year": 1985,
@@ -7205,7 +7054,7 @@
       "trim": "Silverado Fleetside 4x4, short bed (No Reserve), 2.5in lift, Apple Red repaint",
       "engine": "5.7L (350) TBI V8",
       "transmission": "4-speed automatic (700R4), dual-range transfer case, manual locking hubs",
-      "price": 44000,
+      "price": 46000,
       "priceType": "bid",
       "auctionEnd": "2026-11-27T16:02:00-07:00",
       "mileage": 99000,
@@ -7247,7 +7096,7 @@
         "right fuel tank inoperable"
       ],
       "redFlags": "Right-side fuel tank is inoperable. It was repainted under previous ownership, so check for hidden rust and filler. It's sold on an Alabama registration with no title. Alabama doesn't title vehicles this old, so plan for an Arizona VIN inspection and bonded/registration-based titling. The 5-digit odometer shows 99k, but total miles are unverified.",
-      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026. Bid $44,000 (21 bids) on Wed Nov 25 morning AZ (was $37,000/13 bids Nov 24). No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT). Comps: BaT 1987 V10 Custom Deluxe 4-speed NR $10,000 (11/18, rough Canadian truck); Mecum Las Vegas 1987 V10 Silverado SB 95k sold $33,000 (11/13, per classic.com); 1987 GMC V1500 Sierra Classic $29,524 (8/12); 1986 K10 383 stroker $37,500 (11/1). Already above the high-$30s fair range, so pricey at $44k+.",
+      "notes": "BaT lot #276,615, private seller kschrimsher (bought it in 2026). VIN 1GCEV14K2HF388771. Registered in Alabama since 1992. Repainted Apple Red, 2.5in lift, manual hubs, 15in Rally wheels. Interior redone with TMI Products bucket seats and center console; cassette stereo, A/C, cruise, PW/PL. AC compressor and powertrain fluids replaced in 2026; right-side fuel tank inoperable. Clean Carfax, Alabama registration (no title, normal for AL at this age). Bid $46,000 (24 bids, high bidder Djsautocollection) on Thu Nov 26 morning AZ (was $44,000/21 bids Nov 25, $37,000/13 bids Nov 24). No reserve. Ends Fri Nov 27 at 4:02 PM Arizona time (3:02 PM PT), extends on late bids. Comps: Mecum Las Vegas 1987 V10 Silverado SB 95k sold $33,000 (11/13, per classic.com); 1987 GMC V1500 Sierra Classic $29,524 (8/12); 1986 K10 383 stroker $37,500 (11/1); Hagerty 1972 K10 4-speed NR $25,025 (11/25). Well above the high-$30s fair range, so pricey at $46k+.",
       "valueRating": "pricey",
       "firstSeen": "2026-11-20T08:41:05-07:00",
       "id": "k10-257"
@@ -8178,6 +8027,16 @@
       "mileageNote": "Digital odometer shows ~2k miles since the build; total mileage unknown",
       "source": "Bring a Trailer",
       "url": "https://bringatrailer.com/listing/1970-chevrolet-k10-pickup-27/"
+    },
+    {
+      "year": 1972,
+      "trim": "K10 Custom 4x4, 350/4-speed, one family since new, silver repaint (no reserve, Genola UT)",
+      "soldPrice": 25025,
+      "soldDate": "2026-11-25",
+      "mileage": null,
+      "mileageNote": "5,750 indicated, TMU",
+      "source": "Hagerty Marketplace",
+      "url": "https://www.hagerty.com/marketplace/auction/1972-Chevrolet-K10/288956f8-68af-4176-8142-f8efd4eb9c72"
     }
   ],
   "removed": [
@@ -9208,6 +9067,39 @@
       "url": "https://www.craigslist.org/view/d/corrales-k20-long-bed/bzGruhQe98BfYiPK8zgJ1C",
       "reason": "removed (gone/sold elsewhere)",
       "removedAt": "2026-11-25T08:42:03-07:00"
+    },
+    {
+      "id": "k10-154",
+      "year": 1977,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Scottsdale 4x4 (lifted, 24in wheels)",
+      "lastPrice": 24999,
+      "url": "https://www.craigslist.org/view/d/modesto-chevy-k10-scottsdale-old-school/7YQ52iiLTtsz1JkNG1D4M2",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-26T08:33:08-07:00"
+    },
+    {
+      "id": "k10-101",
+      "year": 1986,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Scottsdale 4x4",
+      "lastPrice": 29900,
+      "url": "https://www.uniqueclassiccars.com/vehicles/2311/1986-chevrolet-k10-scottsdale",
+      "reason": "removed (gone/sold elsewhere)",
+      "removedAt": "2026-11-26T08:33:08-07:00"
+    },
+    {
+      "id": "k10-232",
+      "year": 1972,
+      "make": "Chevrolet",
+      "model": "K10",
+      "trim": "Custom Fleetside 4x4, 4-speed, one-family owned since new",
+      "lastPrice": 18000,
+      "url": "https://www.hagerty.com/marketplace/auction/1972-Chevrolet-K10/288956f8-68af-4176-8142-f8efd4eb9c72",
+      "reason": "auction ended",
+      "removedAt": "2026-11-26T08:33:08-07:00"
     }
   ]
 }

@@ -1,0 +1,54 @@
+# K10 scan, Thu Nov 26 2026 (Thanksgiving) morning, AZ time (MST). Run from the box's network (Tarry's computer is offline).
+# Dry run (with the removes below): added 0 | updated 2: k10-257(price,notes), k10-228(price,notes) | removed 3: k10-154, k10-101, k10-232 [auction ended] | now 174 active listings, 33 comps
+# NOT merged. Seen list NOT edited.
+
+cd /workspace/k10-dashboard && python3 merge_listings.py new_nov26_exec.json \
+  --remove https://www.craigslist.org/view/d/modesto-chevy-k10-scottsdale-old-school/7YQ52iiLTtsz1JkNG1D4M2 \
+           https://www.uniqueclassiccars.com/vehicles/2311/1986-chevrolet-k10-scottsdale
+
+## reasons
+- k10-154 Craigslist Modesto 1977 K10 (VIP Auto Sales, $24,999): ad returns 410 (deleted). The same truck's newer ad, k10-199 (x5qGSCM3cgFU7RuCSAPV6m), is still live at $24,999, so the truck stays on the dashboard.
+- k10-101 Unique 2311 1986 K10 Scottsdale (stock 4834, VIN 2GCEK14H0G1168404): page loads again but still shows NO price ($29,900 before). This is the 3rd+ check with no price; yesterday's note said to remove it then. Probably sold. If you want one more check, leave it out of the command.
+- k10-232 Hagerty 1972 K10 Custom 4-speed NR: SOLD for $25,025 on Nov 25 (28 bids; ended 7:22 PM UTC = 12:22 PM AZ). There's NO --sold arg on purpose, because --sold would date the comp the day you merge. The batch instead carries the comp dated 2026-11-25, and the script drops the listing on its own as "auction ended" (ended more than 2h ago). classic.com shows $23,388 for the same sale, which is probably the hammer before the buyer's fee. $25,025 is Hagerty's "Sold for" figure.
+
+## NEW (add to seen list)
+- None. No new in-range ($20k-50k) 1967-72 / 1973-87 K10/K15/K1500/V10 4x4 pickups were confirmed on any source checked.
+
+## Relists
+- k10-261 Diesel of Houston 1985 K10 Silverado 4x4 $39,995: the dealer cross-posted the same truck as a NEW Craigslist ad (it shows in the Albuquerque search): https://www.craigslist.org/view/d/houston-1985-chevrolet-chevy-silverado/_IKjN8Dn8RGf_Ni9VEPkTg . Same title, $39,995, and the original ad (xgqk1erl8RGv1KZ8AoT0_Q) is still live. Duplicate with no price change, so don't add it. You may want it in the seen list so it doesn't come back as "new".
+- k10-02 CCD 411180 1977 K10 Silverado 4WD $24,995 (stock AMS44649, 123,456 placeholder miles): an aggregator shows it as "listed Nov 25", but it's the same CCD listing, still live at the same price. Not new.
+- Roseville 1978 C/K 10 $50,108: reposted under a new slug (Kv_DRNHl8RGeraWEXRA9ZQ, Las Vegas search). The old slug (_jU-s3rV8RG9kNpXPHEDNg) is in the seen list. Over $50k, not added.
+
+## Price changes
+- k10-228 Finley Motors 1971 K10 (carsforsale 128348906): $35,000 -> $29,999 (classic.com also shows $29,999). Still pricey: its VIN decodes as a six-cylinder and the listing has almost no description.
+
+## Bid updates (Thu morning AZ)
+- k10-257 BaT 1987 V10 Silverado NR: $44,000 -> $46,000 (24 bids). Ends Fri Nov 27 4:02 PM AZ. Still pricey.
+- k10-265 BaT 1977 K10: $18,000, 10 bids, no change. Ends Sun Nov 29 11:44 AM AZ.
+- k10-232 Hagerty 1972 K10: SOLD $25,025 (see above).
+
+## Watch
+- k10-257 BaT V10 ends tomorrow (Fri) 4:02 PM AZ. Afternoon or Saturday scan: add the result as a comp (sold price, or high bid if not sold).
+- k10-249 Davis 1980 K20 (stock 80C1952, $29,500): dropped off Davis's square_body_inventory page today, but its window-sticker page still loads at $29,500. Might be sold or pending. Recheck tomorrow.
+- Davis "COMING SOON" trucks with no price: k10-142 1987 V10 (87C0736C), 1986 GMC C/K 1500 (86G3704, 6,613 mi), 1983 C/K 10 Stepside (83C1087T), 1978 K10 (78C9442, 18,105 mi). All already in the seen list. Davis also lists a 1985 Chevrolet C/K 10 (85C8859, 130,220 mi) at $55,000, over budget.
+- k10-170 GR Auto Gallery 1977 K-10 (VIN CKL147S114116): $29,900 on GR's own page, but $30,110 on classic.com, Hemmings and eBay. Two asks for the same truck. The dashboard has $29,900.
+- Hemmings shows a 1984 K10 Scottsdale 4x4 $29,995 (Streetside Atlanta) and a 1987 K10 4x4 $29,995 (Streetside Concord, already in the seen list as 10065-cha). The 1984 card looks stale: it was listed Jan 2026 and later marked sold on ClassicCars. Couldn't open it (no URL in the list view). Not added.
+- Below range or out of scope, not added: Craigslist Phoenix (west valley) "1982 K10 4x4" $14,000 (mhGmVZgEKoxcMqEawaBR2e; the ad body didn't load); Payson 1963 K10 $32,500 (pre-1967); Bernalillo 1967 K10 Suburban $16,500 (not a pickup); Safford 1978 GMC K15 $10,000; New River 1976 GMC K15 $4,900; Fontana 1972 K10 SB $89,000 (over budget).
+- k10-256 eBay 1983 K10 $44,999: still live. AutoCheck still shows score 3, 25 owners, title "Minor Issue".
+- Barrett-Jackson 2027 Scottsdale (Jan 23-31): the docket is still "Coming soon". No lots yet.
+- Mecum Kissimmee 2027: no new K10 lots beyond the known 1972 K10 lot 42 (Jan 15) and 1983 K10 (Jan 10, k10-264).
+
+## Checked, no change / nothing new
+- BaT live auctions (all 1,083 scanned): only k10-257 and k10-265 are K10/V10 pickups (the K5s, K30 and C-series don't count). Cars & Bids: no live K10s. Hagerty: no other active K10 auctions.
+- classic.com K10 3rd gen, K10 2nd gen and GMC K1500 3rd gen markets: nothing new since the last scan.
+- Dealers: Davis square body page; Bird Imports (k10-126 1973 K10 still $39,000; an untitled entry #BB503002 at $49,000 is probably k10-121, the 1976 GMC K15 at $49,000); GR Auto (full list; k10-170 live at $29,900); Canyon State via classic.com (no K-series); PC Classic (no square-body K); Down South (only the seen 1987 GMC Sierra Classic 4x4); Sparky's k10-193 live at $29,900; Duc (no new K10s); Fourbie (homepage, only the seen 1979 Scottsdale); Vanguard (K-series all $99k+); Volo (only the 1972 K10 at $59,998); B&B: all 8 tracked K-series pages live, prices unchanged (k10-71, 72, 73, 81, 102, 103, 104, 137).
+- Spot checks that are live and unchanged: Streetside k10-68 ($48,495) and k10-165 ($50,495); WWV k10-13 ($22,900); Wild About Cars k10-268 ($20,000); eBay k10-191 ($39,995), 244 ($38,500), 256 ($44,999), 258 ($28,500), 262 ($50,495), 263 ($29,500), 271 ($30,900); Craigslist k10-199, 207, 209, 210, 211, 234, 261.
+- Craigslist: search pages now load for the box's curl (static no-JS results). Searched phoenix, tucson, flagstaff, prescott, yuma, lasvegas, albuquerque, sandiego, inlandempire, showlow, sierravista, mohave, losangeles, orangecounty and elpaso for k10 / k15 / k1500 / "square body 4x4" / squarebody / "v10 4x4" / k-10. Nothing new in range.
+
+## Unchecked / blocked
+- eBay search (times out or returns 0 results); eBay k10-219 (timed out)
+- ClassicCars.com search (fetch ignores the make/model filter, so IDs aren't visible); individual classiccars.com listings not spot-checked today
+- Hemmings: list view seen, but no listing URLs, so cards couldn't be opened
+- 403 or failed: davis4x4.com (so the two Davis sites couldn't be compared), Gateway (site and Scottsdale, 403), CCD search (504), Streetside search (JS, no results), Fast Lane (page only partly loaded, through 1959 models), Unique search (ignores the filter, first page only)
+- Not tried today: WWV search, carsforsale k10-105 and 212, Duncan k10-74, vaughnsclassiccars, Mecum lot pages
+- Facebook Marketplace (not checked)
