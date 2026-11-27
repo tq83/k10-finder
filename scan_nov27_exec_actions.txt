@@ -1,0 +1,73 @@
+# K10 alert scan - Fri Nov 27 2026, morning exec run (AZ time, MST UTC-7). Phase 1 only: NOT merged, NOT published, seen list NOT edited.
+# Batch: new_nov27_exec.json (1 new listing + 14 price/notes updates, 0 comps)
+
+## Dry run (8:35 AM AZ)
+# added 1: k10-272
+# updated 14: k10-42, 52, 18, 41, 110, 70, 40, 66, 147, 48, 09, 114, 203, 204
+# removed 2: k10-219, k10-233
+# now 173 active listings, 33 comps
+
+## Merge command (phase 2, after browser results are folded in)
+python3 merge_listings.py new_nov27_exec.json \
+  --remove https://www.ebay.com/itm/267848219714 \
+           https://www.fourbieexchange.com/listing/diesel-v8-powered-1985-chevy-k10-scottsdale
+# --remove k10-219 eBay 1987 V10 Silverado $48,997 (Skyway Classics, Bradenton FL): the page says "This listing ended on Thu, Nov 26 at 8:23 AM". No sale is shown, so no comp. Watch for an eBay relist (VIN 1GCEV14K1HS108846).
+# --remove k10-233 Fourbie 1985 K10 Scottsdale diesel-V8 $28,900: the URL now redirects to fourbieexchange.com/listings (gone).
+# No --sold args today.
+# Timing: k10-257 (BaT 1987 V10) ends TODAY 4:02 PM AZ. If the merge runs after about 6:02 PM AZ, the script drops it on its own as "auction ended". Add its result as a comp (sold price, or high bid if it doesn't sell) in the phase-2 batch.
+
+## NEW (1)
+# k10-272 BaT 1973 Chevrolet K20 4x4 (3/4-ton), No Reserve: https://bringatrailer.com/listing/1973-chevrolet-k20-pickup-7/
+#   Lot 277,511, dealer BDAS, Fort Wayne IN. Bid $23,500 (11 bids). Ends Thu Dec 3, 11:28 AM AZ.
+#   Rebuilt 350 (2025, .030 over, Edelbrock 4bbl), 3-speed automatic, lift, manual hubs, Crimson Red repaint, saddle bench, 26k shown (TMU), Kansas "Antique" title.
+#   Same truck was on BaT in July (pickup-6), bid to $39,500 on 7/16/26, reserve not met. That's a relist after a failed sale, but it was never on our list, so it counts as new.
+#   It's a K20, not a K10. Added because the dashboard already tracks K20s.
+
+## Relists / cross-posts of tracked trucks (not new; add these URLs to the seen list in phase 2)
+# https://classiccars.com/listings/view/2130356 = k10-42 (CCD stock 427040/AMS48498, 1978 K10, red, 67k). Price cut $40,995 -> $39,900 (CCD page agrees). CCD lists it as a 6-cylinder.
+# https://classiccars.com/listings/view/2130094 = k10-52 (CCD stock 428805, 1976 "C10" on a 4x4 short-bed chassis, 92,456 mi). Same $21,495.
+# https://www.hagerty.com/marketplace/classified/1987-Chevrolet-V10/609f1ff2-78e8-44ba-8ca6-44f706061b20 = k10-49 (Pederson, Sioux Falls SD, VIN 1GCEV14H7HJ161951). Hagerty shows $31,900 vs $31,995 tracked. Listed Oct 17. No change.
+# https://www.hagerty.com/marketplace/classified/1973-GMC-Sierra-2500/9965bb94-c64d-43c2-b38f-4cac149d6ca9 = k10-226 (Drive The Coast, Santa Rosa Beach FL, VIN TKY143F716312 = a half-ton K15). Hagerty calls it a "Sierra 2500" at $34,000, same as tracked. Listed Nov 19.
+
+## Price changes (in batch)
+# Classic Car Deals (from each listing's own page title) moved many asks to $x,900:
+#  UP:   k10-18 1987 K10 Silverado stepside $24,495 -> $29,900 (now rated pricey); k10-41 1980 GMC Sierra $31,895 -> $34,900 (pricey);
+#        k10-110 1976 GMC Sierra Classic LB $21,995 -> $24,900 (pricey); k10-70 1982 diesel $23,995 -> $24,900; k10-114 1986 Silverado $18,995 -> $19,900;
+#        k10-203 1979 Scottsdale $14,750 -> $14,900; k10-09 $39,895 -> $39,900
+#  DOWN: k10-42 1978 K10 $40,995 -> $39,900; k10-40 1987 GMC $35,995 -> $34,900; k10-66 1985 Silverado $45,995 -> $44,900;
+#        k10-147 1984 K20 Scottsdale $35,995 -> $34,900; k10-48 1980 Scottsdale LS $39,995 -> $39,900; k10-204 1983 dump bed $14,995 -> $14,900
+#  CCD unchanged: k10-02, 21, 43, 44, 45, 52, 64, 100, 111, 113, 180, 181, 215, 239, 250
+
+## Auction updates (no change today, so not in batch)
+# k10-257 BaT 1987 V10 Silverado NR: $46,000, 24 bids, ends Fri Nov 27 4:02 PM AZ.
+# k10-265 BaT 1977 K10: $18,000, 10 bids, ends Sun Nov 29 11:44 AM AZ.
+# No other tracked auctions in listings.json (the Mecum lots k10-151/259/264 have no bids; checked in the browser run).
+
+## Watch / not added
+# Duncan Imports k10-74 1983 K10 Silverado (tracked $36,833): its own page now shows "Original Price: Not For Retail Sale" and no price. Might be wholesale, pending or sold. Recheck; remove if it's still like this next run.
+# Davis k10-249 1980 K20 (80C1952, $29,500): still not on davisautosales square_body_inventory. It's on davis4x4 with no price, and its window sticker still says $29,500 but adds "price increasing accordingly as additional work is completed." The truck is being worked on.
+# Davis cross-site: 86G6999 $39,995 on both sites. 85C8859 1985 K-10: $55,000 on the main site, no price on davis4x4. Coming soon, no price: 87C0736C V10 (k10-142), 86G3704, 83C1087T, 78C9442.
+# WWV "1980 Chevrolet 6.0L LQ9 / 4L60E short bed 4x4, lift" $29,900, stock MHM4400: on WWV's live inventory list, but I couldn't find a detail URL (web fetch drops links; search found nothing). Unconfirmed, not added. The browser run should open it.
+# Barrett-Jackson 2027 Scottsdale (Jan 23-31): the docket is still "Coming soon". No lots.
+# Out of range or out of scope: Craigslist Carefree 1965 Chevy 1/2-ton 4x4 $28,500 (pre-1967); Prescott 1982 K30 $25,000 and Tucson 1978 K30 crew cab $22,500 (1-ton);
+#   Roseville CA 1978 "C/K 10" $50,108 (lowered 2WD 454 Silverado, Hayes Classics); ABQ Querque 1977 C10 $35,000 (2WD lowered);
+#   ClassicCars 1970 K10 stepside $65,995 (CC-2130197, over budget); CC 1981 K10 project $14,900 (CC-2130194); CC 1983 K10 dump bed $14,900 (= k10-204).
+
+## Checked: live, no change
+# BaT live auctions (all 1,132 scanned; only k10-257, k10-265 and the new K20 are K-series pickups in scope). BaT C/K completed results: nothing new since 11/21.
+# Hagerty: search shows only the tracked/seen classifieds; k10-176 1970 K20 $33,995 and k10-177 1972 K20 $39,500 still listed.
+# ClassicCars.com: the model URL works now (/listings/find/1973-1987/chevrolet/c-k-10, 1967-1972/chevrolet/c-k-10, gmc/c-k-1500). Pages 1-5 scanned. Only new IDs in scope were the two CCD re-posts above.
+# Craigslist (curl, new www.craigslist.org/search/area/<city> URL): phoenix, tucson, flagstaff, prescott, yuma, lasvegas, albuquerque, sandiego, inlandempire, showlow, sierravista, mohave, losangeles, orangecounty, elpaso, santafe, farmington.
+#   Searched k10 / k15 / k1500 / square body 4x4 / squarebody / v10 4x4 / k-10 / chevy 4x4, $15k-55k. Nothing new in range. Tracked k10-199, 207, 209, 210, 211, 234, 261 all live at the same prices.
+# Davis (both sites), Bird Imports (k10-126 $39,000, BB503002 $49,000 = k10-121), GR Auto Gallery (pages 1-5; k10-170 $29,900, k10-06 $28,900, k10-30 $25,900 on GR's site, 1986 K-10 bw4575 seen),
+#   PC Classic (no square-body K), Canyon State via classic.com (no K-series), Down South (only the seen 1987 GMC Sierra Classic 4x4), Sparky's k10-193 $29,900 live,
+#   Duc (no new K10s), Fourbie (homepage, plus all tracked pages live: k10-130, 143, 144, 145, 167, 182, 189, 218, 252), Vanguard (K-series all $99k+),
+#   B&B (all 8 tracked live, prices unchanged: k10-71, 72, 73, 81, 102, 103, 104, 137), Streetside k10-68 $48,495 and k10-165 $50,495, WWV k10-13 $22,900 and k10-187 $26,900,
+#   DMG k10-28 $39,990, Rickie's k10-46 $19,995, Wild About Cars k10-268 $20,000, carsforsale k10-228 $29,999.
+# eBay (web fetch): k10-271 $30,900, k10-244 $38,500, k10-256 $44,999 (AutoCheck still score 3, 25 owners, "Minor Issue" title), k10-263 $29,500, k10-191 $39,995 all live.
+
+## Unchecked / blocked
+# 403: Unique Classic Cars (site and search), Gateway Classic Cars (incl. Scottsdale), Volo, Canyon State's own site, ClassicCars.com individual pages by curl (the list pages work through web fetch)
+# Partial: Fast Lane (page only loads through the 1950s models); Streetside search (ignores the filter)
+# Timed out: eBay k10-258 (227621948070) and k10-262 (940112728655)
+# Not tried: Hemmings, classic.com listing pages (k10-213, 223-227, 230, 267), carsforsale k10-105 and 212, Mecum lot pages, Cars & Bids, Facebook Marketplace (left for the browser run)
